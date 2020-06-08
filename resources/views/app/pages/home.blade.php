@@ -8,7 +8,7 @@
         <img src="img/img (6).jpg" alt="" class="img-absolute">
         <div class="img-overlay"></div>
     </div>
-    <div class="component-content flex-box column justify-center">
+    <div class="component-content flex-box column al-center justify-center">
         <h2 class="flex-box column justify-center">
             <span class="fira-bold font-89 white">გახდი</span>
             <span class="fira-bold font-55 white">ჩვენი გუნდის წევრი</span>

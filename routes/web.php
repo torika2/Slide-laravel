@@ -227,87 +227,10 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
 
 
 
+
+
+//for front routes
+
 Route::get('/', function () {
-    return view('app.pages.home');
-});
-
-Route::get('/about-us', function () {
-    return view('app.pages.about');
-});
-
-Route::get('/use-cases', function () {
-    return view('app.pages.useCases');
-});
-
-
-Route::get('/use-cases-agro', function () {
-    return view('app.pages.useCasesAgro');
-});
-
-Route::get('/contact', function () {
-    return view('app.pages.contact');
-});
-
-
-Route::get('/use-case', function () {
-    return view('app.pages.useCase');
-});
-
-Route::get('/faq', function () {
-    return view('app.pages.faq');
-});
-
-Route::get('/tutorials', function () {
-    return view('app.pages.tutorials');
-});
-
-Route::get('/partners', function () {
-    return view('app.pages.partners');
-});
-
-Route::get('/product-inner', function () {
-    return view('app.pages.productInner');
-
-});
-
-
-
-Route::get('login', [
-    'uses' => 'Admin\AuthController@login',
-    'as' => 'auth.login']);
-
-Route::post('post-login', [
-    'uses' => 'Admin\AuthController@postLogin',
-    'as' => 'auth.postLogin']);
-
-Route::get('logout', [
-    'uses' => 'Admin\AuthController@logout',
-    'as' => 'auth.logout']);
-
-
-
-
-
-Route::get('/software', function () {
-    return view('app.pages.software');
-});
-Route::get('/projects', function () {
-    return view('app.pages.projects');
-});
-
-
-Route::get('/terms-and-conditions', function () {
-    return view('app.pages.termsAndConditions');
-});
-
-Route::get('/privacy-policy', function () {
-    return view('app.pages.privacyPolicy');
-});
-
-Route::get('/project-inner', function () {
-    return view('app.pages.projectInner');
-});
-
-Route::get('/shop', function () {
-    return view('app.pages.shop');
+    return view('app.pages.blankPage');
 });

@@ -353,7 +353,7 @@ class FillDefaultData extends Seeder
 
         app()->make(PermissionRegistrar::class)->forgetCachedPermissions();
 
-        //DB::statement("insert into role_has_permissions select id as permission_id, $role->id as role_id  from  permissions");
+        DB::statement("insert into role_has_permissions select id as permission_id, $role->id as role_id  from  permissions");
         $user->syncRoles([$role->id]);
 
         //php artisan db:seed --class=FillDefaultData

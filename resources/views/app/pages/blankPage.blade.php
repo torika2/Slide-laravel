@@ -3,7 +3,6 @@
 @section('content')
 
 
- blank page
 
 
 

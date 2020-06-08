@@ -92,6 +92,6 @@
     </div>
 </section>
 
-
+@include('app.layout.components.ecoistSlider')
 
 @endsection

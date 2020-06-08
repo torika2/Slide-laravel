@@ -1,0 +1,1 @@
+<div class="has-popover d-flex align-items-center"><span class="d-inline-block rounded-circle mr-2 bg-warning-500 bg-warning-gradient" style="width:15px; height:15px;"></span><span>Gold</span></div>

@@ -100,6 +100,7 @@
 }
 #ecoist-slider .text-container .text-item a div {
   overflow: hidden;
+  line-height: 23px;
 }
 #ecoist-slider .text-container .text-item a div span {
   display: block;

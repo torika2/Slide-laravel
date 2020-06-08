@@ -1,0 +1,7 @@
+git pull
+composer install
+// sheqmenit baza (utf8mb4 general-ci)
+// moakopiret .env.example da sheqmenit .env faili sadac gauwert bazis monacemebs
+
+php artisan migrate
+php artisan db:seed --class=FillDefaultData

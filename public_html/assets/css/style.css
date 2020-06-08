@@ -236,6 +236,7 @@
 @media(max-width: 1900px) {
     .banner-content {
         left: 192px;
+        bottom: 79px;
     }
 }
 @media(max-width: 1679px) {
@@ -246,6 +247,7 @@
 @media(max-width: 1365px) {
     .banner-content {
         left: 71px;
+        bottom: 46px;
     }
     .social-banner .img-box {
         height: 379px;
@@ -257,6 +259,7 @@
 @media(max-width: 1023px) {
     .banner-content {
         left: 32px;
+        bottom: 55px;
     }
     .social-banner .img-box {
         height: 358px;
@@ -266,8 +269,13 @@
     .banner-content {
         left: 50%;
         transform: translateX(-50%);
+        align-items: center;
+        bottom: 45px;
     }
     .social-banner .img-box {
         height: 382px;
+    }
+    .banner-content .btn-white {
+        margin-top: 25px;
     }
 }

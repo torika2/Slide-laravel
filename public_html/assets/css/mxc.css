@@ -1,3 +1,17 @@
+.test{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    opacity: .3;
+}
+header{
+    position: relative;
+    z-index: 3;
+}
+
+
+
 header{
     width: 100%;
     padding: 0px 102px;
@@ -53,6 +67,7 @@ header{
 }
 .firstFloorLogo > div{
     overflow: hidden;
+    display: flex;
 }
 .firstFloorLogo.ge > div svg{
     transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);

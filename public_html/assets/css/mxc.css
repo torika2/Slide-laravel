@@ -1,0 +1,352 @@
+header{
+    width: 100%;
+    padding: 0px 102px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 16px;
+    padding-bottom: 17px;
+}
+.firstFloorLogo{
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+}
+.firstFloorLogo.ge > div:nth-child(1),.firstFloorLogo.ge > div:nth-child(3),.firstFloorLogo.ge > div:nth-child(5){
+    margin-right: 1.7px;
+    display: flex;
+}
+.firstFloorLogo.ge > div:nth-child(2),.firstFloorLogo.ge > div:nth-child(4){
+    margin-right: 4.8px;
+    display: flex;
+}
+.firstFloorLogo.ge .logoTr{
+    margin-left: 10px;
+    display: flex;
+}
+.firstFloorLogo .logoTr{
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+    transition-delay: .7s;
+    transform: scale(0);
+    backface-visibility: hidden;
+
+}
+.logoLine{
+    width: 100%;
+    height: 2px;
+    background: #E50019;
+    border-radius: 2px;
+    margin-top: 8.1px;
+    margin-bottom: 5.5px;
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+    transform: scaleX(0);
+}
+.secondFloorLogo{
+    display: flex;
+    overflow: hidden;
+}
+.secondFloorLogo svg{
+    transition: .8s cubic-bezier(0, 0.18, 0.25, 0.99);
+    transform: translateY(-105%);
+}
+.firstFloorLogo > div{
+    overflow: hidden;
+}
+.firstFloorLogo.ge > div svg{
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+}
+.firstFloorLogo.ge > div:nth-child(1) svg{
+    transition-delay: .1s;
+    transform: translateX(105%);
+}
+.firstFloorLogo.ge > div:nth-child(2) svg{
+    transform: translateX(-105%);
+    transition-delay: .2s;
+}
+.firstFloorLogo.ge > div:nth-child(3) svg{
+    transform: translateX(105%);
+    transition-delay: .3s;
+}
+.firstFloorLogo.ge > div:nth-child(4) svg{
+    transform: translateY(105%);
+    transition-delay: .4s;
+}
+.firstFloorLogo.ge > div:nth-child(5) svg{
+    transform: translateY(-105%);
+    transition-delay: .5s;
+}
+.firstFloorLogo.ge > div:nth-child(6) svg{
+    transform: translateX(105%);
+    transition-delay: .6s;
+}
+body.animate .firstFloorLogo.ge svg{
+    transform: translateX(0%) translateY(0%);
+}
+body.animate .firstFloorLogo .logoTr{
+    transform: scale(1);
+}
+body.animate .logoLine{
+    transform: scaleX(1);
+}
+body.animate .secondFloorLogo svg{
+    transition-delay: 1s;
+    transform: translateY(0%);
+}
+.burger{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.burger span{
+    background: #292562;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    display: flex;
+    transition: .8s cubic-bezier(0, 0.18, 0.25, 0.99);
+    transform: scale(0);
+}
+.burger div:nth-child(1) span:nth-child(2){
+    transition-delay: .1s;
+}
+.burger div:nth-child(2) span:nth-child(3){
+    transition-delay: .2s;
+}
+.burger div:nth-child(2) span:nth-child(2){
+    transition-delay: .3s;
+}
+.burger div:nth-child(1) span:nth-child(1){
+    transition-delay: .4s;
+}
+.burger div:nth-child(3) span:nth-child(3){
+    transition-delay: .5s;
+}
+.burger div:nth-child(1) span:nth-child(3){
+    transition-delay: .6s;
+}
+.burger div:nth-child(2) span:nth-child(1){
+    transition-delay: .7s;
+}
+.burger div:nth-child(3) span:nth-child(2){
+    transition-delay: .7s;
+}
+body.animate .burger span{
+    transform: scale(1);
+}
+.burger div{
+    display: flex;
+    justify-content: space-between;
+}
+header .firstFloor{
+    display: flex;
+    justify-content: space-between;
+}
+header .firstFloor .nav{
+    display: flex;
+    padding-top: 37px;
+}
+.burger:hover span{
+    background: #EE2A7B;
+    transition-delay: 0s!important;
+}
+header .firstFloor .nav .navInner{
+    padding-top: 7px;
+}
+header .firstFloor .nav .navInner .navLink{
+    margin-right: 18px;
+    padding-right: 18px;
+    position: relative;
+    color: #292562;
+    transition: .6s;
+    text-decoration: none;
+    display: inline-block;
+}
+header .firstFloor .nav .navInner .navLink div{
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+    transform: translateX(10px);
+    opacity: 0;
+}
+header .firstFloor .nav .navInner .navLink:hover div{
+    color: #EE2A7B;
+}
+header .firstFloor .nav .navInner .navLink:last-child{
+    margin-right: 23px;
+}
+header .firstFloor .nav .navInner .navLink:first-child{
+    margin-left: 18px;
+    padding-left: 18px;
+}
+header .firstFloor .nav .navInner .navLink:first-child:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    width: 1px;
+    background: rgba(0,43,127,0.16);
+    border-radius: 50px;
+}
+header .firstFloor .nav .navInner .navLink:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    width: 1px;
+    background: rgba(0,43,127,0.16);
+    border-radius: 50px;
+}
+.navMainMenu{
+    display: flex;
+    padding-top: 7px;
+}
+.navMainMenu .mainLink{
+    margin-right: 35px;
+}
+.navMainMenu .mainLinkInn{
+    overflow: hidden;
+}
+.navMainMenu .mainLinkInn div{
+    color: #292562;
+    transform: translateY(105%);
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+}
+.navMainMenu .mainLink:nth-child(1) .mainLinkInn div{
+    transition-delay: .1s;
+}
+.navMainMenu .mainLink:nth-child(2) .mainLinkInn div{
+    transition-delay: .2s;
+}
+.navMainMenu .mainLink:nth-child(3) .mainLinkInn div{
+    transition-delay: .3s;
+}
+body.animate .navMainMenu .mainLinkInn div{
+    transform: translateY(0%);
+}
+.navMainMenu .mainLink:last-child{
+    margin-right: 0px;
+}
+header .firstFloor .nav .navInner .navLink:first-child:before{
+    transform: scale(0);
+    transition-delay: .3s;
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+}
+header .firstFloor .nav .navInner .navLink:first-child:after{
+    transform: scale(0);
+    transition-delay: .4s;
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+}
+header .firstFloor .nav .navInner .navLink:last-child:after{
+    transform: scale(0);
+    transition-delay: .5s;
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+}
+body.animate header .firstFloor .nav .navInner .navLink:first-child:before,body.animate header .firstFloor .nav .navInner .navLink:first-child:after,body.animate header .firstFloor .nav .navInner .navLink:last-child:after{
+    transform: scale(1);
+}
+header .firstFloor .nav .navInner .navLink:nth-child(1) div{
+    transition-delay: .4s;
+}
+header .firstFloor .nav .navInner .navLink:nth-child(2) div{
+    transition-delay: .6s;
+}
+body.animate header .firstFloor .nav .navInner .navLink div{
+    opacity: 1;
+    transform: translateX(0px);
+}
+body.noTransition header .firstFloor .nav .navInner .navLink div{
+    transition-delay: 0s!important;
+}
+header .secondFloor{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+header .secondFloor:after{
+    content: '';
+    top: 0px;
+    left: 0px;
+    height: 1px;
+    background: #9199B4;
+    position: absolute;
+    width: 100%;
+}
+header .secondFloor .rightContainer{
+    padding-top: 30px;
+    display: flex;
+}
+header .secondFloor .rightContainer .myCabinet{
+    display: flex;
+    align-items: center;
+    background: #EE2A7B;
+    transition: .8s;
+    border-radius: 8px;
+    padding: 16px 27px;
+    overflow: hidden;
+    text-decoration: none;
+}
+header .secondFloor .rightContainer .myCabinet:hover{
+    background: #C20B56;
+}
+
+header .secondFloor .rightContainer .myCabinet span{
+    color: #fff;
+    /*transform: translateY(10px);*/
+    /*opacity: 0;*/
+    /*transition: .8s;*/
+}
+.searchBtnContainer{
+    display: flex;
+    margin-right: 30px;
+}
+.searchBtnContainer .sbtn{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.searchBtnContainer .sbtn:first-child{
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.searchBtnContainer .sbtn:first-child:after{
+    height: 15px;
+    position: absolute;
+    right: 0px;
+    top: 16px;
+    width: 1px;
+    background: #002B7F;
+    opacity: .16;
+    content: '';
+}
+.searchBtnContainer .sbtn .txt{
+    color: #292562;
+    transition: .6s;
+}
+.searchBtnContainer .sbtn:hover .txt{
+    color: #EE2A7B;
+}
+
+.searchBtnContainer .sbtn svg{
+    margin-right: 10px;
+}
+.searchBtnContainer .sbtn svg path,.searchBtnContainer .sbtn svg g{
+    transition: .6s;
+}
+.searchBtnContainer .searchBtn:hover svg > g  > path{
+    stroke: #EE2A7B;
+}
+.searchBtnContainer .searchBtn:hover svg > g > g > path:last-child{
+    fill: #EE2A7B;
+}
+.searchBtnContainer .helpBtn:hover svg > g > g{
+    stroke: #EE2A7B;
+}
+.searchBtnContainer .helpBtn:hover svg > g > path{
+    fill: #EE2A7B;
+}

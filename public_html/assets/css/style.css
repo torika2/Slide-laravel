@@ -203,6 +203,9 @@
         padding-left: 20px;
         padding-top: 13px;
     }
+    .container.faq-section {
+        padding-right: 0;
+    }
 }
 
 /* Social Banner */

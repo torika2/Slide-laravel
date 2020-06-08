@@ -1,4 +1,4 @@
-<img src="img/test.jpg" alt="" class="test">
+{{--<img src="{{asset('assets/img/test.jpg')}}" alt="" class="test">--}}
 <header>
     <div class="in">
         <div class="firstFloor">
@@ -58,29 +58,29 @@
                 <div class="navMainMenu">
                     <div class="mainLink">
                         <div class="mainLinkInn">
-                            <div>
+                            <div class="fira-bold uppercase">
                                 ჩემთვის
                             </div>
                         </div>
                     </div>
                     <div class="mainLink">
                         <div class="mainLinkInn">
-                            <div>
+                            <div class="fira-bold uppercase">
                                 ბიზნესისთვის
                             </div>
                         </div>
                     </div>
                     <div class="mainLink">
                         <div class="mainLinkInn">
-                            <div>
+                            <div class="fira-bold uppercase">
                                 კომპანიის შესახებ
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="navInner">
-                    <a href="##" class="navLink"><div>კარიერა ჯიპიაიში</div></a>
-                    <a href="##" class="lang navLink"><div>ENG</div></a>
+                    <a href="##" class="navLink"><div class="noto-semibold">კარიერა ჯიპიაიში</div></a>
+                    <a href="##" class="lang navLink"><div class="noto-semibold">ENG</div></a>
                 </div>
 
                 <div class="burger">

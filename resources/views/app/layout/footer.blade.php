@@ -5,3 +5,4 @@
 <script src="{{asset('assets/js/script.js')}}"></script>
 
 <script src="{{asset('assets/js/mxc.js')}}"></script>
+<script src="{{asset('assets/js/ali.js')}}"></script>

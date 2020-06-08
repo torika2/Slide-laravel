@@ -1,0 +1,214 @@
+#ecoist-slider {
+  width: 100%;
+  position: relative;
+}
+#ecoist-slider .slider-container {
+  width: 100%;
+  padding-top: 33.3%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#ecoist-slider .slider-container .item {
+  width: 47.6%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: scale(0);
+  transition: 1s cubic-bezier(0.52, 0, 0.25, 0.99);
+}
+#ecoist-slider .slider-container .item.active {
+  z-index: 10;
+}
+#ecoist-slider .slider-container .item .image {
+  display: flex;
+  justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+#ecoist-slider .slider-container .item .image img {
+  max-width: 100%;
+  height: auto;
+  transition: .6s;
+}
+#ecoist-slider .slider-container .item:hover .image img {
+  transform: scale(1.1);
+}
+#ecoist-slider .text-container {
+  padding-top: 24px;
+}
+#ecoist-slider .text-container .text-item {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+}
+#ecoist-slider .text-container .text-item:nth-child(1) {
+  height: auto;
+}
+#ecoist-slider .text-container .text-item.not-active {
+  height: auto;
+}
+#ecoist-slider .text-container .text-item.active {
+  height: auto;
+}
+#ecoist-slider .text-container .text-item.not-active a div span {
+  animation: a_a .5s both;
+}
+#ecoist-slider .text-container .text-item.not-active a {
+  animation: a_b .5s both .5s;
+}
+#ecoist-slider .text-container .text-item.not-active .text {
+  animation: a_c .5s both .5s;
+}
+#ecoist-slider .text-container .text-item .text {
+  margin-top: 10px;
+}
+#ecoist-slider .text-container .text-item.not-active h2 {
+  animation: a_b .5s both .5s;
+}
+#ecoist-slider .text-container .text-item.active a div span {
+  animation: b_a .5s both .5s;
+}
+#ecoist-slider .text-container .text-item.active a {
+  animation: b_b .5s both;
+}
+#ecoist-slider .text-container .text-item.active .text {
+  animation: b_c .5s both .5s;
+}
+#ecoist-slider .text-container .text-item.active h2 {
+  animation: b_b .5s both .5s;
+}
+#ecoist-slider .text-container .text-item a {
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 21px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: .6s;
+  border: 1px solid rgba(145, 153, 180, 0.7);
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1);
+  box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1);
+}
+#ecoist-slider .text-container .text-item a:hover {
+  background: #EE2A7B;
+}
+#ecoist-slider .text-container .text-item a div {
+  overflow: hidden;
+}
+#ecoist-slider .text-container .text-item a div span {
+  display: block;
+  transition: .6s;
+}
+#ecoist-slider .text-container .text-item a:hover div span {
+  color: white;
+}
+#ecoist-slider .text-container .text-item h2 span {
+  color: #EE2A7B;
+}
+@keyframes a_a {
+  from { transform: translate(0,0); }
+  to { transform: translate(0,100%); }
+}
+@keyframes a_b {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(0.5); opacity: 0; }
+}
+@keyframes a_c {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes b_a {
+  from { transform: translate(0,100%); }
+  to { transform: translate(0,0); }
+}
+@keyframes b_b {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes b_c {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (max-width: 767px) {
+  #ecoist-slider {
+      width: 114vw;
+      position: relative;
+      margin-left: -7vw;
+  }
+  #ecoist-slider .slider-container {
+    padding-top: 107.3%;
+  }
+}
+#cursor {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  z-index: 20;
+  overflow: hidden;
+  border-radius: 50%;
+  pointer-events: none;
+}
+#cursor.active {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(238,42,123,0.15);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(238,42,123,0.15);
+  box-shadow: 0px 0px 30px 0px rgba(238,42,123,0.15);
+}
+#cursor .content {
+  background: white;
+  transition: .6s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+#cursor .content div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  transform: scale(0);
+  transition: .3s 0s;
+}
+#cursor.play-btn .content div.play {
+  transform: scale(1);
+  transition-delay: 0.3s;
+}
+#cursor.prev-btn .content div.prev {
+  transform: scale(1);
+  transition-delay: 0.3s;
+}
+#cursor.next-btn .content div.next {
+  transform: scale(1);
+  transition-delay: 0.3s;
+}
+#cursor .content .play svg {
+  width: 30px;
+  height: 30px;
+}
+#cursor.active .content {
+  opacity: 1;
+}
+@keyframes focused {
+  from { transform: scale(1); }
+  50% { transform: scale(0.7); }
+  100% { transform: scale(1); }
+}
+.focused {
+  animation: focused .3s both;
+}

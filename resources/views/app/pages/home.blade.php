@@ -84,7 +84,7 @@
         <img src="img/img (6).jpg" alt="" class="img-absolute">
         <div class="img-overlay"></div>
     </div>
-    <div class="banner-content">
+    <div class="banner-content flex-box column">
         <h2 class="fira-bold font-55 white">
             ჩვენი სოციალური <br> პასუხისმგებლობა
         </h2>

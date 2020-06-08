@@ -234,3 +234,7 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
 Route::get('/', function () {
     return view('app.pages.blankPage');
 });
+
+Route::get('/', function () {
+    return view('app.pages.home');
+});

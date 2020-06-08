@@ -262,7 +262,6 @@ button {
 }
 .flex-box {
     display: flex;
-    align-items: center;
 }
 .flex-box.between {
     justify-content: space-between;

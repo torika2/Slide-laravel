@@ -231,7 +231,7 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
 
 //for front routes
 
-Route::get('/', function () {
+Route::get('/blankPage', function () {
     return view('app.pages.blankPage');
 });
 

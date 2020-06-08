@@ -27,22 +27,22 @@
 		<div class="slider-container">
 			<div class="item" data-item="0">
 				<div class="image">
-					<img src="Group 3475.png" alt="">
+					<img src="{{asset('assets/img/Group 3475.png')}}" alt="">
 				</div>
 			</div>
 			<div class="item" data-item="1">
 				<div class="image">
-					<img src="Group 3476.png" alt="">
+					<img src="{{asset('assets/img/Group 3476.png')}}" alt="">
 				</div>
 			</div>
 			<div class="item" data-item="2">
 				<div class="image">
-					<img src="Group 3475.png" alt="">
+					<img src="{{asset('assets/img/Group 3475.png')}}" alt="">
 				</div>
 			</div>
 			<div class="item" data-item="3">
 				<div class="image">
-					<img src="Group 3474.png" alt="">
+					<img src="{{asset('assets/img/Group 3474.png')}}" alt="">
 				</div>
 			</div>
 		</div>

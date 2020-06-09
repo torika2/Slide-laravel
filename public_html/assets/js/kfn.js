@@ -1,5 +1,24 @@
 window.onload = function(){
 
+    // lightGallery(document.getElementById('video-gallery')); 
+    if ($(".lg_gallery").length != 0) {
+      for (var i = 0; i < $(".lg_gallery").length; i++) {
+        $(".lg_gallery")
+          .eq(i)
+          .lightGallery({
+            selector: ".lg",
+            thumbnail: true,
+            autoplayFirstVideo: true,
+            youtubePlayerParams: {
+              modestbranding: 0,
+              showinfo: 0,
+              controls: 1,
+              rel: 0,
+              autoplay: 1
+            }
+          });
+      }
+    }
 
     function ecoistSlider(){
         var elems = document.querySelectorAll('#ecoist-slider .slider-container .item'),

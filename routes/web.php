@@ -242,3 +242,7 @@ Route::get('/', function () {
 Route::get('/ecoist', function () {
     return view('app.pages.ecoist');
 });
+
+Route::get('/about', function () {
+    return view('app.pages.about');
+});

@@ -1,31 +1,71 @@
 $(document).ready(function () {
 
-  var mySwiper = new Swiper ('.swiper-subMenu', {
-    speed: 400,
-    slidesPerView: 3,
-    spaceBetween: 60,
-    breakpoints: {
-      320: {
-        spaceBetween: 15,
-        slidesPerView: 1.145
-      },
-      768: {
-        spaceBetween: 15
-      },
-      1024: {
-        spaceBetween: 33
-      },
-      1366: {
-        spaceBetween: 60
-      },
-      1599: {
-        spaceBetween: 60
-      },
-      1900: {
-        spaceBetween: 60
-      }
-    }
-  });
+	const subMenuSlider = document.querySelectorAll(".swiper-subMenu");
+	subMenuSlider.forEach(function(item){
+		if(item.childNodes[1].children.length <= 3){
+			var mySwiper = new Swiper ('.swiper-subMenu', {
+			    speed: 400,
+			    slidesPerView: 3,
+			    spaceBetween: 60,
+			    breakpoints: {
+			      320: {
+			        spaceBetween: 15,
+			        slidesPerView: 1.145,
+			        touchRatio: 1
+			      },
+			      768: {
+			        spaceBetween: 15,
+			        touchRatio: 0
+			      },
+			      1024: {
+			        spaceBetween: 33,
+			        touchRatio: 0
+			      },
+			      1366: {
+			        spaceBetween: 60,
+			        touchRatio: 0
+			      },
+			      1599: {
+			        spaceBetween: 60,
+			        touchRatio: 0
+			      },
+			      1900: {
+			        spaceBetween: 60,
+			        touchRatio: 0
+			      }
+			    }
+			  });
+		}else{
+			var mySwiper = new Swiper ('.swiper-subMenu', {
+			    speed: 400,
+			    slidesPerView: 3,
+			    spaceBetween: 60,
+			    breakpoints: {
+			      320: {
+			        spaceBetween: 15,
+			        slidesPerView: 1.145
+			      },
+			      768: {
+			        spaceBetween: 15
+			      },
+			      1024: {
+			        spaceBetween: 33
+			      },
+			      1366: {
+			        spaceBetween: 60
+			      },
+			      1599: {
+			        spaceBetween: 60
+			      },
+			      1900: {
+			        spaceBetween: 60
+			      }
+			    }
+			  });
+		}
+	})
+
+  
 
   var mySwiper = new Swiper('.newsOuter-slider', {
   speed: 400,

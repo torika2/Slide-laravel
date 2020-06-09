@@ -11,7 +11,7 @@ deploy on dev:
     - cd ../
     # - git submodule update --init
     # - git submodule foreach git pull origin master
-    - ./runners/deploy-dev.js wely development.connect.ge 21 developer 144144144
+    - ./runners/deploy-dev.js gpi development.connect.ge 21 developer 144144144
   only:
     - master
 

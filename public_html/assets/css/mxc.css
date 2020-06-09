@@ -9,7 +9,9 @@ header{
     position: relative;
     z-index: 3;
 }
-
+body{
+    overflow-x: hidden;
+}
 
 
 header{
@@ -170,7 +172,7 @@ header .firstFloor .nav{
     transition-delay: 0s!important;
 }
 header .firstFloor .nav .navInner{
-    padding-top: 7px;
+    padding-top: 4px;
 }
 header .firstFloor .nav .navInner .navLink{
     margin-right: 18px;
@@ -281,6 +283,7 @@ header .secondFloor{
     position: relative;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 header .secondFloor:after{
     content: '';
@@ -301,7 +304,7 @@ header .secondFloor .rightContainer .myCabinet{
     background: #EE2A7B;
     transition: .8s;
     border-radius: 8px;
-    padding: 16px 27px;
+    padding: 13px 27px;
     overflow: hidden;
     text-decoration: none;
 }
@@ -365,3 +368,22 @@ header .secondFloor .rightContainer .myCabinet span{
 .searchBtnContainer .helpBtn:hover svg > g > path{
     fill: #EE2A7B;
 }
+header .secondFloor .leftContainer{
+    display: flex;
+    padding-top: 43px;
+}
+header .secondFloor .leftContainer .subMenuBtn{
+    margin-right: 35px;
+    cursor: pointer;
+    transition: .6s;
+}
+header .secondFloor .leftContainer .subMenuBtn:hover{
+    color: #EE2A7B;
+}
+header .secondFloor .leftContainer .subMenuBtn path{
+    transition: .6s;
+}
+header .secondFloor .leftContainer .subMenuBtn:hover path{
+    fill: #EE2A7B;
+}
+

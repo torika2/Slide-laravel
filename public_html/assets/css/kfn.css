@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  background: #eee;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1284px;
+  margin: auto;
+  position: relative;
+}
+/* START OF _ECOIST-SLIDER */
 #ecoist-slider {
   width: 100%;
   position: relative;
@@ -30,8 +41,9 @@
   max-width: 100%;
   height: auto;
   transition: .6s;
+  user-select: none;
 }
-#ecoist-slider .slider-container .item:hover .image img {
+#ecoist-slider .slider-container .item.hovered .image img {
   transform: scale(1.1);
 }
 #ecoist-slider .text-container {
@@ -57,28 +69,28 @@
   animation: a_a .5s both;
 }
 #ecoist-slider .text-container .text-item.not-active a {
-  animation: a_b .5s both .5s;
+  animation: a_b .5s both .3s;
 }
 #ecoist-slider .text-container .text-item.not-active .text {
-  animation: a_c .5s both .5s;
+  animation: a_c .5s both .3s;
 }
 #ecoist-slider .text-container .text-item .text {
   margin-top: 10px;
 }
 #ecoist-slider .text-container .text-item.not-active h2 {
-  animation: a_b .5s both .5s;
+  animation: a_b .5s both .3s;
 }
 #ecoist-slider .text-container .text-item.active a div span {
-  animation: b_a .5s both .5s;
+  animation: b_a .5s both .3s;
 }
 #ecoist-slider .text-container .text-item.active a {
   animation: b_b .5s both;
 }
 #ecoist-slider .text-container .text-item.active .text {
-  animation: b_c .5s both .5s;
+  animation: b_c .5s both .3s;
 }
 #ecoist-slider .text-container .text-item.active h2 {
-  animation: b_b .5s both .5s;
+  animation: b_b .5s both .3s;
 }
 #ecoist-slider .text-container .text-item a {
   height: 50px;
@@ -100,7 +112,6 @@
 }
 #ecoist-slider .text-container .text-item a div {
   overflow: hidden;
-  line-height: 23px;
 }
 #ecoist-slider .text-container .text-item a div span {
   display: block;
@@ -110,9 +121,11 @@
   color: white;
 }
 #ecoist-slider .text-container .text-item h2 span {
-  all: inherit;
-  color: #EE2A7B;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
   display: inline-block;
+  color: #EE2A7B;
 }
 @keyframes a_a {
   from { transform: translate(0,0); }
@@ -152,12 +165,10 @@
   width: 70px;
   height: 70px;
   position: absolute;
-  z-index: 999;
+  z-index: 20;
   overflow: hidden;
   border-radius: 50%;
   pointer-events: none;
-  /*top: 0;
-  left: 0;*/
 }
 #cursor.active {
   -webkit-box-shadow: 0px 0px 30px 0px rgba(238,42,123,0.15);
@@ -209,6 +220,12 @@
 #cursor.active .content {
   opacity: 1;
 }
+#ecoist-slider .heading {
+  text-align: center;
+}
+#ecoist-slider .heading .text {
+  margin-bottom: 25px;
+}
 @keyframes focused {
   from { transform: scale(1); }
   50% { transform: scale(0.7); }
@@ -217,3 +234,171 @@
 .focused {
   animation: focused .3s both;
 }
+#ecoist-popup {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999999;
+}
+#ecoist-popup.active {
+  pointer-events: all;
+}
+#ecoist-popup .popup {
+  pointer-events: none;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(41, 37, 98, 0.9);
+  transition: .6s;
+}
+#ecoist-popup .popup video {
+  width: 90vw;
+  height: 80vw;
+  position: absolute;
+  top: 5vh;
+  object-fit: cover;
+  left: 5vw;
+}
+#ecoist-popup .popup.active {
+  opacity: 1;
+  pointer-events: all;
+}
+/* END OF _ECOIST-SLIDER */
+
+/* START OF _ANIMATIONS */
+/* START OF _ANIMATIONS */
+.kfn_anim {
+  visibility: visible;
+}
+.kfn_anim.active-kfn {
+  visibility: visible;
+}
+.k-slideUp {
+  transform: translate3d(0, 100%, 0);
+}
+.kfn_anim.active-kfn.k-slideUp {
+  transform: translate3d(0, 0, 0);
+  transition: 1s;
+}
+
+.k-fadeUp {
+  transform: translate3d(0, 100px, 0);
+  opacity: 0;
+}
+.kfn_anim.active-kfn.k-fadeUp {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 1s;
+}
+
+.k-fadeRight {
+  transform: translate3d(100px, 0, 0);
+  opacity: 0;
+}
+.kfn_anim.active-kfn.k-fadeRight {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 1s;
+}
+
+.k-fadeLeft {
+  transform: translate3d(-100px, 0, 0);
+  opacity: 0;
+}
+.kfn_anim.active-kfn.k-fadeLeft {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 1s;
+}
+
+.k-scale {
+  transform: scale(0);
+}
+.kfn_anim.active-kfn.k-scale {
+  transform: scale(1);
+  transition: 1s;
+}
+
+.k-fadeIn {
+  opacity: 0;
+}
+.kfn_anim.active-kfn.k-fadeIn {
+  opacity: 1;
+  transition: 1s;
+}
+
+.k-zoomOut {
+  transform: scale(1.2);
+}
+.kfn_anim.active-kfn.k-zoomOut {
+  transform: scale(1);
+  transition: 1s;
+}
+@keyframes ecoist-one {
+  from { transform: translate(100%,0) scale(0.5); opacity: 0.5 }
+  to { transform: translate(0,0) scale(1); opacity: 1 }
+}
+@keyframes ecoist-two {
+  from { transform: translate(0%,0) scale(0.3); opacity: 0 }
+  to { transform: translate(100%,0) scale(.5); opacity: .5 }
+}
+@keyframes ecoist-three {
+  from { transform: translate(0%,0) scale(1); opacity: 1 }
+  to { transform: translate(-100%,0) scale(.5); opacity: .5 }
+}
+@keyframes ecoist-four {
+  from { transform: translate(-100%,0) scale(.5); opacity: .5 }
+  to { transform: translate(0%,0) scale(.3); opacity: 0 }
+}
+#ecoist-slider.active-kfn .slider-container .item:nth-child(1) {
+  animation: ecoist-one 1s cubic-bezier(0.52, 0, 0.25, 0.99);
+}
+#ecoist-slider.active-kfn .slider-container .item:nth-child(2) {
+  animation: ecoist-two 1s cubic-bezier(0.52, 0, 0.25, 0.99);
+}
+#ecoist-slider.active-kfn .slider-container .item:last-child {
+  animation: ecoist-three 1s cubic-bezier(0.52, 0, 0.25, 0.99);
+}
+#ecoist-slider.active-kfn .slider-container .item:nth-last-child(2) {
+  animation: ecoist-four 1s cubic-bezier(0.52, 0, 0.25, 0.99);
+}
+#ecoist-slider .text-container .text-item h2 {
+  opacity: 0;
+  transform: scale(0.7);
+  transition: 1s;
+}
+#ecoist-slider .text-container.active-kfn .text-item h2 {
+  opacity: 1;
+  transform: scale(1);
+}
+#ecoist-slider .text-container .text-item .text {
+  opacity: 0;
+  transform: translate(0,20px);
+  transition: 1s;
+}
+#ecoist-slider .text-container.active-kfn .text-item .text {
+  opacity: 1;
+  transform: translate(0,0px);
+}
+#ecoist-slider .text-container .text-item a span {
+  /*opacity: 0;*/
+  transform: translate(0,100%);
+  transition: 1s;
+}
+#ecoist-slider .text-container.active-kfn .text-item a span {
+  opacity: 1;
+  transform: translate(0,0px);
+}
+#ecoist-slider .text-container .text-item a {
+  opacity: 0;
+}
+#ecoist-slider .text-container.active-kfn .text-item a {
+  opacity: 1;
+}
+/* END OF _ANIMATION */

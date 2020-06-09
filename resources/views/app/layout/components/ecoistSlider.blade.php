@@ -1,5 +1,23 @@
+<div id="ecoist-popup">
+	<div class="popup" data-id="0">
+		<video src=""></video>
+	</div>
+	<div class="popup" data-id="1">
+		<video src=""></video>
+	</div>
+	<div class="popup" data-id="2">
+		<video src=""></video>
+	</div>
+	<div class="popup" data-id="3">
+		<video src=""></video>
+	</div>
+</div>
 <div class="container">
-	<div id="ecoist-slider">
+	<div id="ecoist-slider" class="kfn_anim">
+		<div class="heading">
+			<h2 class="font-55 fira-bold uppercase">#ეკოისტი</h2>
+			<div class="text">ჯანსაღი ცხოვრებით აგროვებ ეკომონეტებს</div>
+		</div>
 		<div class="slider-container">
 			<div class="item" data-item="0">
 				<div class="image">
@@ -22,7 +40,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="text-container">
+		<div class="text-container kfn_anim">
 			<div class="text-item" data-id="0">
 				<h2 class="font-34 fira-bold">წყალს სვამ? <span>ეკოისტი</span> ხარ!</h2>
 				<div class="text noto-regular font-16">

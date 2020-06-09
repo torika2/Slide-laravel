@@ -1,6 +1,16 @@
 var mobileDetect;
 window.onload = function(){
 
+    $("body").addClass("animate");
+    setTimeout(function () {
+        $("header .secondFloor .leftContainer.active").addClass("animated")
+    },300)
+
+
+    setTimeout(function () {
+        $("body").addClass("noTransition");
+    },2500);
+
     mobileDetect = (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) ? true : false ;
 
     if (mobileDetect) {

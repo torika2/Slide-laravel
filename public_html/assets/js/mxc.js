@@ -1,13 +1,13 @@
 $(document).ready(function () {
-    $("body").addClass("animate");
-    setTimeout(function () {
-        $("header .secondFloor .leftContainer.active").addClass("animated")
-    },300)
+    // $("body").addClass("animate");
+    // setTimeout(function () {
+    //     $("header .secondFloor .leftContainer.active").addClass("animated")
+    // },300)
 
 
-    setTimeout(function () {
-        $("body").addClass("noTransition");
-    },2500);
+    // setTimeout(function () {
+    //     $("body").addClass("noTransition");
+    // },2500);
 
     // sub menu logic start
 

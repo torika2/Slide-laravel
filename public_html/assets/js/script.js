@@ -4,7 +4,7 @@ var mediationSlider = new Swiper('.faq-slider', {
     spaceBetween: 60,
     breakpoints: {
         300: {
-            slidesPerView: 1.2,
+            slidesPerView: 1.19,
             spaceBetween: 15,
         },
         768: {

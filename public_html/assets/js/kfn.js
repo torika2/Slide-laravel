@@ -1,4 +1,21 @@
+var mobileDetect;
 window.onload = function(){
+
+    $("body").addClass("animate");
+    setTimeout(function () {
+        $("header .secondFloor .leftContainer.active").addClass("animated")
+    },300)
+
+
+    setTimeout(function () {
+        $("body").addClass("noTransition");
+    },2500);
+
+    mobileDetect = (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) ? true : false ;
+
+    if (mobileDetect) {
+        document.body.classList.add('mobile')
+    }
 
     // lightGallery(document.getElementById('video-gallery')); 
     if ($(".lg_gallery").length != 0) {
@@ -20,6 +37,16 @@ window.onload = function(){
       }
     }
 
+    var mySwiper = new Swiper('.about-container .swiper-container', {
+        speed: 1000,
+        spaceBetween: 60,
+        slidesPerView: 1,
+        navigation: {
+            nextEl: '.swiper-button-next_',
+            prevEl: '.swiper-button-prev_',
+        }
+    });
+
     function ecoistSlider(){
         var elems = document.querySelectorAll('#ecoist-slider .slider-container .item'),
             active = 0,
@@ -30,13 +57,19 @@ window.onload = function(){
             nextTwo,
             nextThree,
             nextStyleOne = "transform: translate(0%,0) scale(1); transform-origin: left; opacity: 1",
-            nextStyleTwo = "transform: translate(-100%,0) scale(0.5); transform-origin: right; opacity: 0.5",
+            nextStyleTwo = "transform: translate(-100%,0) scale(0.55); transform-origin: right; opacity: 0.5",
             nextStyleThree = "transform: translate(0%,0) scale(0.3); transform-origin: center; opacity: 0",
-            nextStyleFour = "transform: translate(100%,0) scale(0.5); transform-origin: left; opacity: 0.5",
+            nextStyleFour = "transform: translate(100%,0) scale(0.55); transform-origin: left; opacity: 0.5",
             prevStyleOne = "transform: translate(0%,0) scale(1); transform-origin: right; opacity: 1",
-            prevStyleTwo = "transform: translate(100%,0) scale(0.5); transform-origin: left; opacity: 0.5",
+            prevStyleTwo = "transform: translate(100%,0) scale(0.55); transform-origin: left; opacity: 0.5",
             prevStyleThree = "transform: translate(0%,0) scale(0.3); transform-origin: center; opacity: 0",
-            prevStyleFour = "transform: translate(-100%,0) scale(0.5); transform-origin: right; opacity: 0.5";
+            prevStyleFour = "transform: translate(-100%,0) scale(0.55); transform-origin: right; opacity: 0.5";
+            document.querySelectorAll('#ecoist-popup .popup .close-svg').forEach(function(el){
+                el.addEventListener('click',function(){
+                    document.querySelector('#ecoist-popup').classList.remove('active')
+                    document.querySelector('#ecoist-popup .popup').classList.remove('active')
+                })
+            })
         elems.forEach(function(el){
             el.style.cssText = 'transform: translate(0,0) scale(0); opacity: 0';
             el.addEventListener('mousemove',function(e){
@@ -168,10 +201,10 @@ window.onload = function(){
         elems[active].classList.add('active')
         elems[active].style.opacity = '1';
         elems[active].style.transform = 'translate(0,0) scale(1)';
-        elems[active + 1].style.transform = 'translate(100%,0) scale(0.5)';
+        elems[active + 1].style.transform = 'translate(100%,0) scale(0.55)';
         elems[active + 1].style.transformOrigin = 'left';
         elems[active + 1].style.opacity = '0.5'
-        elems[elems.length - 1].style.transform = 'translate(-100%,0) scale(0.5)';
+        elems[elems.length - 1].style.transform = 'translate(-100%,0) scale(0.55)';
         elems[elems.length - 1].style.transformOrigin = 'right';
         elems[elems.length - 1].style.opacity = '0.5'
     }
@@ -192,6 +225,10 @@ window.onload = function(){
 
         ease = 0.2;
 
+        elem.style.display = 'none'
+        setTimeout(function() {
+            elem.style.display = 'block';
+        }, 100);
 
         document.querySelector('#ecoist-slider .slider-container').addEventListener('mousemove', function(e) {
             target.x = e.pageX,

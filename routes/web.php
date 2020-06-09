@@ -238,3 +238,6 @@ Route::get('/blankPage', function () {
 Route::get('/', function () {
     return view('app.pages.home');
 });
+Route::get('/health-insurance', function () {
+    return view('app.pages.healthInsurance');
+});

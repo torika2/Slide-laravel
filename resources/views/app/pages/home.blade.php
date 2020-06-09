@@ -5,7 +5,7 @@
 
 <section class="became-member m-t-233">
     <div class="img-box">
-        <img src="img/img (6).jpg" alt="" class="img-absolute">
+        <img src="{{asset('assets/img/became.png')}}" alt="" class="img-absolute">
         <div class="img-overlay"></div>
     </div>
     <div class="component-content flex-box column al-center justify-center">
@@ -81,10 +81,10 @@
 
 <section class="social-banner m-t-144">
     <div class="img-box">
-        <img src="img/img (6).jpg" alt="" class="img-absolute">
+        <img src="{{asset('assets/img/social.jpg')}}" alt="" class="img-absolute">
         <div class="img-overlay"></div>
     </div>
-    <div class="banner-content flex-box column">
+    <div class="container banner-content flex-box column">
         <h2 class="fira-bold font-55 white">
             ჩვენი სოციალური <br> პასუხისმგებლობა
         </h2>

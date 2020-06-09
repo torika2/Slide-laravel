@@ -1,9 +1,9 @@
-#ecoist-slider {
+/* #ecoist-slider {
     display: none;
 }
 header {
     display: none;
-}
+} */
 .container-secondary {
     padding: 0 100px;
 }
@@ -361,6 +361,8 @@ header {
 }
 .package-box {
     position: relative;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     flex: 1;
     border: 2px solid transparent;
@@ -413,8 +415,13 @@ header {
     margin-top: auto;
     transition: 0.6s;
 }
+.package-box > div:first-child {
+    height: min-content;
+}
 
-
+.package-box > div:last-child {
+    height: 100%;
+}
 
 @media(min-width: 1025px) {
     .package-box:hover {
@@ -446,6 +453,9 @@ header {
     }
 }
 @media(max-width: 1365px) {
+    .head-banner .img-box {
+        height: 433px;
+    }
     .banner-content h2 {
         line-height: 35px;
     }
@@ -464,5 +474,13 @@ header {
     }
     .package-box .btn {
         min-width: 140px;
+    }
+}
+@media(max-width: 1023px) {
+    .head-banner .img-box {
+        height: 359px;
+    }
+    .head-banner .banner-content h2, .head-banner .banner-button {
+        margin-left: 0px;
     }
 }

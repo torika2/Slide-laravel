@@ -95,5 +95,6 @@
 @include('app.layout.components.ecoistSlider')
 @include('app.layout.components.subMenu')
 @include('app.layout.components.newsOuter')
-
+@include('app.layout.components.directionSlider')
+@include('app.layout.components.realStories')
 @endsection

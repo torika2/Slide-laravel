@@ -1,0 +1,28 @@
+# Run before each script
+stages:
+  - build
+  - deploy
+
+deploy on dev:
+  stage: deploy
+  script:
+    - cd runners/
+    - npm install
+    - cd ../
+    # - git submodule update --init
+    # - git submodule foreach git pull origin master
+    - ./runners/deploy-dev.js wely development.connect.ge 21 developer 144144144
+  only:
+    - master
+
+deploy on production:
+  stage: deploy
+  script:
+    - cd runners/
+    - npm install
+    - cd ../
+    # - git submodule update --init
+    # - git submodule foreach git pull origin master
+  #    - ./runners/deploy-production.js hostname port username password
+  only:
+    - production

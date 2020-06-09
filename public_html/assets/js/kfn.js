@@ -40,6 +40,21 @@ window.onload = function(){
                 this.classList.remove('hovered')
             })
             el.addEventListener('click',function(e){
+                if (this.classList.contains('active')) {
+                    document.querySelector('#ecoist-popup').classList.add('active')
+                    document.querySelector('#ecoist-popup .popup[data-id="' + this.dataset.item + '"]').classList.add('active')
+                }
+                document.querySelector('#ecoist-popup').addEventListener('click',function(e){
+                    this.classList.remove('active')
+                    document.querySelectorAll('#ecoist-popup .popup').forEach(function(el){
+                        el.classList.remove('active')
+                    })
+                })
+                document.querySelectorAll('#ecoist-popup .popup video').forEach(function(el){
+                    el.addEventListener('click',function(e){
+                        e.stopPropagation()
+                    })
+                })
                 document.querySelector('#cursor .content').classList.add('focused')
                 setTimeout(function() {
                     document.querySelector('#cursor .content').classList.remove('focused')
@@ -186,6 +201,15 @@ window.onload = function(){
 
     }
     ecoistSliderCursor()
+
+    var observer = new IntersectionObserver((entries, observer) => { 
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                entry.target.classList.add('active-kfn')
+            }
+        });
+    }, {rootMargin: "100px 0px 0px 0px"});
+    document.querySelectorAll('.kfn_anim').forEach(img => { observer.observe(img) });
 
 
 

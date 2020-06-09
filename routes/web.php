@@ -239,10 +239,15 @@ Route::get('/', function () {
     return view('app.pages.home');
 });
 
+Route::get('/health-insurance', function () {
+    return view('app.pages.healthInsurance');
+});
+
 Route::get('/ecoist', function () {
     return view('app.pages.ecoist');
 });
 
 Route::get('/about', function () {
     return view('app.pages.about');
+
 });

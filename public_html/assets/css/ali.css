@@ -18,6 +18,11 @@ body{
     color: #EE2A7B;
   }
 }
+@media(max-width: 1023px){
+  .all-btn > span{
+    font-size: 13px;
+  }
+}
 
 
 .img-layer{
@@ -184,6 +189,8 @@ body{
  .swiper-subMenu .swiper-slide:hover .menu-item a{
   transform: translateX(0px) !important;
   opacity: 1;
+ }
+ .swiper-subMenu .swiper-slide.hovered .menu-item a{
   pointer-events: all;
  }
  .swiper-subMenu .swiper-slide:hover .menu-item svg{
@@ -350,10 +357,13 @@ body{
 }
 .news-outer .img-box svg{
   flex: none;
-  transform: scale(0);
+  /*transform: scale(0);*/
+  opacity: 0;
   transition: 0.6s;
-  transition-delay: 0.4s;
   backface-visibility: hidden;
+}
+.news-outer .img-box > span svg line{
+  transition: 0.6s;
 }
 .news-outer time{
   position: relative;
@@ -385,16 +395,23 @@ body{
   .news-outer .swiper-slide:hover .img-box .ttl{
     transform: translateY(0px);
   }
+  .news-outer .img-box > span:hover .ttl{
+    color: #EE2A7B;
+  }
+  .news-outer .img-box > span:hover svg line{
+    stroke: #EE2A7B;
+  }
   .news-outer .swiper-slide:hover .img-box svg{
-    transform: scale(1);
-    transition-delay: 0 !important;
+    /*transform: scale(1);*/
+    /*transition-delay: 0 !important;*/
+    opacity: 1;
   }
 }
 
 
 @media(max-width: 1679px){
   .news-outer .img-box{
-    padding-top: 70.43%;
+    padding-top: 71.43%;
   }
   .news-outer .swiper-slide > .ttl{
     margin-left: 45px;
@@ -404,15 +421,20 @@ body{
 @media(max-width: 1365px){
   .news-outer .swiper-slide > .ttl{
     margin-top: 15.5px;
+    font-size: 16px;
   }
   .news-outer time{
     margin-top: 15px;
+    font-size: 13px;
   }
 }
 
 @media(max-width: 1023px){
   .news-outer .top{
     justify-content: flex-start;
+  }
+  .news-outer .img-box {
+    padding-top: 70.2%;
   }
   .news-outer .swiper-slide > .ttl{
     margin-left: 55px;
@@ -428,16 +450,21 @@ body{
   }
 }
 @media(max-width: 767px){
+  .news-outer .top{
+    margin-bottom: 13px;
+  }
   .news-outer .swiper-slide > .ttl{
     margin-left: 22px;
-    margin-top: 0px;
+    margin-top: 4px;
+    font-size: 13px;
   }
   .news-outer time{
     margin-left: 22px;
+    margin-top: 10px;
   }
   .news-outer time:before{
     left: -8px;
     height: 67px;
-    bottom: -9px;
+    bottom: -4px;
   }
 }

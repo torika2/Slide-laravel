@@ -224,9 +224,25 @@ header .firstFloor .nav .navInner .navLink:after{
 }
 .navMainMenu .mainLink{
     margin-right: 35px;
+    position: relative;
+
 }
 .navMainMenu .mainLinkInn{
     overflow: hidden;
+    cursor: pointer;
+}
+.navMainMenu .mainLinkInn:after{
+    position: absolute;
+    bottom: -2px;
+    z-index: 1;
+    width: 100%;
+    background: #EE2A7B;
+    height: 3px;
+    left: 0px;
+    content: '';
+    border-radius: 20px;
+    transition: .8s;
+
 }
 .navMainMenu .mainLinkInn div{
     color: #292562;
@@ -369,8 +385,18 @@ header .secondFloor .rightContainer .myCabinet span{
     fill: #EE2A7B;
 }
 header .secondFloor .leftContainer{
-    display: flex;
+    display: none;
     padding-top: 43px;
+    transform: translateY(15px);
+    opacity: 0;
+    transition: .8s cubic-bezier(0, 0.18, 0.25, 0.99);
+}
+header .secondFloor .leftContainer.active{
+    display: flex;
+}
+header .secondFloor .leftContainer.active.animated{
+    transform: translateY(0px);
+    opacity: 1;
 }
 header .secondFloor .leftContainer .subMenuBtn{
     margin-right: 35px;
@@ -385,5 +411,150 @@ header .secondFloor .leftContainer .subMenuBtn path{
 }
 header .secondFloor .leftContainer .subMenuBtn:hover path{
     fill: #EE2A7B;
+}
+.subMenuInner{
+    padding: 40px 45px 30px 28px;
+    display: flex;
+}
+.subMenuTagsContainer{
+    width: 800px;
+}
+.subMenuTagContainer{
+    height: 52px;
+    overflow: hidden;
+    transition: .8s;
+}
+.subMenuTagContainerInner{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.subMenuTagContainer .tag{
+    height: 37px;
+    border: 1px solid #292562;
+    align-items: center;
+    display: flex;
+    padding: 0px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    transition: .6s;
+}
+.subMenuTagContainer .tag.mainTag{
+    border-color: #9199B4;
+}
+.subMenuTagContainer .tag.subTag{
+    background: #292562;
+    color: #fff;
+    display: none;
+    transform: translateX(15px);
+    opacity: 0;
+}
+.closeSubMenu{
+    padding-top: 6px;
+    margin-left: 10px;
+    transition: .6s;
+    transform: translateX(15px);
+    opacity: 0;
+    cursor: pointer;
+    display: none;
+}
+.closeSubMenu line{
+    transition: .6s;
+}
+.closeSubMenu:hover line{
+    stroke: #C20B56;
+}
+.subMenuTagContainerInner.active .subTag,.subMenuTagContainerInner.active .closeSubMenu{
+    transform: translateX(0px);
+    opacity: 1;
+
+}
+.subMenuTagContainer .tag:hover,.subMenuTagContainer .tag.active{
+    background: #EE2A7B;
+    color: #fff;
+    border-color: #9199B4;
+}
+.subMenuTagContainer .tag:hover line{
+    transition: .6s;
+}
+.subMenuTagContainer .tag:hover line,.subMenuTagContainer .tag.active line{
+    stroke: #ffffff;
+}
+.subMenuTagContainer .tag.mainTag svg{
+    margin-left: 10px;
+    margin-right: -6px;
+    transition: .6s;
+}
+.subMenuTagContainer .tag.mainTag.active svg{
+    transform: rotate(45deg);
+}
+.subMenu{
+    border: 1px solid #9199B4;
+    border-radius: 8px;
+}
+.subMenuPicLinkContainer{
+    position: relative;
+    width: calc(100% - 800px);
+    height: 272px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #292562;
+    transition: 1s;
+}
+.subMenuPicLinkContainer.animated{
+    height: 302px;
+}
+.subMenuPicLinkContainer img{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: .7;
+}
+.subMenuPicLinkContainerInner{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.subMenuPicLinkContainerInner h3{
+    font-size: 55px;
+    color: #fff;
+    line-height: 55px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.subMenuPicLinkContainerInner .subTtl{
+    color: #fff;
+    font-size: 16px;
+}
+.subMenuPicLinkContainerInner a{
+    height: 50px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    transition: .6s;
+    padding: 0px 50px;
+    background: #fff;
+    margin-top: auto;
+    width: fit-content;
+    color: #292562;
+    font-size: 16px;
+}
+.subMenuPicLinkContainerInner a:hover{
+    background: #EE2A7B;
+    color: #fff;
 }
 

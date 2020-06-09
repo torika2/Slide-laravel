@@ -56,7 +56,7 @@
             </a>
             <div class="nav">
                 <div class="navMainMenu">
-                    <div class="mainLink">
+                    <div class="mainLink active">
                         <div class="mainLinkInn">
                             <div class="fira-bold uppercase">
                                 ჩემთვის
@@ -70,13 +70,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mainLink">
+                    <a href="##" class="mainLink">
                         <div class="mainLinkInn">
                             <div class="fira-bold uppercase">
                                 კომპანიის შესახებ
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="navInner">
                     <a href="##" class="navLink"><div class="noto-semibold">კარიერა ჯიპიაიში</div></a>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="secondFloor">
-            <div class="leftContainer">
+            <div class="leftContainer active" data-index="0">
                 <div class="subMenuBtn noto-semibold">
                     დაზღვევა
                     <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6">
@@ -123,6 +123,21 @@
                     პირველ რიგში
                 </a>
             </div>
+            <div class="leftContainer" data-index="1">
+                <div class="subMenuBtn noto-semibold">
+                    დაზღვევა
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6">
+                        <path id="Polygon_3" data-name="Polygon 3" d="M4,0,8,6H0Z" transform="translate(8 6) rotate(180)" fill="#292562"/>
+                    </svg>
+                </div>
+                <a href="##" class="subMenuBtn noto-semibold">
+                    #ეკოისტი
+                </a>
+                <a href="##" class="subMenuBtn noto-semibold">
+                    პირველ რიგში
+                </a>
+            </div>
+
             <div class="rightContainer">
                 <div class="searchBtnContainer">
                     <div class="sbtn searchBtn">
@@ -151,6 +166,130 @@
                     </div>
                 </div>
                 <a href="##" class="myCabinet"><span class="fira-medium">ჩემი კაბინეტი</span></a>
+            </div>
+        </div>
+        <div class="subMenu">
+            <div class="subMenuInner">
+                <div class="subMenuTagsContainer">
+                    <div class="subMenuTagContainer">
+                        <div class="subMenuTagContainerInner">
+                            <div class="tag noto-semibold mainTag">
+                                ჯანმრთელობის დაზღვევა
+                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8">
+                                    <g id="Group_1037" data-name="Group 1037" transform="translate(-375.5 -257.5)">
+                                        <line id="Line_109" data-name="Line 109" x2="6" transform="translate(376.5 261.5)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="2"/>
+                                        <line id="Line_115" data-name="Line 115" y2="6" transform="translate(379.5 258.5)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="2"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <a href="##" class="subTag tag noto-semibold">
+                                ავტომობილის დაზღვევა
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold">
+                                პასუხისმგებლობის დაზღვევა
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold">
+                                პოლისი სტიქია
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold last">
+                                როგორ მივიღო ანაზღაურება
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold">
+                                ავტომობილის დაზღვევა
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold">
+                                პასუხისმგებლობის დაზღვევა
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold">
+                                პოლისი სტიქია
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold last">
+                                როგორ მივიღო ანაზღაურება
+                            </a>
+                            <div class="closeSubMenu">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                    <g id="Group_122" data-name="Group 122" transform="translate(-1516.964 -894.964)">
+                                        <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(1520.5 898.5)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"/>
+                                        <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(1520.5 898.5)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subMenuTagContainer">
+                        <div class="subMenuTagContainerInner">
+                            <div class="tag noto-semibold mainTag">
+                                ავტო დაზღვევა
+                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8">
+                                    <g id="Group_1037" data-name="Group 1037" transform="translate(-375.5 -257.5)">
+                                        <line id="Line_109" data-name="Line 109" x2="6" transform="translate(376.5 261.5)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="2"/>
+                                        <line id="Line_115" data-name="Line 115" y2="6" transform="translate(379.5 258.5)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="2"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <a href="##" class="subTag tag noto-semibold">
+                                ავტომობილის დაზღვევა
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold">
+                                პასუხისმგებლობის დაზღვევა
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold">
+                                პოლისი სტიქია
+                            </a>
+                            <a href="##" class="subTag tag noto-semibold last">
+                                როგორ მივიღო ანაზღაურება
+                            </a>
+                            <div class="closeSubMenu">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                    <g id="Group_122" data-name="Group 122" transform="translate(-1516.964 -894.964)">
+                                        <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(1520.5 898.5)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"/>
+                                        <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(1520.5 898.5)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subMenuTagContainer">
+                        <div class="subMenuTagContainerInner">
+                            <a href="##" class="tag noto-semibold">
+                                სახლის დაზღვევა
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="subMenuTagContainer">
+                        <div class="subMenuTagContainerInner">
+                            <a href="##" class="tag noto-semibold">
+                                სამოგზაურო დაზღვევა
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="subMenuTagContainer">
+                        <div class="subMenuTagContainerInner">
+                            <a href="##" class="tag noto-semibold">
+                                სიცოცხლის დაზღვევა
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="subMenuTagContainer">
+                        <div class="subMenuTagContainerInner">
+                            <a href="##" class="tag noto-semibold">
+                                სავალდებულო დაზღვევა
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="subMenuPicLinkContainer">
+                    <img src="{{asset('assets/img/mer.jpg')}}" alt="">
+                    <div class="subMenuPicLinkContainerInner">
+                        <h3 class="fira-bold uppercase">ავტომობილების <br>დაზღვევა</h3>
+                        <div class="subTtl noto-bold">ღირებულების 2,5 % დან</div>
+                        <a href="##" class="noto-bold">გაიგე მეტი</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

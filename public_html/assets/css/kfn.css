@@ -84,12 +84,13 @@ body {
 }
 #ecoist-slider .text-container .text-item.active a div span {
   animation: b_a .5s both .3s;
+  backface-visibility: hidden;
 }
 #ecoist-slider .text-container .text-item.active a {
   animation: b_b .5s both;
 }
 #ecoist-slider .text-container .text-item.active .text {
-  animation: b_c .5s both .3s;
+  animation: b_d .5s both .3s;
 }
 #ecoist-slider .text-container .text-item.active h2 {
   animation: b_b .5s both .3s;
@@ -152,6 +153,10 @@ body {
 @keyframes b_c {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+@keyframes b_d {
+  from { transform: translate(0,20px); opacity: 0; }
+  to { transform: translate(0,0px); opacity: 1; }
 }
 @media (max-width: 1599px) {
   #ecoist-slider {
@@ -822,6 +827,9 @@ body {
 .awards-container .main-content .row:last-child svg.drop-line {
     display: none;
 }
+.awards-container .main-content .row .side svg {
+  display: none;
+}
 @media (max-width: 1599px){
   .awards-container .main-content .row .side:nth-child(even) {
     padding-left: 50px;
@@ -862,6 +870,9 @@ body {
   }
   .awards-container .main-content .row:last-child .side:nth-child(2) svg {
     display: none;
+  }
+  .awards-container .main-content .row .side svg {
+    display: inline;
   }
 }
 @media (max-width: 767px){

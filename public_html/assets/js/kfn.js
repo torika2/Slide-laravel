@@ -215,6 +215,10 @@ window.onload = function(){
 
         ease = 0.2;
 
+        elem.style.display = 'none'
+        setTimeout(function() {
+            elem.style.display = 'block';
+        }, 100);
 
         document.querySelector('#ecoist-slider .slider-container').addEventListener('mousemove', function(e) {
             target.x = e.pageX,

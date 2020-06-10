@@ -1,4 +1,4 @@
-<img src="{{asset('assets/img/test.jpg')}}" alt="" class="test">
+{{--<img src="{{asset('assets/img/test.jpg')}}" alt="" class="test">--}}
 <header>
     <div class="in">
         <div class="firstFloor">

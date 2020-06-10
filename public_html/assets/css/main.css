@@ -253,7 +253,7 @@ button {
     object-fit: cover;
 }
 .img-overlay {
-    background: rgba(41, 37, 98);
+    background: rgba(41, 37, 98, 0.4);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -276,6 +276,9 @@ button {
     flex-direction: column;
 }
 .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     border-radius: 8px;
     font-family: 'FiraSans-Medium', 'NotoSansGeorgian-Medium';
@@ -301,7 +304,7 @@ button {
 }
 @media(max-width: 1900px) {
     .container {
-        padding: 0 198px;
+        padding: 0 192px;
     }
 }
 @media(max-width: 1679px) {
@@ -325,8 +328,13 @@ button {
     .font-55 {
         font-size: 34px;
     }
-    .btn-white {
+    .btn, .btn-white {
         font-size: 13px;
+        height: 40px;
+    }
+    .text {
+        font-size: 13px;
+        line-height: 20px;
     }
 }
 @media(max-width: 1023px) {
@@ -342,9 +350,7 @@ button {
     .font-34 {
         font-size: 21px;
     }
-    .text {
-        font-size: 13px;
-    }
+
 }
 @media(max-width: 767px) {
     .container {

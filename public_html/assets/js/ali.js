@@ -69,6 +69,7 @@ $(document).ready(function () {
 	const storiesSliderStart = function(){
 		const storiesSlider = document.querySelectorAll(".stories-slider");
 		storiesSlider.forEach(function(item){
+
 			if(item.childNodes[1].children.length <= 3){
 				var mySwiper = new Swiper ('.stories-slider', {
 				    speed: 400,
@@ -139,6 +140,7 @@ $(document).ready(function () {
   	setTimeout(storiesSliderStart, 500)
   });
 
+  
   var mySwiper = new Swiper('.newsOuter-slider', {
   speed: 400,
   slidesPerView: 2,

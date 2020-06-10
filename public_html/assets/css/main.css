@@ -224,7 +224,7 @@ button {
     padding-top: 233px;
 }
 .m-t-144 {
-    padding-top: 144px;
+    margin-top: 144px;
 }
 
 .text * {
@@ -320,7 +320,7 @@ button {
         padding: 0 71px;
     }
     .m-t-144 {
-        padding-top: 89px;
+        margin-top: 89px;
     }
     .font-89 {
         font-size: 55px;
@@ -360,7 +360,7 @@ button {
         padding-top: 55px;
     }
     .m-t-144 {
-        padding-top: 55px;
+        margin-top: 55px;
     }
 }
 

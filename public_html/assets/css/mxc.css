@@ -325,6 +325,12 @@ header .secondFloor:after{
     background: #9199B4;
     position: absolute;
     width: 100%;
+    transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+    opacity: 0;
+}
+body.animate header .secondFloor:after{
+    opacity: 1;
+    transition-delay: .2s;
 }
 header .secondFloor .rightContainer{
     padding-top: 30px;
@@ -335,11 +341,18 @@ header .secondFloor .rightContainer .myCabinet{
     display: flex;
     align-items: center;
     background: #EE2A7B;
-    transition: .8s;
+    transition: .8s ease-in-out;
     border-radius: 8px;
     padding: 13px 27px;
     overflow: hidden;
     text-decoration: none;
+    opacity: 0;
+    transform: scale(0.9);
+}
+body.animate header .secondFloor .rightContainer .myCabinet{
+    opacity: 1;
+    transform: scale(1);
+    transition-delay: .3s;
 }
 header .secondFloor .rightContainer .myCabinet:hover{
     background: #C20B56;
@@ -360,10 +373,19 @@ header .secondFloor .rightContainer .myCabinet span{
     align-items: center;
     cursor: pointer;
     position: relative;
+    transition: .8s ease-in-out;
+    opacity: 0;
 }
 .searchBtnContainer .sbtn:first-child{
     padding-right: 20px;
     margin-right: 20px;
+    transition-delay: .2s;
+}
+.searchBtnContainer .sbtn:last-child{
+    transition-delay: .3s;
+}
+body.animate .searchBtnContainer .sbtn{
+    opacity: 1;
 }
 .searchBtnContainer .sbtn:first-child:after{
     height: 15px;
@@ -420,13 +442,19 @@ header .secondFloor .leftContainer .subMenuBtn{
     cursor: pointer;
     transition: .6s;
 }
-header .secondFloor .leftContainer .subMenuBtn:hover,header .secondFloor .leftContainer .subMenuBtn.active{
+header .secondFloor .leftContainer .subMenuBtn:hover,header .secondFloor .leftContainer .subMenuBtn.active,header .secondFloor .leftContainer .subMenuBtn.opened{
     color: #EE2A7B;
 }
 header .secondFloor .leftContainer .subMenuBtn path{
     transition: .6s;
 }
-header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .leftContainer .subMenuBtn.active path{
+header .secondFloor .leftContainer .subMenuBtn svg{
+    transition: .6s;
+}
+header .secondFloor .leftContainer .subMenuBtn.opened svg{
+    transform: rotate(180deg) translateY(2px);
+}
+header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .leftContainer .subMenuBtn.active path,header .secondFloor .leftContainer .subMenuBtn.opened path{
     fill: #EE2A7B;
 }
 .subMenuInner{
@@ -608,4 +636,257 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     background: #EE2A7B;
     color: #fff;
 }
+.myCabinet svg{
+    display: none;
+}
 
+/*laptop 1680*/
+@media (max-width: 1900px){
+    .subMenuPicLinkContainerInner h3{
+        font-size: 34px;
+        line-height: 40px;
+    }
+}
+
+/*laptop 1366*/
+@media (max-width: 1659px){
+    .subMenuTagsContainer{
+        width: 570px;
+    }
+    .subMenuPicLinkContainer{
+        width: calc(100% - 570px);
+        height: 240px;
+    }
+}
+
+/*ipad pro 1024*/
+@media (max-width: 1365px){
+    .closeSubMenu{
+        padding-top: 2px;
+    }
+    header{
+        padding: 0px 71px;
+    }
+    header .firstFloor .nav .navInner .navLink div,.navMainMenu .mainLink .mainLinkInn div{
+        font-size: 13px;
+    }
+    header .firstFloor .nav .navInner .navLink:last-child {
+        margin-right: 19px;
+    }
+    .navMainMenu .mainLink{
+        margin-right: 30px;
+    }
+    .logo{
+        transform: scale(0.76);
+        transform-origin: left;
+        margin-top: 6px;
+        padding-bottom: 9px;
+    }
+    header .firstFloor .nav {
+        padding-top: 28px;
+    }
+    .navMainMenu{
+        padding-top: 9px;
+    }
+    header .secondFloor .leftContainer .subMenuBtn{
+        font-size: 13px;
+    }
+    .searchBtnContainer .sbtn .txt{
+        display: none;
+    }
+    header .secondFloor .rightContainer .myCabinet span{
+        font-size: 13px;
+    }
+    header .secondFloor .rightContainer{
+        padding-top: 27px;
+    }
+    header .secondFloor .rightContainer .myCabinet{
+        padding: 11px 27px;
+    }
+    .searchBtnContainer{
+        margin-right: 14px;
+    }
+    .searchBtnContainer .sbtn:first-child{
+        padding-right: 10px;
+    }
+    header .secondFloor .leftContainer{
+        padding-top: 39px;
+    }
+    header .secondFloor .leftContainer .subMenuBtn{
+        margin-right: 27px;
+    }
+    .subMenuPicLinkContainerInner{
+        padding: 20px;
+    }
+    .subMenuPicLinkContainerInner h3 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .subMenuPicLinkContainerInner a{
+        font-size: 13px;
+        height: 40px;
+    }
+    .subMenuPicLinkContainer{
+        height: 195px;
+    }
+    .subMenuTagContainer .tag{
+        height: 30px;
+        margin-bottom: 10px;
+        padding: 0px 10px;
+        font-size: 13px;
+    }
+    .subMenuTagContainer{
+        height: 40px;
+    }
+    .subMenuInner{
+        padding: 25px 35px 20px 18px;
+    }
+    .closeSubMenu{
+        margin-left: 10px;
+    }
+}
+/*ipad 768*/
+@media (max-width: 1023px){
+    header .firstFloor .nav .navInner .navLink{
+        display: none;
+    }
+    header .firstFloor .nav .navInner .navLink.lang {
+        display: inline-block;
+        margin-left: 18px;
+        padding-left: 18px;
+    }
+    header .firstFloor .nav .navInner .navLink.lang:before{
+        position: absolute;
+        content: "";
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        width: 1px;
+        background: rgba(0,43,127,0.16);
+        border-radius: 50px;
+        transition-delay: .3s;
+        transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
+        transform: scale(0);
+    }
+    body.animate header .firstFloor .nav .navInner .navLink.lang:before{
+        transform: scale(1);
+    }
+    header{
+        padding: 0px 33px;
+    }
+    .myCabinet svg{
+        display: block;
+    }
+    .myCabinet span{
+        display: none;
+    }
+    header .secondFloor .rightContainer .myCabinet{
+        width: 60px;
+        height: 40px;
+        justify-content: center;
+        padding: 0px;
+    }
+    .searchBtnContainer .sbtn:first-child:after{
+        top: 13px;
+    }
+    .subMenuTagsContainer {
+        width: 440px;
+    }
+    .subMenuPicLinkContainer {
+        width: calc(100% - 440px);
+        height: 190px;
+    }
+    .subMenuPicLinkContainerInner a{
+        padding: 0px 25px;
+    }
+    .subMenuPicLinkContainerInner h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .subMenuPicLinkContainerInner .subTtl{
+        font-size: 13px;
+    }
+}
+/*mobile 320*/
+@media (max-width: 767px){
+    .navMainMenu .mainLink:last-child {
+        margin-right: 15px;
+    }
+    .navMainMenu .mainLink{
+        margin-right: 15px;
+    }
+    .navMainMenu .mainLinkInn:after{
+        bottom: -20px;
+    }
+    .navMainMenu .mainLink{
+        white-space: nowrap;
+    }
+    .navMainMenu .mainLink:first-child{
+        margin-left: 17px;
+    }
+    .navMainMenu{
+        position: absolute;
+        left: 0px;
+        bottom: 70px;
+        width: 100%;
+        overflow: auto;
+        padding-bottom: 30px;
+        -webkit-overflow-scrolling: touch;
+    }
+    .navMainMenu::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE and Edge */
+    .navMainMenu {
+        -ms-overflow-style: none;
+    }
+
+    header .secondFloor{
+        margin-top: 54px;
+    }
+    .logo{
+        margin-top: 3px;
+        transform: scale(0.68);
+        padding-bottom: 0px;
+        margin-bottom: -4px;
+    }
+    header{
+        padding: 0px 17px;
+    }
+    header .secondFloor .leftContainer{
+        display: none!important;
+    }
+    header .subMenu{
+        display: none!important;
+    }
+    header .secondFloor .rightContainer .myCabinet{
+        width: 50px;
+        height: 35px;
+    }
+    header .firstFloor .nav {
+        padding-top: 25px;
+    }
+    header .firstFloor .nav .navInner .navLink div{
+        font-size: 16px!important;
+    }
+    header .firstFloor .nav .navInner .navLink.lang{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    body.animate header .firstFloor .nav .navInner .navLink.lang:before{
+        display: none;
+    }
+    .searchBtnContainer .sbtn .txt{
+        display: block;
+        font-size: 13px;
+    }
+    header .secondFloor .rightContainer{
+        margin-left: 0px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .searchBtnContainer .sbtn:first-child{
+        margin-right: 10px;
+    }
+}

@@ -13,6 +13,7 @@ $(document).ready(function () {
 
     $(".mainLinkInn").click(function () {
         if(!$(this).parent().hasClass("active") && $(this).parent().is("div")){
+            $(".subMenuBtn.opened").click();
             $(".mainLink").removeClass("active");
             $(this).parent().addClass("active");
             let thisIndex = $(this).parent().attr("data-index");
@@ -36,6 +37,7 @@ $(document).ready(function () {
 
     $(".subMenuBtn").click(function () {
         var subIndex = $(this).attr("data-sub");
+        $(".subMenuBtn").css("pointer-events","none");
         if($(this).hasClass("opened")){
             console.log("noo")
             $(".subMenuBtn").removeClass("opened");
@@ -43,7 +45,7 @@ $(document).ready(function () {
             setTimeout(function () {
                 $(".subHeight").children().removeClass("active");
                 $(".subMenu").css("height",0 + "px").css("opacity","0");
-
+                $(".subMenuBtn").css("pointer-events","all");
             },850);
             return false
         }
@@ -55,6 +57,7 @@ $(document).ready(function () {
             $(".subMenu").css("height",$(".subHeight").height() + "px").css("opacity","1");
             setTimeout(function () {
                 $(".subMenu").addClass("animate");
+                $(".subMenuBtn").css("pointer-events","all");
             },600)
         }
         if(!$(this).hasClass("opened") && $(".subMenuBtn").hasClass("opened")){
@@ -69,7 +72,7 @@ $(document).ready(function () {
 
             },850);
             setTimeout(function () {
-
+                $(".subMenuBtn").css("pointer-events","all");
                 $(".subMenu").addClass("animate");
             },900)
 
@@ -115,7 +118,7 @@ $(document).ready(function () {
                 $(this).parent().children().eq(i).css("transition-delay",i / 10 + "s");
             }
             $(".subMenuPicLinkContainer").removeClass("animated");
-            var endOfTransition = (thisBtn.parent().children().length * 100) + 600;
+            var endOfTransition = (thisBtn.parent().children().length * 100) + 400;
             $(this).removeClass("active");
 
             thisBtn.css("pointer-events","none");
@@ -123,7 +126,12 @@ $(document).ready(function () {
             setTimeout(function () {
                 thisBtn.siblings(".subTag").hide();
                 thisBtn.siblings(".closeSubMenu").hide();
-                thisBtn.parent().parent().css("height",50 + 'px');
+                if(window.innerWidth > 1365){
+                    thisBtn.parent().parent().css("height",50 + 'px');
+                }else{
+                    thisBtn.parent().parent().css("height",40 + 'px');
+                }
+
                 thisBtn.css("pointer-events","all");
                 setTimeout(function () {
                     $(".subMenu").css("height",$(".subHeight").height() + "px");

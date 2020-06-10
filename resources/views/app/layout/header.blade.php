@@ -1,4 +1,4 @@
-{{--<img src="{{asset('assets/img/test.jpg')}}" alt="" class="test">--}}
+<img src="{{asset('assets/img/test.jpg')}}" alt="" class="test">
 <header>
     <div class="in">
         <div class="firstFloor">
@@ -74,6 +74,13 @@
                         <div class="mainLinkInn">
                             <div class="fira-bold uppercase">
                                 კომპანიის შესახებ
+                            </div>
+                        </div>
+                    </a>
+                    <a href="##" class="mainLink mobMainLink">
+                        <div class="mainLinkInn">
+                            <div class="fira-bold uppercase">
+                                კარიერა ჯიპიაიში
                             </div>
                         </div>
                     </a>
@@ -165,7 +172,17 @@
                         <div class="txt noto-semibold">დახმარება</div>
                     </div>
                 </div>
-                <a href="##" class="myCabinet"><span class="fira-medium">ჩემი კაბინეტი</span></a>
+                <a href="##" class="myCabinet"><span class="fira-medium">ჩემი კაბინეტი</span> <svg xmlns="http://www.w3.org/2000/svg" width="19.094" height="21.135" viewBox="0 0 19.094 21.135">
+                        <g id="account" transform="translate(-10.7 -6.5)">
+                            <g id="Group_913" data-name="Group 913" transform="translate(14.684 6.5)">
+                                <path id="Path_5508" data-name="Path 5508" d="M32.663,17.626a5.563,5.563,0,1,1,5.563-5.563A5.547,5.547,0,0,1,32.663,17.626Z" transform="translate(-27.1 -6.5)" fill="#fff"/>
+                            </g>
+                            <g id="Group_914" data-name="Group 914" transform="translate(10.7 18.088)">
+                                <path id="Path_5509" data-name="Path 5509" d="M29.794,63.747H27.924a7.677,7.677,0,0,0-15.353,0H10.7a9.547,9.547,0,0,1,19.094,0Z" transform="translate(-10.7 -54.2)" fill="#fff"/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
             </div>
         </div>
         <div class="subMenu">

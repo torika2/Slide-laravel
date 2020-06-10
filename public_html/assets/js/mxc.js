@@ -8,7 +8,18 @@ $(document).ready(function () {
     // setTimeout(function () {
     //     $("body").addClass("noTransition");
     // },2500);
+    function fixHeader(){
+        if($(window).scrollTop() > window.innerHeight){
+            document.querySelector('.fixedHead').classList.add('active')
+        }else {
+            document.querySelector('.fixedHead').classList.remove('active')
+        }
+    }
+    fixHeader();
 
+    window.addEventListener('scroll',function(){
+        fixHeader();
+    })
     //firstFloor nav start
 
     $(".mainLinkInn").click(function () {

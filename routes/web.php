@@ -256,3 +256,8 @@ Route::get('/contact', function () {
     return view('app.pages.contact');
 
 });
+
+Route::get('/policy-details', function () {
+    return view('app.pages.policyDetails');
+
+});

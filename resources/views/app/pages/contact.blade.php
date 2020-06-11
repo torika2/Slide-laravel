@@ -169,86 +169,295 @@
 			<div class="noto-bold font-21 ttl">რეგიონალური ფილიალი</div>
 			<div class="font-13 color-prim subtitle">შეარჩიე შენთვის მოსახერხებელი ლოკაცია</div>
 			<div class="tabs">
-				<div class="active">
+				<div class="active" data-branch = "branches-1">
 					<span class="noto-bold">გაყიდვების დეპარტამენტი</span>
 					<span class="noto-bold">გაყიდვები</span>
 				</div>
-				<div>
+				<div data-branch = "branches-2">
 					<span class="noto-bold">სამედიცინო დეპარტამენტი</span>
 					<span class="noto-bold">სამედიცინო</span>
 				</div>
 			</div>
 
-			<div class="branches-grid">
-				<a href="#" class="list">
-					<div class="item">
-						<span>გორი</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-						  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
-						</svg>
-					</div>
-					<div class="item">
-						<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
-					</div>
-					<span class="item">
-						<span>08:00 - 20:00</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-						  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
-						</svg>
-					</span>
-					<div class="item">
-						<span class="noto-bold">0 370 27 94 22</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-						  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
-						</svg>
-					</div>
-					<div class="item">
-						<span>
-							<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
-							  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+			<div id="branches-grid-wrap">
+				<div class="branches-grid" id="branches-1">
+					<a href="#" class="list">
+						<div class="item">
+							<span>გორი</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
 							</svg>
-							<span>მიმართულება</span>
-						</span>
-					</div>
-					<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
-					  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
-					</svg>
-				</a>
-				<a href="#" class="list">
-					<div class="item">
-						<span>გორი</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-						  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
-						</svg>
-					</div>
-					<div class="item">
-						<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
-					</div>
-					<span class="item">
-						<span>08:00 - 20:00</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-						  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
-						</svg>
-					</span>
-					<div class="item">
-						<span class="noto-bold">0 370 27 94 22</span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-						  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
-						</svg>
-					</div>
-					<div class="item">
-						<span>
-							<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
-							  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+						</div>
+						<div class="item">
+							<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
+						</div>
+						<span class="item">
+							<span>08:00 - 20:00</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
 							</svg>
-							<span>მიმართულება</span>
 						</span>
-					</div>
-					<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
-					  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
-					</svg>
-				</a>
+						<div class="item">
+							<span class="noto-bold">0 370 27 94 22</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>
+								<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
+								  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+								</svg>
+								<span>მიმართულება</span>
+							</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+						  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+						</svg>
+					</a>
+					<a href="#" class="list">
+						<div class="item">
+							<span>გორი</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
+						</div>
+						<span class="item">
+							<span>08:00 - 20:00</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</span>
+						<div class="item">
+							<span class="noto-bold">0 370 27 94 22</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>
+								<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
+								  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+								</svg>
+								<span>მიმართულება</span>
+							</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+						  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+						</svg>
+					</a>
+				</div>
+				<div class="branches-grid" id="branches-2">
+					<a href="#" class="list">
+						<div class="item">
+							<span>გორი</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
+						</div>
+						<span class="item">
+							<span>08:00 - 20:00</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</span>
+						<div class="item">
+							<span class="noto-bold">0 370 27 94 22</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>
+								<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
+								  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+								</svg>
+								<span>მიმართულება</span>
+							</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+						  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+						</svg>
+					</a>
+					<a href="#" class="list">
+						<div class="item">
+							<span>გორი</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
+						</div>
+						<span class="item">
+							<span>08:00 - 20:00</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</span>
+						<div class="item">
+							<span class="noto-bold">0 370 27 94 22</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>
+								<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
+								  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+								</svg>
+								<span>მიმართულება</span>
+							</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+						  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+						</svg>
+					</a>
+					<a href="#" class="list">
+						<div class="item">
+							<span>გორი</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
+						</div>
+						<span class="item">
+							<span>08:00 - 20:00</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</span>
+						<div class="item">
+							<span class="noto-bold">0 370 27 94 22</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>
+								<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
+								  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+								</svg>
+								<span>მიმართულება</span>
+							</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+						  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+						</svg>
+					</a>
+					<a href="#" class="list">
+						<div class="item">
+							<span>გორი</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
+						</div>
+						<span class="item">
+							<span>08:00 - 20:00</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</span>
+						<div class="item">
+							<span class="noto-bold">0 370 27 94 22</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>
+								<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
+								  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+								</svg>
+								<span>მიმართულება</span>
+							</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+						  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+						</svg>
+					</a>
+					<a href="#" class="list">
+						<div class="item">
+							<span>გორი</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
+						</div>
+						<span class="item">
+							<span>08:00 - 20:00</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</span>
+						<div class="item">
+							<span class="noto-bold">0 370 27 94 22</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>
+								<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
+								  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+								</svg>
+								<span>მიმართულება</span>
+							</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+						  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+						</svg>
+					</a>
+					<a href="#" class="list">
+						<div class="item">
+							<span>გორი</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>ჭავჭავაძის ქ. 8 კლინიკა "ნოვა მედი"</span>
+						</div>
+						<span class="item">
+							<span>08:00 - 20:00</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</span>
+						<div class="item">
+							<span class="noto-bold">0 370 27 94 22</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+							</svg>
+						</div>
+						<div class="item">
+							<span>
+								<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="19.546" height="23.838" viewBox="0 0 19.546 23.838">
+								  <path id="Path_8939" data-name="Path 8939" d="M9.773,23.838C5.349,20.14,0,15.914,0,9.773a9.773,9.773,0,0,1,19.546,0C19.546,15.914,14.2,20.14,9.773,23.838Zm0-18.489A4.424,4.424,0,1,1,5.349,9.773,4.424,4.424,0,0,1,9.773,5.349Z" fill="#ee2a7b" fill-rule="evenodd"/>
+								</svg>
+								<span>მიმართულება</span>
+							</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+						  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+						</svg>
+					</a>
+				</div>
 			</div>
+			
 		</div>
 	</div>
 </div>

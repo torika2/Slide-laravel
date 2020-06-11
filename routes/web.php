@@ -252,7 +252,11 @@ Route::get('/about', function () {
 
 });
 
+
 Route::get('/policy-medi', function () {
     return view('app.pages.policyMedi');
+});
+Route::get('/contact', function () {
+    return view('app.pages.contact');
 
 });

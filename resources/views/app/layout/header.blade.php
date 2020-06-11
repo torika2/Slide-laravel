@@ -57,28 +57,28 @@
             <div class="nav">
                 <div class="navMainMenu">
                     <div class="mainLink active" data-index="0">
-                        <div class="mainLinkInn">
+                        <div class="mainLinkInn mainHead">
                             <div class="fira-bold uppercase">
                                 ჩემთვის
                             </div>
                         </div>
                     </div>
                     <div class="mainLink" data-index="1">
-                        <div class="mainLinkInn">
+                        <div class="mainLinkInn mainHead">
                             <div class="fira-bold uppercase">
                                 ბიზნესისთვის
                             </div>
                         </div>
                     </div>
                     <a href="##" class="mainLink">
-                        <div class="mainLinkInn">
+                        <div class="mainLinkInn mainHead">
                             <div class="fira-bold uppercase">
                                 კომპანიის შესახებ
                             </div>
                         </div>
                     </a>
                     <a href="##" class="mainLink mobMainLink">
-                        <div class="mainLinkInn">
+                        <div class="mainLinkInn mainHead">
                             <div class="fira-bold uppercase">
                                 კარიერა ჯიპიაიში
                             </div>
@@ -90,7 +90,7 @@
                     <a href="##" class="lang navLink"><div class="noto-semibold">ENG</div></a>
                 </div>
 
-                <div class="burger">
+                <div class="burger burgerMain">
                     <div>
                         <span></span>
                         <span></span>
@@ -565,3 +565,348 @@
         </div>
     </div>
 </header>
+<div class="fixedHead">
+    <a href="##" class="fixedLogo">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.509" height="45.196" viewBox="0 0 51.509 45.196">
+            <defs>
+                <linearGradient id="linear-gradient" x1="1" y1="0.417" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                    <stop offset="0" stop-color="#141c4f"></stop>
+                    <stop offset="1" stop-color="#002b7f"></stop>
+                </linearGradient>
+            </defs>
+            <path id="Path_253" data-name="Path 253" d="M527.173,205.359a1.275,1.275,0,0,0,.624,0,.839.839,0,0,1,.869.065.8.8,0,0,0,.53.151c.761-.082,2.517-.053,3-.649a3.413,3.413,0,0,1,.4-.434c.775-.355-2.608-2.19-2.835-2.193a3.8,3.8,0,0,1-.774-.081Zm22.391,1.94a3.5,3.5,0,0,1,1.4-.434c.582-.088.519-.23,1-.644.311-.269,1.342-.1,1.592-.433a1.711,1.711,0,0,1,.812,0c.058.1.313.141.4.211.644.522,1.06.278,1.8.432a7.357,7.357,0,0,0,1.375.222c.287-.183.477-.134.619.211a17.976,17.976,0,0,0,1.994,1.075.993.993,0,0,0,.461-.016c.216-.037.434-.074.538.016.037.032,1.375.57,1.375.637s-.123.188-.187.227a3.718,3.718,0,0,1-2.8,0,1.809,1.809,0,0,0-.585.1,1.906,1.906,0,0,1-.6.1c-.064-.028-.369.165-.4.211-.167.243-.811.378-1.1.428a2.1,2.1,0,0,1-.542-.035,1.552,1.552,0,0,0-.679-.01c-2.119.835-3.463-.016-4.479-.157a1.357,1.357,0,0,0-.315.111c-.408.158-1.129.315-1.891-.777-.259-.366-1.055-.361-1.667-.355a2.239,2.239,0,0,1-.7-.048c-.3-.137-.325-.176-.193-.436.083-.163.408-.468.589-.432a10.7,10.7,0,0,0,1.187,0,.992.992,0,0,1,.616,0,.06.06,0,0,0,.019,0,.924.924,0,0,0,.362-.211m7.8-17.824a1.482,1.482,0,0,0-.784.441c-.392.668-1.187.559-1.616.864-.1.072-1.375,2.059-1.6,2.152-.044.018-.471.837-2.283.841-.229,0-1.033.445-1.21.44-1.34-.053-3.1-1.164-3.481-1.082a6,6,0,0,1-2.21.2c-.071-.011-3.1.162-3.192.225a1.207,1.207,0,0,1-.805,0c-.631-.268-1.1-1.5-1.785-1.509a5.383,5.383,0,0,0-.571.033,2.168,2.168,0,0,1-1.113-.077c-.459-.218-.394-1.067-.825-1.718l-2.706,4.681c.806.341,1.489,1.166,2.409,1.175a2.171,2.171,0,0,0,1.09-.412c.5-.306.946-.614,1.314-.246a6.091,6.091,0,0,0,.594.426c.623.213,2.163.22,5.425-.51.588-.132.378.271-.113.673-.6.494-1.621.989-2.108.5a6.035,6.035,0,0,0-2.207.341c-.8.2-1.5.4-1.534.384a1.523,1.523,0,0,0-.8,0,9.467,9.467,0,0,0-2.415.958c-.105.072-1.145,0-1.254.079a3.881,3.881,0,0,1-1.8.584,2.586,2.586,0,0,0-.832-.1l-1.342,2.322a7.632,7.632,0,0,1,1.183-.5c.5-.026.83.51,1.276.51,1.084,0,1.926-1.635,2.93-1.585.41.021,1.125,1.036,1.189,1.075a5.247,5.247,0,0,0,3.366.911c.4-.023.665-.049.835.158s-.052.851-.213,1.073c-.3.429-.317,1.567,4.4,1.073a9.237,9.237,0,0,1,2.708.039c2.246.322.908,1.221-.051,1.129a10.277,10.277,0,0,0-2.448.339c-.306.248-.969.607-1,.64-.489.491-3.377,1.03-3.607,1.3-.069.083.041.329,0,.431-.183.469-1.1.425-1.947.383a4.962,4.962,0,0,0-1.241.025c-1.226.324-1.224-.38-2.209-.631a1.183,1.183,0,0,0-.587,0,3.6,3.6,0,0,1-1.407.223,11.6,11.6,0,0,0-1.594-.223c-1.078-.473-3.618-1.022-4.265-1.286-.037-.014-.115-.044-.206-.081l-5.1,8.825a2.2,2.2,0,0,0,1.931,3.24h20.652a17.828,17.828,0,0,0-.023-3.009c-.051-.273-.171-.876-.4-1.031-.023-.016-.065-.007-.108,0a.193.193,0,0,1-.095,0c-.645-.286-.983-1.025-1.472-1.554s-.839-1.147-1.321-1.666c-.3-.323-1.1-.8-1.3-1.19-.084-.169-.206-.6-.089-.746.1-.129.5-.134.651-.077.466.169.45.517.742.946a5.505,5.505,0,0,0,2.051,1.621,4.336,4.336,0,0,0,.742.4,1.382,1.382,0,0,0,.663.088c.617-.237-.63-3.428-.156-3.846.111-.1.406.19.514.289s.168.4.3.438a20.015,20.015,0,0,0,3.176.413c.323,0,1.168.2,1.184.528.005.137-.387.17-.482.271a2.578,2.578,0,0,0-.209,2.357,31.26,31.26,0,0,1,.253,3.812c0,.143-.222.369-.253.508a2.782,2.782,0,0,0,.075,1.451h22.031a2.2,2.2,0,0,0,2.194-2.2,2.275,2.275,0,0,0-.289-1.086l-6.563-11.37a1.814,1.814,0,0,1-1.268.082,4.277,4.277,0,0,0-1.81,0c-.892.412-.507.834-1.984.857-.075,0-.13.195-.2.226a1.641,1.641,0,0,1-1,0,26.053,26.053,0,0,0-5.392-1.083,5.6,5.6,0,0,1-2,0,.4.4,0,0,0-.083.007c-.042.007-.09.014-.109-.007a.222.222,0,0,1,0-.214c.521-.521,1.629-.294,2.387-.413A6.244,6.244,0,0,1,556.11,203a4.066,4.066,0,0,0,2.125-.22c.16-.068,1.263-.121,1.527-.2a5.281,5.281,0,0,0,1.194-1.077c.241-.3.109-1.236.4-1.491.038-.034,1.512-1.085,1.583-1.088.257-.011.249-.131.3-.176l-1.722-2.983c-.106.048-.22.1-.352.15-1.708.68-1.724,1.477-1.708,1.553.448,2.1-.651,3.533-2.629,3.283-2-.255-1.866-.862-3.273.53a3.135,3.135,0,0,1-2.374.665,6.761,6.761,0,0,1-2.615,0,3.678,3.678,0,0,0-1.549.023,3.908,3.908,0,0,1-1.85-.023c-.677-.315-3.539-.341-4.2-1.354-.214-.327-1.665-.163-2.166-.38-.447-.194,1.651-.964,1.783-1.071a2.115,2.115,0,0,1,1.282-.146,2.64,2.64,0,0,0,1.113-.07c.3-.145,1.878-.113,2.188-.424.114-.114,2.081-1.62,2.567-1.242.233.178.885.807,1.041.809.962,0,1.915.587,2.782.216,1.168-.5.5-1.706,2-1.706a7.175,7.175,0,0,1,2.021-.227c.863.209,1.379.364,1.783-.436a2.366,2.366,0,0,1,.213-.426,12.836,12.836,0,0,1,3.52-.459l-.8-1.382a3.061,3.061,0,0,1-1.927-.332,5.917,5.917,0,0,0-.795-.384c-.442.259-1.752.851-2,.4a5.488,5.488,0,0,1,.183-1.068c.007-.074.573-1.024.6-1.071a.746.746,0,0,1,.591-.216c.4.123,1.01-.394,1.5-.521l-.483-.837a1.011,1.011,0,0,0-.485-.156.627.627,0,0,0-.127.012M546.3,183.533a4.143,4.143,0,0,1,.894-.156c.466-.041,1.741-.514,1.757.833,0,.207.383.417.54.42a3.039,3.039,0,0,0,.4-.018c.3-.032.362-.062.886.262a2.693,2.693,0,0,0,1.352.384,7.051,7.051,0,0,0,.781.019c2.095-.582-.2,1.231-.45,1.317a3.212,3.212,0,0,1-.643-.007,5.324,5.324,0,0,0-1.039.007,3.382,3.382,0,0,1-.9.2c-.666-.134-.482-.134-.925,0-.116.037-.373.241-.447.223-.915-.222-1.1.172-1.97.216-.315.014-.9-.4-1.217-.44a2.13,2.13,0,0,1-1.827-.841c-.065-.088-.331.016-.675.121a2.155,2.155,0,0,1-1.3.081,2.016,2.016,0,0,1-.918-.658,4.673,4.673,0,0,1,1.677-.858,3.188,3.188,0,0,0,.6-.209c.549-.825.672-.315,1.523-.86a1.56,1.56,0,0,1,.788-.005,4.777,4.777,0,0,0,.6.048,1.427,1.427,0,0,0,.517-.081m-1.1-9.353-8.364,14.465a6.843,6.843,0,0,0,.962-.237,4.464,4.464,0,0,1,2.2.519,9.991,9.991,0,0,0,1.4.549,16.62,16.62,0,0,0,2.19-.631c.218-.1,1.011.408,1.2.42a7.15,7.15,0,0,0,2.265-.105,5.367,5.367,0,0,1,1.766-.12c.053,0,3.071.14,3.308.065.167-.053,1.465-.807,1.629-.876.413-.18.837-.524,1.417-.255a5.478,5.478,0,0,0,1.4.434,1,1,0,0,1,.584-.2s-8.085-13.99-8.09-14a2.176,2.176,0,0,0-3.876-.03" transform="translate(-521.359 -173.009)" fill="url(#linear-gradient)"></path>
+        </svg>
+    </a>
+    <a href="##" class="fixMenuLang noto-semibold">ENG</a>
+    <div class="burger">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="fixNavSocials">
+        <a href="##">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16.002" height="15.998" viewBox="0 0 16.002 15.998">
+                <path id="Subtraction_35" data-name="Subtraction 35" d="M18326-2478.5h-12a2,2,0,0,1-2-2v-12a2,2,0,0,1,2-2h12a2,2,0,0,1,2,2v12A2,2,0,0,1,18326-2478.5Zm-7.641-9.411a.361.361,0,0,0-.359.363v1.417a.352.352,0,0,0,.1.262.356.356,0,0,0,.258.115h.617a.107.107,0,0,1,.105.106v3.864a.361.361,0,0,0,.357.364h1.408a.363.363,0,0,0,.363-.364v-3.868a.108.108,0,0,1,.105-.106h1.027a.356.356,0,0,0,.354-.308l.234-1.417a.335.335,0,0,0-.078-.3.339.339,0,0,0-.27-.129h-1.207a.168.168,0,0,1-.166-.17v-.9a.328.328,0,0,1,.092-.271.341.341,0,0,1,.234-.093h1.1a.361.361,0,0,0,.363-.359v-1.435a.361.361,0,0,0-.363-.359h-1.264a2.361,2.361,0,0,0-1.738.592,2.1,2.1,0,0,0-.553,1.554v1.336a.1.1,0,0,1-.105.106Z" transform="translate(-18311.998 2494.499)" fill="#9199b4"/>
+            </svg>
+        </a>
+        <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17.003" height="17.003" viewBox="0 0 17.003 17.003">
+                <path id="Path_5309" data-name="Path 5309" d="M12.481,25h8.041A4.545,4.545,0,0,0,25,20.426v-7.85A4.545,4.545,0,0,0,20.522,8H12.481A4.545,4.545,0,0,0,8,12.577v7.85A4.545,4.545,0,0,0,12.481,25Zm8.98-14.169A1.063,1.063,0,1,1,20.419,11.9a1.063,1.063,0,0,1,1.041-1.063ZM16.5,12.251A4.251,4.251,0,1,1,12.339,16.5,4.208,4.208,0,0,1,16.5,12.251Z" transform="translate(-8 -8)" fill="#9199b4"/>
+            </svg>
+        </a>
+        <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18.957" height="16.249" viewBox="0 0 18.957 16.249">
+                <path id="Path_5308" data-name="Path 5308" d="M7.047,23.822a47.917,47.917,0,0,0,6.432.427,47.918,47.918,0,0,0,6.432-.423,3.517,3.517,0,0,0,3.047-3.48V11.906a3.517,3.517,0,0,0-3.047-3.48,48.708,48.708,0,0,0-12.864,0A3.517,3.517,0,0,0,4,11.906v8.436A3.517,3.517,0,0,0,7.047,23.822ZM11.3,14.567a1.158,1.158,0,0,1,1.784-.975l2.654,1.693a.982.982,0,0,1,0,1.652l-2.654,1.693a1.158,1.158,0,0,1-1.784-.975Z" transform="translate(-4 -8)" fill="#9199b4"/>
+            </svg>
+        </a>
+    </div>
+</div>
+<div class="fixedMenuContainer">
+    <div class="fixedMenuContainerInner">
+        <div class="firstFloor fxMenu">
+            <div class="nav">
+                <div class="navMainMenu">
+                    <div class="mainLink" data-index="0">
+                        <div class="mainLinkInn fxHead">
+                            <div class="fira-bold uppercase">
+                                ჩემთვის
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainLink" data-index="1">
+                        <div class="mainLinkInn fxHead active">
+                            <div class="fira-bold uppercase">
+                                ბიზნესისთვის
+                            </div>
+                        </div>
+                    </div>
+                    <a href="##" class="mainLink">
+                        <div class="mainLinkInn fxHead">
+                            <div class="fira-bold uppercase">
+                                კომპანიის შესახებ
+                            </div>
+                        </div>
+                    </a>
+                    <a href="##" class="mainLink mobMainLink">
+                        <div class="mainLinkInn">
+                            <div class="fira-bold uppercase">
+                                კარიერა ჯიპიაიში
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="navInner">
+                    <a href="##" class="navLink"><div class="noto-semibold">კარიერა ჯიპიაიში</div></a>
+                    <a href="##" class="lang navLink"><div class="noto-semibold">ENG</div></a>
+                </div>
+
+
+            </div>
+            <div class="fixMenuRight">
+                <a href="##" class="fixedCabinet fira-medium">ჩემი კაბინეტი</a>
+                <div class="closeFixMenu">
+                    <div class="noto-bold">დახურვა</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16.657" height="16.657" viewBox="0 0 16.657 16.657">
+                        <g id="Group_489" data-name="Group 489" transform="translate(-1518.672 -63.672)">
+                            <line id="Line_59" data-name="Line 59" x2="11" y2="11" transform="translate(1521.5 66.5)" fill="none" stroke="#5a5f83" stroke-linecap="round" stroke-width="4"/>
+                            <line id="Line_60" data-name="Line 60" x1="11" y2="11" transform="translate(1521.5 66.5)" fill="none" stroke="#5a5f83" stroke-linecap="round" stroke-width="4"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="fixedMenuListContainer">
+            <div data-index='0' class="fixedMenuListInnerContainer active">
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">დაზღვევა</div>
+                    <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+                    <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+
+                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">ანაზღაურება</div>
+                    <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+                    <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">ეკოისტი</div>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">პირველ რიგში</div>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+            </div>
+            <div data-index='1' class="fixedMenuListInnerContainer">
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">დაზღვევა</div>
+                    <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+                    <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+
+                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">ანაზღაურება</div>
+                    <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+                    <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">პირველ რიგში</div>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+            </div>
+            <div data-index='2' class="fixedMenuListInnerContainer">
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">დაზღვევა</div>
+                    <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+                    <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+
+                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">ანაზღაურება</div>
+                    <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
+                    <div class="fixedMenuSubContainerOuter">
+                        <div class="fixedMenuSubContainer">
+                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                        </div>
+                    </div>
+                    <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">ეკოისტი</div>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+                <div class="fixedMenuListLine">
+                    <div class="ttl noto-bold">პირველ რიგში</div>
+                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                </div>
+            </div>
+        </div>
+        <dib class="subscribeContainer">
+            <div class="ttl noto-bold">მიიღე შეთავაზებები პირველმა</div>
+            <div class="subTtl">იყავი ახალი ამბების და შეთავაზებების საქმის კურსში</div>
+            <div class="subInputContainer">
+                <input type="text" placeholder="ელ. ფოსტა">
+                <div class="subBtn">
+                    <div class="noto-bold">გამოწერა</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="7.215" height="12.814" viewBox="0 0 7.215 12.814">
+                        <g id="Group_838" data-name="Group 838" transform="translate(-1510.793 -2727.14)">
+                            <line id="Line_90" data-name="Line 90" x2="5.649" y2="5.6" transform="translate(1511.652 2727.847)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="1"/>
+                            <line id="Line_91" data-name="Line 91" y1="5.801" x2="5.801" transform="translate(1511.5 2733.446)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="1"/>
+                        </g>
+                    </svg>
+
+                </div>
+            </div>
+            <div class="subSocialsContainer">
+                <div class="searchBtnContainer">
+                    <div class="sbtn searchBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22.078" height="22.129" viewBox="0 0 22.078 22.129">
+                            <g id="Group_503" data-name="Group 503" transform="translate(-1159.19 -55.501)">
+                                <g id="Path_4700" data-name="Path 4700" transform="translate(1159.19 55.501)" fill="none">
+                                    <path d="M10.639,0A10.639,10.639,0,1,1,0,10.639,10.639,10.639,0,0,1,10.639,0Z" stroke="none"></path>
+                                    <path d="M 10.638916015625 1.999996185302734 C 5.875395774841309 1.999996185302734 1.999996185302734 5.875395774841309 1.999996185302734 10.638916015625 C 1.999996185302734 15.40243530273438 5.875395774841309 19.27783584594727 10.638916015625 19.27783584594727 C 15.40243530273438 19.27783584594727 19.27783584594727 15.40243530273438 19.27783584594727 10.638916015625 C 19.27783584594727 5.875395774841309 15.40243530273438 1.999996185302734 10.638916015625 1.999996185302734 M 10.638916015625 -3.814697265625e-06 C 16.51462554931641 -3.814697265625e-06 21.27783584594727 4.763206481933594 21.27783584594727 10.638916015625 C 21.27783584594727 16.51462554931641 16.51462554931641 21.27783584594727 10.638916015625 21.27783584594727 C 4.763206481933594 21.27783584594727 -3.814697265625e-06 16.51462554931641 -3.814697265625e-06 10.638916015625 C -3.814697265625e-06 4.763206481933594 4.763206481933594 -3.814697265625e-06 10.638916015625 -3.814697265625e-06 Z" stroke="none" fill="#292562"></path>
+                                </g>
+                                <path id="Path_4699" data-name="Path 4699" d="M1.986,1.986,0,0" transform="translate(1177.161 73.523)" fill="none" stroke="#292562" stroke-linecap="round" stroke-width="3"></path>
+                            </g>
+                        </svg>
+                        <div class="txt noto-semibold">ძიება</div>
+                    </div>
+                    <div class="sbtn helpBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                            <g id="Group_242" data-name="Group 242" transform="translate(-1182 -213)">
+                                <g id="Ellipse_47" data-name="Ellipse 47" transform="translate(1182 213)" fill="none" stroke="#292562" stroke-width="2">
+                                    <circle cx="11" cy="11" r="11" stroke="none"></circle>
+                                    <circle cx="11" cy="11" r="10" fill="none"></circle>
+                                </g>
+                                <path id="Union_53" data-name="Union 53" d="M15940.75,1712.819a1.21,1.21,0,1,1,1.211,1.221A1.215,1.215,0,0,1,15940.75,1712.819Zm.094-2.611a.107.107,0,0,1-.1-.062v-.048c-.006-.008-.016-.017-.021-.026v-.611a2.513,2.513,0,0,1,.557-1.177c.336-.417.676-.829,1.039-1.216.518-.559.777-1.348.252-1.835-.715-.753-1.494-.519-2.248.215-.277.267-.262.284-.508-.035s-.488-.639-.74-.956c-.066-.091-.129-.161,0-.271a4.2,4.2,0,0,1,3-1.181,3.094,3.094,0,0,1,2.205.873,1.5,1.5,0,0,1,.227.321,2.187,2.187,0,0,1,.4,1.624,3.859,3.859,0,0,1-.887,1.9,4.267,4.267,0,0,0-1.109,1.617v.756a.109.109,0,0,1-.107.113Z" transform="translate(-14749.002 -1485)" fill="#292562" opacity="0.75"></path>
+                            </g>
+                        </svg>
+                        <div class="txt noto-semibold">დახმარება</div>
+                    </div>
+                    <div class="subscrSocials">
+                        <div class="socTtl noto-bold">სოციალური ქსელი:</div>
+                        <a href="##">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16.002" height="15.998" viewBox="0 0 16.002 15.998">
+                                <path id="Subtraction_35" data-name="Subtraction 35" d="M18326-2478.5h-12a2,2,0,0,1-2-2v-12a2,2,0,0,1,2-2h12a2,2,0,0,1,2,2v12A2,2,0,0,1,18326-2478.5Zm-7.641-9.411a.361.361,0,0,0-.359.363v1.417a.352.352,0,0,0,.1.262.356.356,0,0,0,.258.115h.617a.107.107,0,0,1,.105.106v3.864a.361.361,0,0,0,.357.364h1.408a.363.363,0,0,0,.363-.364v-3.868a.108.108,0,0,1,.105-.106h1.027a.356.356,0,0,0,.354-.308l.234-1.417a.335.335,0,0,0-.078-.3.339.339,0,0,0-.27-.129h-1.207a.168.168,0,0,1-.166-.17v-.9a.328.328,0,0,1,.092-.271.341.341,0,0,1,.234-.093h1.1a.361.361,0,0,0,.363-.359v-1.435a.361.361,0,0,0-.363-.359h-1.264a2.361,2.361,0,0,0-1.738.592,2.1,2.1,0,0,0-.553,1.554v1.336a.1.1,0,0,1-.105.106Z" transform="translate(-18311.998 2494.499)" fill="#9199b4"></path>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.003" height="17.003" viewBox="0 0 17.003 17.003">
+                                <path id="Path_5309" data-name="Path 5309" d="M12.481,25h8.041A4.545,4.545,0,0,0,25,20.426v-7.85A4.545,4.545,0,0,0,20.522,8H12.481A4.545,4.545,0,0,0,8,12.577v7.85A4.545,4.545,0,0,0,12.481,25Zm8.98-14.169A1.063,1.063,0,1,1,20.419,11.9a1.063,1.063,0,0,1,1.041-1.063ZM16.5,12.251A4.251,4.251,0,1,1,12.339,16.5,4.208,4.208,0,0,1,16.5,12.251Z" transform="translate(-8 -8)" fill="#9199b4"></path>
+                            </svg>
+                        </a>
+                        <a href="##">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.957" height="16.249" viewBox="0 0 18.957 16.249">
+                                <path id="Path_5308" data-name="Path 5308" d="M7.047,23.822a47.917,47.917,0,0,0,6.432.427,47.918,47.918,0,0,0,6.432-.423,3.517,3.517,0,0,0,3.047-3.48V11.906a3.517,3.517,0,0,0-3.047-3.48,48.708,48.708,0,0,0-12.864,0A3.517,3.517,0,0,0,4,11.906v8.436A3.517,3.517,0,0,0,7.047,23.822ZM11.3,14.567a1.158,1.158,0,0,1,1.784-.975l2.654,1.693a.982.982,0,0,1,0,1.652l-2.654,1.693a1.158,1.158,0,0,1-1.784-.975Z" transform="translate(-4 -8)" fill="#9199b4"></path>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.57" height="22.57" viewBox="0 0 22.57 22.57">
+                                <path id="icons8-linkedin" d="M24.518,4H6.052A2.051,2.051,0,0,0,4,6.052V24.518A2.051,2.051,0,0,0,6.052,26.57H24.518a2.051,2.051,0,0,0,2.052-2.052V6.052A2.051,2.051,0,0,0,24.518,4ZM11.134,22.466H8.108V12.728h3.026ZM9.59,11.336a1.764,1.764,0,1,1,1.764-1.765A1.764,1.764,0,0,1,9.59,11.336Zm12.88,11.13H19.446V17.731c0-1.13-.021-2.582-1.573-2.582-1.575,0-1.817,1.23-1.817,2.5v4.818H13.032V12.728h2.9v1.331h.041a3.18,3.18,0,0,1,2.863-1.573c3.064,0,3.631,2.017,3.631,4.639Z" transform="translate(-4 -4)" fill="#9199b4"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </dib>
+    </div>
+</div>

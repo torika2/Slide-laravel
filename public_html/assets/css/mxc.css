@@ -152,18 +152,18 @@ body.animate .secondFloorLogo svg{
 .burger div:nth-child(3) span:nth-child(2){
     transition-delay: .7s;
 }
-body.animate .burger span{
+body.animate .burger.burgerMain span{
     transform: scale(1);
 }
 .burger div{
     display: flex;
     justify-content: space-between;
 }
-header .firstFloor{
+.firstFloor{
     display: flex;
     justify-content: space-between;
 }
-header .firstFloor .nav{
+.firstFloor .nav{
     display: flex;
     padding-top: 37px;
 }
@@ -171,10 +171,10 @@ header .firstFloor .nav{
     background: #EE2A7B;
     transition-delay: 0s!important;
 }
-header .firstFloor .nav .navInner{
+.firstFloor .nav .navInner{
     padding-top: 4px;
 }
-header .firstFloor .nav .navInner .navLink{
+.firstFloor .nav .navInner .navLink{
     margin-right: 18px;
     padding-right: 18px;
     position: relative;
@@ -183,22 +183,22 @@ header .firstFloor .nav .navInner .navLink{
     text-decoration: none;
     display: inline-block;
 }
-header .firstFloor .nav .navInner .navLink div{
+.firstFloor .nav .navInner .navLink div{
     transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
     transform: translateX(10px);
     opacity: 0;
 }
-header .firstFloor .nav .navInner .navLink:hover div{
+.firstFloor .nav .navInner .navLink:hover div{
     color: #EE2A7B;
 }
-header .firstFloor .nav .navInner .navLink:last-child{
+.firstFloor .nav .navInner .navLink:last-child{
     margin-right: 23px;
 }
-header .firstFloor .nav .navInner .navLink:first-child{
+.firstFloor .nav .navInner .navLink:first-child{
     margin-left: 18px;
     padding-left: 18px;
 }
-header .firstFloor .nav .navInner .navLink:first-child:before{
+.firstFloor .nav .navInner .navLink:first-child:before{
     position: absolute;
     content: "";
     height: 100%;
@@ -208,7 +208,7 @@ header .firstFloor .nav .navInner .navLink:first-child:before{
     background: rgba(0,43,127,0.16);
     border-radius: 50px;
 }
-header .firstFloor .nav .navInner .navLink:after{
+.firstFloor .nav .navInner .navLink:after{
     position: absolute;
     content: "";
     height: 100%;
@@ -248,10 +248,14 @@ header .firstFloor .nav .navInner .navLink:after{
 .navMainMenu .mainLink.active .mainLinkInn:after{
     transform: translateX(500%);
 }
-body.animate .navMainMenu .mainLink.active .mainLinkInn:after{
+body.animate .firstFloor:not(.fxMenu) .navMainMenu .mainLink.active .mainLinkInn:after{
     transform: translateX(0%);
 }
-.navMainMenu .mainLinkInn:hover:after,body.animate .navMainMenu .mainLink.active .mainLinkInn:after{
+.active.fixedMenuContainer .firstFloor.fxMenu .navMainMenu .mainLink.active .mainLinkInn:after{
+    transform: translateX(0%);
+    opacity: 1;
+}
+.navMainMenu .mainLinkInn:hover:after,body.animate .firstFloor:not(.fxMenu) .navMainMenu .mainLink.active .mainLinkInn:after{
     opacity: 1;
 }
 .navMainMenu .mainLink .mainLinkInn div{
@@ -274,41 +278,51 @@ body.animate .navMainMenu .mainLink.active .mainLinkInn:after{
 .navMainMenu .mainLink:nth-child(3) .mainLinkInn div{
     transition-delay: .3s;
 }
-body.animate .navMainMenu .mainLinkInn div{
+body.animate .firstFloor:not(.fxMenu) .navMainMenu .mainLinkInn div{
+    transform: translateY(0%);
+}
+.fixedMenuContainer.active .firstFloor .navMainMenu .mainLinkInn div{
     transform: translateY(0%);
 }
 .navMainMenu .mainLink:last-child{
     margin-right: 0px;
 }
-header .firstFloor .nav .navInner .navLink:first-child:before{
+.firstFloor .nav .navInner .navLink:first-child:before{
     transform: scale(0);
     transition-delay: .3s;
     transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
 }
-header .firstFloor .nav .navInner .navLink:first-child:after{
+.firstFloor .nav .navInner .navLink:first-child:after{
     transform: scale(0);
     transition-delay: .4s;
     transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
 }
-header .firstFloor .nav .navInner .navLink:last-child:after{
+.firstFloor .nav .navInner .navLink:last-child:after{
     transform: scale(0);
     transition-delay: .5s;
     transition: 1s cubic-bezier(0, 0.18, 0.25, 0.99);
 }
-body.animate header .firstFloor .nav .navInner .navLink:first-child:before,body.animate header .firstFloor .nav .navInner .navLink:first-child:after,body.animate header .firstFloor .nav .navInner .navLink:last-child:after{
+body.animate .firstFloor:not(.fxMenu) .nav .navInner .navLink:first-child:before,body.animate .firstFloor.firstFloor:not(.fxMenu) .nav .navInner .navLink:first-child:after,body.animate .firstFloor:not(.fxMenu) .nav .navInner .navLink:last-child:after{
     transform: scale(1);
 }
-header .firstFloor .nav .navInner .navLink:nth-child(1) div{
+.active.fixedMenuContainer .firstFloor.fxMenu .nav .navInner .navLink:first-child:before,.active.fixedMenuContainer .firstFloor.firstFloor.fxMenu .nav .navInner .navLink:first-child:after,.active.fixedMenuContainer .firstFloor.fxMenu .nav .navInner .navLink:last-child:after{
+    transform: scale(1);
+}
+.firstFloor .nav .navInner .navLink:nth-child(1) div{
     transition-delay: .4s;
 }
-header .firstFloor .nav .navInner .navLink:nth-child(2) div{
+.firstFloor .nav .navInner .navLink:nth-child(2) div{
     transition-delay: .6s;
 }
-body.animate header .firstFloor .nav .navInner .navLink div{
+body.animate .firstFloor:not(.fxMenu) .nav .navInner .navLink div{
     opacity: 1;
     transform: translateX(0px);
 }
-body.noTransition header .firstFloor .nav .navInner .navLink div{
+.active.fixedMenuContainer .firstFloor.fxMenu .nav .navInner .navLink div{
+    opacity: 1;
+    transform: translateX(0px);
+}
+body.noTransition .firstFloor .nav .navInner .navLink div{
     transition-delay: 0s!important;
 }
 header .secondFloor{
@@ -639,17 +653,402 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 .myCabinet svg{
     display: none;
 }
+.fixedHead{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 100px;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    background: #F5FBFF;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 43px;
+    padding-bottom: 80px;
+    transform: translateX(-105%);
+    transition: .6s ease-in-out;
+    transition-delay: .8s;
+}
+.fixedHead.active{
+    transform: translateX(0%);
+    transition: .6s cubic-bezier(0, 0.18, 0.25, 0.99);
+    transition-delay: 0s;
+}
+.fixNavSocials{
+    display: flex;
+    flex-direction: column;
+}
+.fixNavSocials a{
+    display: flex;
+    margin-top: 13px;
+    transition: .6s cubic-bezier(0, 0.18, 0.25, 0.99);
+    transform: translateY(20px);
+    opacity: 0;
+}
+.fixNavSocials a:nth-child(1){
+    transition-delay: .2s;
+}
+.fixNavSocials a:nth-child(2){
+    transition-delay: .1s;
+}
+.fixNavSocials a:nth-child(3){
+    transition-delay: 0s;
+}
+.fixedHead.active .fixNavSocials a:nth-child(1){
+    transition-delay: .6s;
+}
+.fixedHead.active .fixNavSocials a:nth-child(2){
+    transition-delay: .7s;
+}
+.fixedHead.active .fixNavSocials a:nth-child(3){
+    transition-delay: .8s;
+}
+.fixedHead.active .fixNavSocials a{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.fixNavSocials a path{
+    transition: .6s;
+}
+.fixNavSocials a:hover path{
+    fill: #EE2A7B;
+}
+.fixedHead.active .burger span{
+    transform: scale(1);
+    transition-delay: 1s;
+}
+.fixedLogo{
+    transition: .6s cubic-bezier(0, 0.18, 0.25, 0.99);
+    transform: scale(1.3);
+    opacity: 0;
+}
+.fixedHead.active .fixedLogo{
+    transform: scale(1);
+    opacity: 1;
+    transition-delay: .6s;
+}
+.mobMainLink{
+    display: none;
+}
+.fixedMenuContainer{
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1999;
+    transition: .6s ease-in-out;
+    transition-delay: .6s;
+    opacity: 0;
+    display: none;
+}
+.fixedMenuContainer.open{
+    transition-delay: 0s;
+    opacity: 1;
+}
+.fixedMenuContainerInner{
+    padding: 0px 360px;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.firstFloor.fxMenu{
+    height: 103px;
+    position: relative;
+}
+.firstFloor.fxMenu:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #9199B4;
+    left: 0px;
+    bottom: -1px;
+    position: absolute;
+    opacity: 0;
+    transition: .6s ease-in-out;
+}
+.fixedMenuContainer.active .firstFloor.fxMenu:after{
+    opacity: 1;
+}
+.fixedCabinet{
+    display: flex;
+    align-items: center;
+    background: #EE2A7B;
+    transition: .8s ease-in-out;
+    border-radius: 8px;
+    padding: 13px 27px;
+    overflow: hidden;
+    text-decoration: none;
+    opacity: 0;
+    transform: scale(0.9);
+    color: #fff;
+    margin-right: 15px;
+}
+.fixedCabinet:hover{
+    background: #C20B56;
+}
+.fixedMenuContainer.active .fixedCabinet{
+    opacity: 1;
+    transform: scale(1);
+}
+.fixMenuRight{
+    display: flex;
+    height: fit-content;
+    margin-top: 27px;
+    align-items: center;
+}
+.closeFixMenu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: .8s ease-in-out;
+}
+.active.fixedMenuContainer .closeFixMenu{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.closeFixMenu > div{
+    font-size: 13px;
+    margin-right: 14px;
+    transition: .6s;
+}
+.closeFixMenu  line{
+    transition: .6s;
+}
+.closeFixMenu:hover line{
+    stroke:#EE2A7B;
+}
+.closeFixMenu:hover div{
+    color: #EE2A7B;
+}
+.fixedMenuListInnerContainer{
+    display: none;
+}
+.fixedMenuListInnerContainer.active{
+    display: flex;
+}
+.fixedMenuListContainer{
+    margin-top: 50px;
+    transition: .6s ease-in-out;
+    overflow: hidden;
+}
+.fixedMenuListLine .ttl{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.fixedMenuNavLink{
+    margin-bottom: 10px;
+    transition: .6s ease-in-out;
+    cursor: pointer;
+    position: relative;
+}
+.fixedMenuNavLink:after{
+    width: 7.5px;
+    height: 2px;
+    background: #CC004A;
+    border-radius: 20px;
+    left: 0px;
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    transition: .6s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.fixedMenuNavLink.active:after{
+    transform: scaleX(1);
+}
+.fixedMenuNavLink:hover{
+    color: #CC004A;
+}
+.fixedMenuNavLink.active{
+    color: #CC004A;
+    padding-left: 15px;
+}
+.fixedMenuListLine:nth-child(2){
+    transition-delay: .1s;
+}
+.fixedMenuListLine:nth-child(3){
+    transition-delay: .2s;
+}
+.fixedMenuListLine:nth-child(4){
+    transition-delay: .3s;
+}
+.fixedMenuListLine{
+    flex-direction: column;
+    display: flex;
+    padding-right: 20px;
+    transform: translateY(15px);
+    opacity: 0;
+    transition: .6s ease-in-out;
+}
 
+.fixedMenuListContainer.animate .fixedMenuListLine{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.fixedMenuSubContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    transform: translateY(15px);
+    opacity: 0;
+    transition: .6s ease-in-out;
+}
+.fixedMenuSubContainerOuter.active .fixedMenuSubContainer{
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: .4s;
+}
+.fixedMenuSublink{
+    font-size: 13px;
+    margin-bottom: 15px;
+    transition: .6s;
+}
+.fixedMenuSublink.active,.fixedMenuSublink:hover{
+    color: #CC004A;
+}
+.fixedMenuSubContainerOuter{
+    overflow: hidden;
+    height: 0px;
+    transition: .6s ease-in-out;
+}
+.subscribeContainer .ttl{
+    font-size: 21px;
+}
+.subscribeContainer .subTtl{
+    font-size: 13px;
+    color: #EE2A7B;
+    margin-top: 5px;
+}
+.subInputContainer{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #9199B4;
+    width: fit-content;
+    margin-top: 35px;
+}
+.subInputContainer input{
+    height: 45px;
+    width: 420px;
+    border: 0px;
+    padding-left: 5px;
+    color: #292562;
+}
+.subInputContainer input::placeholder{
+    color: #292562;
+}
+.subInputContainer .subBtn{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.subInputContainer .subBtn div{
+    transition: .6s;
+}
+.subInputContainer .subBtn svg{
+    margin-left: 20px;
+    transition: .6s;
+    transition-delay: 0.1s;
+}
+.subInputContainer .subBtn:hover div{
+    transform: translateX(10px);
+    transition-delay: .1s;
+    color: #EE2A7B;
+}
+.subInputContainer .subBtn:hover svg{
+    transform: translateX(10px);
+    transition-delay: 0s;
+}
+.subInputContainer .subBtn:after{
+    content: '';
+    left: 0px;
+    top: 0px;
+    background: #9199B4;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    border-radius: 20px;
+}
+.subscribeContainer{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(15px);
+    opacity: 0;
+    transition: .6s ease-in-out;
+}
+.fixedMenuContainer.active .subscribeContainer{
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: .6s;
+}
+.searchBtnContainer .subscrSocials{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.searchBtnContainer .subscrSocials:after{
+    height: 15px;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    width: 1px;
+    background: #002B7F;
+    opacity: .16;
+    content: '';
+}
+.searchBtnContainer .subscrSocials a svg{
+    height: 23px;
+    width: 23px;
+}
+.searchBtnContainer .subscrSocials a{
+    display: flex;
+    margin-left: 15px;
+}
+.searchBtnContainer .subscrSocials a path{
+    transition: .6s;
+}
+.searchBtnContainer .subscrSocials a:hover path{
+    fill: #EE2A7B;
+}
+.subSocialsContainer .searchBtnContainer .sbtn:first-child:after{
+    top: 6px;
+}
+.subSocialsContainer{
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+.fixedMenuContainerInner{
+    overflow-x: hidden!important;
+}
+.fixMenuLang{
+    display: none;
+}
 /*laptop 1680*/
 @media (max-width: 1900px){
     .subMenuPicLinkContainerInner h3{
         font-size: 34px;
         line-height: 40px;
     }
+    .fixedMenuContainerInner{
+        padding: 0px 260px;
+    }
 }
 
 /*laptop 1366*/
 @media (max-width: 1659px){
+    .fixedMenuContainerInner {
+        padding: 0px 125px;
+    }
     .subMenuTagsContainer{
         width: 570px;
     }
@@ -661,16 +1060,20 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 
 /*ipad pro 1024*/
 @media (max-width: 1365px){
+    .fixedHead{
+        overflow: hidden;
+        width: 65px;
+    }
     .closeSubMenu{
         padding-top: 2px;
     }
     header{
         padding: 0px 71px;
     }
-    header .firstFloor .nav .navInner .navLink div,.navMainMenu .mainLink .mainLinkInn div{
+    .firstFloor .nav .navInner .navLink div,.navMainMenu .mainLink .mainLinkInn div{
         font-size: 13px;
     }
-    header .firstFloor .nav .navInner .navLink:last-child {
+    .firstFloor .nav .navInner .navLink:last-child {
         margin-right: 19px;
     }
     .navMainMenu .mainLink{
@@ -700,8 +1103,21 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     header .secondFloor .rightContainer{
         padding-top: 27px;
     }
-    header .secondFloor .rightContainer .myCabinet{
+    header .secondFloor .rightContainer .myCabinet,.fixedCabinet{
         padding: 11px 27px;
+    }
+    .fixedCabinet{
+        font-size: 13px;
+    }
+    .fixMenuRight{
+        margin-top: 33px;
+    }
+    .fixedMenuSublink{
+        margin-bottom: 10px;
+    }
+    .fixedMenuNavLink{
+        font-size: 13px;
+        margin-bottom: 5px;
     }
     .searchBtnContainer{
         margin-right: 14px;
@@ -744,9 +1160,79 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     .closeSubMenu{
         margin-left: 10px;
     }
+    .fixedMenuContainerInner {
+        padding: 0px 100px;
+        padding-right: 35px;
+    }
+    .closeFixMenu > div{
+        display: none;
+    }
+    .firstFloor .nav {
+        display: flex;
+        padding-top: 28px;
+    }
+    .firstFloor.fxMenu{
+        height: 86px;
+    }
+    .fixMenuRight {
+        margin-top: 24px;
+    }
+    .fixedMenuListContainer{
+        margin-top: 30px;
+    }
+    .fixedMenuListLine .ttl {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
 }
 /*ipad 768*/
 @media (max-width: 1023px){
+    .fixedHead .burger {
+        margin-left: 0px;
+    }
+    .fixMenuLang{
+        display: flex;
+        margin-left: auto;
+        margin-right: 20px;
+        padding-right: 15px;
+        border-right: 1px solid rgba(0,43,127,0.16);
+        transition: .6s;
+        opacity: 0;
+    }
+    .fixedHead.active .fixMenuLang{
+        opacity: 1;
+        transition-delay: .6s;
+    }
+    .fixNavSocials{
+        display: none;
+    }
+    .fixedMenuContainerInner{
+        padding: 0px 33px;
+    }
+    .firstFloor.fxMenu{
+        margin-top: 90px;
+    }
+    .fixNavSocials {
+        flex-direction: row;
+    }
+    .fixNavSocials a{
+        margin-top: 0px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .fixedHead{
+        transform: translateY(-105%);
+        width: 100%;
+        height: 90px;
+        flex-direction: row;
+        padding: 0px 33px;
+    }
+    .fixedHead.active{
+        transform: translateY(0%);
+    }
+    .fixedHead.active .fixedLogo{
+        transform: scale(0.76);
+    }
     header .firstFloor .nav .navInner .navLink{
         display: none;
     }
@@ -809,6 +1295,13 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .mobMainLink{
+        display: block;
+    }
+    .fixedHead{
+        height: 70px;
+        padding: 0px 17px;
+    }
     .navMainMenu .mainLink:last-child {
         margin-right: 15px;
     }

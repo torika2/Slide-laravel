@@ -12,7 +12,10 @@ $(document).ready(function () {
         if($(window).scrollTop() > window.innerHeight){
             document.querySelector('.fixedHead').classList.add('active')
         }else {
-            document.querySelector('.fixedHead').classList.remove('active')
+            if(!$(".fixedMenuContainer").hasClass("open")){
+                document.querySelector('.fixedHead').classList.remove('active')
+            }
+
         }
     }
     fixHeader();
@@ -20,9 +23,103 @@ $(document).ready(function () {
     window.addEventListener('scroll',function(){
         fixHeader();
     })
+
+    //fixed menu logic start
+
+    var subMenuHeight = function(){
+        $(".fixedMenuListContainer").css("height",$(".fixedMenuListContainer").children(".active").height() + "px");
+    };
+    setTimeout(function () {
+        subMenuHeight()
+    },500);
+
+    $(".burger").click(function () {
+        $(".fixedMenuContainer").show();
+
+        setTimeout(function () {
+            subMenuHeight()
+            $(".fixedMenuContainer").addClass("open");
+
+        },100);
+        setTimeout(function () {
+            $(".fixedHead").addClass("active");
+            $(".fixedMenuContainer").addClass("active");
+            $("div.fxHead.active").click();
+            // $(".fixedMenuListContainer").addClass("animate");
+
+        },600);
+        setTimeout(function () {
+            $(".fixedMenuContainerInner").css("overflow","scroll");
+            $("body").css("overflow","hidden").css("height","100vh");
+        },1800)
+    });
+
+    $(".closeFixMenu").click(function () {
+        $(".fixedMenuContainerInner").css("overflow","hidden");
+        $("body").css("overflow","auto").css("height","auto");
+        $(".fixedMenuContainer").removeClass("open");
+        $(".fixedMenuContainerInner").css("overflow","hidden");
+
+        setTimeout(function () {
+            $(".fixedMenuListContainer").removeClass("animate");
+            $(".fixedMenuContainer").removeClass("active");
+            $(".fxHead").parent().removeClass("active");
+            if($(window).scrollTop() < window.innerHeight){
+                $(".fixedHead").removeClass("active");
+            }
+
+        },100);
+        setTimeout(function () {
+            $(".fixedMenuContainer").hide();
+        },1100);
+    });
+
+
+    $(".mainLinkInn.fxHead").click(function () {
+        if(!$(this).parent().hasClass("active")){
+            $(".mainLinkInn.fxHead").parent().removeClass("active");
+            $(this).parent().addClass("active");
+            var index = $(this).parent().attr("data-index");
+            $(".fixedMenuListContainer").removeClass("animate");
+            setTimeout(function () {
+                $(".fixedMenuListInnerContainer").removeClass("active");
+                $(".fixedMenuListContainer").children("[data-index=" + index + "]").addClass("active");
+            },650);
+            setTimeout(function () {
+                $(".fixedMenuListContainer").addClass("animate");
+            },700);
+            setTimeout(function () {
+                subMenuHeight()
+            },800);
+        }
+
+    });
+
+
+    $(".fixedMenuNavLink.hasSub").click(function () {
+        if(!$(this).hasClass("active")){
+            $(".fixedMenuNavLink.hasSub").removeClass("active");
+            $(this).addClass("active");
+            $(".fixedMenuSubContainerOuter").removeClass("active").css("height","0px");
+            $(this).next(".fixedMenuSubContainerOuter").css("height",$(this).next(".fixedMenuSubContainerOuter").children(".fixedMenuSubContainer").height() + "px");
+            $(".fixedMenuListContainer").css("height",$(".fixedMenuListContainer").children(".active").height() + $(this).next(".fixedMenuSubContainerOuter").children(".fixedMenuSubContainer").height() + "px");
+
+            $(this).next(".fixedMenuSubContainerOuter").addClass("active");
+        }else{
+            $(".fixedMenuSubContainerOuter").removeClass("active").css("height","0px");
+            $(this).removeClass("active");
+            $(this).next(".fixedMenuSubContainerOuter").removeClass("active");
+            setTimeout(function () {
+                subMenuHeight()
+            },600)
+        }
+    });
+
+    //fixed menu logic end
+
     //firstFloor nav start
 
-    $(".mainLinkInn").click(function () {
+    $(".mainLinkInn.mainHead").click(function () {
         if(!$(this).parent().hasClass("active") && $(this).parent().is("div")){
             $(".subMenuBtn.opened").click();
             $(".mainLink").removeClass("active");

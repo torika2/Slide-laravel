@@ -1,5 +1,5 @@
 // FAQ Slider
-var mediationSlider = new Swiper('.faq-slider', {
+var faqSlider = new Swiper('.faq-slider', {
     slidesPerView: 2.89,
     spaceBetween: 60,
     breakpoints: {
@@ -49,7 +49,7 @@ var clinicsSlider1 = new Swiper('.individual', {
     spaceBetween: 60,
     breakpoints: {
         300: {
-            slidesPerView: 1.19,
+            slidesPerView: 1.3,
             spaceBetween: 15,
         },
         768: {
@@ -79,7 +79,7 @@ $('#tabCorporate').click(function () {
             spaceBetween: 60,
             breakpoints: {
                 300: {
-                    slidesPerView: 1.19,
+                    slidesPerView: 1.3,
                     spaceBetween: 15,
                 },
                 768: {
@@ -121,16 +121,84 @@ function serviceF() {
     $('.service-box').on('click', function () {
         if (!$(this).hasClass('active')) {
             $('.service-box').find('.service-description').slideUp(500);
-            $(this).find('.service-description').slideDown(500)
-            $('.service-box').removeClass('active')
-            $(this).addClass('active')
+            $(this).find('.service-description').slideDown(500);
+            $('.service-box').removeClass('active');
+            $(this).addClass('active');
             return
         } else {
-            $(this).find('.service-description').slideUp(500)
-            $(this).removeClass('active')
+            $(this).find('.service-description').slideUp(500);
+            $(this).removeClass('active');
         }
     });
 }
 serviceF();
 
 
+
+
+// Package compare hover
+$('.compare-box').hover(function () {
+    $(this).parent().parent().siblings('.package-info').css('transform', 'translateY(-50px)');
+})
+
+$('.compare-box').mouseleave(function () {
+    $(this).parent().parent().siblings('.package-info').css('transform', 'translateY(0px)');
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+// parallax
+
+function scroll() {
+    var container = document.querySelector('#container');
+    var elem = document.createElement('div');
+    elem.style.height = container.clientHeight + 'px';
+    document.body.append(elem)
+
+    window.addEventListener('resize', function () {
+        elem.style.height = container.clientHeight + 'px';
+    })
+
+    var a = 0;
+    var b = 0;
+    var ease = 0.05;
+
+
+    function update() {
+
+        elem.style.height = container.clientHeight + 'px';
+
+        if (document.querySelector('#parallax img') != undefined) {
+
+            if (document.querySelector('#parallax').getBoundingClientRect().top < window.innerHeight) {
+                document.querySelector('#parallax img').style.transform = 'translate(0,' + ((document.querySelector('#parallax').getBoundingClientRect().top + b - b) / 20) + 'px)';
+            }
+
+        }
+
+        container.style.transform = 'translate(0,-' + b.toFixed(3) + 'px)';
+
+
+        b = b + (a - b) * ease;
+        requestAnimationFrame(update)
+    }
+
+    window.addEventListener('scroll', function () {
+        a = window.pageYOffset || document.documentElement.scrollTop;
+    })
+    update()
+}
+
+if (!mobileDetect) {
+    scroll();
+}

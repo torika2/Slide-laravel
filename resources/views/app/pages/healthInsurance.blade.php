@@ -17,9 +17,9 @@
             <a href="#" class="flex-box al-center font-13 noto-semibold">დაზღვევა</a>
             <a href="#" class="flex-box al-center font-13 noto-semibold">ჯანმრთელობის დაზღვევა</a>
         </nav>
-        <h2 class="fira-bold font-55 white">
+        <h1 class="fira-bold font-55 white">
             ჯანმრთელობის <br> დაზღვევა
-        </h2>
+        </h1>
         <a href="#" class="btn white banner-button">ონლაინ ანაზღაურება</a>
     </div>
 </section>

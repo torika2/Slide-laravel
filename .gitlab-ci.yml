@@ -9,7 +9,7 @@ deploy on dev:
     - cd runners/
     - npm install
     - cd ../
-    # - git submodule update --init 
+    # - git submodule update --init
     # - git submodule foreach git pull origin master
     - ./runners/deploy-dev.js gpi development.connect.ge 21 developer 144144144
   only:

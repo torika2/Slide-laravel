@@ -251,3 +251,8 @@ Route::get('/about', function () {
     return view('app.pages.about');
 
 });
+
+Route::get('/contact', function () {
+    return view('app.pages.contact');
+
+});

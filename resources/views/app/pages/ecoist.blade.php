@@ -6,15 +6,15 @@
 <div class="container ecoist-page-container">
 	<div class="heading">
 		<div class="side">
-			<h2 class="font-21 fira-bold">გახდი</h2>
-			<h3 class="">#ეკოისტი</h3>
+			<h2 class="font-21 fira-bold uppercase">გახდი</h2>
+			<h3 class="font-55 fira-bold uppercase">#ეკოისტი</h3>
 			<div class="text">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore est, perspiciatis soluta et veniam vel cum odio vero, doloremque quae quibusdam sunt aliquid, libero pariatur nisi earum. Corrupti, saepe!
 			</div>
 		</div>	
 		<div class="side">
 			<div class="image">
-				<img src="{{asset('assets/img/Scene 03.png')}}" alt="">
+				<img src="{{asset('assets/img/img (17).jpg')}}" alt="">
 			</div>
 		</div>
 	</div>
@@ -22,12 +22,12 @@
 		<div class="row">
 			<div class="side">
 				<div class="image">
-					<img src="{{asset('assets/img/Scene 03.png')}}" alt="">
+					<img src="{{asset('assets/img/img (17).jpg')}}" alt="">
 				</div>
 			</div>
 			<div class="side">
-				<h2>ფეხით დადიხარ?</h2>
-				<h3><span>ეკოისტი</span> ხარ!</h3>
+				<h2 class="font-55 uppercase fira-bold">ფეხით დადიხარ?</h2>
+				<h3 class="font-55 uppercase fira-bold"><span class="font-55 uppercase fira-bold">ეკოისტი</span> ხარ!</h2>
 				<div class="text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel at numquam explicabo maiores inventore culpa repellendus similique sapiente. Eligendi corporis numquam hic odio, culpa ducimus, quibusdam molestiae aliquam neque eaque.
 				</div>
@@ -47,12 +47,12 @@
 		<div class="row">
 			<div class="side">
 				<div class="image">
-					<img src="{{asset('assets/img/Scene 03.png')}}" alt="">
+					<img src="{{asset('assets/img/img (17).jpg')}}" alt="">
 				</div>
 			</div>
 			<div class="side">
-				<h2>ფეხით დადიხარ?</h2>
-				<h3><span>ეკოისტი</span> ხარ!</h3>
+				<h2 class="font-55 uppercase fira-bold">ფეხით დადიხარ?</h2>
+				<h3 class="font-55 uppercase fira-bold"><span class="font-55 uppercase fira-bold">ეკოისტი</span> ხარ!</h2>
 				<div class="text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel at numquam explicabo maiores inventore culpa repellendus similique sapiente. Eligendi corporis numquam hic odio, culpa ducimus, quibusdam molestiae aliquam neque eaque.
 				</div>

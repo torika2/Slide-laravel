@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background: #eee;
   overflow-x: hidden;
 }
 .container {
@@ -495,7 +494,6 @@ body {
 }
 .ecoist-page-container .heading .side .image {
   padding-top: 114%;
-  border: 1px solid black;
   position: relative;
   overflow: hidden;
 }
@@ -911,3 +909,138 @@ body {
 }
 
 /* END OF _AWARDS */
+
+/* START OF _VIDEO-CONTAINER */
+
+.kfn-video-container {
+  position: relative;
+}
+.kfn-video-container .wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 39%;
+  background: #292562;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.kfn-video-container .wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+.kfn-video-container .wrapper h2 {
+  position: absolute;
+  width: 50%;
+  z-index: 3;
+  top: 50%;
+  left: 0;
+  padding-left: 112px;
+  transform: translate(0,-50%);
+  color: white;
+}
+.kfn-video-container .wrapper #open-video {
+  position: absolute;
+  top: 50%;
+  right: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  transform: translate(0,-50%);
+  border: 1px solid white;
+  width: 164px;
+  height: 164px;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.kfn-video-container .wrapper #open-video svg {
+  position: relative;
+  z-index: 3;
+}
+.kfn-video-container .wrapper #open-video .bg {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.3;
+} 
+.kfn-video-container .wrapper #open-video .hover-bg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: #EE2A7B;
+  opacity: 0;
+  transition: .6s;
+} 
+.kfn-video-container .wrapper #open-video:hover .hover-bg {
+  opacity: 1;
+}
+@media (max-width: 1599px){
+  .kfn-video-container .wrapper #open-video {
+    width: 147px;
+    height: 147px;
+  }
+}
+@media (max-width: 1365px){
+  .kfn-video-container .wrapper #open-video {
+    width: 111px;
+    height: 111px;
+    right: 77px;   
+  }
+  .kfn-video-container .wrapper #open-video svg {
+    width: 22px;
+    height: 25px;
+  }
+  .kfn-video-container .wrapper h2 {
+    padding-left: 77px;
+  }
+}
+@media (max-width: 1023px){
+  .kfn-video-container .wrapper #open-video {
+    width: 88px;
+    height: 88px;
+    right: 62px;
+  }
+  .kfn-video-container .wrapper h2 {
+    padding-left: 62px;
+  }
+}
+@media (max-width: 767px){
+  .kfn-video-container .wrapper {
+    padding-top: 0%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .kfn-video-container .wrapper h2 {
+    position: relative;
+    padding-left: 28px;
+    width: 100%;
+    transform: unset;
+  }
+  .kfn-video-container .wrapper #open-video {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    right: unset;
+    top: unset;
+    right: unset;
+    left: unset;
+    transform: unset;
+    margin-left: 28px;
+    margin-bottom: 18px;
+  }
+  .kfn-video-container .wrapper #open-video svg {
+    width: 16px;
+    height: 18px;
+  }
+  
+}
+
+/* END OF _VIDEO-CONTAINER */

@@ -5,7 +5,7 @@ $(document).ready(function () {
 		subMenuSlider.forEach(function(item){
 			if(item.childNodes[1].children.length <= 3){
 				var mySwiper = new Swiper ('.swiper-subMenu', {
-				    speed: 400,
+				    speed: 1000,
 				    slidesPerView: 3,
 				    spaceBetween: 60,
 				    breakpoints: {
@@ -38,7 +38,7 @@ $(document).ready(function () {
 				  });
 			}else{
 				var mySwiper = new Swiper ('.swiper-subMenu', {
-				    speed: 400,
+				    speed: 1000,
 				    slidesPerView: 3,
 				    spaceBetween: 60,
 				    breakpoints: {
@@ -72,7 +72,7 @@ $(document).ready(function () {
 
 			if(item.childNodes[1].children.length <= 3){
 				var mySwiper = new Swiper ('.stories-slider', {
-				    speed: 400,
+				    speed: 1000,
 				    slidesPerView: 3,
 				    spaceBetween: 60,
 				    breakpoints: {
@@ -105,7 +105,7 @@ $(document).ready(function () {
 				  });
 			}else{
 				var mySwiper = new Swiper ('.stories-slider', {
-				    speed: 400,
+				    speed: 1000,
 				    slidesPerView: 3,
 				    spaceBetween: 60,
 				    breakpoints: {
@@ -142,7 +142,7 @@ $(document).ready(function () {
 
   
   var mySwiper = new Swiper('.newsOuter-slider', {
-  speed: 400,
+  speed: 1000,
   slidesPerView: 2,
   spaceBetween: 60,
   breakpoints: {
@@ -180,7 +180,7 @@ $(document).ready(function () {
 });
 
 var mySwiper = new Swiper('.direction-slider', {
-  speed: 400,
+  speed: 1000,
   slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
@@ -304,5 +304,27 @@ var mySwiper = new Swiper('.direction-slider', {
 	   		})
 	   }
 
+
+
+	   /*contact tabs scripts*/
+
+	   const tabCont = document.querySelectorAll(".tabs");
+	   const branchesWrap = document.getElementById("branches-grid-wrap");
+
+	   tabCont.forEach(function(item){
+		   	for(let i =0; i < item.children.length; i++){
+		   		item.children[i].onclick = function(){
+		   			for(let j =0; j < item.children.length; j++){
+		   				item.children[j].classList.remove("active");
+		   			}
+		   			item.children[i].classList.add("active");
+		   			for(let k = 0; k < branchesWrap.children.length; k++){
+		   				$("#branches-grid-wrap").children().eq(k).slideUp();
+		   			}
+		   			let branchId =item.children[i].getAttribute("data-branch");
+		   			setTimeout(() => $('#' + branchId).slideDown(), 600);
+		   		}
+		   	}
+	   })
 
 })

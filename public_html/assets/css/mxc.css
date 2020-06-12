@@ -118,6 +118,7 @@ body.animate .secondFloorLogo svg{
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    position: relative;
 }
 .burger span{
     background: #292562;
@@ -415,7 +416,7 @@ body.animate .searchBtnContainer .sbtn{
     color: #292562;
     transition: .6s;
 }
-.searchBtnContainer .sbtn:hover .txt{
+.searchBtnContainer .sbtn:hover .txt,.searchBtnContainer .sbtn.active .txt{
     color: #EE2A7B;
 }
 
@@ -425,10 +426,10 @@ body.animate .searchBtnContainer .sbtn{
 .searchBtnContainer .sbtn svg path,.searchBtnContainer .sbtn svg g{
     transition: .6s;
 }
-.searchBtnContainer .searchBtn:hover svg > g  > path{
+.searchBtnContainer .searchBtn:hover svg > g  > path,.searchBtnContainer .searchBtn.active svg > g  > path{
     stroke: #EE2A7B;
 }
-.searchBtnContainer .searchBtn:hover svg > g > g > path:last-child{
+.searchBtnContainer .searchBtn:hover svg > g > g > path:last-child,.searchBtnContainer .searchBtn.active svg > g > g > path:last-child{
     fill: #EE2A7B;
 }
 .searchBtnContainer .helpBtn:hover svg > g > g{
@@ -1033,6 +1034,133 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 .fixMenuLang{
     display: none;
 }
+.fixedHeadCabinet{
+    display: none;
+}
+.burgerClose{
+    position: absolute;
+    display: none;
+    justify-content: center!important;
+    align-items: center;
+    top: 28px;
+    right: 30px;
+    z-index: 2;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .6s ease-in-out;
+}
+.fixedHead.mobile .burgerClose{
+    opacity: 1;
+    pointer-events: all;
+}
+.fixedHead.mobile .burger span{
+    transform: scale(0)!important;
+}
+.fxMenListForMob{
+    flex-direction: column;
+    display: flex;
+}
+.fixedMenuListLine .ttl svg {
+    display: none;
+}
+.searchInputContainer input{
+    height: 90px;
+    border: 0px;
+    width: calc(100% - 135px);
+    padding-left: 30px;
+}
+.searchInputContainer input::placeholder{
+    color: #292562;
+}
+.searchInputContainer{
+    border-bottom: 1px solid #9199B4;
+    display: flex;
+    justify-content: space-between;
+}
+#searchBtn{
+    display: flex;
+    align-items: center;
+    width: 135px;
+    cursor: pointer;
+    justify-content: center;
+    position: relative;
+}
+#searchBtn svg{
+    margin-left: 15px;
+    transition: .6s;
+    transition-delay: .1s;
+}
+#searchBtn span{
+    transition: .6s;
+}
+#searchBtn:hover svg{
+    transition-delay: 0s;
+    transform: translateX(5px);
+}
+#searchBtn:hover span{
+    transform: translateX(5px);
+    transition-delay: .1s;
+    color: #EE2A7B;
+}
+#searchBtn:after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: auto;
+    bottom: auto;
+    width: 1px;
+    height: 15px;
+    background: #9199B4;
+}
+#searchContainer{
+    margin: 0px 102px;
+    border: 1px solid rgba(145,153,180,0.75);
+    border-radius: 8px;
+    background: #fff;
+}
+.searchHeight{
+    padding: 10px 55px 65px 55px;
+
+}
+.searchInner{
+    font-size: 16px;
+    line-height: 30px;
+    padding: 30px 0px;
+    background-image: linear-gradient(to right, #CFCFCF 50%, rgba(145, 153, 180, 0) 0%);
+    background-position: bottom;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+    transition: .6s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+}
+#searchContainer.active .searchInner{
+    transition-delay: .6s;
+    transform: translateY(0px);
+    opacity: 1;
+}
+.searchInner:last-child{
+    background-size: 0px 0px;
+}
+.searchInnerContainer{
+    margin-top: 30px;
+    padding: 0px 30px;
+    max-height: 540px;
+    overflow: auto;
+}
+#searchContainer {
+    border: 1px solid #9199B4;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: .8s ease-in-out;
+    height: 0px;
+    opacity: 0;
+}
+#searchContainer.active{
+    opacity: 1;
+}
 /*laptop 1680*/
 @media (max-width: 1900px){
     .subMenuPicLinkContainerInner h3{
@@ -1042,10 +1170,15 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     .fixedMenuContainerInner{
         padding: 0px 260px;
     }
+    .fixedHead{
+        width: 80px;
+    }
+
 }
 
 /*laptop 1366*/
 @media (max-width: 1659px){
+
     .fixedMenuContainerInner {
         padding: 0px 125px;
     }
@@ -1060,6 +1193,26 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 
 /*ipad pro 1024*/
 @media (max-width: 1365px){
+    .searchInner{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .searchHeight {
+        padding: 10px 55px 35px 55px;
+    }
+    .searchInner{
+        padding: 20px 0px;
+    }
+    .searchInnerContainer{
+        max-height: 370px;
+        margin-top: 20px;
+    }
+    .searchInputContainer input{
+        height: 60px;
+    }
+    #searchContainer{
+        margin: 0px 71px;
+    }
     .fixedHead{
         overflow: hidden;
         width: 65px;
@@ -1187,12 +1340,63 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 }
 /*ipad 768*/
 @media (max-width: 1023px){
+    .searchInputContainer input{
+        font-size: 13px;
+    }
+    #searchBtn span{
+        font-size: 13px;
+    }
+    .searchHeight {
+        padding: 10px 25px 35px 25px;
+    }
+    #searchContainer {
+        margin: 0px 33px;
+    }
+    .searchBtn{
+        width: auto;
+    }
+    .subSocialsContainer{
+        margin-top: 45px;
+    }
+    .subscribeContainer{
+        margin-top: 70px;
+    }
+    .fxMenu .lang.navLink{
+        display: none!important;
+    }
+    .fixMenuRight{
+        display: none;
+    }
+    .burgerClose{
+        display: flex;
+    }
+    .fixedHeadCabinet{
+        display: flex;
+        width: 50px;
+        height: 35px;
+        background: #EE2A7B;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        -webkit-box-shadow: 0px 10px 10px 0px rgba(0,153,255,0.1);
+        -moz-box-shadow: 0px 10px 10px 0px rgba(0,153,255,0.1);
+        box-shadow: 0px 10px 10px 0px rgba(0,153,255,0.1);
+        margin-left: auto;
+        pointer-events: none;
+        transition: .6s;
+        transform: scale(.8);
+        opacity: 0;
+    }
+    .fixedHead.active.mobile .fixedHeadCabinet{
+        transform: scale(1);
+        opacity: 1;
+    }
     .fixedHead .burger {
         margin-left: 0px;
     }
     .fixMenuLang{
         display: flex;
-        margin-left: auto;
+        margin-left: 15px;
         margin-right: 20px;
         padding-right: 15px;
         border-right: 1px solid rgba(0,43,127,0.16);
@@ -1295,6 +1499,109 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .searchInnerContainer{
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    .searchInner {
+        padding: 10px 0px;
+    }
+    .searchInputContainer input{
+        width: calc(100% - 95px);
+        padding-left: 0px;
+        height: 40px;
+    }
+    #searchBtn{
+        width: 95px;
+    }
+    .searchHeight {
+        padding: 10px 25px 35px 25px;
+    }
+    #searchContainer {
+        margin: 0px 17px;
+    }
+    .searchBtnContainer .subscrSocials a svg {
+        height: 20px;
+        width: 20px;
+    }
+    .searchBtnContainer .subscrSocials a{
+        margin-left: 10px;
+    }
+    .subscrSocials .socTtl{
+        font-size: 13px;
+    }
+    .searchBtnContainer .subscrSocials{
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .searchBtnContainer{
+        flex-wrap: wrap;
+    }
+    .subInputContainer .subBtn svg{
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+    .subInputContainer .subBtn{
+        padding-left: 0px;
+    }
+    .subInputContainer .subBtn div{
+        display: none;
+    }
+    .subInputContainer input{
+        width: calc(100% - 40px);
+        font-size: 13px;
+    }
+    .subInputContainer{
+        width: 100%;
+    }
+    .subscribeContainer .ttl{
+        font-size: 16px;
+    }
+    .subscribeContainer .subTtl{
+        font-size: 10px;
+    }
+    .subscribeContainer{
+        margin-top: 170px;
+    }
+    .fxMenListForMob{
+        overflow: hidden;
+        max-height: 0px;
+        transition: 1s;
+        opacity: 0;
+    }
+    .fixedMenuListLine .ttl svg{
+        transition: .6s ease-in-out;
+        display: flex;
+    }
+    .fixedMenuListLine .ttl.active ~ .fxMenListForMob{
+        max-height: 1000px;
+        opacity: 1;
+        padding-bottom: 20px;
+    }
+    .fixedMenuListLine .ttl.active svg{
+        transform: rotate(180deg);
+    }
+    .fixedMenuListLine{
+        padding-right: 0px;
+    }
+    .fixedMenuListLine .ttl{
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .fixedMenuContainerInner{
+        padding: 0px 17px;
+    }
+    .firstFloor.fxMenu {
+        margin-top: 124px;
+        height: 0px;
+    }
+    .firstFloor.fxMenu  .nav .navInner{
+        display: none;
+    }
     .mobMainLink{
         display: block;
     }
@@ -1317,6 +1624,12 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     .navMainMenu .mainLink:first-child{
         margin-left: 17px;
     }
+    .fixedHead{
+        padding-top: 8px;
+    }
+    .fixedHead.mobile{
+        background: #fff;
+    }
     .navMainMenu{
         position: absolute;
         left: 0px;
@@ -1325,6 +1638,16 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
         overflow: auto;
         padding-bottom: 30px;
         -webkit-overflow-scrolling: touch;
+    }
+    .firstFloor.fxMenu .navMainMenu{
+        bottom: -12px;
+    }
+    .firstFloor.fxMenu .navMainMenu .mainLink:first-child {
+        margin-left: 0px;
+    }
+    .burgerClose{
+        top: 22px;
+        right: 15px;
     }
     .navMainMenu::-webkit-scrollbar {
         display: none;
@@ -1381,5 +1704,8 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     }
     .searchBtnContainer .sbtn:first-child{
         margin-right: 10px;
+    }
+    .fixedMenuListInnerContainer{
+        flex-direction: column;
     }
 }

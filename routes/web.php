@@ -224,6 +224,18 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
 });
 
 
+ 
+Route::get('login', [
+    'uses' => 'Admin\AuthController@login',
+    'as' => 'auth.login']);
+
+Route::post('post-login', [
+    'uses' => 'Admin\AuthController@postLogin',
+    'as' => 'auth.postLogin']);
+
+Route::get('logout', [
+    'uses' => 'Admin\AuthController@logout',
+    'as' => 'auth.logout']);
 
 
 

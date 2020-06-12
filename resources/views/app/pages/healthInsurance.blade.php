@@ -3,7 +3,7 @@
 @section('content')
 
 <section class="head-banner">
-    <div class="img-box">
+    <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
             <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">

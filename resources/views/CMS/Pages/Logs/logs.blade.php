@@ -184,9 +184,10 @@
                     _token: '{{csrf_token()}}'
                 }).done(function (data) {
 
-                   console.log(data)
+
 
                     for (let [key, value] of Object.entries(data.properties.attributes)) {
+
 
                         if (data.description === 'deleted'){
                             $('#changes').append(`
@@ -224,6 +225,7 @@
                         if (data.description === 'updated'){
                             var old = data.properties.old[key];
                             var changed = '';
+
                             if (old != value){
                                 changed = "style='background: #e1ceb5;'"
                             }

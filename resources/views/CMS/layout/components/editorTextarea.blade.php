@@ -1,13 +1,13 @@
-<?php 
-    $lang = isset($lang) && !empty($lang) ? $lang : false; 
+<?php
+    $lang = isset($lang) && !empty($lang) ? $lang : false;
     $data = isset($data) && !empty($data) ? (object) $data : [];
     $label = isset($label) && $label ? $label : 'name';
     $columnName = isset($column) && $column ? $column : 'name';
     $columnId = $lang ? $columnName.'_'.$lang->locale : $columnName;
     $name = $lang ? $columnName.'_'.$lang->locale : $columnName;
     //Define $value
-    if($data && $lang && $data->translate($lang->locale)->locale == $lang->locale){
-        $value = old($name) ? old($name) : $data->translate($lang->locale)->{$columnName};
+    if($data && $lang){
+        $value =  old($name,$data->getTranslation($columnName,$lang->locale));
     }
     elseif($data && !$lang){ $value = $data->{$columnName}; }
     else { $value = old($name) ? old($name) : ''; }

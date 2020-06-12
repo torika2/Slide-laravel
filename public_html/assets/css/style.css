@@ -10,7 +10,14 @@ header {
 .container-secondary {
     padding: 0 100px;
 }
-
+.imgg {
+    overflow: hidden;
+}
+.imgg .img-absolute {
+    bottom: 0;
+    top: unset;
+    height: 135%;
+}
 @media(max-width: 1365px) {
     .container-secondary {
         padding: 0 71px;
@@ -438,7 +445,15 @@ header {
 .package-box > div:last-child {
     height: 100%;
 }
-
+.popular-star {
+    background: #EE2A7B;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 13px;
+    display: none;
+}
 @media(min-width: 1025px) {
     .package-box:hover {
         border-color: #292562;
@@ -570,6 +585,7 @@ header {
     .banner-button {
         margin-top: 20px;
     }
+
 }
 @media(max-width: 767px) {
     nav.banner-links {
@@ -831,14 +847,6 @@ header {
     }
 }
 
-@media(max-width: 1679px) {
-    .service-subtitle {
-        margin-top: 5px;
-    }
-    .service-btn {
-        margin-top: 30px;
-    }
-}
 @media(max-width: 1365px) {
     .service-subtitle  {
         font-size: 13px;
@@ -950,7 +958,7 @@ header {
 .packages-outer {
     position: relative;
     margin-top: -202px;
-    padding: 40px 67px;
+    padding: 45px 67px;
     background: #fff;
     z-index: 5;
     border-radius: 8px;
@@ -960,8 +968,11 @@ header {
 }
 .package-text-tabs .tabs {
     margin-top: 48px;
-    margin-bottom: 31px;
+    margin-bottom: 0px;
     flex-wrap: wrap;
+}
+.package-text-tabs .tabs .tab-link {
+    margin-bottom: 31px;
 }
 .package-text-tabs .btn-white {
     height: 37px;
@@ -971,9 +982,9 @@ header {
 }
 
 .policy-packages .packages {
-    max-width: min-content;
+    /* max-width: min-content; */
     padding: 0;
-    padding-top: 135px;
+    padding-top: 155px;
     margin: 0 auto;
     box-shadow: none;
 }
@@ -1000,6 +1011,7 @@ header {
 }
 .package-name {
     font-size: 28px;
+    line-height: 31px;
 }
 .lable {
     padding: 0;
@@ -1059,6 +1071,7 @@ header {
     height: 30px;
     background: rgba(145, 153, 180, 0.5);
     margin: 0 30px;
+    flex-shrink: 0;
 }
 .details-tooltip {
     background: #292562;
@@ -1091,12 +1104,17 @@ header {
 .package-price {
     position: relative;
     font-size: 80px;
+    margin-left: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
-.package-price span {
-    position: absolute;
-    top: 18px;
+.package-price .currency {
     font-family: inherit;
     font-size: 30px;
+    margin-top: 18px;
+}
+.price-info {
+    width: 100%;
 }
 .area-box {
     color: #9199B4;
@@ -1106,13 +1124,12 @@ header {
     width: 95%;
 }
 .package-text {
-    position: absolute;
-    top: 20px;
-    left: 0;
+    margin-bottom: 20px;
     display: -webkit-box;
     overflow: hidden;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    text-align: start;
     display: none;
 }
 .package-text.show {
@@ -1129,3 +1146,237 @@ header {
         transition-delay: 0.5s;
     }
 }
+.resp-text {
+    display: none;
+}
+.package-details svg {
+    flex-shrink: 0;
+}
+@media(max-width: 1900px) {
+    .policy-packages .packages {
+        padding-top: 115px;
+    }
+    .policy-packages .package-box {
+        min-width: 262px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 4px;
+    }
+    .policy-packages .package-box:not(:last-child)::after {
+        right: -6px;
+    }
+}
+@media(max-width: 1679px) {
+    .packages-outer {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .policy-packages .packages {
+        padding-top: 90px;
+    }
+    .policy-packages .package-box {
+        min-width: 210px;
+        padding-top: 28px;
+    }
+    .package-text-tabs .tabs {
+        margin-top: 15px;
+    }
+    .service-subtitle {
+        margin-top: 5px;
+    }
+    .service-btn {
+        margin-top: 30px;
+    }
+    .package-name {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .lable.popular {
+        padding: 0 15px;
+    }
+    .area-box.font-21 {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1365px) {
+    .packages-outer {
+        padding-top: 33px;
+        padding-bottom: 51px;
+        margin-top: -182px;
+    }
+    .package-details, .policy-packages .package-box .btn {
+        height: 40px;
+    }
+    .details-line {
+        margin: 0 20px;
+    }
+    .package-price {
+        font-size: 60px;
+    }
+    .package-price .currency {
+        font-size: 21px;
+    }
+    .policy-packages .package-box {
+        min-width: 158px;
+    }
+    .policy-packages .package-box .btn, .policy-packages .package-details {
+        min-width: 120px;
+    }
+    .package-details svg {
+        transform: scale(0.8);
+    }
+    .policy-packages .package-box .package-name {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .details-1-box span {
+        display: none;
+    }
+}
+@media(max-width: 1023px) {
+    .packages-outer {
+        padding-bottom: 51px;
+        margin-top: -80px;
+    }
+    .policy-packages .package-box {
+        flex-direction: row !important;
+        justify-content: space-between;
+        min-width: unset;
+        width: 100%;
+    }
+    .policy-packages .package-box > div:first-child {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .policy-packages .package-box > div:last-child {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .policy-packages .package-head {
+        min-height: unset;
+        align-items: flex-start !important;
+        margin-bottom: 0;
+    }
+    .policy-packages .package-box {
+        padding: 30px 0;
+    }
+    .area-box.font-21 {
+        font-size: 10px;
+    }
+    .package-info {
+        width: unset;
+    }
+    .package-price {
+        font-size: 40px;
+        margin-left: 0;
+        flex-wrap: nowrap;
+    }
+    .package-price .currency {
+        font-size: 21px;
+        margin-top: 0;
+    }
+    .price-info {
+        margin-top: 20px;
+        width: unset;
+    }
+    .package-text {
+        padding-right: 80px;
+    }
+    .package-details {
+        min-width: auto;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    .resp-text {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .policy-packages .package-box .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+    .popular-star {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lable {
+        display: none !important;
+    }
+    .package-text-tabs .tabs .tab-link {
+        margin-bottom: 10px;
+    }
+    .tab-content-outer {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    .packages-outer {
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-top: -150px;
+    }
+    .popular-star {
+        display: none;
+    }
+    .policy-packages .package-box .btn {
+        margin-top: 0;
+    }
+    .package-text-tabs {
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(145, 153, 180, 0.3);
+    }
+    .tab-content-outer {
+        margin-top: 14px;
+    }
+    .policy-packages .packages {
+        padding-top: 0px;
+    }
+    .policy-packages .package-box {
+        flex-direction: column !important;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        margin: 0;
+    }
+    .policy-packages .package-box:first-child {
+        padding-top: 35px;
+    }
+    .policy-packages .package-box .btn, .policy-packages .package-details {
+        min-width: unset;
+        width: 100%;
+    }
+    .policy-packages .package-box > div:first-child {
+        align-items: center;
+        margin: 0 auto;
+    }
+    .package-price {
+        margin: 16.5px 0;
+    }
+    .package-text {
+        padding-right: 0px;
+    }
+    .resp-text {
+        margin-right: 3px;
+    }
+    .details-line {
+        margin: 0 7px;
+        height: 23px;
+    }
+    .area-box {
+        margin: 0 auto;
+    }
+    .lable {
+        display: flex !important;
+        position: relative;
+        margin-top: 20px;
+    }
+}
+
+
+

@@ -88,9 +88,9 @@ function sitename()
 {
     static $sitename;
     if (empty($sitename)) {
-        $sitename = Settings::where('key', 'sitename')->get();
+        $sitename = Settings::where('key', 'sitename')->first();
     }
-    return $sitename->where('key', 'sitename')->first()->value;
+    return $sitename->value;
 }
 
 

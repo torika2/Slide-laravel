@@ -5,6 +5,56 @@
 */
 return [
 
+
+    [
+        'label' => 'About',
+        'hasChildren' => true,
+        'namespaces' => ['CMS.about.index',
+                        'CMS.teams.list',
+                        'CMS.teams.create',
+                        'CMS.teams.update',
+                        'CMS.experience.list',
+                        'CMS.experience.create',
+                        'CMS.experience.update'
+                        ],
+        'gates' => ['viewAbout','viewTeam','viewExperience'],
+        'routeName' => '',
+        'params' => [],
+        'icon' => 'far fa-info-circle',
+        'children' => [
+
+
+            [
+                'label' => 'about',
+                'gate' => 'viewAbout',
+                'namespace' => 'about',
+                'routeName' => 'CMS.about.index',
+                'params' => [],
+            ],
+            [
+                'label' => 'team',
+                'gate' => 'viewTeam',
+                'namespace' => 'about/teams*',
+                'routeName' => 'CMS.teams.list',
+                'params' => [],
+            ],
+
+            [
+                'label' => 'experience',
+                'gate' => 'viewExperience',
+                'namespace' => 'about/experience*',
+                'routeName' => 'CMS.experience.list',
+                'params' => [],
+            ],
+
+
+
+        ],
+    ],
+
+
+
+
     [
         'label' => 'Seo',
         'hasChildren' => false,

@@ -137,68 +137,44 @@ serviceF();
 
 
 // Package compare hover
-$('.compare-box').hover(function () {
-    $(this).parent().parent().siblings('.package-info').css('transform', 'translateY(-50px)');
-})
+var compare = function () {
+    if (window.innerWidth > 1365) {
+        $('.compare-box').hover(function () {
+            $(this).parent().parent().parent().parent().find('.package-info').css('transform', 'translateY(-50px)');
+        })
 
-$('.compare-box').mouseleave(function () {
-    $(this).parent().parent().siblings('.package-info').css('transform', 'translateY(0px)');
-})
+        $('.compare-box').mouseleave(function () {
+            $(this).parent().parent().siblings('.package-info').css('transform', 'translateY(0px)');
+        })
 
+    }
+}
 
-
-
-
-
-
-
-
-
+$(window).resize(function () {
+    setTimeout(() => {
+        compare();
+    }, 100);
+});
 
 
 
 // parallax
-
-function scroll() {
-    var container = document.querySelector('#container');
-    var elem = document.createElement('div');
-    elem.style.height = container.clientHeight + 'px';
-    document.body.append(elem)
-
-    window.addEventListener('resize', function () {
-        elem.style.height = container.clientHeight + 'px';
-    })
-
-    var a = 0;
-    var b = 0;
-    var ease = 0.05;
-
-
-    function update() {
-
-        elem.style.height = container.clientHeight + 'px';
-
-        if (document.querySelector('#parallax img') != undefined) {
-
-            if (document.querySelector('#parallax').getBoundingClientRect().top < window.innerHeight) {
-                document.querySelector('#parallax img').style.transform = 'translate(0,' + ((document.querySelector('#parallax').getBoundingClientRect().top + b - b) / 20) + 'px)';
+var kufuna_parallax = function () {
+    if ($(window).innerWidth() > 1024) {
+        var a = $('.imgg');
+        var b = $(window).innerHeight();
+        var c = $(window).scrollTop();
+        var e = $('.imgg img');
+        a.each(function (i) {
+            var c = $(window).scrollTop();
+            if ($(a[i]).offset().top - b < c) {
+                $(a[i]).find('img').css({ transform: 'translateY(' + ((c - ($(a[i]).offset().top - b)) / 6) + 'px)' })
             }
-
-        }
-
-        container.style.transform = 'translate(0,-' + b.toFixed(3) + 'px)';
-
-
-        b = b + (a - b) * ease;
-        requestAnimationFrame(update)
+        })
+    } else {
+        $('.img').find('img').css({ transform: 'translateY(0)' })
     }
-
-    window.addEventListener('scroll', function () {
-        a = window.pageYOffset || document.documentElement.scrollTop;
-    })
-    update()
 }
-
-if (!mobileDetect) {
-    scroll();
-}
+kufuna_parallax();
+$(window).resize(kufuna_parallax);
+$(window).scroll(kufuna_parallax);

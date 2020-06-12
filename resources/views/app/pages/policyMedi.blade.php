@@ -3,7 +3,7 @@
 @section('content')
 
 <section class="head-banner policy-medi">
-    <div class="img-box">
+    <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/medi.jpg')}}">
             <source media="(max-width: 1023px)" srcset="{{asset('assets/img/medi.jpg')}}">
@@ -91,14 +91,15 @@
                 </div>
             </div>
             <div class="package-box flex-box column">
-                <div class="lable popular flex-box al-center font-13 noto-bold white">პოპულარული</div>
-                <div class="package-head flex-box column al-center">
-                    <h3 class="package-name fira-bold uppercase">მედი სტანდარტი</h3>
-                    <div class="area-box noto-regular font-21">120 კვ.მდე</div>
-                </div>
-                <div class="flex-box column al-center">
+
+                <div class="flex-box column">
+                    <div class="package-head flex-box column al-center">
+                        <span class="lable popular flex-box al-center font-13 noto-bold white">პოპულარული</span>
+                        <h3 class="package-name fira-bold uppercase">მედი სტანდარტი</h3>
+                        <div class="area-box noto-regular font-21">120 კვ.მდე</div>
+                    </div>
                     <div class="package-info">
-                        <div class="package-price noto-bold">
+                        <div class="package-price flex-box justify-center noto-bold">
                             31 <span>₾</span>
                         </div>
                         <div class="package-text">
@@ -106,9 +107,12 @@
                             "ქონების დაზღვევა"
                         </div>
                     </div>
+                </div>
+                <div class="flex-box column al-center">
                     <div class="package-details">
                         <div class="details-2-box flex-box al-center justify-center">
                             <a href="#" class="compare-box">
+                                <span class="resp-text noto-bold font-13 prim-color">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
                                     <path id="Compare"
@@ -121,6 +125,7 @@
                             </a>
                             <span class="details-line"></span>
                             <a href="#" class="info-icon">
+                                <span class="resp-text noto-bold font-13 prim-color">ინფორმაცია</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="29.104" height="29.104"
                                     viewBox="0 0 29.104 29.104">
                                     <path id="MenuClaims"

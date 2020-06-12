@@ -1,5 +1,5 @@
 <section class="became-member find-agent m-t-233">
-    <div class="img-box">
+    <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="http://gpi.loc/assets/img/agent.jpg">
             <source media="(max-width: 1023px)" srcset="http://gpi.loc/assets/img/agent.jpg">

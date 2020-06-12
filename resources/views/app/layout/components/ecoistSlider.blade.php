@@ -45,7 +45,7 @@
 	</div>
 </div>
 <div class="container">
-	<div id="ecoist-slider" class="kfn_anim">
+	<div id="ecoist-slider" class="kfn_anim m-t-233">
 		<div class="heading">
 			<h2 class="kfn_anim k-zoomOut font-55 fira-bold uppercase">#ეკოისტი</h2>
 			<div class="kfn_anim k-fadeUp text">ჯანსაღი ცხოვრებით აგროვებ ეკომონეტებს</div>

@@ -92,6 +92,7 @@
     </div>
 </section>
 
+@include('app.layout.components.videoContainer')
 @include('app.layout.components.ecoistSlider')
 @include('app.layout.components.subMenu')
 @include('app.layout.components.newsOuter')

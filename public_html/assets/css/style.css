@@ -16,7 +16,7 @@ header {
 .imgg .img-absolute {
     bottom: 0;
     top: unset;
-    height: 135%;
+    height: 155%;
 }
 @media(max-width: 1365px) {
     .container-secondary {
@@ -1363,6 +1363,11 @@ header {
     }
     .resp-text {
         margin-right: 3px;
+    }
+    .details-2-box > a {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
     }
     .details-line {
         margin: 0 7px;

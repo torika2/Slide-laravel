@@ -265,3 +265,8 @@ Route::get('/policy-details', function () {
     return view('app.pages.policyDetails');
 
 });
+
+Route::get('/policy-compare', function () {
+    return view('app.pages.policyCompare');
+
+});

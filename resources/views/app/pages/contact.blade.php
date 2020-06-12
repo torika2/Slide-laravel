@@ -88,7 +88,7 @@
 			</div>
 			<div class="right">
 				<div class="fira-bold font-34 ttl">მოგვწერეთ</div>
-				<form action="#">
+				<form >
 					<div class="input-wrap">
 						<div class="placeholder-wrap">
 							<input class="v-empty" type="text">

@@ -37,6 +37,7 @@
 	</div>
     @include('CMS.layout.components.error', ['name' => $name])
 </div>
+
 @if($value)
 <div class="form-group col-md-12">
 
@@ -47,9 +48,9 @@
                                                 </h2>
             <div class="panel-saving mr-2">
                 <span id="lightgallery{{$name}}" style="margin-right:10px;">
-                    <a href="{{ isset($value) ? asset('files/'.$folder. '/' .$value) : '' }}" id="{{$name}}-zoom">
+                    <a href="{{ isset($value) ? asset('files/'.$folder. '/' .$value) : '' }}.jpg" id="{{$name}}-zoom">
                     <i class="far fa-search-plus fa-1x"></i>
-                    <img style="display:none" class="{{ $name.'-src' }}" src="{{ isset($value) ? asset('files/'.$folder. '/' .$value) : '' }}"  alt="Uploaded Image Preview Holder" style="width:80%;"/>
+                    <img style="display:none" class="{{ $name.'-src' }}" src="{{ isset($value) ? asset('files/'.$folder. '/' .$value) : '' }}.jpg"  alt="Uploaded Image Preview Holder" style="width:80%;"/>
                     </a>
                 </span>
 
@@ -58,7 +59,7 @@
         </div>
         <div class="panel-container show {{ $background ? 'bg-primary-500' : '' }}" role="content">
             <div class="panel-content" style="text-align:center">
-                <img class="{{ $name.'-src' }}" src="{{ isset($value) ? asset('files/'.$folder. '/' .$value) : '' }}"  alt="Uploaded Image Preview Holder" style="width: {{$width}}%;"/>
+                <img class="{{ $name.'-src' }}" src="{{ isset($value) ? asset('files/'.$folder. '/' .$value) : '' }}.jpg"  alt="Uploaded Image Preview Holder" style="width: {{$width}}%;"/>
             </div>
         </div>
     </div>
@@ -76,8 +77,8 @@
     });
 
     $('.remove-single-img-{{ $name }}').click(function(){
-        let imgData = [];
-        var result = confirm("Are you sure to delete?");
+
+       /* var result = confirm("Are you sure to delete?");
         if(result){
             // Delete logic goes here
             imgData['el']    = $(this);
@@ -91,7 +92,35 @@
 
             var imgModel = new removeModelImage();
             imgModel.init(imgData);
-        }
+        }*/
+
+        let imgData = [];
+        imgData['el']    = $(this);
+        imgData['gate']  = '{!! $gate !!}';
+        imgData['model']  = '{!! $model !!}';
+        imgData['id']     = $(this).attr('data-id');
+        imgData['column'] = '{!! $columnName !!}';
+        imgData['folder'] = '{!! $folder !!}';
+        imgData['modelRemove'] = false;
+        imgData['locale'] = '{!! $lang ? $lang->locale : false !!}';
+
+
+        Swal.fire(
+            {
+                title: "{{tr('Are you sure to delete?')}}",
+                type: "question",
+                showCancelButton: true,
+                cancelButtonText: 'არა',
+                confirmButtonText: "დიახ"
+            }).then(function (result) {
+            if (result.value) {
+
+                var imgModel = new removeModelImage();
+                imgModel.init(imgData);
+            }
+        });
+
+
     });
 </script>
 <script type="text/javascript">

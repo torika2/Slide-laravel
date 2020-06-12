@@ -5,7 +5,7 @@ $(document).ready(function () {
 		subMenuSlider.forEach(function(item){
 			if(item.childNodes[1].children.length <= 3){
 				var mySwiper = new Swiper ('.swiper-subMenu', {
-				    speed: 400,
+				    speed: 1000,
 				    slidesPerView: 3,
 				    spaceBetween: 60,
 				    breakpoints: {
@@ -38,7 +38,7 @@ $(document).ready(function () {
 				  });
 			}else{
 				var mySwiper = new Swiper ('.swiper-subMenu', {
-				    speed: 400,
+				    speed: 1000,
 				    slidesPerView: 3,
 				    spaceBetween: 60,
 				    breakpoints: {
@@ -69,9 +69,10 @@ $(document).ready(function () {
 	const storiesSliderStart = function(){
 		const storiesSlider = document.querySelectorAll(".stories-slider");
 		storiesSlider.forEach(function(item){
+
 			if(item.childNodes[1].children.length <= 3){
 				var mySwiper = new Swiper ('.stories-slider', {
-				    speed: 400,
+				    speed: 1000,
 				    slidesPerView: 3,
 				    spaceBetween: 60,
 				    breakpoints: {
@@ -104,7 +105,7 @@ $(document).ready(function () {
 				  });
 			}else{
 				var mySwiper = new Swiper ('.stories-slider', {
-				    speed: 400,
+				    speed: 1000,
 				    slidesPerView: 3,
 				    spaceBetween: 60,
 				    breakpoints: {
@@ -139,8 +140,9 @@ $(document).ready(function () {
   	setTimeout(storiesSliderStart, 500)
   });
 
+  
   var mySwiper = new Swiper('.newsOuter-slider', {
-  speed: 400,
+  speed: 1000,
   slidesPerView: 2,
   spaceBetween: 60,
   breakpoints: {
@@ -178,7 +180,7 @@ $(document).ready(function () {
 });
 
 var mySwiper = new Swiper('.direction-slider', {
-  speed: 400,
+  speed: 1000,
   slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
@@ -227,5 +229,102 @@ var mySwiper = new Swiper('.direction-slider', {
   }
 
  })
+
+
+
+ 	/*inputs script*/
+ 	const input = document.querySelectorAll(".placeholder-wrap");
+ 	input.forEach(function(item){
+	    item.childNodes[1].onkeyup = function (){
+	      if(item.childNodes[1].value != ''){
+	        item.childNodes[3].style.opacity = "0";
+	        // item.parentElement.classList.add("input-success");
+	        item.parentElement.classList.remove("error");
+	      }else{
+	        item.childNodes[3].style.opacity = "1";
+	        // item.parentElement.classList.remove("input-success");
+	      }
+	    }
+	})
+
+	function ValidateEmail(mail) {
+	   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail.value)){
+	      mail.parentElement.parentElement.classList.remove("error");
+	      return true;
+	    }else{
+	      mail.parentElement.parentElement.classList.add("error");
+	      return false;
+	    }
+	  }
+
+	  function ValidateEmpty(input) {
+	   if ( input.value != ''){
+	      input.parentElement.parentElement.classList.remove("error");
+	      return true;
+	    }else{
+	      input.parentElement.parentElement.classList.add("error");
+	      return false;
+	    }
+	  }
+
+
+	  const contactBtn = document.getElementById("contact-btn");
+	  const area = contactBtn.parentElement.parentElement;
+	  let checker = arr => arr.every(Boolean);
+	  contactBtn.onclick = function (){
+	  	let errorArr = [];
+
+	  	const vEmpty = area.querySelectorAll(".v-empty")
+	  	vEmpty.forEach(function(item){
+	  	    ValidateEmpty(item);
+	  		errorArr.push(ValidateEmpty(item));
+	  	})
+	  	const vMail = area.querySelectorAll(".v-mail")
+	  	vMail.forEach(function(item){
+	  		ValidateEmail(item);
+	  		errorArr.push(ValidateEmail(item));
+	  	})
+	  	if(checker(errorArr)){
+	  		contactBtn.parentElement.parentElement.classList.add("success");
+	  	}
+	  }
+
+	   const newMsgBtn = document.getElementById("new-msg");
+	   newMsgBtn.onclick = function(){
+	   		contactBtn.parentElement.parentElement.classList.remove("success");
+	   		const input = contactBtn.parentElement.parentElement.querySelectorAll("input");
+	   		const textarea = contactBtn.parentElement.parentElement.querySelectorAll("textarea");
+	   		input.forEach(function(item){
+	   			item.value = '';
+	   			item.nextSibling.nextSibling.style.opacity = '1';
+	   		})
+	   		textarea.forEach(function(item){
+	   			item.value = '';
+	   			item.nextSibling.nextSibling.style.opacity = '1';
+	   		})
+	   }
+
+
+
+	   /*contact tabs scripts*/
+
+	   const tabCont = document.querySelectorAll(".tabs");
+	   const branchesWrap = document.getElementById("branches-grid-wrap");
+
+	   tabCont.forEach(function(item){
+		   	for(let i =0; i < item.children.length; i++){
+		   		item.children[i].onclick = function(){
+		   			for(let j =0; j < item.children.length; j++){
+		   				item.children[j].classList.remove("active");
+		   			}
+		   			item.children[i].classList.add("active");
+		   			for(let k = 0; k < branchesWrap.children.length; k++){
+		   				$("#branches-grid-wrap").children().eq(k).slideUp();
+		   			}
+		   			let branchId =item.children[i].getAttribute("data-branch");
+		   			setTimeout(() => $('#' + branchId).slideDown(), 600);
+		   		}
+		   	}
+	   })
 
 })

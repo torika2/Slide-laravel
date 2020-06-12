@@ -34,7 +34,7 @@
                             <form method="post" action="{{route($links->update, ['id' => $data->id] )}}" enctype="multipart/form-data">
                                 {{csrf_field()}}
                                 <input type="hidden" name="id" value="{{$data->id}}">
-                                
+
                                 <div class="col-md-12">
                                     @include('CMS.layout.includes.langTabComponent')
 
@@ -44,34 +44,34 @@
                                             <div class="tab-pane fade @if($activator == 0)  active show @endif"
                                                  id="locale-{{$loc->locale}}" role="tabpanel">
 
-                                                @include('CMS.layout.components.textField', 
-                                                [  'lang' => $loc, 
-                                                    'data' => $data, 
-                                                    'column' => 'title', 
+                                                @include('CMS.layout.components.textField',
+                                                [  'lang' => $loc,
+                                                    'data' => $data,
+                                                    'column' => 'title',
                                                     'label' => 'title',
                                                     'placeHolder' => '',
                                                     'helpText' => '' ])
-                                                
-                                                @include('CMS.layout.components.textarea', 
-                                                [  'lang' => $loc, 
-                                                    'data' => $data, 
-                                                    'column' => 'meta_description', 
+
+                                                @include('CMS.layout.components.textarea',
+                                                [  'lang' => $loc,
+                                                    'data' => $data,
+                                                    'column' => 'meta_description',
                                                     'label' => 'description',
                                                     'placeHolder' => '',
                                                     'helpText' => '' ])
-                                                
-                                                @include('CMS.layout.components.textarea', 
-                                                [  'lang' => $loc, 
-                                                    'data' => $data, 
-                                                    'column' => 'meta_keywords', 
+
+                                                @include('CMS.layout.components.textarea',
+                                                [  'lang' => $loc,
+                                                    'data' => $data,
+                                                    'column' => 'meta_keywords',
                                                     'label' => 'keywords',
                                                     'placeHolder' => '',
                                                     'helpText' => '' ])
 
-                                                @include('CMS.layout.components.singleImg', 
-                                                [   'lang' => $loc, 
+                                                @include('CMS.layout.components.singleImg',
+                                                [   'lang' => $loc,
                                                     'data' => $data,
-                                                    'column' => 'image', 
+                                                    'column' => 'image',
                                                     'label' => 'image',
                                                     'placeHolder' => '',
                                                     'folder' => 'img',
@@ -82,7 +82,7 @@
                                             @php $activator++ @endphp
                                         @endforeach
                                     </div>
-                                    
+
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
                                             <button type="submit"

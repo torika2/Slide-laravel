@@ -224,6 +224,18 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
 });
 
 
+ 
+Route::get('login', [
+    'uses' => 'Admin\AuthController@login',
+    'as' => 'auth.login']);
+
+Route::post('post-login', [
+    'uses' => 'Admin\AuthController@postLogin',
+    'as' => 'auth.postLogin']);
+
+Route::get('logout', [
+    'uses' => 'Admin\AuthController@logout',
+    'as' => 'auth.logout']);
 
 
 
@@ -249,5 +261,19 @@ Route::get('/ecoist', function () {
 
 Route::get('/about', function () {
     return view('app.pages.about');
+
+});
+
+
+Route::get('/policy-medi', function () {
+    return view('app.pages.policyMedi');
+});
+Route::get('/contact', function () {
+    return view('app.pages.contact');
+
+});
+
+Route::get('/policy-details', function () {
+    return view('app.pages.policyDetails');
 
 });

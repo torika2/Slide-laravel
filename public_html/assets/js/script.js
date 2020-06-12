@@ -1,5 +1,5 @@
 // FAQ Slider
-var mediationSlider = new Swiper('.faq-slider', {
+var faqSlider = new Swiper('.faq-slider', {
     slidesPerView: 2.89,
     spaceBetween: 60,
     breakpoints: {
@@ -49,7 +49,7 @@ var clinicsSlider1 = new Swiper('.individual', {
     spaceBetween: 60,
     breakpoints: {
         300: {
-            slidesPerView: 1.19,
+            slidesPerView: 1.3,
             spaceBetween: 15,
         },
         768: {
@@ -79,7 +79,7 @@ $('#tabCorporate').click(function () {
             spaceBetween: 60,
             breakpoints: {
                 300: {
-                    slidesPerView: 1.19,
+                    slidesPerView: 1.3,
                     spaceBetween: 15,
                 },
                 768: {
@@ -121,16 +121,60 @@ function serviceF() {
     $('.service-box').on('click', function () {
         if (!$(this).hasClass('active')) {
             $('.service-box').find('.service-description').slideUp(500);
-            $(this).find('.service-description').slideDown(500)
-            $('.service-box').removeClass('active')
-            $(this).addClass('active')
+            $(this).find('.service-description').slideDown(500);
+            $('.service-box').removeClass('active');
+            $(this).addClass('active');
             return
         } else {
-            $(this).find('.service-description').slideUp(500)
-            $(this).removeClass('active')
+            $(this).find('.service-description').slideUp(500);
+            $(this).removeClass('active');
         }
     });
 }
 serviceF();
 
 
+
+
+// Package compare hover
+var compare = function () {
+    if (window.innerWidth > 1365) {
+        $('.compare-box').hover(function () {
+            $(this).parent().parent().parent().parent().find('.package-info').css('transform', 'translateY(-50px)');
+        })
+
+        $('.compare-box').mouseleave(function () {
+            $(this).parent().parent().siblings('.package-info').css('transform', 'translateY(0px)');
+        })
+
+    }
+}
+
+$(window).resize(function () {
+    setTimeout(() => {
+        compare();
+    }, 100);
+});
+
+
+
+// parallax
+var kufuna_parallax = function () {
+    if ($(window).innerWidth() > 1024) {
+        var a = $('.imgg');
+        var b = $(window).innerHeight();
+        var c = $(window).scrollTop();
+        var e = $('.imgg img');
+        a.each(function (i) {
+            var c = $(window).scrollTop();
+            if ($(a[i]).offset().top - b < c) {
+                $(a[i]).find('img').css({ transform: 'translateY(' + ((c - ($(a[i]).offset().top - b)) / 6) + 'px)' })
+            }
+        })
+    } else {
+        $('.img').find('img').css({ transform: 'translateY(0)' })
+    }
+}
+kufuna_parallax();
+$(window).resize(kufuna_parallax);
+$(window).scroll(kufuna_parallax);

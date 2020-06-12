@@ -4,7 +4,7 @@
 
 
 <section class="became-member m-t-233">
-    <div class="img-box">
+    <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/became.png')}}">
             <source media="(max-width: 1023px)" srcset="{{asset('assets/img/became.png')}}">
@@ -29,7 +29,7 @@
 
 
 <section class="social-banner m-t-144">
-    <div class="img-box">
+    <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/social.jpg')}}">
             <source media="(max-width: 1023px)" srcset="{{asset('assets/img/social.jpg')}}">
@@ -45,6 +45,7 @@
     </div>
 </section>
 
+@include('app.layout.components.videoContainer')
 @include('app.layout.components.ecoistSlider')
 @include('app.layout.components.subMenu')
 @include('app.layout.components.newsOuter')

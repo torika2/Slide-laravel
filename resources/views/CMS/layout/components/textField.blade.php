@@ -8,7 +8,8 @@
     $name = $lang ? $columnName.'_'.$lang->locale : $columnName;
     //Define $value
     if($data && $lang ){
-        $value = old($name) ? old($name) : $data->getTranslation($columnName,$lang->locale);
+
+        $value = old($name,$data->getTranslation($columnName,$lang->locale));
     }
     elseif($data && !$lang){ $value = $data->{$columnName}; }
     else { $value = old($name) ? old($name) : ''; }

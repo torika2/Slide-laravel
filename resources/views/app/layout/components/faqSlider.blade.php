@@ -1,5 +1,5 @@
 <section class="container faq-section m-t-144">
-    <div class="faq-title fira-bold font-55">ხშირად აინტერესებთ</div>
+    <h2 class="faq-title fira-bold font-55">ხშირად აინტერესებთ</h2>
     <div class="faq-subtitle font-21">აირჩიე კატეგორია</div>
     <div class="faq-slider swiper-container">
         <div class="swiper-wrapper">

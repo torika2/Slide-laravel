@@ -1,6 +1,5 @@
 <div class="container">
     <section class="m-t-144 sevices-section">
-
         <h2 class="fira-bold font-55">მომსახურების სქემა</h2>
         <div class="service-subtitle noto-bold">
             როგორ იღებენ შემდეგი სახის მომსახურებას ადამიანები

@@ -119,31 +119,22 @@ class SeoController extends Controller
         }
         $data->save();
 
-        if($request->image_en){
-            $imageData = [
-                'gate'      => 'update'.$this->gateSuffix,
-                'data'      => $data,
-                'column'    => 'image',
-                'folder'    => 'img',
-                'src'       => $request->file('image_en'),
-                'thumbs'    => [],
-                'locale'    => 'en',
-            ];
-            imageHandle::addImage((object) $imageData);
+        foreach ($locales as $loc){
+            if($request->file('image_'.$loc->locale)){
+                $imageData = [
+                    'gate'      => 'update'.$this->gateSuffix,
+                    'data'      => $data,
+                    'column'    => 'image',
+                    'folder'    => 'img',
+                    'src'       => $request->file('image_'.$loc->locale),
+                    'thumbs'    => [],
+                    'locale'    => $loc->locale,
+                ];
+                imageHandle::addImage((object) $imageData);
+            }
         }
 
-        if($request->image_ka){
-            $imageData = [
-                'gate'      => 'update'.$this->gateSuffix,
-                'data'      => $data,
-                'column'    => 'image',
-                'folder'    => 'img',
-                'src'       => $request->file('image_ka'),
-                'thumbs'    => [],
-                'locale'    => 'ka',
-            ];
-            imageHandle::addImage((object) $imageData);
-        }
+
 
 
         if ($data) {

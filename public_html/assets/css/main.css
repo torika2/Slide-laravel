@@ -161,16 +161,16 @@ button {
 }
 
 .noto-regular {
-    font-family: "NotoSans-Regular", "NotoSansGeorgian-Regular";
+    font-family: "NotoSansGeorgian-Regular", "NotoSans-Regular";
 }
 .noto-medium {
-    font-family: "NotoSans-Medium", "NotoSansGeorgian-Medium";
+    font-family: "NotoSansGeorgian-Medium", "NotoSans-Medium";
 }
 .noto-bold {
-    font-family: "NotoSans-Bold", "NotoSansGeorgian-Bold";
+    font-family: "NotoSansGeorgian-Bold", "NotoSans-Bold";
 }
 .noto-semibold {
-    font-family: "NotoSans-SemiBold", "NotoSansGeorgian-SemiBold";
+    font-family: "NotoSansGeorgian-SemiBold", "NotoSans-SemiBold";
 }
 .fira-bold {
     font-family: 'FiraSans-Bold', 'FiraGO-Bold';

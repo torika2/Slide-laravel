@@ -138,25 +138,25 @@ serviceF();
 
 // Package compare hover
 var compare = function () {
-    if (window.innerWidth > 1365) {
-        $('.compare-box').hover(function () {
-            $(this).parent().parent().parent().parent().find('.package-info').css('transform', 'translateY(-50px)');
-        })
+    $('.compare-box').hover(function () {
+        if (window.innerWidth > 1024) {
+            $(this).closest('.package-box').find('.package-info').css('transform', 'translateY(-45px)');
+        }
+    })
 
-        $('.compare-box').mouseleave(function () {
-            $(this).parent().parent().siblings('.package-info').css('transform', 'translateY(0px)');
-        })
-
-    }
+    $('.compare-box').mouseleave(function () {
+        if (window.innerWidth > 1024) {
+            $(this).closest('.package-box').find('.package-info').css('transform', 'translateY(0px)');
+        }
+    })
 }
-
-$(window).resize(function () {
-    setTimeout(() => {
-        compare();
-    }, 100);
-});
+compare();
 
 
+
+// if ($('.package-box').find('.lable')) {
+//     $(this).css('padding-top', "100px");
+// }
 
 // parallax
 var kufuna_parallax = function () {

@@ -207,7 +207,9 @@ window.onload = function(){
         elems[elems.length - 1].style.transformOrigin = 'right';
         elems[elems.length - 1].style.opacity = '0.5'
     }
-    ecoistSlider();
+    if (document.querySelector('#ecoist-slider') != undefined) {
+        ecoistSlider();
+    }
 
     function ecoistSliderCursor(){
 
@@ -255,7 +257,9 @@ window.onload = function(){
         update();
 
     }
-    ecoistSliderCursor()
+    if (document.querySelector('#cursor') != undefined) {
+        ecoistSliderCursor()
+    }
 
     var observer = new IntersectionObserver((entries, observer) => { 
         entries.forEach(entry => {

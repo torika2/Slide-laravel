@@ -207,6 +207,35 @@ var mySwiper = new Swiper('.direction-slider', {
   }
 });
 
+var mySwiper = new Swiper('.packages-slider', {
+  speed: 1000,
+  slidesPerView: "auto",
+  navigation: {
+	 nextEl: '.swiper-button-next',
+	 prevEl: '.swiper-button-prev',
+  },
+  watchOverflow: true,
+  breakpoints: {
+    320: {
+    	spaceBetween: 10,
+    },
+    768: {
+    },
+    1024: {
+    },
+    1366: {
+    },
+    1599: {
+    },
+    1900: {
+
+    }
+  }
+});
+
+const xer = document.querySelector(".packages-slider");
+console.log(xer.children[0].getAttribute("style"));
+
 
 
 /*set transition delay to menu item  and svg, translate to span*/
@@ -267,44 +296,45 @@ var mySwiper = new Swiper('.direction-slider', {
 	    }
 	  }
 
+	 if (document.querySelector('body').classList.contains('page-contact')){
 
-	  const contactBtn = document.getElementById("contact-btn");
-	  const area = contactBtn.parentElement.parentElement;
-	  let checker = arr => arr.every(Boolean);
-	  contactBtn.onclick = function (){
-	  	let errorArr = [];
+		  const contactBtn = document.getElementById("contact-btn");
+		  const area = contactBtn.parentElement.parentElement;
+		  let checker = arr => arr.every(Boolean);
+		  contactBtn.onclick = function (){
+		  	let errorArr = [];
 
-	  	const vEmpty = area.querySelectorAll(".v-empty")
-	  	vEmpty.forEach(function(item){
-	  	    ValidateEmpty(item);
-	  		errorArr.push(ValidateEmpty(item));
-	  	})
-	  	const vMail = area.querySelectorAll(".v-mail")
-	  	vMail.forEach(function(item){
-	  		ValidateEmail(item);
-	  		errorArr.push(ValidateEmail(item));
-	  	})
-	  	if(checker(errorArr)){
-	  		contactBtn.parentElement.parentElement.classList.add("success");
-	  	}
-	  }
+		  	const vEmpty = area.querySelectorAll(".v-empty")
+		  	vEmpty.forEach(function(item){
+		  	    ValidateEmpty(item);
+		  		errorArr.push(ValidateEmpty(item));
+		  	})
+		  	const vMail = area.querySelectorAll(".v-mail")
+		  	vMail.forEach(function(item){
+		  		ValidateEmail(item);
+		  		errorArr.push(ValidateEmail(item));
+		  	})
+		  	if(checker(errorArr)){
+		  		contactBtn.parentElement.parentElement.classList.add("success");
+		  	}
+		  }
 
-	   const newMsgBtn = document.getElementById("new-msg");
-	   newMsgBtn.onclick = function(){
-	   		contactBtn.parentElement.parentElement.classList.remove("success");
-	   		const input = contactBtn.parentElement.parentElement.querySelectorAll("input");
-	   		const textarea = contactBtn.parentElement.parentElement.querySelectorAll("textarea");
-	   		input.forEach(function(item){
-	   			item.value = '';
-	   			item.nextSibling.nextSibling.style.opacity = '1';
-	   		})
-	   		textarea.forEach(function(item){
-	   			item.value = '';
-	   			item.nextSibling.nextSibling.style.opacity = '1';
-	   		})
-	   }
+		   const newMsgBtn = document.getElementById("new-msg");
+		   newMsgBtn.onclick = function(){
+		   		contactBtn.parentElement.parentElement.classList.remove("success");
+		   		const input = contactBtn.parentElement.parentElement.querySelectorAll("input");
+		   		const textarea = contactBtn.parentElement.parentElement.querySelectorAll("textarea");
+		   		input.forEach(function(item){
+		   			item.value = '';
+		   			item.nextSibling.nextSibling.style.opacity = '1';
+		   		})
+		   		textarea.forEach(function(item){
+		   			item.value = '';
+		   			item.nextSibling.nextSibling.style.opacity = '1';
+		   		})
+		   }
 
-
+		}
 
 	   /*contact tabs scripts*/
 
@@ -325,6 +355,29 @@ var mySwiper = new Swiper('.direction-slider', {
 		   			setTimeout(() => $('#' + branchId).slideDown(), 600);
 		   		}
 		   	}
+	   })
+
+
+	   /*policy compare*/
+
+	   /**hovers**/
+	   const compareItem = document.querySelectorAll(".compare-item");
+	   
+	   compareItem.forEach(function(item){
+	   	item.addEventListener("mouseenter", function(){
+	   		let attribute = item.getAttribute("data-hover");
+	   		let itemWithSameAttr = document.querySelectorAll("[data-hover='" + attribute + "']");
+	   		itemWithSameAttr.forEach(function(item2){
+	   			item2.classList.add("hovered");
+	   		})
+		  })
+		  item.addEventListener("mouseleave", function(){
+		    let attribute = item.getAttribute("data-hover");
+	   		let itemWithSameAttr = document.querySelectorAll("[data-hover='" + attribute + "']");
+	   		itemWithSameAttr.forEach(function(item2){
+	   			item2.classList.remove("hovered");
+	   		})
+		  })
 	   })
 
 })

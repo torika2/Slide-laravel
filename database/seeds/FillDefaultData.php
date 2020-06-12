@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Models\About\About;
 use App\Models\Languages\Locales;
 use App\Models\Settings\Settings;
 use App\Models\User\User;
@@ -317,6 +318,26 @@ class FillDefaultData extends Seeder
         }
 
 
+        $permission = Permission::where('name', 'viewAbout')->first();
+        if (!$permission) {
+            Permission::create([
+                'name' => 'viewAbout',
+                'module' => 'About',
+                'can' => 'View About',
+                'guard_name' => 'web',
+            ]);
+        }
+
+        $permission = Permission::where('name', 'updateAbout')->first();
+        if (!$permission) {
+            Permission::create([
+                'name' => 'updateAbout',
+                'module' => 'About',
+                'can' => 'Update About',
+                'guard_name' => 'web',
+            ]);
+        }
+
         $role = Role::where('name', 'SuperUser')->first();
         if (!$role) {
             $role = Role::create([
@@ -350,10 +371,16 @@ class FillDefaultData extends Seeder
             ]);
         }
 
+      
+
+
+
+
+ 
 
         app()->make(PermissionRegistrar::class)->forgetCachedPermissions();
 
-        DB::statement("insert into role_has_permissions select id as permission_id, $role->id as role_id  from  permissions");
+        //DB::statement("insert into role_has_permissions select id as permission_id, $role->id as role_id  from  permissions");
         $user->syncRoles([$role->id]);
 
         //php artisan db:seed --class=FillDefaultData

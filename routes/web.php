@@ -224,7 +224,7 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
 });
 
 
-
+ 
 Route::get('login', [
     'uses' => 'Admin\AuthController@login',
     'as' => 'auth.login']);

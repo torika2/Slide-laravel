@@ -95,9 +95,9 @@
                                 <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
-                                    <path id="Compare"
+                                    <path
                                         d="M28.449,3.5H10.421v6.921H3.5V28.449H21.528V21.528h6.921ZM19.73,26.679H5.271V12.219h5.151v9.309H19.73Zm6.948-6.948H21.528V10.421H12.219V5.271h14.46Z"
-                                        transform="translate(-3.5 -3.5)" fill="#ee2a7b" fill-rule="evenodd" />
+                                        transform="translate(-3.5 -3.5)" fill="#292562" fill-rule="evenodd" />
                                 </svg>
                                 <div class="details-tooltip noto-medium white flex-box al-center justify-center">
                                     შედარება
@@ -131,12 +131,12 @@
                 <div class="flex-box column">
                     <div class="package-head flex-box column al-center">
                         <span class="lable popular flex-box al-center font-13 noto-bold white">პოპულარული</span>
-                        <h3 class="package-name fira-bold uppercase">მედი სტანდარტი</h3>
+                        <h3 class="package-name fira-bold uppercase">მედი კლასიკი</h3>
                         <div class="area-box noto-regular font-21">120 კვ.მდე</div>
                     </div>
                     <div class="package-info">
                         <div class="package-price flex-box justify-center noto-bold">
-                            31 <span class="currency">₾</span>
+                            41 <span class="currency">₾</span>
                             <div class="price-info noto-bold font-21">დან</div>
 
                             <div class="popular-star">
@@ -160,9 +160,9 @@
                                 <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
-                                    <path id="Compare"
+                                    <path
                                         d="M28.449,3.5H10.421v6.921H3.5V28.449H21.528V21.528h6.921ZM19.73,26.679H5.271V12.219h5.151v9.309H19.73Zm6.948-6.948H21.528V10.421H12.219V5.271h14.46Z"
-                                        transform="translate(-3.5 -3.5)" fill="#ee2a7b" fill-rule="evenodd" />
+                                        transform="translate(-3.5 -3.5)" fill="#292562" fill-rule="evenodd" />
                                 </svg>
                                 <div class="details-tooltip noto-medium white flex-box al-center justify-center">
                                     შედარება
@@ -195,21 +195,17 @@
             <div class="package-box flex-box column">
                 <div class="flex-box column">
                     <div class="package-head flex-box column al-center">
-                        <span class="lable popular flex-box al-center font-13 noto-bold white">პოპულარული</span>
-                        <h3 class="package-name fira-bold uppercase">მედი სტანდარტი</h3>
+                        <span class="lable discount flex-box al-center font-13 noto-bold">-10%</span>
+                        <h3 class="package-name fira-bold uppercase">მედი პრემიუმი</h3>
                         <div class="area-box noto-regular font-21">120 კვ.მდე</div>
                     </div>
                     <div class="package-info">
                         <div class="package-price flex-box justify-center noto-bold">
-                            31 <span class="currency">₾</span>
+                            56 <span class="currency">₾</span>
                             <div class="price-info noto-bold font-21">დან</div>
 
-                            <div class="popular-star">
-                                <svg height="15px" viewBox="0 -10 511.99143 511" width="15px"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill="#fff"
-                                        d="m510.652344 185.882812c-3.371094-10.367187-12.566406-17.707031-23.402344-18.6875l-147.796875-13.417968-58.410156-136.75c-4.3125-10.046875-14.125-16.53125-25.046875-16.53125s-20.738282 6.484375-25.023438 16.53125l-58.410156 136.75-147.820312 13.417968c-10.835938 1-20.011719 8.339844-23.402344 18.6875-3.371094 10.367188-.257813 21.738282 7.9375 28.925782l111.722656 97.964844-32.941406 145.085937c-2.410156 10.667969 1.730468 21.699219 10.582031 28.097656 4.757813 3.457031 10.347656 5.183594 15.957031 5.183594 4.820313 0 9.644532-1.28125 13.953125-3.859375l127.445313-76.203125 127.421875 76.203125c9.347656 5.585938 21.101562 5.074219 29.933593-1.324219 8.851563-6.398437 12.992188-17.429687 10.582032-28.097656l-32.941406-145.085937 111.722656-97.964844c8.191406-7.1875 11.308594-18.535156 7.9375-28.925782zm-252.203125 223.722657" />
-                                </svg>
+                            <div class="lable-mob discount font-13 noto-bold">
+                                -10%
                             </div>
                         </div>
                         <div class="package-text">
@@ -225,9 +221,9 @@
                                 <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
-                                    <path id="Compare"
+                                    <path
                                         d="M28.449,3.5H10.421v6.921H3.5V28.449H21.528V21.528h6.921ZM19.73,26.679H5.271V12.219h5.151v9.309H19.73Zm6.948-6.948H21.528V10.421H12.219V5.271h14.46Z"
-                                        transform="translate(-3.5 -3.5)" fill="#ee2a7b" fill-rule="evenodd" />
+                                        transform="translate(-3.5 -3.5)" fill="#292562" fill-rule="evenodd" />
                                 </svg>
                                 <div class="details-tooltip noto-medium white flex-box al-center justify-center">
                                     შედარება

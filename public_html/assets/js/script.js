@@ -72,37 +72,6 @@ var clinicsSlider1 = new Swiper('.individual', {
 });
 
 
-$('#tabCorporate').click(function () {
-    setTimeout(function () {
-        var clinicsSlider2 = new Swiper('.corporate', {
-            slidesPerView: 4,
-            spaceBetween: 60,
-            breakpoints: {
-                300: {
-                    slidesPerView: 1.3,
-                    spaceBetween: 15,
-                },
-                768: {
-                    spaceBetween: 15,
-                },
-                1024: {
-                    spaceBetween: 30,
-                },
-                1366: {
-                    spaceBetween: 60,
-                },
-                1680: {
-                    spaceBetween: 60,
-                },
-                1900: {
-                    slidesPerView: 4,
-                },
-
-            }
-        });
-    }, 100);
-});
-
 // Service scheme Tabs
 $(document).ready(function () {
     $('.tab-button').click(function () {
@@ -114,6 +83,37 @@ $(document).ready(function () {
         $("#" + tab_id).addClass('current');
     })
 })
+
+var navigationStick = function () {
+    var navLinks = document.querySelectorAll('.tab-button'),
+        nav = document.querySelector('.services-tabs'),
+        stick = document.querySelector('.services-tabs .stick'),
+        result,
+        activeElem;
+
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+        })
+    })
+}
+
+navigationStick();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        navigationStick();
+    }, 500);
+});
+
 
 
 // Services Slide Toggle
@@ -154,10 +154,6 @@ compare();
 
 
 
-// if ($('.package-box').find('.lable')) {
-//     $(this).css('padding-top', "100px");
-// }
-
 // parallax
 var kufuna_parallax = function () {
     if ($(window).innerWidth() > 1024) {
@@ -178,3 +174,15 @@ var kufuna_parallax = function () {
 kufuna_parallax();
 $(window).resize(kufuna_parallax);
 $(window).scroll(kufuna_parallax);
+
+
+
+// package box width
+if ($('.package-box').length === 1) {
+    $('.packages').css('width', 'max-content');
+}
+
+
+
+
+

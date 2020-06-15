@@ -95,9 +95,9 @@
                                 <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
-                                    <path id="Compare"
+                                    <path
                                         d="M28.449,3.5H10.421v6.921H3.5V28.449H21.528V21.528h6.921ZM19.73,26.679H5.271V12.219h5.151v9.309H19.73Zm6.948-6.948H21.528V10.421H12.219V5.271h14.46Z"
-                                        transform="translate(-3.5 -3.5)" fill="#ee2a7b" fill-rule="evenodd" />
+                                        transform="translate(-3.5 -3.5)" fill="#292562" fill-rule="evenodd" />
                                 </svg>
                                 <div class="details-tooltip noto-medium white flex-box al-center justify-center">
                                     შედარება
@@ -160,9 +160,9 @@
                                 <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
-                                    <path id="Compare"
+                                    <path
                                         d="M28.449,3.5H10.421v6.921H3.5V28.449H21.528V21.528h6.921ZM19.73,26.679H5.271V12.219h5.151v9.309H19.73Zm6.948-6.948H21.528V10.421H12.219V5.271h14.46Z"
-                                        transform="translate(-3.5 -3.5)" fill="#ee2a7b" fill-rule="evenodd" />
+                                        transform="translate(-3.5 -3.5)" fill="#292562" fill-rule="evenodd" />
                                 </svg>
                                 <div class="details-tooltip noto-medium white flex-box al-center justify-center">
                                     შედარება
@@ -225,9 +225,9 @@
                                 <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
-                                    <path id="Compare"
+                                    <path
                                         d="M28.449,3.5H10.421v6.921H3.5V28.449H21.528V21.528h6.921ZM19.73,26.679H5.271V12.219h5.151v9.309H19.73Zm6.948-6.948H21.528V10.421H12.219V5.271h14.46Z"
-                                        transform="translate(-3.5 -3.5)" fill="#ee2a7b" fill-rule="evenodd" />
+                                        transform="translate(-3.5 -3.5)" fill="#292562" fill-rule="evenodd" />
                                 </svg>
                                 <div class="details-tooltip noto-medium white flex-box al-center justify-center">
                                     შედარება
@@ -290,9 +290,9 @@
                                 <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
-                                    <path id="Compare"
+                                    <path
                                         d="M28.449,3.5H10.421v6.921H3.5V28.449H21.528V21.528h6.921ZM19.73,26.679H5.271V12.219h5.151v9.309H19.73Zm6.948-6.948H21.528V10.421H12.219V5.271h14.46Z"
-                                        transform="translate(-3.5 -3.5)" fill="#ee2a7b" fill-rule="evenodd" />
+                                        transform="translate(-3.5 -3.5)" fill="#292562" fill-rule="evenodd" />
                                 </svg>
                                 <div class="details-tooltip noto-medium white flex-box al-center justify-center">
                                     შედარება
@@ -351,9 +351,9 @@
                                 <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
-                                    <path id="Compare"
+                                    <path
                                         d="M28.449,3.5H10.421v6.921H3.5V28.449H21.528V21.528h6.921ZM19.73,26.679H5.271V12.219h5.151v9.309H19.73Zm6.948-6.948H21.528V10.421H12.219V5.271h14.46Z"
-                                        transform="translate(-3.5 -3.5)" fill="#ee2a7b" fill-rule="evenodd" />
+                                        transform="translate(-3.5 -3.5)" fill="#292562" fill-rule="evenodd" />
                                 </svg>
                                 <div class="details-tooltip noto-medium white flex-box al-center justify-center">
                                     შედარება

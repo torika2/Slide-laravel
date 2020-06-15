@@ -287,3 +287,8 @@ Route::get('/policy-exclusive', function () {
     return view('app.pages.policyExclusive');
 
 });
+
+Route::get('/news', function () {
+    return view('app.pages.news');
+
+});

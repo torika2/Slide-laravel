@@ -1,4 +1,5 @@
 <script src="{{asset('assets/js/jquery.js')}}"></script>
+<script src="{{asset('assets/js/flatpickr.js')}}"></script>
 <script src="{{asset('assets/js/lightgallery.min.js')}}"></script>
 <script src="{{asset('assets/js/lg-video.min.js')}}"></script>
 <script src="{{asset('assets/js/kfn.js')}}"></script>

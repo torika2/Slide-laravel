@@ -233,8 +233,8 @@ var mySwiper = new Swiper('.packages-slider', {
   }
 });
 
-const xer = document.querySelector(".packages-slider");
-console.log(xer.children[0].getAttribute("style"));
+// const xer = document.querySelector(".packages-slider");
+// console.log(xer.children[0].getAttribute("style"));
 
 
 
@@ -250,6 +250,7 @@ console.log(xer.children[0].getAttribute("style"));
 
   })
  })
+
  menuList.forEach(function(item){  
   for(let i=1; i < item.children.length; i++){
      item.children[i].children[2].style.transitionDelay =  (item.children.length - i)/20 + 0.3 + "s";

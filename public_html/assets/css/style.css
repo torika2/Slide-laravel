@@ -188,7 +188,7 @@ header {
     transition: 0.8s;
 }
 
-@media(min-width: 1025px) {
+/* hover */
     .faq-slider .swiper-slide:hover {
         background: #FCB618;
         transition: 1.5s;
@@ -196,7 +196,7 @@ header {
     .faq-slider .swiper-slide:hover .slider-title {
         color: #fff;
     }
-}
+
 
 @media(max-width: 1679px) {
     .faq-slider.swiper-container {
@@ -373,6 +373,7 @@ header {
 }
 .packages {
     position: relative;
+    /* width: max-content; */
     padding-top: 16px;
     padding-bottom: 20px;
     border-radius: 8px;
@@ -449,6 +450,7 @@ header {
     height: 100%;
 }
 
+/* hover */
 @media(min-width: 1025px) {
     .package-box:hover {
         border-color: #292562;
@@ -456,6 +458,8 @@ header {
         -moz-box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1);
         box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1); */
     }
+}
+
     .banner-links a:hover {
         text-decoration: underline;
     }
@@ -471,7 +475,6 @@ header {
         -moz-box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1);
         box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1);
     }
-}
 
 @media(max-width: 1900px) {
     .package-box {
@@ -621,7 +624,14 @@ header {
     border: 1px solid rgba(41, 37, 98, 0.7);
     padding: 0 15px;
 }
+.provider-link {
+    border: 1px solid rgba(41, 37, 98, 0.7);
+    padding: 0 15px;
+}
 .tab-link:not(:last-child) {
+    margin-right: 20px;
+}
+.provider-link:not(:last-child) {
     margin-right: 20px;
 }
 .tab-content {
@@ -673,7 +683,8 @@ header {
     -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
     box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
 }
-@media(min-width: 1025px) {
+
+/* hover */
     .tab-link:hover {
         border-color: #EE2A7B;
     }
@@ -681,7 +692,7 @@ header {
         border-color: #292562;
         transition: 1.5s;
     }
-}
+
 
 @media(max-width: 1679px) {
     .provider-clinics-slider .swiper-slide {
@@ -767,6 +778,7 @@ header {
     margin-top: 10px;
 }
 .services-tabs {
+    position: relative;
     height: 50px;
     border: 1px solid #B1B7CA;
     border-radius: 8px;
@@ -777,6 +789,17 @@ header {
     -moz-box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1);
     box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.1);
 }
+.stick {
+    height: calc(100% - 10px);
+    background: #EE2A7B;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    transition: cubic-bezier(0.68, 0.02, 0.18, 0.99) .4s;
+    z-index: 0;
+    pointer-events: none;
+    border-radius: 8px;
+}
 .tab-button {
     height: 40px;
     border-radius: 8px;
@@ -784,6 +807,7 @@ header {
     padding: 0 30px;
     cursor: pointer;
     transition: 0.6s;
+    z-index: 5;
 }
 .tab-button:first-child {
     margin-right: 5px;
@@ -796,7 +820,6 @@ header {
 }
 .tab-button.current {
     color: #fff;
-    background: #EE2A7B;
 }
 .service-content.current {
     display: inherit;
@@ -836,12 +859,12 @@ header {
     transform: rotate(-180deg);
 }
 
-@media(min-width: 1025px) {
+/* hover */
     .service-btn:hover {
         border-color: #EE2A7B;
     }
-}
 
+/* responsive */
 @media(max-width: 1365px) {
     .service-subtitle  {
         font-size: 13px;
@@ -1064,6 +1087,8 @@ header {
 }
 .details-2-box > a {
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .details-1-box {
     position: absolute;
@@ -1073,6 +1098,9 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+.details-2-box a svg path, .details-1-box svg path {
+    transition: 0.6s;
 }
 .details-1-box span {
     margin-left: 15px;
@@ -1085,7 +1113,7 @@ header {
     width: 1px;
     height: 30px;
     background: rgba(145, 153, 180, 0.5);
-    margin: 0 30px;
+    /* margin: 0 30px; */
     flex-shrink: 0;
 }
 .details-tooltip {
@@ -1150,15 +1178,20 @@ header {
 .package-text.show {
     display: flex;
 }
+
+/* hover */
+.policy-packages .package-box .btn:hover {
+    background: #EE2A7B;
+    border-color: #EE2A7B;
+}
+.details-2-box a:hover svg path, .details-1-box:hover svg path {
+    fill: #EE2A7B;
+}
 @media(min-width: 1025px) {
-    .policy-packages .package-box .btn:hover {
-        background: #EE2A7B;
-        border-color: #EE2A7B;
-    }
     .compare-box:hover .details-tooltip {
         visibility: visible;
         opacity: 1;
-        transition-delay: 0.5s;
+        transition-delay: 0.2s;
     }
 }
 .resp-text {

@@ -11,7 +11,8 @@
 	        		<div class="img-layer"></div>
 	        		<div class="content">
 	        			<div class="ttl-wrap">
-	        				<h2 class="font-55 fira-bold white ttl">ჩაეწერე ექიმთან 
+	        				<h2 class="ttl">
+	        					<span class="font-55 fira-bold white">ჩაეწერე ექიმთან  </span>
 	        					<span class="font-55 fira-bold white">სასურველ დროს</span>
 	        				</h2>
 	        				<span class="line"></span> 
@@ -45,7 +46,12 @@
 	        		<div class="img-layer"></div>
 	        		<div class="content">
 	        			<div class="ttl-wrap">
-	        				<h2 class="font-55 fira-bold white ttl">ჩაეწერე ექიმთან  სასურველ დროს სასურველ დროს</h2>
+	        				<h2 class="ttl">
+	        					<span class="font-55 fira-bold white">ჩაეწერე ექიმთან ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად მიახლოებული შაბლონი წარუდგინონ
+	        					შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული  </span>
+	        					<span class="font-55 fira-bold white">სასურველ დროს ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად მიახლოებული შაბლონი წარუდგინონ
+	        					შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული </span>
+	        				</h2>
 	        				<span class="line"></span> 
 	        			</div>
 	       
@@ -72,7 +78,10 @@
 	        		<div class="img-layer"></div>
 	        		<div class="content">
 	        			<div class="ttl-wrap">
-	        				<h2 class="font-55 fira-bold white ttl">ჩაეწერე ექიმთან</h2>
+	        				<h2 class="ttl">
+	        					<span class="font-55 fira-bold white">ჩაეწერე ექიმთან  </span>
+	        					<span class="font-55 fira-bold white"></span>
+	        				</h2>
 	        				<span class="line"></span> 
 	        			</div>
 	       

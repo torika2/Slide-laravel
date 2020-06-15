@@ -92,7 +92,7 @@
 
 		</div>
 
-		<div class="package-details">
+		<div class="package-det">
 			<h2 class="noto-bold font-21 ttl">მედი ბაზისური პოლისის დეტალები</h2>
 
 			<div class="package-details-list">

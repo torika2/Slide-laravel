@@ -577,6 +577,18 @@
             <path id="Path_253" data-name="Path 253" d="M527.173,205.359a1.275,1.275,0,0,0,.624,0,.839.839,0,0,1,.869.065.8.8,0,0,0,.53.151c.761-.082,2.517-.053,3-.649a3.413,3.413,0,0,1,.4-.434c.775-.355-2.608-2.19-2.835-2.193a3.8,3.8,0,0,1-.774-.081Zm22.391,1.94a3.5,3.5,0,0,1,1.4-.434c.582-.088.519-.23,1-.644.311-.269,1.342-.1,1.592-.433a1.711,1.711,0,0,1,.812,0c.058.1.313.141.4.211.644.522,1.06.278,1.8.432a7.357,7.357,0,0,0,1.375.222c.287-.183.477-.134.619.211a17.976,17.976,0,0,0,1.994,1.075.993.993,0,0,0,.461-.016c.216-.037.434-.074.538.016.037.032,1.375.57,1.375.637s-.123.188-.187.227a3.718,3.718,0,0,1-2.8,0,1.809,1.809,0,0,0-.585.1,1.906,1.906,0,0,1-.6.1c-.064-.028-.369.165-.4.211-.167.243-.811.378-1.1.428a2.1,2.1,0,0,1-.542-.035,1.552,1.552,0,0,0-.679-.01c-2.119.835-3.463-.016-4.479-.157a1.357,1.357,0,0,0-.315.111c-.408.158-1.129.315-1.891-.777-.259-.366-1.055-.361-1.667-.355a2.239,2.239,0,0,1-.7-.048c-.3-.137-.325-.176-.193-.436.083-.163.408-.468.589-.432a10.7,10.7,0,0,0,1.187,0,.992.992,0,0,1,.616,0,.06.06,0,0,0,.019,0,.924.924,0,0,0,.362-.211m7.8-17.824a1.482,1.482,0,0,0-.784.441c-.392.668-1.187.559-1.616.864-.1.072-1.375,2.059-1.6,2.152-.044.018-.471.837-2.283.841-.229,0-1.033.445-1.21.44-1.34-.053-3.1-1.164-3.481-1.082a6,6,0,0,1-2.21.2c-.071-.011-3.1.162-3.192.225a1.207,1.207,0,0,1-.805,0c-.631-.268-1.1-1.5-1.785-1.509a5.383,5.383,0,0,0-.571.033,2.168,2.168,0,0,1-1.113-.077c-.459-.218-.394-1.067-.825-1.718l-2.706,4.681c.806.341,1.489,1.166,2.409,1.175a2.171,2.171,0,0,0,1.09-.412c.5-.306.946-.614,1.314-.246a6.091,6.091,0,0,0,.594.426c.623.213,2.163.22,5.425-.51.588-.132.378.271-.113.673-.6.494-1.621.989-2.108.5a6.035,6.035,0,0,0-2.207.341c-.8.2-1.5.4-1.534.384a1.523,1.523,0,0,0-.8,0,9.467,9.467,0,0,0-2.415.958c-.105.072-1.145,0-1.254.079a3.881,3.881,0,0,1-1.8.584,2.586,2.586,0,0,0-.832-.1l-1.342,2.322a7.632,7.632,0,0,1,1.183-.5c.5-.026.83.51,1.276.51,1.084,0,1.926-1.635,2.93-1.585.41.021,1.125,1.036,1.189,1.075a5.247,5.247,0,0,0,3.366.911c.4-.023.665-.049.835.158s-.052.851-.213,1.073c-.3.429-.317,1.567,4.4,1.073a9.237,9.237,0,0,1,2.708.039c2.246.322.908,1.221-.051,1.129a10.277,10.277,0,0,0-2.448.339c-.306.248-.969.607-1,.64-.489.491-3.377,1.03-3.607,1.3-.069.083.041.329,0,.431-.183.469-1.1.425-1.947.383a4.962,4.962,0,0,0-1.241.025c-1.226.324-1.224-.38-2.209-.631a1.183,1.183,0,0,0-.587,0,3.6,3.6,0,0,1-1.407.223,11.6,11.6,0,0,0-1.594-.223c-1.078-.473-3.618-1.022-4.265-1.286-.037-.014-.115-.044-.206-.081l-5.1,8.825a2.2,2.2,0,0,0,1.931,3.24h20.652a17.828,17.828,0,0,0-.023-3.009c-.051-.273-.171-.876-.4-1.031-.023-.016-.065-.007-.108,0a.193.193,0,0,1-.095,0c-.645-.286-.983-1.025-1.472-1.554s-.839-1.147-1.321-1.666c-.3-.323-1.1-.8-1.3-1.19-.084-.169-.206-.6-.089-.746.1-.129.5-.134.651-.077.466.169.45.517.742.946a5.505,5.505,0,0,0,2.051,1.621,4.336,4.336,0,0,0,.742.4,1.382,1.382,0,0,0,.663.088c.617-.237-.63-3.428-.156-3.846.111-.1.406.19.514.289s.168.4.3.438a20.015,20.015,0,0,0,3.176.413c.323,0,1.168.2,1.184.528.005.137-.387.17-.482.271a2.578,2.578,0,0,0-.209,2.357,31.26,31.26,0,0,1,.253,3.812c0,.143-.222.369-.253.508a2.782,2.782,0,0,0,.075,1.451h22.031a2.2,2.2,0,0,0,2.194-2.2,2.275,2.275,0,0,0-.289-1.086l-6.563-11.37a1.814,1.814,0,0,1-1.268.082,4.277,4.277,0,0,0-1.81,0c-.892.412-.507.834-1.984.857-.075,0-.13.195-.2.226a1.641,1.641,0,0,1-1,0,26.053,26.053,0,0,0-5.392-1.083,5.6,5.6,0,0,1-2,0,.4.4,0,0,0-.083.007c-.042.007-.09.014-.109-.007a.222.222,0,0,1,0-.214c.521-.521,1.629-.294,2.387-.413A6.244,6.244,0,0,1,556.11,203a4.066,4.066,0,0,0,2.125-.22c.16-.068,1.263-.121,1.527-.2a5.281,5.281,0,0,0,1.194-1.077c.241-.3.109-1.236.4-1.491.038-.034,1.512-1.085,1.583-1.088.257-.011.249-.131.3-.176l-1.722-2.983c-.106.048-.22.1-.352.15-1.708.68-1.724,1.477-1.708,1.553.448,2.1-.651,3.533-2.629,3.283-2-.255-1.866-.862-3.273.53a3.135,3.135,0,0,1-2.374.665,6.761,6.761,0,0,1-2.615,0,3.678,3.678,0,0,0-1.549.023,3.908,3.908,0,0,1-1.85-.023c-.677-.315-3.539-.341-4.2-1.354-.214-.327-1.665-.163-2.166-.38-.447-.194,1.651-.964,1.783-1.071a2.115,2.115,0,0,1,1.282-.146,2.64,2.64,0,0,0,1.113-.07c.3-.145,1.878-.113,2.188-.424.114-.114,2.081-1.62,2.567-1.242.233.178.885.807,1.041.809.962,0,1.915.587,2.782.216,1.168-.5.5-1.706,2-1.706a7.175,7.175,0,0,1,2.021-.227c.863.209,1.379.364,1.783-.436a2.366,2.366,0,0,1,.213-.426,12.836,12.836,0,0,1,3.52-.459l-.8-1.382a3.061,3.061,0,0,1-1.927-.332,5.917,5.917,0,0,0-.795-.384c-.442.259-1.752.851-2,.4a5.488,5.488,0,0,1,.183-1.068c.007-.074.573-1.024.6-1.071a.746.746,0,0,1,.591-.216c.4.123,1.01-.394,1.5-.521l-.483-.837a1.011,1.011,0,0,0-.485-.156.627.627,0,0,0-.127.012M546.3,183.533a4.143,4.143,0,0,1,.894-.156c.466-.041,1.741-.514,1.757.833,0,.207.383.417.54.42a3.039,3.039,0,0,0,.4-.018c.3-.032.362-.062.886.262a2.693,2.693,0,0,0,1.352.384,7.051,7.051,0,0,0,.781.019c2.095-.582-.2,1.231-.45,1.317a3.212,3.212,0,0,1-.643-.007,5.324,5.324,0,0,0-1.039.007,3.382,3.382,0,0,1-.9.2c-.666-.134-.482-.134-.925,0-.116.037-.373.241-.447.223-.915-.222-1.1.172-1.97.216-.315.014-.9-.4-1.217-.44a2.13,2.13,0,0,1-1.827-.841c-.065-.088-.331.016-.675.121a2.155,2.155,0,0,1-1.3.081,2.016,2.016,0,0,1-.918-.658,4.673,4.673,0,0,1,1.677-.858,3.188,3.188,0,0,0,.6-.209c.549-.825.672-.315,1.523-.86a1.56,1.56,0,0,1,.788-.005,4.777,4.777,0,0,0,.6.048,1.427,1.427,0,0,0,.517-.081m-1.1-9.353-8.364,14.465a6.843,6.843,0,0,0,.962-.237,4.464,4.464,0,0,1,2.2.519,9.991,9.991,0,0,0,1.4.549,16.62,16.62,0,0,0,2.19-.631c.218-.1,1.011.408,1.2.42a7.15,7.15,0,0,0,2.265-.105,5.367,5.367,0,0,1,1.766-.12c.053,0,3.071.14,3.308.065.167-.053,1.465-.807,1.629-.876.413-.18.837-.524,1.417-.255a5.478,5.478,0,0,0,1.4.434,1,1,0,0,1,.584-.2s-8.085-13.99-8.09-14a2.176,2.176,0,0,0-3.876-.03" transform="translate(-521.359 -173.009)" fill="url(#linear-gradient)"></path>
         </svg>
     </a>
+    <a href="##" class="fixedHeadCabinet">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19.094" height="21.135" viewBox="0 0 19.094 21.135">
+            <g id="account" transform="translate(-10.7 -6.5)">
+                <g id="Group_913" data-name="Group 913" transform="translate(14.684 6.5)">
+                    <path id="Path_5508" data-name="Path 5508" d="M32.663,17.626a5.563,5.563,0,1,1,5.563-5.563A5.547,5.547,0,0,1,32.663,17.626Z" transform="translate(-27.1 -6.5)" fill="#fff"></path>
+                </g>
+                <g id="Group_914" data-name="Group 914" transform="translate(10.7 18.088)">
+                    <path id="Path_5509" data-name="Path 5509" d="M29.794,63.747H27.924a7.677,7.677,0,0,0-15.353,0H10.7a9.547,9.547,0,0,1,19.094,0Z" transform="translate(-10.7 -54.2)" fill="#fff"></path>
+                </g>
+            </g>
+        </svg>
+    </a>
     <a href="##" class="fixMenuLang noto-semibold">ENG</a>
     <div class="burger">
         <div>
@@ -594,6 +606,15 @@
             <span></span>
             <span></span>
         </div>
+
+    </div>
+    <div class="burgerClose">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16.657" height="16.657" viewBox="0 0 16.657 16.657">
+            <g id="Group_489" data-name="Group 489" transform="translate(-1518.672 -63.672)">
+                <line id="Line_59" data-name="Line 59" x2="11" y2="11" transform="translate(1521.5 66.5)" fill="none" stroke="#5a5f83" stroke-linecap="round" stroke-width="4"></line>
+                <line id="Line_60" data-name="Line 60" x1="11" y2="11" transform="translate(1521.5 66.5)" fill="none" stroke="#5a5f83" stroke-linecap="round" stroke-width="4"></line>
+            </g>
+        </svg>
     </div>
     <div class="fixNavSocials">
         <a href="##">
@@ -670,173 +691,250 @@
         <div class="fixedMenuListContainer">
             <div data-index='0' class="fixedMenuListInnerContainer active">
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">დაზღვევა</div>
-                    <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
-                        </div>
+                    <div class="ttl noto-bold">დაზღვევა
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
                     </div>
-                    <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                    <div class="fxMenListForMob">
+                        <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
                         </div>
+                        <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
+                        </div>
+
+                        <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
                     </div>
 
-                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
                 </div>
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">ანაზღაურება</div>
-                    <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
-                        </div>
+                    <div class="ttl noto-bold">ანაზღაურება
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
                     </div>
-                    <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <div class="fxMenListForMob">
+                        <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
+                        </div>
+                        <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    </div>
                 </div>
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">ეკოისტი</div>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <div class="ttl noto-bold">ეკოისტი
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
+                    </div>
+                    <div class="fxMenListForMob">
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    </div>
+
                 </div>
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">პირველ რიგში</div>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <div class="ttl noto-bold">პირველ რიგში
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
+                    </div>
+                    <div class="fxMenListForMob">
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    </div>
+
                 </div>
             </div>
             <div data-index='1' class="fixedMenuListInnerContainer">
+
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">დაზღვევა</div>
-                    <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
-                        </div>
+                    <div class="ttl noto-bold">დაზღვევა
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
                     </div>
-                    <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                    <div class="fxMenListForMob">
+                        <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
                         </div>
+                        <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
+                        </div>
+
+                        <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
                     </div>
 
-                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
                 </div>
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">ანაზღაურება</div>
-                    <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
-                        </div>
+                    <div class="ttl noto-bold">ანაზღაურება
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
                     </div>
-                    <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <div class="fxMenListForMob">
+                        <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
+                        </div>
+                        <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    </div>
+
                 </div>
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">პირველ რიგში</div>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <div class="ttl noto-bold">პირველ რიგში
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
+                    </div>
+                    <div class="fxMenListForMob">
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    </div>
+
                 </div>
             </div>
             <div data-index='2' class="fixedMenuListInnerContainer">
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">დაზღვევა</div>
-                    <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
-                        </div>
+                    <div class="ttl noto-bold">დაზღვევა
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
                     </div>
-                    <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                    <div class="fxMenListForMob">
+                        <div class="fixedMenuNavLink hasSub noto-medium">ჯანმრთელობის დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
                         </div>
+                        <div class="fixedMenuNavLink hasSub noto-medium">ავტო დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
+                        </div>
+
+                        <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
                     </div>
 
-                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
                 </div>
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">ანაზღაურება</div>
-                    <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
-                    <div class="fixedMenuSubContainerOuter">
-                        <div class="fixedMenuSubContainer">
-                            <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
-                            <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
-                        </div>
+                    <div class="ttl noto-bold">ანაზღაურება
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
                     </div>
-                    <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <div class="fxMenListForMob">
+                        <div class="fixedMenuNavLink noto-medium hasSub">ჯანმრთელობის დაზღვევა</div>
+                        <div class="fixedMenuSubContainerOuter">
+                            <div class="fixedMenuSubContainer">
+                                <a href="##" class="fixedMenuSublink noto-bold">ავტომობილის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პასუხისმგებლობის დაზღვევა</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">პოლისი სტიქია</a>
+                                <a href="##" class="fixedMenuSublink noto-bold">როგორ მივიღო ანაზღაურება</a>
+                            </div>
+                        </div>
+                        <div class="fixedMenuNavLink noto-medium">ავტო დაზღვევა</div>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სახლი</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">მოგზაურობა</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    </div>
+
                 </div>
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">ეკოისტი</div>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <div class="ttl noto-bold">ეკოისტი
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
+                    </div>
+                    <div class="fxMenListForMob">
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    </div>
+
                 </div>
                 <div class="fixedMenuListLine">
-                    <div class="ttl noto-bold">პირველ რიგში</div>
-                    <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
-                    <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    <div class="ttl noto-bold">პირველ რიგში
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8">
+                            <path id="Polygon_54" data-name="Polygon 54" d="M5.5,0,11,8H0Z" transform="translate(11 8) rotate(180)" fill="#ee2a7b"/>
+                        </svg>
+                    </div>
+                    <div class="fxMenListForMob">
+                        <a href="##" class="fixedMenuNavLink noto-medium">ონკო</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                        <a href="##" class="fixedMenuNavLink noto-medium">სავალდებულო პასუხისმგებლობის</a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -908,5 +1006,53 @@
                 </div>
             </div>
         </dib>
+    </div>
+</div>
+<div id="searchContainer">
+    <div class="searchInner">
+        <div class="searchHeight">
+            <div class="searchInputContainer">
+                <input type="text" placeholder="ძიება" class="noto-bold">
+                <div id="searchBtn">
+                    <span class="noto-bold">ძიება</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="7.215" height="12.815" viewBox="0 0 7.215 12.815">
+                        <g id="Group_3338" data-name="Group 3338" transform="translate(0.707 0.707)">
+                            <line id="Line_90" data-name="Line 90" x2="5.649" y2="5.6" transform="translate(0.152)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="1"/>
+                            <line id="Line_91" data-name="Line 91" y1="5.801" x2="5.801" transform="translate(0 5.6)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="1"/>
+                        </g>
+                    </svg>
+
+                </div>
+            </div>
+            <div class="searchInnerContainer">
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+                <div class="searchInner noto-medium">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს  დაზღვევა შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                </div>
+            </div>
+        </div>
     </div>
 </div>

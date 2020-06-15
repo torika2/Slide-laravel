@@ -16,7 +16,7 @@ header {
 .imgg .img-absolute {
     bottom: 0;
     top: unset;
-    height: 135%;
+    height: 155%;
 }
 @media(max-width: 1365px) {
     .container-secondary {
@@ -169,7 +169,7 @@ header {
     -webkit-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
     -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
     box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
-    /* transition: 1.5s; */
+    transition: 0.8s;
 }
 .slider-title {
     display: -webkit-box;
@@ -191,7 +191,7 @@ header {
 @media(min-width: 1025px) {
     .faq-slider .swiper-slide:hover {
         background: #FCB618;
-        transition: 0.8s;
+        transition: 1.5s;
     }
     .faq-slider .swiper-slide:hover .slider-title {
         color: #fff;
@@ -368,6 +368,9 @@ header {
     transition: 0.6s;
 
 }
+.banner-button img {
+    margin-right: 8px;
+}
 .packages {
     position: relative;
     padding-top: 16px;
@@ -445,15 +448,7 @@ header {
 .package-box > div:last-child {
     height: 100%;
 }
-.popular-star {
-    background: #EE2A7B;
-    border-radius: 8px;
-    padding: 0 10px;
-    margin-left: 20px;
-    height: 30px;
-    margin-top: 13px;
-    display: none;
-}
+
 @media(min-width: 1025px) {
     .package-box:hover {
         border-color: #292562;
@@ -871,6 +866,7 @@ header {
     .sevices-section {
         padding: 0;
         background: transparent;
+        box-shadow: none;
     }
     .service-subtitle {
         margin-top: 5px;
@@ -1035,6 +1031,25 @@ header {
     right: -30px;
     top: 0;
     left: 100%;
+}
+.popular-star {
+    background: #EE2A7B;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 13px;
+    display: none;
+}
+.lable-mob {
+    display: none;
+    background: #FCB618;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-left: 20px;
+    margin-top: 13px;
+    height: 30px;
+    display: none;
 }
 .package-details {
     border: 1px solid rgba(145, 153, 180);
@@ -1221,6 +1236,9 @@ header {
     .policy-packages .package-box {
         min-width: 158px;
     }
+    .policy-packages .package-box .btn {
+        box-shadow: none;
+    }
     .policy-packages .package-box .btn, .policy-packages .package-details {
         min-width: 120px;
     }
@@ -1303,6 +1321,11 @@ header {
         align-items: center;
         justify-content: center;
     }
+    .lable-mob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .lable {
         display: none !important;
     }
@@ -1323,6 +1346,9 @@ header {
         margin-top: -150px;
     }
     .popular-star {
+        display: none;
+    }
+    .lable-mob {
         display: none;
     }
     .policy-packages .package-box .btn {
@@ -1363,6 +1389,11 @@ header {
     }
     .resp-text {
         margin-right: 3px;
+    }
+    .details-2-box > a {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
     }
     .details-line {
         margin: 0 7px;

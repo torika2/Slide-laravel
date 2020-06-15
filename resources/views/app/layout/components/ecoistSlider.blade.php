@@ -50,25 +50,45 @@
 			<h2 class="kfn_anim k-zoomOut font-55 fira-bold uppercase">#ეკოისტი</h2>
 			<div class="kfn_anim k-fadeUp text">ჯანსაღი ცხოვრებით აგროვებ ეკომონეტებს</div>
 		</div>
-		<div class="slider-container">
-			<div class="item" data-item="0">
-				<div class="image">
-					<img src="{{asset('assets/img/Group 3475.png')}}" alt="">
+		<div style="position: relative;">
+			<div class="slider-container">
+				<div class="item" data-item="0">
+					<div class="image">
+						<img src="{{asset('assets/img/Group 3475.png')}}" alt="">
+					</div>
+				</div>
+				<div class="item" data-item="1">
+					<div class="image">
+						<img src="{{asset('assets/img/Group 3476.png')}}" alt="">
+					</div>
+				</div>
+				<div class="item" data-item="2">
+					<div class="image">
+						<img src="{{asset('assets/img/Group 3475.png')}}" alt="">
+					</div>
+				</div>
+				<div class="item" data-item="3">
+					<div class="image">
+						<img src="{{asset('assets/img/Group 3474.png')}}" alt="">
+					</div>
 				</div>
 			</div>
-			<div class="item" data-item="1">
-				<div class="image">
-					<img src="{{asset('assets/img/Group 3476.png')}}" alt="">
+			<div class="slide-dots">
+				<div class="slide-dot">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16.757" height="31.569" viewBox="0 0 16.757 31.569">
+					  <g id="Group_845" data-name="Group 845" transform="translate(1527.55 2758.708) rotate(180)">
+					    <line id="Line_90" data-name="Line 90" x2="14.942" y2="14.811" transform="translate(1511.901 2727.847)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="1"/>
+					    <line id="Line_91" data-name="Line 91" y1="15.343" x2="15.343" transform="translate(1511.5 2742.658)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="1"/>
+					  </g>
+					</svg>
 				</div>
-			</div>
-			<div class="item" data-item="2">
-				<div class="image">
-					<img src="{{asset('assets/img/Group 3475.png')}}" alt="">
-				</div>
-			</div>
-			<div class="item" data-item="3">
-				<div class="image">
-					<img src="{{asset('assets/img/Group 3474.png')}}" alt="">
+				<div class="slide-dot">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16.757" height="31.569" viewBox="0 0 16.757 31.569">
+					  <g id="Group_845" data-name="Group 845" transform="translate(-1510.793 -2727.14)">
+					    <line id="Line_90" data-name="Line 90" x2="14.942" y2="14.811" transform="translate(1511.901 2727.847)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="1"/>
+					    <line id="Line_91" data-name="Line 91" y1="15.343" x2="15.343" transform="translate(1511.5 2742.658)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="1"/>
+					  </g>
+					</svg>
 				</div>
 			</div>
 		</div>

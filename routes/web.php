@@ -224,7 +224,7 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
 });
 
 
- 
+
 Route::get('login', [
     'uses' => 'Admin\AuthController@login',
     'as' => 'auth.login']);
@@ -280,5 +280,10 @@ Route::get('/policy-details', function () {
 
 Route::get('/policy-compare', function () {
     return view('app.pages.policyCompare');
+
+});
+
+Route::get('/policy-exclusive', function () {
+    return view('app.pages.policyExclusive');
 
 });

@@ -84,6 +84,37 @@ $(document).ready(function () {
     })
 })
 
+var navigationStick = function () {
+    var navLinks = document.querySelectorAll('.tab-button'),
+        nav = document.querySelector('.services-tabs'),
+        stick = document.querySelector('.services-tabs .stick'),
+        result,
+        activeElem;
+
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+        })
+    })
+}
+
+navigationStick();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        navigationStick();
+    }, 500);
+});
+
+
 
 // Services Slide Toggle
 function serviceF() {
@@ -152,26 +183,6 @@ if ($('.package-box').length === 1) {
 }
 
 
-var navigationStick = function () {
-    var navLinks = document.querySelectorAll('.tab-button'),
-        nav = document.querySelector('.services-tabs'),
-        stick = document.querySelector('.services-tabs .stick'),
-        result,
-        activeElem;
 
-    navLinks.forEach(function (elem) {
-        if (elem.classList.contains('current')) {
-            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
-            stick.style.width = elem.clientWidth + 'px';
-            stick.style.transform = 'translate(' + result + 'px,0)';
-            activeElem = elem;
-        }
-        elem.addEventListener('click', function () {
-            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
-            stick.style.width = this.clientWidth + 'px';
-            stick.style.transform = 'translate(' + result + 'px,0)';
-        })
-    })
-}
 
-navigationStick()
+

@@ -162,14 +162,12 @@ function choosePolicy() {
         if (!$(this).hasClass('active')) {
             $('.policy-list-item').find('.item-hidden').slideUp(500);
             $(this).find('.item-hidden').slideDown(500);
-            $(this).css('padding-bottom', '41px');
             $('.policy-list-item').removeClass('active');
             $(this).addClass('active');
             return
         } else {
             $(this).find('.item-hidden').slideUp(500);
             $(this).removeClass('active');
-            $(this).css('padding-bottom', '23px');
         }
     });
 }
@@ -198,7 +196,7 @@ kufuna_parallax();
 $(window).resize(function () {
     setTimeout(function () {
         kufuna_parallax();
-    }, 200);
+    }, 100);
 });
 
 $(window).scroll(kufuna_parallax);

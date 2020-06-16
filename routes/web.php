@@ -287,3 +287,12 @@ Route::get('/policy-exclusive', function () {
     return view('app.pages.policyExclusive');
 
 });
+
+Route::get('/policy-travel', function () {
+    return view('app.pages.policyTravel');
+
+});
+
+Route::get('/refund', function () {
+    return view('app.pages.refund');
+});

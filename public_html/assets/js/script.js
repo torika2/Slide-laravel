@@ -194,7 +194,13 @@ var kufuna_parallax = function () {
     }
 }
 kufuna_parallax();
-$(window).resize(kufuna_parallax);
+
+$(window).resize(function () {
+    setTimeout(function () {
+        kufuna_parallax();
+    }, 200);
+});
+
 $(window).scroll(kufuna_parallax);
 
 

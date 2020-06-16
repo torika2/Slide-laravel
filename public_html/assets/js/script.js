@@ -72,37 +72,6 @@ var clinicsSlider1 = new Swiper('.individual', {
 });
 
 
-$('#tabCorporate').click(function () {
-    setTimeout(function () {
-        var clinicsSlider2 = new Swiper('.corporate', {
-            slidesPerView: 4,
-            spaceBetween: 60,
-            breakpoints: {
-                300: {
-                    slidesPerView: 1.3,
-                    spaceBetween: 15,
-                },
-                768: {
-                    spaceBetween: 15,
-                },
-                1024: {
-                    spaceBetween: 30,
-                },
-                1366: {
-                    spaceBetween: 60,
-                },
-                1680: {
-                    spaceBetween: 60,
-                },
-                1900: {
-                    slidesPerView: 4,
-                },
-
-            }
-        });
-    }, 100);
-});
-
 // Service scheme Tabs
 $(document).ready(function () {
     $('.tab-button').click(function () {
@@ -114,6 +83,37 @@ $(document).ready(function () {
         $("#" + tab_id).addClass('current');
     })
 })
+
+// service tab stick function
+var navigationStick = function () {
+    var navLinks = document.querySelectorAll('.tab-button'),
+        nav = document.querySelector('.services-tabs'),
+        stick = document.querySelector('.services-tabs .stick'),
+        result,
+        activeElem;
+
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+        })
+    })
+}
+navigationStick();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        navigationStick();
+    }, 500);
+});
+
 
 
 // Services Slide Toggle
@@ -134,28 +134,46 @@ function serviceF() {
 serviceF();
 
 
-
-
 // Package compare hover
 var compare = function () {
-    if (window.innerWidth > 1365) {
-        $('.compare-box').hover(function () {
-            $(this).parent().parent().parent().parent().find('.package-info').css('transform', 'translateY(-50px)');
-        })
+    $('.compare-box').hover(function () {
+        if (window.innerWidth > 1024) {
+            $(this).closest('.package-box').find('.package-info').css('transform', 'translateY(-45px)');
+        }
+    })
 
-        $('.compare-box').mouseleave(function () {
-            $(this).parent().parent().siblings('.package-info').css('transform', 'translateY(0px)');
-        })
+    $('.compare-box').mouseleave(function () {
+        if (window.innerWidth > 1024) {
+            $(this).closest('.package-box').find('.package-info').css('transform', 'translateY(0px)');
+        }
+    })
+}
+compare();
 
-    }
+// package box width
+if ($('.package-box').length === 1) {
+    $('.packages').css('width', 'max-content');
 }
 
-$(window).resize(function () {
-    setTimeout(() => {
-        compare();
-    }, 100);
-});
 
+// choosePolicy Slide toggle
+function choosePolicy() {
+    $('.policy-list-item').on('click', function () {
+        if (!$(this).hasClass('active')) {
+            $('.policy-list-item').find('.item-hidden').slideUp(500);
+            $(this).find('.item-hidden').slideDown(500);
+            $(this).css('padding-bottom', '41px');
+            $('.policy-list-item').removeClass('active');
+            $(this).addClass('active');
+            return
+        } else {
+            $(this).find('.item-hidden').slideUp(500);
+            $(this).removeClass('active');
+            $(this).css('padding-bottom', '23px');
+        }
+    });
+}
+choosePolicy();
 
 
 // parallax
@@ -176,5 +194,20 @@ var kufuna_parallax = function () {
     }
 }
 kufuna_parallax();
-$(window).resize(kufuna_parallax);
+
+$(window).resize(function () {
+    setTimeout(function () {
+        kufuna_parallax();
+    }, 200);
+});
+
 $(window).scroll(kufuna_parallax);
+
+
+
+
+
+
+
+
+

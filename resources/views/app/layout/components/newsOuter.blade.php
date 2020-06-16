@@ -15,7 +15,11 @@
 			<div class="swiper-wrapper news-list">
 				<a href="#" class="swiper-slide">
 					<div class="img-box">
-						<img src="{{asset('assets/img/img (30).jpg')}}" alt="" class="img-absolute">
+						<picture>
+		                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <img src="{{asset('assets/img/img (30).jpg')}}" class="img-absolute" alt="">
+		                </picture>
 						<div class="img-layer"></div>
 						<span>
 							<span class="noto-bold ttl">ვრცლად</span>
@@ -32,7 +36,11 @@
 				</a>
 				<a href="#" class="swiper-slide">
 					<div class="img-box">
-						<img src="{{asset('assets/img/img (30).jpg')}}" alt="" class="img-absolute">
+						<picture>
+		                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <img src="{{asset('assets/img/img (30).jpg')}}" class="img-absolute" alt="">
+		                </picture>
 						<div class="img-layer"></div>
 						<span>
 							<span class="noto-bold ttl">ვრცლად</span>

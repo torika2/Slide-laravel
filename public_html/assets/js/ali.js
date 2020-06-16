@@ -1,145 +1,60 @@
 $(document).ready(function () {
 
-	const subMenuSliderStart = function(){
-		const subMenuSlider = document.querySelectorAll(".swiper-subMenu");
-		subMenuSlider.forEach(function(item){
-			if(item.childNodes[1].children.length <= 3){
-				var mySwiper = new Swiper ('.swiper-subMenu', {
-				    speed: 1000,
-				    slidesPerView: 3,
-				    spaceBetween: 60,
-				    breakpoints: {
-				      320: {
-				        spaceBetween: 15,
-				        slidesPerView: 1.145,
-				        touchRatio: 1
-				      },
-				      768: {
-				        spaceBetween: 15,
-				        touchRatio: 0
-				      },
-				      1024: {
-				        spaceBetween: 33,
-				        touchRatio: 0
-				      },
-				      1366: {
-				        spaceBetween: 60,
-				        touchRatio: 0
-				      },
-				      1599: {
-				        spaceBetween: 60,
-				        touchRatio: 0
-				      },
-				      1900: {
-				        spaceBetween: 60,
-				        touchRatio: 0
-				      }
-				    }
-				  });
-			}else{
-				var mySwiper = new Swiper ('.swiper-subMenu', {
-				    speed: 1000,
-				    slidesPerView: 3,
-				    spaceBetween: 60,
-				    breakpoints: {
-				      320: {
-				        spaceBetween: 15,
-				        slidesPerView: 1.145
-				      },
-				      768: {
-				        spaceBetween: 15
-				      },
-				      1024: {
-				        spaceBetween: 33
-				      },
-				      1366: {
-				        spaceBetween: 60
-				      },
-				      1599: {
-				        spaceBetween: 60
-				      },
-				      1900: {
-				        spaceBetween: 60
-				      }
-				    }
-				  });
-			}
-		})
-	}
-	const storiesSliderStart = function(){
-		const storiesSlider = document.querySelectorAll(".stories-slider");
-		storiesSlider.forEach(function(item){
+	var mySwiper = new Swiper ('.swiper-subMenu', {
+	    speed: 1000,
+	    slidesPerView: 3,
+	    spaceBetween: 60,
+	    watchOverflow: true,
+	    breakpoints: {
+	      320: {
+	        spaceBetween: 15,
+	        slidesPerView: 1.145
+	      },
+	      768: {
+	        spaceBetween: 15
+	      },
+	      1024: {
+	        spaceBetween: 33
+	      },
+	      1366: {
+	        spaceBetween: 60
+	      },
+	      1599: {
+	        spaceBetween: 60
+	      },
+	      1900: {
+	        spaceBetween: 60
+	      }
+	    }
+	  });
 
-			if(item.childNodes[1].children.length <= 3){
-				var mySwiper = new Swiper ('.stories-slider', {
-				    speed: 1000,
-				    slidesPerView: 3,
-				    spaceBetween: 60,
-				    breakpoints: {
-				      320: {
-				        spaceBetween: 15,
-				        slidesPerView: 1.145,
-				        touchRatio: 1
-				      },
-				      768: {
-				        spaceBetween: 15,
-				        touchRatio: 0
-				      },
-				      1024: {
-				        spaceBetween: 30,
-				        touchRatio: 0
-				      },
-				      1366: {
-				        spaceBetween: 60,
-				        touchRatio: 0
-				      },
-				      1599: {
-				        spaceBetween: 60,
-				        touchRatio: 0
-				      },
-				      1900: {
-				        spaceBetween: 60,
-				        touchRatio: 0
-				      }
-				    }
-				  });
-			}else{
-				var mySwiper = new Swiper ('.stories-slider', {
-				    speed: 1000,
-				    slidesPerView: 3,
-				    spaceBetween: 60,
-				    breakpoints: {
-				      320: {
-				        spaceBetween: 15,
-				        slidesPerView: 1.145
-				      },
-				      768: {
-				        spaceBetween: 15
-				      },
-				      1024: {
-				        spaceBetween: 30
-				      },
-				      1366: {
-				        spaceBetween: 60
-				      },
-				      1599: {
-				        spaceBetween: 60
-				      },
-				      1900: {
-				        spaceBetween: 60
-				      }
-				    }
-				  });
-			}
-		})
-	}
-	subMenuSliderStart();
-	storiesSliderStart();
-  $(window).resize(function(){
-  	setTimeout(subMenuSliderStart, 500)
-  	setTimeout(storiesSliderStart, 500)
-  });
-
+	var mySwiper = new Swiper ('.stories-slider', {
+	    speed: 1000,
+	    slidesPerView: 3,
+	    spaceBetween: 60,
+	    watchOverflow: true,
+	    breakpoints: {
+	      320: {
+	        spaceBetween: 15,
+	        slidesPerView: 1.145
+	      },
+	      768: {
+	        spaceBetween: 15
+	      },
+	      1024: {
+	        spaceBetween: 30
+	      },
+	      1366: {
+	        spaceBetween: 60
+	      },
+	      1599: {
+	        spaceBetween: 60
+	      },
+	      1900: {
+	        spaceBetween: 60
+	      }
+	    }
+	  });
   
   var mySwiper = new Swiper('.newsOuter-slider', {
   speed: 1000,
@@ -183,8 +98,10 @@ var mySwiper = new Swiper('.direction-slider', {
   speed: 1000,
   slidesPerView: 1,
   spaceBetween: 30,
+  watchOverflow: true,
   pagination: {
   	el: '.swiper-pagination',
+  	clickable: true
   },
   navigation: {
 	 nextEl: '.swiper-button-next',
@@ -207,6 +124,39 @@ var mySwiper = new Swiper('.direction-slider', {
   }
 });
 
+var mySwiper = new Swiper('.packages-slider', {
+  speed: 1000,
+  slidesPerView: "auto",
+  navigation: {
+	 nextEl: '.swiper-button-next',
+	 prevEl: '.swiper-button-prev',
+  },
+  watchOverflow: true,
+  breakpoints: {
+    320: {
+    	spaceBetween: 10,
+    },
+    768: {
+    },
+    1024: {
+    },
+    1366: {
+    },
+    1599: {
+    },
+    1900: {
+
+    }
+  }
+  
+});
+
+/*date select*/
+$("#rangeDate").flatpickr({
+    mode: 'range',
+    dateFormat: "Y-m-d"
+});
+
 
 
 /*set transition delay to menu item  and svg, translate to span*/
@@ -221,14 +171,15 @@ var mySwiper = new Swiper('.direction-slider', {
 
   })
  })
- menuList.forEach(function(item){  
-  for(let i=1; i < item.children.length; i++){
-     item.children[i].children[2].style.transitionDelay =  (item.children.length - i)/20 + 0.3 + "s";
-     item.children[i].children[2].style.transform = "translateX("+ (item.children.length - i + 20) +"px)";
-     item.children[i].children[0].style.transitionDelay =  (item.children.length - i)/20 + 0.3 + "s";
-  }
 
- })
+ // menuList.forEach(function(item){  
+ //  for(let i=1; i < item.children.length; i++){
+ //     item.children[i].children[2].style.transitionDelay =  (item.children.length - i)/20 + 0.3 + "s";
+ //     item.children[i].children[2].style.transform = "translateX("+ (item.children.length - i + 20) +"px)";
+ //     item.children[i].children[0].style.transitionDelay =  (item.children.length - i)/20 + 0.3 + "s";
+ //  }
+
+ // })
 
 
 
@@ -267,44 +218,45 @@ var mySwiper = new Swiper('.direction-slider', {
 	    }
 	  }
 
+	 if (document.querySelector('body').classList.contains('page-contact')){
 
-	  const contactBtn = document.getElementById("contact-btn");
-	  const area = contactBtn.parentElement.parentElement;
-	  let checker = arr => arr.every(Boolean);
-	  contactBtn.onclick = function (){
-	  	let errorArr = [];
+		  const contactBtn = document.getElementById("contact-btn");
+		  const area = contactBtn.parentElement.parentElement;
+		  let checker = arr => arr.every(Boolean);
+		  contactBtn.onclick = function (){
+		  	let errorArr = [];
 
-	  	const vEmpty = area.querySelectorAll(".v-empty")
-	  	vEmpty.forEach(function(item){
-	  	    ValidateEmpty(item);
-	  		errorArr.push(ValidateEmpty(item));
-	  	})
-	  	const vMail = area.querySelectorAll(".v-mail")
-	  	vMail.forEach(function(item){
-	  		ValidateEmail(item);
-	  		errorArr.push(ValidateEmail(item));
-	  	})
-	  	if(checker(errorArr)){
-	  		contactBtn.parentElement.parentElement.classList.add("success");
-	  	}
-	  }
+		  	const vEmpty = area.querySelectorAll(".v-empty")
+		  	vEmpty.forEach(function(item){
+		  	    ValidateEmpty(item);
+		  		errorArr.push(ValidateEmpty(item));
+		  	})
+		  	const vMail = area.querySelectorAll(".v-mail")
+		  	vMail.forEach(function(item){
+		  		ValidateEmail(item);
+		  		errorArr.push(ValidateEmail(item));
+		  	})
+		  	if(checker(errorArr)){
+		  		contactBtn.parentElement.parentElement.classList.add("success");
+		  	}
+		  }
 
-	   const newMsgBtn = document.getElementById("new-msg");
-	   newMsgBtn.onclick = function(){
-	   		contactBtn.parentElement.parentElement.classList.remove("success");
-	   		const input = contactBtn.parentElement.parentElement.querySelectorAll("input");
-	   		const textarea = contactBtn.parentElement.parentElement.querySelectorAll("textarea");
-	   		input.forEach(function(item){
-	   			item.value = '';
-	   			item.nextSibling.nextSibling.style.opacity = '1';
-	   		})
-	   		textarea.forEach(function(item){
-	   			item.value = '';
-	   			item.nextSibling.nextSibling.style.opacity = '1';
-	   		})
-	   }
+		   const newMsgBtn = document.getElementById("new-msg");
+		   newMsgBtn.onclick = function(){
+		   		contactBtn.parentElement.parentElement.classList.remove("success");
+		   		const input = contactBtn.parentElement.parentElement.querySelectorAll("input");
+		   		const textarea = contactBtn.parentElement.parentElement.querySelectorAll("textarea");
+		   		input.forEach(function(item){
+		   			item.value = '';
+		   			item.nextSibling.nextSibling.style.opacity = '1';
+		   		})
+		   		textarea.forEach(function(item){
+		   			item.value = '';
+		   			item.nextSibling.nextSibling.style.opacity = '1';
+		   		})
+		   }
 
-
+		}
 
 	   /*contact tabs scripts*/
 
@@ -325,6 +277,29 @@ var mySwiper = new Swiper('.direction-slider', {
 		   			setTimeout(() => $('#' + branchId).slideDown(), 600);
 		   		}
 		   	}
+	   })
+
+
+	   /*policy compare*/
+
+	   /**hovers**/
+	   const compareItem = document.querySelectorAll(".compare-item");
+	   
+	   compareItem.forEach(function(item){
+	   	item.addEventListener("mouseenter", function(){
+	   		let attribute = item.getAttribute("data-hover");
+	   		let itemWithSameAttr = document.querySelectorAll("[data-hover='" + attribute + "']");
+	   		itemWithSameAttr.forEach(function(item2){
+	   			item2.classList.add("hovered");
+	   		})
+		  })
+		  item.addEventListener("mouseleave", function(){
+		    let attribute = item.getAttribute("data-hover");
+	   		let itemWithSameAttr = document.querySelectorAll("[data-hover='" + attribute + "']");
+	   		itemWithSameAttr.forEach(function(item2){
+	   			item2.classList.remove("hovered");
+	   		})
+		  })
 	   })
 
 })

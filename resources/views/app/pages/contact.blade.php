@@ -88,7 +88,7 @@
 			</div>
 			<div class="right">
 				<div class="fira-bold font-34 ttl">მოგვწერეთ</div>
-				<form action="#">
+				<form >
 					<div class="input-wrap">
 						<div class="placeholder-wrap">
 							<input class="v-empty" type="text">
@@ -137,7 +137,7 @@
 
 					<div class="textarea-wrap">
 						<div class="placeholder-wrap">
-							<textarea class="v-empty"></textarea>
+							<textarea class="v-empty" rows="1"></textarea>
 							<div class="placeholder">
 								<span>შეტყობინება</span>
 								<span>*</span>

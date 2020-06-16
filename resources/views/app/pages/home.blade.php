@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <section class="became-member m-t-233">
     <div class="img-box imgg">
         <picture>

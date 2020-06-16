@@ -7,7 +7,7 @@
 		<div class="text">ცხოვრების ყველა ეტაპზე</div>
 
 		<div class="swiper-subMenu">
-		    
+
 		    <div class="swiper-wrapper">
 		        <div class="swiper-slide subMenuSlide">
 					<div class="img-box">
@@ -125,7 +125,7 @@
 					</div>
 					<div class="subtitle">
 						<div>
-							
+
 						</div>
 						<div class="noto-bold font-21"> რაღაც სათაურია აქ</div>
 					</div>
@@ -181,7 +181,7 @@
 					</div>
 					<div class="subtitle">
 						<div>
-							
+
 						</div>
 						<div class="noto-bold font-21"> რაღაც სათაურია აქ</div>
 					</div>
@@ -237,7 +237,7 @@
 					</div>
 					<div class="subtitle">
 						<div>
-							
+
 						</div>
 						<div class="noto-bold font-21"> რაღაც სათაურია აქ</div>
 					</div>
@@ -245,4 +245,5 @@
 
 		</div>
 	</div>
+</div>
 </div>

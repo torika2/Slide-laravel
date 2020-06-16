@@ -22,6 +22,9 @@ header {
     .container-secondary {
         padding: 0 71px;
     }
+    .imgg .img-absolute {
+        transform: translateY(0) !important;
+    }
 }
 @media(max-width: 1023px) {
     .container-secondary {
@@ -1653,4 +1656,103 @@ header {
         padding-top: 10px;
         padding-right: 0px;
     }
+}
+
+
+/* Calculator */
+.radio-buttons {
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.radio-button {
+    display: block;
+    position: relative;
+    padding-left: 33px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .radio-button:first-child {
+      margin-right: 60px;
+  }
+  .radio-button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22.5px;
+    width: 22.5px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #EE2A7B;
+
+  }
+  .radio-button .checkmark:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5.5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #EE2A7B;
+    transform: scale(0);
+    transition: 0.6s;
+  }
+  .radio-button input:checked ~ .checkmark:after {
+    transform: scale(1);
+  }
+
+.other-inputs p {
+    margin-bottom: 16px;
+}
+.other-inputs input {
+    width: 276px;
+    height: 50px;
+    border: 1px solid #B1B7CA;
+    border-radius: 8px;
+    padding: 0 18px;
+}
+.currency-stick {
+    height: calc(100% - 8px);
+    background: #EE2A7B;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    transition: cubic-bezier(0.68, 0.02, 0.18, 0.99) .4s;
+    z-index: 0;
+    pointer-events: none;
+    border-radius: 8px;
+}
+.currency-box {
+    position: relative;
+    height: 50px;
+    border: 1px solid #B1B7CA;
+    border-radius: 8px;
+    padding: 4px;
+    width: max-content;
+    margin-left: 11px;
+}
+.currency-tab {
+    height: 40px;
+    border-radius: 8px;
+    color: #EE2A7B;
+    padding: 0 17px;
+    cursor: pointer;
+    transition: 0.6s;
+    z-index: 5;
+}
+.currency-tab.current {
+    color: #fff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

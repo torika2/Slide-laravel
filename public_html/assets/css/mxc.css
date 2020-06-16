@@ -635,6 +635,10 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 .subMenuPicLinkContainerInner .subTtl{
     color: #fff;
     font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 .subMenuPicLinkContainerInner a{
     height: 50px;
@@ -2094,6 +2098,18 @@ body.help #helpContainer div{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .searchBtnContainer .subscrSocials:after{
+        display: none;
+    }
+    .fixedMenuNavLink.active{
+        padding-left: 10px;
+    }
+    .fixedMenuNavLink:after{
+        bottom: 7px;
+    }
+    .subSocialsContainer {
+        margin-top: 30px;
+    }
     .closeClaim{
         top: 10px;
         right: 10px;
@@ -2149,7 +2165,7 @@ body.help #helpContainer div{
         width: calc(100% - 40px);
     }
     .subInputContainer{
-        margin-top: 15px;
+        margin-top: 5px;
     }
     footer .rightContainer .subTtl{
         font-size: 10px;
@@ -2273,6 +2289,7 @@ body.help #helpContainer div{
         margin-left: 0px;
         padding-left: 0px;
         margin-top: 30px;
+        width: 100%;
     }
     .searchBtnContainer{
         flex-wrap: wrap;

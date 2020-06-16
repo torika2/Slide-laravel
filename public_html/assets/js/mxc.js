@@ -1,5 +1,14 @@
 $(document).ready(function () {
+    $(window).resize(function () {
+        if($("#searchContainer").hasClass("active")){
+            $("#searchContainer").css("height",$(".searchInner").height() + "px")
+        }
 
+        $(".mainTag.active").click();
+
+
+
+    })
     // setTimeout(function () {
     //     $("header .secondFloor .leftContainer.active").addClass("animated")
     // },300)
@@ -79,6 +88,8 @@ $(document).ready(function () {
             $(".searchBtn").removeClass("active");
         }
     };
+
+
 
     $(".searchBtn").click(function () {
         searchOpener();

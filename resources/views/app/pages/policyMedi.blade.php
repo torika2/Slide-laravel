@@ -64,7 +64,6 @@
                 <div class="flex-box column">
                     <div class="package-head flex-box column al-center">
                         <div class="two-lables">
-                            <!-- <div> -->
                             <span class="lable popular flex-box al-center font-13 noto-bold white">პოპულარული
                                 <svg height="15px" viewBox="0 -10 511.99143 511" width="15px"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -73,10 +72,6 @@
                                 </svg>
                                 <span class="lable discount flex-box al-center font-13 noto-bold">-10%</span>
                             </span>
-
-
-
-                            <!-- </div> -->
                         </div>
                         <h3 class="package-name fira-bold uppercase">მედი ბაზისური</h3>
                         <div class="area-box noto-regular font-21">120 კვ.მდე</div>
@@ -104,7 +99,7 @@
                     <div class="package-details">
                         <div class="details-2-box flex-box al-center justify-center">
                             <a href="#" class="compare-box">
-                                <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
+                                <span class="resp-text noto-bold font-13">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
                                     <path
@@ -169,7 +164,7 @@
                     <div class="package-details">
                         <div class="details-2-box flex-box al-center justify-center">
                             <a href="#" class="compare-box">
-                                <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
+                                <span class="resp-text noto-bold font-13">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
                                     <path
@@ -234,7 +229,7 @@
                     <div class="package-details">
                         <div class="details-2-box flex-box al-center justify-center">
                             <a href="#" class="compare-box">
-                                <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
+                                <span class="resp-text noto-bold font-13">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
                                     <path
@@ -299,7 +294,7 @@
                     <div class="package-details">
                         <div class="details-2-box flex-box al-center justify-center">
                             <a href="#" class="compare-box">
-                                <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
+                                <span class="resp-text noto-bold font-13">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
                                     <path
@@ -360,7 +355,7 @@
                     <div class="package-details">
                         <div class="details-2-box flex-box al-center justify-center">
                             <a href="#" class="compare-box">
-                                <span class="resp-text noto-bold font-13 color-prim">შედარება</span>
+                                <span class="resp-text noto-bold font-13">შედარება</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.949" height="24.949"
                                     viewBox="0 0 24.949 24.949">
                                     <path

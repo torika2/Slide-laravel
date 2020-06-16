@@ -694,6 +694,9 @@ header {
     max-width: 220px;
     max-height: 120px;
 }
+.swiper-container.provider-clinics-slider {
+    overflow: visible;
+}
 .provider-clinics-slider .swiper-slide {
     display: flex;
     justify-content: center;
@@ -1223,6 +1226,10 @@ header {
     background: #EE2A7B;
     border-color: #EE2A7B;
 }
+.details-2-box a:hover span, .details-1-box:hover span {
+    color: #EE2A7B;
+    transition: 0.6s;
+}
 .details-2-box a:hover svg path, .details-1-box:hover svg path {
     fill: #EE2A7B;
 }
@@ -1288,6 +1295,9 @@ header {
 }
 
 @media(max-width: 1365px) {
+    .head-banner.policy-medi .banner-content {
+        bottom: 220px;
+    }
     .packages-outer {
         padding-top: 33px;
         padding-bottom: 51px;
@@ -1326,6 +1336,9 @@ header {
     }
 }
 @media(max-width: 1023px) {
+    .head-banner.policy-medi .banner-content {
+        bottom: 139px;
+    }
     .packages-outer {
         padding-bottom: 51px;
         margin-top: -80px;
@@ -1410,6 +1423,9 @@ header {
 }
 
 @media(max-width: 767px) {
+    .head-banner.policy-medi .banner-content {
+        bottom: 180px;
+    }
     .packages-outer {
         padding-left: 17px;
         padding-right: 17px;
@@ -1484,15 +1500,24 @@ header {
 
 
 /* refund - choose policy  */
+.page-refund .head-banner.policy-medi .banner-content {
+    bottom: 315px;
+}
+.page-refund .package-text-tabs .tabs {
+    margin-top: 13px;
+}
 .choose-policy h2 {
     margin-bottom: 30px;
 }
 .packages-outer .ver-social {
     margin-top: 60px;
 }
+.policy-list {
+    margin-bottom: 100px;
+}
 .policy-list-item {
-    padding-top: 23px;
-    padding-bottom: 23px;
+    padding-top: 28px;
+    padding-bottom: 30px;
     padding-left: 40px;
     padding-right: 53px;
     margin-bottom: 30px;
@@ -1501,11 +1526,16 @@ header {
     box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
     cursor: pointer;
 }
+.item-left {
+    max-width: 90%;
+}
 .plus {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 34px;
     height: 34px;
-    justify-content: center;
     transition: 0.6s;
     flex-shrink: 0;
 }
@@ -1525,6 +1555,9 @@ header {
     padding-right: 60px;
     display: none;
 }
+.item-hidden .btn-white {
+    margin-bottom: 11px;
+}
 .policy-list-item.active .plus span:first-child {
     transform: rotate(180deg);
 }
@@ -1533,6 +1566,7 @@ header {
 }
 .item-img-box {
     min-width: 90px;
+    max-width: 90px;
     margin-right: 60px;
 }
 .item-img-box img {
@@ -1544,4 +1578,79 @@ header {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     padding-right: 30px;
+}
+
+/* responsive */
+@media(max-width: 1365px) {
+    .page-refund .head-banner.policy-medi .banner-content {
+        bottom: 220px;
+    }
+}
+@media(max-width: 1023px) {
+    .page-refund .head-banner.policy-medi .banner-content {
+        bottom: 140px;
+    }
+    .policy-list {
+        margin-bottom: 70px;
+    }
+    .policy-list-item {
+        padding: 30px;
+    }
+    .item-img-box {
+        margin-right: 25px;
+        transform: scale(0.8);
+        min-width: 70px;
+        max-width: 70px;
+    }
+    .plus {
+        width: 27px;
+        height: 27px;
+    }
+    .item-hidden {
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    .item-hidden .btn-white {
+        margin-bottom: 0px;
+    }
+    .packages-outer .ver-social {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 767px) {
+    .page-refund .head-banner.policy-medi .banner-content {
+        bottom: 220px;
+    }
+    .choose-policy h2 {
+        margin-bottom: 20px;
+    }
+    .policy-list {
+        margin-bottom: 40px;
+    }
+    .policy-list-item {
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .item-img-box {
+        margin-right: 20px;
+        transform: scale(0.7);
+        min-width: 50px;
+        max-width: 50px;
+    }
+    .item-left h3.font-34 {
+        font-size: 16px;
+    }
+    .plus {
+        width: 20px;
+        height: 20px;
+    }
+    .plus span {
+        height: 3px
+    }
+    .item-hidden {
+        padding-top: 10px;
+        padding-right: 0px;
+    }
 }

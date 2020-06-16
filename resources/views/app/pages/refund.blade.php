@@ -1,5 +1,5 @@
 @extends('app.layout.app')
-
+@section('pageName')refund @endsection
 @section('content')
 
 <section class="head-banner policy-medi">
@@ -65,7 +65,7 @@
                 <li class="policy-list-item">
                     <div class="item-head flex-box al-center between">
                         <div class="item-left flex-box al-center">
-                            <div class="item-img-box">
+                            <div class="item-img-box flex-box">
                                 <img src="{{asset('assets/img/health-icon.svg')}}" alt="">
                             </div>
 
@@ -85,13 +85,13 @@
                             გამოყენება, რადგან უბრალოდ „ტექსტი ტექსტი ტექსტი“ ან სხვა გამეორებადი სიტყვების ჩაყრა,
                             ხელოვნურ ვიზუალურ სიმეტრიას ქმნის და არაბუნებრივად გამოიყურება.
                         </div>
-                        <a href="#" class="service-btn btn-white">დეტალურად</a>
+                        <a href="#" class="service-btn btn-white">ანაზღაურება</a>
                     </div>
                 </li>
                 <li class="policy-list-item">
                     <div class="item-head flex-box al-center between">
                         <div class="item-left flex-box al-center">
-                            <div class="item-img-box">
+                            <div class="item-img-box flex-box">
                                 <img src="{{asset('assets/img/travel-icon.svg')}}" alt="">
                             </div>
                             <h3 class="fira-bold font-34">მოგზაურობა</h3>
@@ -111,13 +111,13 @@
                             გამოყენება, რადგან უბრალოდ „ტექსტი ტექსტი ტექსტი“ ან სხვა გამეორებადი სიტყვების ჩაყრა,
                             ხელოვნურ ვიზუალურ სიმეტრიას ქმნის და არაბუნებრივად გამოიყურება.
                         </div>
-                        <a href="#" class="service-btn btn-white">დეტალურად</a>
+                        <a href="#" class="service-btn btn-white">ანაზღაურება</a>
                     </div>
                 </li>
                 <li class="policy-list-item">
                     <div class="item-head flex-box al-center between">
                         <div class="item-left flex-box al-center">
-                            <div class="item-img-box">
+                            <div class="item-img-box flex-box">
                                 <img src="{{asset('assets/img/car-icon.svg')}}" alt="">
                             </div>
                             <h3 class="fira-bold font-34">ავტომობილი</h3>
@@ -136,13 +136,13 @@
                             გამოყენება, რადგან უბრალოდ „ტექსტი ტექსტი ტექსტი“ ან სხვა გამეორებადი სიტყვების ჩაყრა,
                             ხელოვნურ ვიზუალურ სიმეტრიას ქმნის და არაბუნებრივად გამოიყურება.
                         </div>
-                        <a href="#" class="service-btn btn-white">დეტალურად</a>
+                        <a href="#" class="service-btn btn-white">ანაზღაურება</a>
                     </div>
                 </li>
                 <li class="policy-list-item">
                     <div class="item-head flex-box al-center between">
                         <div class="item-left flex-box al-center">
-                            <div class="item-img-box">
+                            <div class="item-img-box flex-box">
                                 <img src="{{asset('assets/img/property-icon.svg')}}" alt="">
                             </div>
                             <h3 class="fira-bold font-34">ქონება</h3>
@@ -161,7 +161,7 @@
                             გამოყენება, რადგან უბრალოდ „ტექსტი ტექსტი ტექსტი“ ან სხვა გამეორებადი სიტყვების ჩაყრა,
                             ხელოვნურ ვიზუალურ სიმეტრიას ქმნის და არაბუნებრივად გამოიყურება.
                         </div>
-                        <a href="#" class="service-btn btn-white">დეტალურად</a>
+                        <a href="#" class="service-btn btn-white">ანაზღაურება</a>
                     </div>
                 </li>
             </ul>

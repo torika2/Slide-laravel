@@ -11,7 +11,11 @@
 		    <div class="swiper-wrapper">
 		        <div class="swiper-slide subMenuSlide">
 					<div class="img-box">
-						<img src="{{asset('assets/img/item.jpg')}}" alt="" class="img-absolute">
+						<picture>
+		                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <img src="{{asset('assets/img/img (30).jpg')}}" class="img-absolute" alt="">
+		                </picture>
 						<div class="img-layer"></div>
 						<div class="menu-list">
 							<div class="menu-list-inner">
@@ -132,7 +136,11 @@
 				</div>
 				<div class="swiper-slide subMenuSlide">
 					<div class="img-box">
-						<img src="{{asset('assets/img/img (30).jpg')}}" alt="" class="img-absolute">
+						<picture>
+		                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <img src="{{asset('assets/img/img (30).jpg')}}" class="img-absolute" alt="">
+		                </picture>
 						<div class="img-layer"></div>
 						<div class="menu-list">
 							<div class="menu-list-inner">
@@ -188,7 +196,11 @@
 				</div>
 				<div class="swiper-slide subMenuSlide">
 					<div class="img-box">
-						<img src="{{asset('assets/img/img (30).jpg')}}" alt="" class="img-absolute">
+						<picture>
+		                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <img src="{{asset('assets/img/img (30).jpg')}}" class="img-absolute" alt="">
+		                </picture>
 						<div class="img-layer"></div>
 						<div class="menu-list">
 							<div class="menu-list-inner">
@@ -244,7 +256,11 @@
 				</div>
 				<div class="swiper-slide subMenuSlide">
 					<div class="img-box">
-						<img src="{{asset('assets/img/img (30).jpg')}}" alt="" class="img-absolute">
+						<picture>
+		                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+		                  <img src="{{asset('assets/img/img (30).jpg')}}" class="img-absolute" alt="">
+		                </picture>
 						<div class="img-layer"></div>
 						<div class="menu-list">
 							<div class="menu-list-inner">

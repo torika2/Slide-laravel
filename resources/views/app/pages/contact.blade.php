@@ -137,7 +137,7 @@
 
 					<div class="textarea-wrap">
 						<div class="placeholder-wrap">
-							<textarea class="v-empty"></textarea>
+							<textarea class="v-empty" rows="1"></textarea>
 							<div class="placeholder">
 								<span>შეტყობინება</span>
 								<span>*</span>

@@ -16,7 +16,7 @@ header {
 .imgg .img-absolute {
     bottom: 0;
     top: unset;
-    height: 155%;
+    height: 135%;
 }
 @media(max-width: 1365px) {
     .container-secondary {
@@ -279,7 +279,31 @@ header {
     min-width: 190px;
     width: max-content;
 }
-
+.button-img-box {
+    position: relative;
+    width: 30px;
+}
+.button-img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    transition: 0.6s;
+}
+.button-img-box:first-child {
+    opacity: 0;
+}
+.additional-text {
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 540px;
+    text-align: center;
+}
+.additional-text span {
+    font-size: inherit;
+    font-family: inherit;
+}
 @media(max-width: 1900px) {
     .banner-content {
         bottom: 79px;
@@ -1050,10 +1074,25 @@ header {
     background: #FCB618;
     padding: 0 10px;
 }
-.lable.popular > .lable.discount {
+/* .lable.popular > .lable.discount {
     right: -30px;
     top: 0;
     left: 100%;
+} */
+.two-lables {
+    position: absolute;
+    top: -16px;
+    transform: translateX(-18px);
+}
+.two-lables > .lable {
+    position: relative;
+    top: unset;
+}
+.two-lables> .lable span {
+    right: -40px;
+    left: unset;
+    transform: unset;
+    top: 0;
 }
 .popular-star {
     background: #EE2A7B;
@@ -1444,3 +1483,65 @@ header {
 
 
 
+/* refund - choose policy  */
+.choose-policy h2 {
+    margin-bottom: 30px;
+}
+.packages-outer .ver-social {
+    margin-top: 60px;
+}
+.policy-list-item {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 40px;
+    padding-right: 53px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    cursor: pointer;
+}
+.plus {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    justify-content: center;
+    transition: 0.6s;
+    flex-shrink: 0;
+}
+.plus span {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    border-radius: 4px;
+    background: #EE2A7B;
+    transition: 0.6s;
+}
+.plus span:first-child {
+    transform: rotate(90deg);
+}
+.item-hidden {
+    padding-top: 32px;
+    padding-right: 60px;
+    display: none;
+}
+.policy-list-item.active .plus span:first-child {
+    transform: rotate(180deg);
+}
+.item-left img {
+    max-width: 100px;
+}
+.item-img-box {
+    min-width: 90px;
+    margin-right: 60px;
+}
+.item-img-box img {
+    max-width: 100%;
+}
+.item-left h3 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    padding-right: 30px;
+}

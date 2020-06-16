@@ -288,7 +288,18 @@ Route::get('/policy-exclusive', function () {
 
 });
 
+
+Route::get('/policy-travel', function () {
+    return view('app.pages.policyTravel');
+
+});
+
+Route::get('/refund', function () {
+    return view('app.pages.refund');
+});
+
 Route::get('/news', function () {
     return view('app.pages.news');
 
 });
+

@@ -303,10 +303,11 @@ span.flatpickr-weekday,
 .textarea-wrap textarea{
   position: relative;
   width: 100%;
-  height: 50px;
+  height: auto;
   border: none;
   padding: 0;
-  margin: 15px 0;
+  padding-top: 15px;
+  margin-bottom: 15px;
   font-size: 13px;
 
   resize: none;
@@ -320,7 +321,7 @@ span.flatpickr-weekday,
 .textarea-wrap .line{
   position: absolute;
   display: block;
-  top: 80px;
+  bottom: 0px;
   left: 0;
   width: 100%;
   height: 1px;
@@ -1552,9 +1553,7 @@ span.flatpickr-weekday,
 .contact-inner .top > .right .input-wrap{
   margin-bottom: 15px;
 }
-.contact-inner .top > .right .textarea-wrap{
-  margin-top: -15px;
-}
+
 .contact-inner .top > .right .btn-wrap{
   margin-top: 30px;
   display: flex;

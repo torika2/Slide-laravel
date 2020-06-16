@@ -148,10 +148,14 @@ var mySwiper = new Swiper('.packages-slider', {
 
     }
   }
+  
 });
 
-// const xer = document.querySelector(".packages-slider");
-// console.log(xer.children[0].getAttribute("style"));
+/*date select*/
+$("#rangeDate").flatpickr({
+    mode: 'range',
+    dateFormat: "Y-m-d"
+});
 
 
 

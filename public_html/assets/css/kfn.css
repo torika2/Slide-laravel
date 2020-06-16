@@ -1,5 +1,6 @@
-body {
+body , html {
   margin: 0;
+  width: 100%;
   overflow-x: hidden;
 }
 .container {
@@ -594,6 +595,54 @@ body {
   box-shadow: 0px 0px 20px 0px rgba(0,153,255,0.1);
 }
 .ecoist-page-container .main-container .row .side a span {
+}
+@media (max-width: 767px){
+  .ecoist-page-container .heading .side:nth-child(1) {
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .ecoist-page-container .heading .side:nth-child(2) {
+    padding-left: 0;
+    width: 100%;
+  }
+  .ecoist-page-container .heading {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .ecoist-page-container .main-container .row {
+    margin-bottom: 60px;
+  }
+  .ecoist-page-container .main-container .row:nth-child(odd) .side:nth-child(1) {
+    padding-right: 0;
+  }
+  .ecoist-page-container .main-container .row:nth-child(odd) .side:nth-child(2) {
+    padding-left: 0;
+  }
+  .ecoist-page-container .main-container .row:nth-child(even) .side:nth-child(1) {
+    padding-left: 0;
+  }
+  .ecoist-page-container .main-container .row:nth-child(even) .side:nth-child(2) {
+    padding-right: 0;
+  }
+  .ecoist-page-container .main-container .row {
+    flex-direction: column-reverse;
+  }
+  .ecoist-page-container .main-container .row:nth-child(even) {
+    /*flex-direction: column;*/
+  }
+  .ecoist-page-container .main-container .row .side {
+    width: 100%;
+  }
+  .ecoist-page-container .main-container .row:nth-child(odd) .side:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .ecoist-page-container .main-container .row:nth-child(even) .side:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .ecoist-page-container .main-container .row:nth-child(even) {
+    flex-direction: column-reverse;
+  }
 }
 
 /* END OF _ECOIST-PAGE */

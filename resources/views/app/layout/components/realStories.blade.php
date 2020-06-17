@@ -1,4 +1,4 @@
-<div class="container">
+<div class="m-t-144 container">
 	<div class="real-stories">
 		<h2 class="font-55 fira-bold ttl">ნამდვილი ამბები</h2>
 		<div class="stories-slider">

@@ -1,6 +1,7 @@
-<div class="news-outer">
+<div class="m-t-144 news-outer">
 	<div class="container">
 		<div class="top">
+			<h3 class="fira-bold font-34 ttl">სხვა სიახლეები</h3>
 			<a href="#" class="all-btn">
 				<span>ყველა სიახლე</span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="7.215" height="12.814" viewBox="0 0 7.215 12.814">
@@ -10,6 +11,7 @@
 				  </g>
 				</svg>
 			</a>
+
 		</div>
 		<div class="newsOuter-slider">
 			<div class="swiper-wrapper news-list">
@@ -32,7 +34,7 @@
 						</span>
 					</div>
 					<time class="noto-medium font-21">25 dec 2020</time>
-					<span class="noto-bold font-21 ttl">ჯიპიაი ჰოლდინგი ვენის სადაზღვევო ჯგუფის წევრებს საქართველოში მოგზაურობისკენ მოუწოდებს.</span>
+					<h2 class="noto-bold font-21 ttl">ჯიპიაი ჰოლდინგი ვენის სადაზღვევო ჯგუფის წევრებს საქართველოში მოგზაურობისკენ მოუწოდებს.</h2>
 				</a>
 				<a href="#" class="swiper-slide">
 					<div class="img-box">
@@ -53,7 +55,7 @@
 						</span>
 					</div>
 					<time class="noto-medium font-21">25 dec 2020</time>
-					<span class="noto-bold font-21 ttl">ჯიპიაი ჰოლდინგი ვენის სადაზღვევო ჯგუფის წევრებს საქართველოში მოგზაურობისკენ მოუწოდებს.</span>
+					<h2 class="noto-bold font-21 ttl">ჯიპიაი ჰოლდინგი ვენის სადაზღვევო ჯგუფის წევრებს საქართველოში მოგზაურობისკენ მოუწოდებს.</h2>
 				</a>
 			</div>
 		</div>

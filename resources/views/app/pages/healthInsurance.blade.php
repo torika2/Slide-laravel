@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="head-banner">
+<section class="head-banner kfn_anim k-fadeUp">
     <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">

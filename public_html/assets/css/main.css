@@ -221,7 +221,7 @@ button {
     margin: 0 auto;
 }
 .m-t-233 {
-    padding-top: 233px;
+    margin-top: 233px;
 }
 .m-t-144 {
     margin-top: 144px;
@@ -312,7 +312,7 @@ button {
         padding: 0 101px;
     }
     .m-t-233 {
-        padding-top: 144px;
+        margin-top: 144px;
     }
 }
 @media(max-width: 1365px) {
@@ -357,7 +357,7 @@ button {
         padding: 0 16px;
     }
     .m-t-233 {
-        padding-top: 55px;
+        margin-top: 55px;
     }
     .m-t-144 {
         margin-top: 55px;

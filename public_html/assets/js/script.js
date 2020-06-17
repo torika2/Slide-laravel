@@ -85,7 +85,7 @@ $(document).ready(function () {
 })
 
 // service tab stick function
-var navigationStick = function () {
+var tabSwitch = function () {
     var navLinks = document.querySelectorAll('.tab-button'),
         nav = document.querySelector('.services-tabs'),
         stick = document.querySelector('.services-tabs .stick'),
@@ -106,11 +106,11 @@ var navigationStick = function () {
         })
     })
 }
-navigationStick();
+tabSwitch();
 
 $(window).resize(function () {
     setTimeout(function () {
-        navigationStick();
+        tabSwitch();
     }, 500);
 });
 
@@ -162,14 +162,12 @@ function choosePolicy() {
         if (!$(this).hasClass('active')) {
             $('.policy-list-item').find('.item-hidden').slideUp(500);
             $(this).find('.item-hidden').slideDown(500);
-            $(this).css('padding-bottom', '41px');
             $('.policy-list-item').removeClass('active');
             $(this).addClass('active');
             return
         } else {
             $(this).find('.item-hidden').slideUp(500);
             $(this).removeClass('active');
-            $(this).css('padding-bottom', '23px');
         }
     });
 }
@@ -198,7 +196,7 @@ kufuna_parallax();
 $(window).resize(function () {
     setTimeout(function () {
         kufuna_parallax();
-    }, 200);
+    }, 100);
 });
 
 $(window).scroll(kufuna_parallax);
@@ -208,6 +206,35 @@ $(window).scroll(kufuna_parallax);
 
 
 
+// currency switch
+var currencySwitch = function () {
+    var navLinks = document.querySelectorAll('.currency-tab'),
+        nav = document.querySelector('.currency-box'),
+        stick = document.querySelector('.currency-box .currency-stick'),
+        result,
+        activeElem;
 
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            $(this).addClass('current');
+            $(this).siblings().removeClass('current');
+        })
+    })
+}
+currencySwitch();
 
+$(window).resize(function () {
+    setTimeout(function () {
+        currencySwitch();
+    }, 500);
+});
 

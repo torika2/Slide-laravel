@@ -46,6 +46,15 @@ window.onload = function () {
         }
     });
 
+    var observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active-kfn')
+            }
+        });
+    }, { rootMargin: "100px 0px 0px 0px" });
+    document.querySelectorAll('.kfn_anim').forEach(img => { observer.observe(img) });
+
     function ecoistSlider() {
         var elems = document.querySelectorAll('#ecoist-slider .slider-container .item'),
             active = 0,
@@ -261,14 +270,6 @@ window.onload = function () {
         ecoistSliderCursor()
     }
 
-    var observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('active-kfn')
-            }
-        });
-    }, { rootMargin: "100px 0px 0px 0px" });
-    document.querySelectorAll('.kfn_anim').forEach(img => { observer.observe(img) });
 
 
 

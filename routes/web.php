@@ -312,3 +312,8 @@ Route::get('/business-insurance', function () {
     return view('app.pages.businessInsurance');
 
 });
+
+Route::get('/third-party', function () {
+    return view('app.pages.thirdParty');
+
+});

@@ -284,7 +284,9 @@ header {
 }
 .button-img-box {
     position: relative;
-    width: 30px;
+    width: 23px;
+    height: 31px;
+    margin-right: 13px;
 }
 .button-img-box img {
     position: absolute;
@@ -294,7 +296,7 @@ header {
     max-height: 100%;
     transition: 0.6s;
 }
-.button-img-box:first-child {
+.button-img-box img:first-child {
     opacity: 0;
 }
 .additional-text {
@@ -903,7 +905,9 @@ header {
 .service-box.active .service-head img {
     transform: rotate(-180deg);
 }
-
+.service-name {
+    max-width: 90%;
+}
 /* hover */
     .service-btn:hover {
         border-color: #EE2A7B;
@@ -945,6 +949,10 @@ header {
     }
     .service-btn {
         margin-top: 20px;
+        width: 100%;
+        background-color: #EE2A7B !important;
+        border-color: #EE2A7B;
+        color: #fff !important;
     }
     .tab-button {
         padding: 0 10px;
@@ -1931,7 +1939,28 @@ input::-webkit-inner-spin-button {
     background: #C20B56;
 }
 
-
+.calculated {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 38px;
+}
+.calculated a {
+    border: 1px solid rgba(145, 153, 180, 0.7);
+    width: max-content;
+    padding: 0 43px;
+    transition: 0.6s;
+}
+#calculated1, #calculated2 {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+/* hover */
+.calculated a:hover {
+    border-color: #C20B56;
+}
 
 @media(max-width: 1500px) {
     .calculator-container {
@@ -2006,7 +2035,9 @@ input::-webkit-inner-spin-button {
         margin-top: 30px;
     }
 }
-
+.calculator-bottom {
+    position: relative;
+}
 
 /* Second Calculator */
 .calculator-second .other-inputs > div:first-child, .calculator-second .other-inputs > div:last-child {
@@ -2040,3 +2071,46 @@ input::-webkit-inner-spin-button {
         margin-top: 30px;
     }
 }
+
+
+.page-third-party .package-inner {
+    margin-top: 90px;
+}
+.page-third-party .package-cont, .page-third-party .package-inner {
+    padding: 0;
+}
+.page-third-party .package-cont {
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+.page-third-party .back-btn, .page-third-party .buy-btn {
+    display: none;
+}
+.page-third-party .ver-social {
+    margin-top: 60px;
+}
+.details-btn {
+    background: #EE2A7B;
+    color: #fff;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 0 28px;
+    cursor: pointer;
+}
+.details-btn svg {
+    margin-left: 10px;
+    transition: 0.6s;
+    transform: rotate(180deg);
+}
+.details-btn.active svg {
+    transform: rotate(0deg);
+}
+
+@media(max-width: 767px) {
+    .page-third-party .policy-compare > .ttl {
+        display: none;
+    }
+}
+

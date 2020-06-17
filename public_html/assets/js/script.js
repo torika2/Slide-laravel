@@ -375,4 +375,36 @@ function closeAllSelect(elmnt) {
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
+
+
+
+
+// packages slide down on click
+
+// $(document).ready(function () {
+var packagesSlideDown = function () {
+    $('.details-btn').click(function () {
+        if (!$(this).hasClass("active")) {
+            $(this).addClass("active");
+            var boxHeight = $(this).siblings('#packagesBox').find(".package-inner").height();
+
+            $(this).siblings('#packagesBox').find(".package-cont").css("height", boxHeight + "px");
+        } else {
+            $(this).removeClass("active");
+            $(this).siblings('#packagesBox').find(".package-cont").css("height", "0px");
+        }
+    });
+}
+packagesSlideDown();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        // packagesSlideDown();
+        var boxHeight = $(this).siblings('#packagesBox').find(".package-inner").height();
+        $(this).siblings('#packagesBox').find(".package-cont").css("height", boxHeight + "px");
+
+    }, 100);
+});
 // });
+
+

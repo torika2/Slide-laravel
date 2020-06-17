@@ -41,9 +41,15 @@
                             </select>
                         </div>
                     </div>
-
                 </div>
-                <button class="btn calculate-btn white">გამოთვლა</button>
+                <div class="calculator-bottom">
+                    <button class="btn calculate-btn white" id="calculator2btn">გამოთვლა</button>
+                    <div class="calculated text-center" id="calculated2">
+                        <div class="noto-bold">თვიური გადასახადი:</div>
+                        <div class="result noto-bold font-34 color-prim">3.62₾</div>
+                        <a href="#" class="btn-white">დავეზღვევი</a>
+                    </div>
+                </div>
             </form>
         </div>
     </div>

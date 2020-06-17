@@ -80,6 +80,7 @@
 
 @include('app.layout.components.providerClinics')
 @include('app.layout.components.serviceScheme')
+@include('app.layout.components.counter')
 @include('app.layout.components.findAgent')
 @include('app.layout.components.faqSlider')
 

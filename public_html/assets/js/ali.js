@@ -302,4 +302,80 @@ $("#rangeDate").flatpickr({
 		  })
 	   })
 
+
+
+
+   /*start of head slider*/
+
+
+ 	const slideBtn = document.querySelectorAll(".slide-btn");
+ 	let allowToChange = true;
+
+
+	slideBtn.forEach(function(item){
+		// var timeout;
+		// item.onmousemove = function(e) {
+		//     clearTimeout(timeout);
+		//     timeout = setTimeout(function() {
+		//     	slideChange();
+		//     }, 0);
+		// }
+		// slideChange();
+		// const slideChange = function(){
+			item.addEventListener("mouseenter", function(){
+				if(allowToChange){
+					// allowToChange = false;
+					// setTimeout(() => allowToChange = true, 1000);
+
+			    	let attribute = item.getAttribute("data-slide");
+			    	const parent = item.parentElement.parentElement;
+			    	const slides = parent.querySelectorAll(".slide");
+			    	const slide = parent.querySelector("[data-slide='" + attribute + "']");
+
+			    	item.classList.add("hovered");
+			    	slide.classList.add("active");
+
+			    	const deleteActiveClass = function(){
+			    		slides.forEach(function(slide){
+				    		if(slide.getAttribute("data-slide") != attribute){
+				    			slide.classList.remove("active");
+				    		}
+				    	})
+			    	}
+			    	setTimeout(deleteActiveClass, 0);
+			    }
+			})
+			item.addEventListener("mouseleave", function(){
+				console.log(allowToChange);
+				if(allowToChange){
+					// allowToChange = false;
+					// setTimeout(() => allowToChange = true, 1000);
+
+					item.classList.remove("hovered");
+					
+					const parent = item.parentElement.parentElement;
+					const slides = parent.querySelectorAll(".slide");
+
+					slides[0].classList.add("active");
+					const deleteActiveClass = function(){
+			    		slides.forEach(function(slide){
+			    			if(slide.getAttribute("data-slide") != 0){
+				    			slide.classList.remove("active");
+				    		}
+				    	})
+			    	}
+			    	setTimeout(deleteActiveClass, 0);
+			    	
+			    	console.log("mouse over");
+				}
+			 })
+
+		// }
+
+	})
+
+ 	
+
+
+
 })

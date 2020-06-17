@@ -676,7 +676,7 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     padding-bottom: 80px;
     transform: translateX(-105%);
     transition: .6s ease-in-out;
-    transition-delay: .8s;
+    transition-delay: .2s;
 }
 .fixedHead.active{
     transform: translateX(0%);
@@ -1642,6 +1642,41 @@ body.help #helpContainer div{
 .claimPopupContent .btnContainer button:hover{
     background: #C20B56;
 }
+.counterContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+.counterContainer .counter{
+    margin-right: 60px;
+    width: calc(100% / 4);
+}
+.counterContainer .counter:last-child{
+    margin-right: 0px;
+}
+.counterContainer .counter .numContainer{
+    background: #fff;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+}
+.counterContainer .counter .line{
+    height: 1px;
+    width: 60px;
+    background: #EE2A7B;
+    border-radius: 20px;
+    display: flex;
+    margin: 0px auto;
+}
+.counterContainer .counter .descr{
+    margin-top: 31px;
+    text-align: center;
+}
 /*laptop 1680*/
 @media (max-width: 1900px){
     .footerBottom{
@@ -1672,6 +1707,9 @@ body.help #helpContainer div{
 
 /*laptop 1366*/
 @media (max-width: 1659px){
+    .counterContainer .counter {
+        margin-right: 40px;
+    }
     #claimPopup{
         padding: 0px 218px;
     }
@@ -1696,6 +1734,12 @@ body.help #helpContainer div{
 
 /*ipad pro 1024*/
 @media (max-width: 1365px){
+    .counterContainer .counter .descr {
+        margin-top: 20px;
+    }
+    .counterContainer .counter .numContainer{
+        height: 90px;
+    }
     #claimPopup {
         padding: 0px 118px;
     }
@@ -1891,6 +1935,9 @@ body.help #helpContainer div{
 }
 /*ipad 768*/
 @media (max-width: 1023px){
+    .counterContainer{
+        margin-top: 40px;
+    }
     #claimPopup .claimInner{
         height: 100%;
     }
@@ -2098,6 +2145,29 @@ body.help #helpContainer div{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .counterSection .provider-clinics-description{
+        display: none;
+    }
+    .counterContainer::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE and Edge */
+    .counterContainer {
+        -ms-overflow-style: none;
+    }
+    .counterContainer .counter .descr{
+        font-size: 11px;
+        width: 165px;
+    }
+    .counterContainer .counter{
+        width: 165px;
+        margin-right: 10px;
+    }
+    .counterContainer{
+        width: 100%;
+        overflow: auto;
+    }
     .searchBtnContainer .subscrSocials:after{
         display: none;
     }

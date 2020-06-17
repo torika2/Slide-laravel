@@ -1,9 +1,9 @@
-<section class="container provider-clinics-section m-t-144">
-    <h2 class="fira-bold font-55 text-center">პროვაიდერი კლინიკები</h2>
+<section class="container provider-clinics-section m-t-144 kfn_anim k-fadeUp">
+    <h2 class="fira-bold font-55 text-center ">პროვაიდერი კლინიკები</h2>
     <div class="provider-clinics-description text-center">
         ჩვენ გირჩევთ შენი ცხოვრების ეტაპზე რომელი სადაზღვევო პოლისი შეგეფერება
     </div>
-    <div class="tab-section">
+    <div class="tab-section kfn_anim k-fadeUp">
         <div class="tabs flex-box justify-center">
             <!-- <div class="tab-link btn-white current" data-tab="tab-1">ინდივიდუალური</div>
             <div class="tab-link btn-white" data-tab="tab-2" id="tabCorporate">კორპორაციული</div> -->

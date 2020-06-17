@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="head-banner policy-medi">
+<section class="head-banner policy-medi kfn_anim k-fadeUp">
     <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/medi.jpg')}}">
@@ -31,7 +31,7 @@
     </div>
 </section>
 
-<section class="container-secondary policy-packages">
+<section class="container-secondary policy-packages kfn_anim k-fadeUp">
     <div class="packages-outer">
         <div class="package-text-tabs">
             <h2 class="font-34 fira-bold">ჯანმრთელობის ინდივიდუალური დაზღვევა</h2>

@@ -1,4 +1,4 @@
-<section class="became-member find-agent m-t-233">
+<section class="became-member find-agent m-t-233 kfn_anim k-fadeUp">
     <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="http://gpi.loc/assets/img/agent.jpg">

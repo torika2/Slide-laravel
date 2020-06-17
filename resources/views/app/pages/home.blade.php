@@ -1,5 +1,5 @@
 @extends('app.layout.app')
-
+@section('pageName')home @endsection
 @section('content')
 
 

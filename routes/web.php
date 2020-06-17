@@ -303,3 +303,12 @@ Route::get('/news', function () {
 
 });
 
+Route::get('/article', function () {
+    return view('app.pages.article');
+
+});
+
+Route::get('/business-insurance', function () {
+    return view('app.pages.businessInsurance');
+
+});

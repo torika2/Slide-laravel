@@ -18,7 +18,7 @@
                         <p class="noto-bold">ავტომობილის ღირებულება</p>
                         <div class="input-box flex-box">
                             <input type="number" name="price" value="0.00">
-                            <div class="currency-box flex-box al-center">
+                            <div class="currency-box box-1 flex-box al-center">
                                 <div class="currency-stick"></div>
                                 <div class="currency-tab gel flex-box al-center justify-center noto-bold current">₾
                                 </div>

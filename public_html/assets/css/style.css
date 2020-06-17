@@ -1766,7 +1766,7 @@ header {
     width: max-content;
     margin-left: 11px;
 }
-.currency-tab {
+.currency-tab, .cur-tab {
     height: 40px;
     border-radius: 8px;
     color: #EE2A7B;
@@ -1775,7 +1775,7 @@ header {
     transition: 0.6s;
     z-index: 5;
 }
-.currency-tab.current {
+.currency-tab.current, .cur-tab.current {
     color: #fff;
 }
 input::-webkit-outer-spin-button,
@@ -2003,6 +2003,40 @@ input::-webkit-inner-spin-button {
         margin-top: 30px;
     }
     .calculate-btn {
+        margin-top: 30px;
+    }
+}
+
+
+/* Second Calculator */
+.calculator-second .other-inputs > div:first-child, .calculator-second .other-inputs > div:last-child {
+    flex: 1;
+}
+.calculator-second .other-inputs > div:first-child {
+    margin-right: 52px;
+}
+.calculator-second .other-inputs input {
+    width: 224px;
+}
+.calculator-second .other-inputs {
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+@media(max-width: 1200px) {
+    .calculator-second .other-inputs > div:first-child {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .calculator-second .other-inputs {
+        width: 100%;
+    }
+    .calculator-second .other-inputs input {
+        width: 100%;
+    }
+    .calculator-second .other-inputs {
         margin-top: 30px;
     }
 }

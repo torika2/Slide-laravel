@@ -265,6 +265,7 @@
 
 @include('app.layout.components.directionSlider')
 @include('app.layout.components.calculatorWithRadio')
+@include('app.layout.components.calculator')
 @include('app.layout.components.providerClinics')
 @include('app.layout.components.serviceScheme')
 @include('app.layout.components.findAgent')

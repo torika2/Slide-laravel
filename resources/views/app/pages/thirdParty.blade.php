@@ -23,7 +23,7 @@
         <a href="#" class="btn white banner-button">
             <div class="button-img-box">
                 <img src="{{asset('assets/img/calculator.svg')}}" alt="">
-                <img src="{{asset('assets/img/calculator.svg')}}" alt="">
+                <img src="{{asset('assets/img/calculator-blue.svg')}}" alt="">
             </div>
 
             ფასის გამოთვლა
@@ -259,6 +259,7 @@
                 </div>
             </div>
         </div>
+
         <div class="details-btn btn">დეტალურად
             <svg xmlns="http://www.w3.org/2000/svg" width="12.815" height="7.215" viewBox="0 0 12.815 7.215">
                 <g id="Group_2935" data-name="Group 2935" transform="translate(0.707 6.508) rotate(-90)">

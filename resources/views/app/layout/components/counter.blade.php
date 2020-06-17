@@ -1,5 +1,5 @@
 <div class="container">
-    <section class="counterSection">
+    <section class="counterSection m-t-144">
         <h2 class="fira-bold font-55 text-center">ანაზღაურებული <br> თანხები</h2>
         <div class="provider-clinics-description text-center">
             ჩვენ გირჩევთ შენი ბიზნესისთვის რომელი სადაზღვევო პოლისი შეგეფერება

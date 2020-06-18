@@ -157,7 +157,11 @@ $(document).ready(function () {
     $('.details-btn').click(function () {
         packageSlider();
     })
-
+    $(window).resize(function () {
+        setTimeout(function () {
+            packageSlider();
+        }, 100);
+    });
 
 
     /*date select*/

@@ -1,3 +1,4 @@
+
 // FAQ Slider
 var faqSlider = new Swiper('.faq-slider', {
     slidesPerView: 2.89,
@@ -407,3 +408,8 @@ $(window).resize(function () {
 // });
 
 
+// show calculator result
+$('#calculator1btn').click(function () {
+    $(this).css({ "opacity": "0", "pointer-events": "none" });
+    $(this).siblings('#calculated1').css({ "opacity": "1", "visibility": "visible", "pointer-events": "all", "transform": "translate(-50%, 0)" });
+})

@@ -313,6 +313,10 @@ Route::get('/business-insurance', function () {
 
 });
 
+Route::get('/business-insurance-risks', function () {
+    return view('app.pages.businessInsuranceRisks');
+});
+
 Route::get('/third-party', function () {
     return view('app.pages.thirdParty');
 

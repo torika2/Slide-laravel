@@ -2,6 +2,60 @@
 @section('pageName')home @endsection
 @section('content')
 
+<div class="container smart-box-container">
+    <div class="left-side">
+        <div class="smart-box">
+            <div class="heading">
+                <h2>
+                    <span class="font-55 fira-bold">
+                        შეიძინე დაზღვევა ონლაინ
+                    </span>
+                </h2>
+                <div class="tabs-container">
+                    <ul>
+                        <li class="tab noto-bold active">ყიდვა</li>
+                        <li class="tab noto-bold">ანაზღაურება</li>
+                        <li class="tab noto-bold">გადახდა</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slider-container">
+                <div class="sliders">
+                    <div class="slider active">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider"></div>
+                    <div class="slider"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right-side">fw</div>
+</div>
+
 <section class="became-member m-t-233">
     <div class="img-box imgg">
         <picture>

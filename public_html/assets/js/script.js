@@ -44,41 +44,41 @@ $(document).ready(function () {
 
 
 // Provider Clinics Slider
-// var providerSlider = function () {
-var clinicsSlider1 = new Swiper('.individual', {
-    slidesPerView: 4,
-    spaceBetween: 60,
-    breakpoints: {
-        300: {
-            slidesPerView: 1.3,
-            spaceBetween: 15,
-        },
-        768: {
-            spaceBetween: 15,
-        },
-        1024: {
-            spaceBetween: 30,
-        },
-        1366: {
-            spaceBetween: 60,
-        },
-        1680: {
-            spaceBetween: 60,
-        },
-        1900: {
-            slidesPerView: 4,
-        },
+var providerSlider = function () {
+    var clinicsSlider1 = new Swiper('.individual', {
+        slidesPerView: 4,
+        spaceBetween: 60,
+        breakpoints: {
+            300: {
+                slidesPerView: 1.3,
+                spaceBetween: 15,
+            },
+            768: {
+                spaceBetween: 15,
+            },
+            1024: {
+                spaceBetween: 30,
+            },
+            1366: {
+                spaceBetween: 60,
+            },
+            1680: {
+                spaceBetween: 60,
+            },
+            1900: {
+                slidesPerView: 4,
+            },
 
-    }
+        }
+    });
+}
+providerSlider();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        providerSlider();
+    }, 100);
 });
-// }
-// providerSlider();
-
-// $(window).resize(function () {
-//     setTimeout(function () {
-//     providerSlider();
-//     }, 100);
-// });
 
 // Service scheme Tabs
 $(document).ready(function () {
@@ -217,8 +217,8 @@ $(window).scroll(kufuna_parallax);
 // currency switch
 var currencySwitch = function () {
     var navLinks = document.querySelectorAll('.currency-tab'),
-        nav = document.querySelector('.currency-box'),
-        stick = document.querySelector('.currency-box .currency-stick'),
+        nav = document.querySelector('.currency-box.box-1'),
+        stick = document.querySelector('.currency-box.box-1 .currency-stick'),
         result,
         activeElem;
 
@@ -243,6 +243,37 @@ currencySwitch();
 $(window).resize(function () {
     setTimeout(function () {
         currencySwitch();
+    }, 500);
+});
+
+var curSwitch = function () {
+    var navLinks = document.querySelectorAll('.cur-tab'),
+        nav = document.querySelector('.currency-box.box-2'),
+        stick = document.querySelector('.currency-box.box-2 .currency-stick'),
+        result,
+        activeElem;
+
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            $(this).addClass('current');
+            $(this).siblings().removeClass('current');
+        })
+    })
+}
+curSwitch();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        curSwitch();
     }, 500);
 });
 
@@ -344,4 +375,35 @@ function closeAllSelect(elmnt) {
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
+
+
+
+
+// packages slide down on click
+
+// $(document).ready(function () {
+var packagesSlideDown = function () {
+    $('.details-btn').click(function () {
+        if (!$(this).hasClass("active")) {
+            $(this).addClass("active");
+            // var boxHeight = $(this).siblings('#packagesBox').find(".package-inner").height();
+            // $(this).siblings('#packagesBox').find(".package-cont").css({ "height": boxHeight + "px", "overflow": "visible" });
+            $(this).siblings('#packagesBox').find(".package-cont").slideDown(1000);
+        } else {
+            $(this).removeClass("active");
+            // $(this).siblings('#packagesBox').find(".package-cont").css({ "height": "0px", "overflow": "hidden" });
+            $(this).siblings('#packagesBox').find(".package-cont").slideUp(1000);
+        }
+    });
+}
+packagesSlideDown();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        packagesSlideDown();
+
+    }, 100);
+});
 // });
+
+

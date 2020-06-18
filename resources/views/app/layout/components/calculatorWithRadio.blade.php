@@ -18,7 +18,7 @@
                         <p class="noto-bold">ავტომობილის ღირებულება</p>
                         <div class="input-box flex-box">
                             <input type="number" name="price" value="0.00">
-                            <div class="currency-box flex-box al-center">
+                            <div class="currency-box box-1 flex-box al-center">
                                 <div class="currency-stick"></div>
                                 <div class="currency-tab gel flex-box al-center justify-center noto-bold current">₾
                                 </div>
@@ -69,7 +69,14 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn calculate-btn white">გამოთვლა</button>
+                <div class="calculator-bottom">
+                    <button class="btn calculate-btn white" id="calculator1btn">გამოთვლა</button>
+                    <div class="calculated text-center" id="calculated1">
+                        <div class="noto-bold">თვიური გადასახადი:</div>
+                        <div class="result noto-bold font-34 color-prim">3.62₾</div>
+                        <a href="#" class="btn-white">დავეზღვევი</a>
+                    </div>
+                </div>
             </form>
         </div>
     </div>

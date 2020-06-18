@@ -6,15 +6,15 @@
 <div class="container ecoist-page-container">
 	<div class="heading">
 		<div class="side">
-			<h2 class="font-21 fira-bold uppercase">გახდი</h2>
-			<h3 class="font-55 fira-bold uppercase">#ეკოისტი</h3>
-			<div class="text">
+			<h2 class="font-21 fira-bold uppercase kfn_anim k-fadeUp">გახდი</h2>
+			<h3 class="font-55 fira-bold uppercase kfn_anim k-fadeUp" style="transition-delay: 0.1s;">#ეკოისტი</h3>
+			<div class="text kfn_anim k-fadeUp" style="transition-delay: 0.2s;">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore est, perspiciatis soluta et veniam vel cum odio vero, doloremque quae quibusdam sunt aliquid, libero pariatur nisi earum. Corrupti, saepe!
 			</div>
 		</div>	
 		<div class="side">
 			<div class="image">
-				<img src="{{asset('assets/img/img (17).jpg')}}" alt="">
+				<img class="kfn_anim k-fadeUp" src="{{asset('assets/img/img (17).jpg')}}" alt="">
 			</div>
 		</div>
 	</div>
@@ -22,16 +22,16 @@
 		<div class="row">
 			<div class="side">
 				<div class="image">
-					<img src="{{asset('assets/img/img (17).jpg')}}" alt="">
+					<img class="kfn_anim k-fadeUp" src="{{asset('assets/img/img (17).jpg')}}" alt="">
 				</div>
 			</div>
 			<div class="side">
-				<h2 class="font-55 uppercase fira-bold">ფეხით დადიხარ?</h2>
-				<h3 class="font-55 uppercase fira-bold"><span class="font-55 uppercase fira-bold">ეკოისტი</span> ხარ!</h2>
-				<div class="text">
+				<h2 class="font-55 uppercase fira-bold kfn_anim k-fadeUp">ფეხით დადიხარ?</h2>
+				<h3 class="font-55 uppercase fira-bold kfn_anim k-fadeUp" style="transition-delay: 0.1s;"><span class="font-55 uppercase fira-bold">ეკოისტი</span> ხარ!</h2>
+				<div class="text kfn_anim k-fadeUp" style="transition-delay: 0.2s;">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel at numquam explicabo maiores inventore culpa repellendus similique sapiente. Eligendi corporis numquam hic odio, culpa ducimus, quibusdam molestiae aliquam neque eaque.
 				</div>
-				<a class="lg" href="https://www.youtube.com/watch?v=meBbDqAXago">
+				<a class="lg kfn_anim k-fadeUp" style="transition-delay: 0.3s;" href="https://www.youtube.com/watch?v=meBbDqAXago">
 					<div class="circle">
 						<svg xmlns="http://www.w3.org/2000/svg" width="11.185" height="20.617" viewBox="0 0 11.185 20.617">
 						  <g id="Group_845" data-name="Group 845" transform="translate(0.707 0.707)">
@@ -47,16 +47,16 @@
 		<div class="row">
 			<div class="side">
 				<div class="image">
-					<img src="{{asset('assets/img/img (17).jpg')}}" alt="">
+					<img class="kfn_anim k-fadeUp" src="{{asset('assets/img/img (17).jpg')}}" alt="">
 				</div>
 			</div>
 			<div class="side">
-				<h2 class="font-55 uppercase fira-bold">ფეხით დადიხარ?</h2>
-				<h3 class="font-55 uppercase fira-bold"><span class="font-55 uppercase fira-bold">ეკოისტი</span> ხარ!</h2>
-				<div class="text">
+				<h2 class="font-55 uppercase fira-bold kfn_anim k-fadeUp">ფეხით დადიხარ?</h2>
+				<h3 class="font-55 uppercase fira-bold kfn_anim k-fadeUp" style="transition-delay: 0.1s;"><span class="font-55 uppercase fira-bold">ეკოისტი</span> ხარ!</h2>
+				<div class="text kfn_anim k-fadeUp" style="transition-delay: 0.2s;">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel at numquam explicabo maiores inventore culpa repellendus similique sapiente. Eligendi corporis numquam hic odio, culpa ducimus, quibusdam molestiae aliquam neque eaque.
 				</div>
-				<a class="lg" href="https://www.youtube.com/watch?v=meBbDqAXago">
+				<a class="lg kfn_anim k-fadeUp" style="transition-delay: 0.3s;" href="https://www.youtube.com/watch?v=meBbDqAXago">
 					<div class="circle">
 						<svg xmlns="http://www.w3.org/2000/svg" width="11.185" height="20.617" viewBox="0 0 11.185 20.617">
 						  <g id="Group_845" data-name="Group 845" transform="translate(0.707 0.707)">

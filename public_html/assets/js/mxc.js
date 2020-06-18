@@ -5,18 +5,37 @@ $(document).ready(function () {
         }
 
         $(".mainTag.active").click();
-
+        $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
 
 
     })
-    // setTimeout(function () {
-    //     $("header .secondFloor .leftContainer.active").addClass("animated")
-    // },300)
 
 
-    // setTimeout(function () {
-    //     $("body").addClass("noTransition");
-    // },2500);
+    // pictures tabs start
+
+    $(".busTab").click(function () {
+        let index = $(this).attr("data-index");
+        if(!$(this).hasClass("active")){
+            $(".busTab").removeClass("active");
+            $(".picturesContainer").removeClass("animated");
+            $(this).addClass("active");
+
+
+            setTimeout(function () {
+                $(".picturesMain").removeClass("active");
+                $(".picturesInner").children("[data-index=" + index + "]").addClass("active");
+
+            },650)
+
+            setTimeout(function () {
+                $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
+                $(".picturesContainer").addClass("animated");
+            },750)
+        }
+
+    });
+
+    // pictures tabs end
 
     $(".helpBtn").click(function () {
         if(!$(this).hasClass("active")){

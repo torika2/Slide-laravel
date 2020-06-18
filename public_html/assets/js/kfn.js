@@ -266,11 +266,28 @@ window.onload = function () {
         update();
 
     }
-    if (document.querySelector('#cursor') != undefined) {
+    if (document.querySelector('#ecoist-slider') != undefined) {
         ecoistSliderCursor()
     }
 
-
+    var smartBox = {
+        init : function(){
+            // სმარტ ბოქსის სლაიდერები
+            this.smartBoxSliders()
+        },
+        smartBoxSliders : function(){
+            var first = new Swiper('.smart-box-container .swiper-container', {
+                speed: 400,
+                spaceBetween: 90,
+                slidesPerView: 4,
+                navigation: {
+                    nextEl: '.swiper-button-next_',
+                    prevEl: '.swiper-button-prev_',
+                }
+            });
+        }
+    }
+    smartBox.init()
 
 
 }

@@ -1121,6 +1121,7 @@ header {
     position: absolute;
     top: -16px;
     transform: translateX(-18px);
+    display: none;
 }
 .two-lables > .lable {
     position: relative;

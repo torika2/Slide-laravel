@@ -312,3 +312,7 @@ Route::get('/business-insurance', function () {
     return view('app.pages.businessInsurance');
 
 });
+Route::get('/business-insurance-risks', function () {
+    return view('app.pages.businessInsuranceRisks');
+
+});

@@ -321,3 +321,8 @@ Route::get('/third-party', function () {
     return view('app.pages.thirdParty');
 
 });
+
+Route::get('/media-gallery', function () {
+    return view('app.pages.mediaGallery');
+
+});

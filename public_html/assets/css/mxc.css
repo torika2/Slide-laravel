@@ -682,6 +682,7 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     transform: translateX(0%);
     transition: .6s cubic-bezier(0, 0.18, 0.25, 0.99);
     transition-delay: 0s;
+    display: none;
 }
 .fixNavSocials{
     display: flex;

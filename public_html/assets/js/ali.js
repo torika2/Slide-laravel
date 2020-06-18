@@ -309,64 +309,75 @@ $("#rangeDate").flatpickr({
 
 
  	const slideBtn = document.querySelectorAll(".slide-btn");
- 	let allowToChange = true;
-
+ 	let allowToChange ;
+ 	var timeout;
 
 	slideBtn.forEach(function(item){
-		// var timeout;
-		// item.onmousemove = function(e) {
-		//     clearTimeout(timeout);
-		//     timeout = setTimeout(function() {
-		//     	slideChange();
-		//     }, 0);
-		// }
-		// slideChange();
+
 		// const slideChange = function(){
-			item.addEventListener("mouseenter", function(){
-				if(allowToChange){
+			item.addEventListener("mouseenter", function(e){
+				if(allowToChange != false){
 					// allowToChange = false;
-					// setTimeout(() => allowToChange = true, 1000);
+					// setTimeout(() => allowToChange = true, 5000);
+					clearTimeout(timeout);	
+					timeout = setTimeout(function(){
+				    	let attribute = item.getAttribute("data-slide");
+				    	const parent = item.parentElement.parentElement;
+				    	const slides = parent.querySelectorAll(".slide");
+				    	const slide = parent.querySelector("[data-slide='" + attribute + "']");
+				    	let checkFirstHover = false;
+				    	item.classList.add("hovered");
 
-			    	let attribute = item.getAttribute("data-slide");
-			    	const parent = item.parentElement.parentElement;
-			    	const slides = parent.querySelectorAll(".slide");
-			    	const slide = parent.querySelector("[data-slide='" + attribute + "']");
-
-			    	item.classList.add("hovered");
-			    	slide.classList.add("active");
-
-			    	const deleteActiveClass = function(){
-			    		slides.forEach(function(slide){
-				    		if(slide.getAttribute("data-slide") != attribute){
-				    			slide.classList.remove("active");
+				    	slides.forEach(function(slide){
+				    		
+				    		if(slide.classList.contains("slide-in")){
+				    			checkFirstHover = true;
 				    		}
 				    	})
-			    	}
-			    	setTimeout(deleteActiveClass, 0);
+				    	console.log(checkFirstHover);
+				    	if(checkFirstHover == false){
+				    		slides[0].classList.add("slide-out");
+				    		setTimeout(() => slide.classList.remove("slide-out"), 1500);
+				    	}else{ 
+					    	slides.forEach(function(slide){
+					    		if(slide.classList.contains("slide-in")){
+					    			slide.classList.add("slide-out")
+					    			slide.classList.remove("slide-in")
+					    			setTimeout(() => slide.classList.remove("slide-out"), 1500);
+					    		}
+					    	})
+					    }
+				    	slide.classList.add("slide-in");
+
+				    },500);
+			    	
 			    }
 			})
 			item.addEventListener("mouseleave", function(){
-				console.log(allowToChange);
-				if(allowToChange){
+				if(allowToChange != false){
 					// allowToChange = false;
 					// setTimeout(() => allowToChange = true, 1000);
 
-					item.classList.remove("hovered");
-					
-					const parent = item.parentElement.parentElement;
-					const slides = parent.querySelectorAll(".slide");
+					slideBtn.forEach(function(item){
+						item.classList.remove("hovered");
+					})
 
-					slides[0].classList.add("active");
-					const deleteActiveClass = function(){
-			    		slides.forEach(function(slide){
-			    			if(slide.getAttribute("data-slide") != 0){
-				    			slide.classList.remove("active");
+					clearTimeout(timeout);	
+					timeout = setTimeout(function(){
+
+						const parent = item.parentElement.parentElement;
+						const slides = parent.querySelectorAll(".slide");
+
+						slides.forEach(function(slide){
+				    		if(slide.classList.contains("slide-in")){
+				    			slide.classList.add("slide-out")
+				    			slide.classList.remove("slide-in")
+				    			setTimeout(() => slide.classList.remove("slide-out"), 1500);
 				    		}
 				    	})
-			    	}
-			    	setTimeout(deleteActiveClass, 0);
-			    	
-			    	console.log("mouse over");
+						slides[0].classList.add("slide-in");
+
+				    },500);
 				}
 			 })
 
@@ -376,6 +387,43 @@ $("#rangeDate").flatpickr({
 
  	
 
+
+	/*start of direction with hover*/
+
+	const direction = document.querySelectorAll(".direction");
+
+	direction.forEach(function(item){
+		const text = item.querySelector(".text");
+		const txt = item.querySelector(".txt");
+		const hover = item.querySelector(".hover");
+
+		const hoverHeight = hover.offsetHeight;
+		const textHeight = text.offsetHeight;
+
+
+		txt.style.height = textHeight + 'px';
+
+		
+		item.addEventListener("mouseenter", function(){
+			clearTimeout(timeout);	
+			timeout = setTimeout(function(){
+				setTimeout(() => txt.style.height = hoverHeight + 'px', 0);
+				setTimeout(() => text.classList.add("hide"), 600);
+				txt.classList.add("hovered");
+			},200);
+		})
+
+		item.addEventListener("mouseleave", function(){
+			clearTimeout(timeout);	
+			timeout = setTimeout(function(){
+				setTimeout(() => txt.style.height = textHeight + 'px', 0);
+				setTimeout(() => text.classList.remove("hide"), 600);
+				txt.classList.remove("hovered");
+			},200);
+		})
+
+
+	})
 
 
 })

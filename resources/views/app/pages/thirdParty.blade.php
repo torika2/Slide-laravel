@@ -271,7 +271,7 @@
             </svg>
         </div>
 
-        <div id="packagesBox">
+        <div class="packagesBox">
             @include('app.layout.components.comparePackages')
         </div>
     </div>

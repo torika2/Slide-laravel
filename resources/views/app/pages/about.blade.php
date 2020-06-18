@@ -55,6 +55,7 @@
 	</div>
 </div>
 
+@include('app.layout.components.missionBanner')
 
 <div class="awards-container">
     <div class="heading">
@@ -128,6 +129,7 @@
         </div>
     </div>
 </div>
+
 
 
 @endsection

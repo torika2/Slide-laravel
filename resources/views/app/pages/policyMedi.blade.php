@@ -399,9 +399,10 @@
 @include('app.layout.components.providerClinics')
 @include('app.layout.components.serviceScheme')
 @include('app.layout.components.findAgent')
+@include('app.layout.components.packagesGrid')
 @include('app.layout.components.realStories')
 @include('app.layout.components.findAgent')
 @include('app.layout.components.faqSlider')
-
+@include('app.layout.components.ltlCommercial')
 
 @endsection

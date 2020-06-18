@@ -235,6 +235,9 @@ button {
     font-size: 16px;
     line-height: 25px;
 }
+.text a {
+    color: #EE2A7B;
+}
 .white {
     color: white;
 }

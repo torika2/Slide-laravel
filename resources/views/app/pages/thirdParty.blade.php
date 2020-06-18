@@ -1,5 +1,5 @@
 @extends('app.layout.app')
-
+@section('pageName')third-party @endsection
 @section('content')
 
 <section class="head-banner policy-medi kfn_anim k-fadeUp">
@@ -18,15 +18,15 @@
             <a href="#" class="flex-box al-center font-13 noto-semibold">ჯანმრთელობის დაზღვევა</a>
         </nav>
         <h1 class="fira-bold font-55 white">
-            პოლისი მედი
+            მესამე პირის პასუხისმგებლობა
         </h1>
         <a href="#" class="btn white banner-button">
             <div class="button-img-box">
-                <img src="{{asset('assets/img/3508.svg')}}" alt="">
-                <img src="{{asset('assets/img/calendar-icon.svg')}}" alt="">
+                <img src="{{asset('assets/img/calculator.svg')}}" alt="">
+                <img src="{{asset('assets/img/calculator-blue.svg')}}" alt="">
             </div>
 
-            ექიმთან ჩაწერა
+            ფასის გამოთვლა
         </a>
     </div>
 </section>
@@ -259,18 +259,34 @@
                 </div>
             </div>
         </div>
+
+        <div class="details-btn btn">დეტალურად
+            <svg xmlns="http://www.w3.org/2000/svg" width="12.815" height="7.215" viewBox="0 0 12.815 7.215">
+                <g id="Group_2935" data-name="Group 2935" transform="translate(0.707 6.508) rotate(-90)">
+                    <line id="Line_90" data-name="Line 90" y1="5.6" x2="5.649" transform="translate(0.152 5.801)"
+                        fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1" />
+                    <line id="Line_91" data-name="Line 91" x2="5.801" y2="5.801" fill="none" stroke="#fff"
+                        stroke-linecap="round" stroke-width="1" />
+                </g>
+            </svg>
+        </div>
+
+        <div id="packagesBox">
+            @include('app.layout.components.comparePackages')
+        </div>
     </div>
+
+
+
 </section>
 
 
-@include('app.layout.components.directionSlider')
-@include('app.layout.components.calculatorWithRadio')
-@include('app.layout.components.calculator')
-@include('app.layout.components.providerClinics')
 @include('app.layout.components.serviceScheme')
 @include('app.layout.components.findAgent')
+@include('app.layout.components.packagesGrid')
 @include('app.layout.components.realStories')
 @include('app.layout.components.findAgent')
 @include('app.layout.components.faqSlider')
+
 
 @endsection

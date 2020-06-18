@@ -1,3 +1,4 @@
+
 // FAQ Slider
 var faqSlider = new Swiper('.faq-slider', {
     slidesPerView: 2.89,
@@ -44,33 +45,41 @@ $(document).ready(function () {
 
 
 // Provider Clinics Slider
-var clinicsSlider1 = new Swiper('.individual', {
-    slidesPerView: 4,
-    spaceBetween: 60,
-    breakpoints: {
-        300: {
-            slidesPerView: 1.3,
-            spaceBetween: 15,
-        },
-        768: {
-            spaceBetween: 15,
-        },
-        1024: {
-            spaceBetween: 30,
-        },
-        1366: {
-            spaceBetween: 60,
-        },
-        1680: {
-            spaceBetween: 60,
-        },
-        1900: {
-            slidesPerView: 4,
-        },
+var providerSlider = function () {
+    var clinicsSlider1 = new Swiper('.individual', {
+        slidesPerView: 4,
+        spaceBetween: 60,
+        breakpoints: {
+            300: {
+                slidesPerView: 1.3,
+                spaceBetween: 15,
+            },
+            768: {
+                spaceBetween: 15,
+            },
+            1024: {
+                spaceBetween: 30,
+            },
+            1366: {
+                spaceBetween: 60,
+            },
+            1680: {
+                spaceBetween: 60,
+            },
+            1900: {
+                slidesPerView: 4,
+            },
 
-    }
+        }
+    });
+}
+providerSlider();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        providerSlider();
+    }, 100);
 });
-
 
 // Service scheme Tabs
 $(document).ready(function () {
@@ -209,8 +218,8 @@ $(window).scroll(kufuna_parallax);
 // currency switch
 var currencySwitch = function () {
     var navLinks = document.querySelectorAll('.currency-tab'),
-        nav = document.querySelector('.currency-box'),
-        stick = document.querySelector('.currency-box .currency-stick'),
+        nav = document.querySelector('.currency-box.box-1'),
+        stick = document.querySelector('.currency-box.box-1 .currency-stick'),
         result,
         activeElem;
 
@@ -238,3 +247,169 @@ $(window).resize(function () {
     }, 500);
 });
 
+var curSwitch = function () {
+    var navLinks = document.querySelectorAll('.cur-tab'),
+        nav = document.querySelector('.currency-box.box-2'),
+        stick = document.querySelector('.currency-box.box-2 .currency-stick'),
+        result,
+        activeElem;
+
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            $(this).addClass('current');
+            $(this).siblings().removeClass('current');
+        })
+    })
+}
+curSwitch();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        curSwitch();
+    }, 500);
+});
+
+
+
+/*script for select*/
+
+var x, i, j, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+for (i = 0; i < x.length; i++) {
+    selElmnt = x[i].getElementsByTagName("select")[0];
+    /*for each element, create a new DIV that will act as the selected item:*/
+    a = document.createElement("DIV");
+    a.setAttribute("class", "select-selected");
+    if (selElmnt.options[selElmnt.selectedIndex].hasAttribute('value')) {
+        a.setAttribute('data-value', selElmnt.options[selElmnt.selectedIndex].getAttribute('value'));
+    }
+    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    x[i].appendChild(a);
+    /*for each element, create a new DIV that will contain the option list:*/
+    b = document.createElement("DIV");
+    b.setAttribute("class", "select-items select-hide");
+    for (j = 1; j < selElmnt.length; j++) {
+        /*for each option in the original select element,
+        create a new DIV that will act as an option item:*/
+        c = document.createElement("DIV");
+        c.setAttribute('data-value', selElmnt.options[j].getAttribute('value'));
+        c.innerHTML = selElmnt.options[j].innerHTML;
+        c.addEventListener("click", function (e) {
+            const customSelect = c.parentElement.parentElement;
+            customSelect.classList.remove("select-error");
+            customSelect.classList.add("select-success");
+            /*when an item is clicked, update the original select box,
+            and the selected item:*/
+            var y, i, k, s, h;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < s.length; i++) {
+                if (s.options[i].innerHTML == this.innerHTML) {
+                    s.selectedIndex = i;
+                    if (this.hasAttribute('data-value')) {
+                        h.setAttribute('data-value', this.getAttribute('data-value'))
+                    }
+                    h.innerHTML = this.innerHTML;
+                    y = this.parentNode.getElementsByClassName("same-as-selected");
+                    for (k = 0; k < y.length; k++) {
+                        y[k].removeAttribute("class");
+                    }
+                    this.setAttribute("class", "same-as-selected");
+                    break;
+                }
+            }
+            h.click();
+        });
+        b.appendChild(c);
+    }
+    x[i].appendChild(b);
+    a.addEventListener("click", function (e) {
+        /*when the select box is clicked, close any other select boxes,
+        and open/close the current select box:*/
+        e.stopPropagation();
+        closeAllSelect(this);
+        if (this.hasAttribute('data-value')) {
+            $(this).siblings('input').val(this.getAttribute('data-value'));
+            if ($(this).siblings('input').attr('data-textvalue')) {
+                $(this).siblings('input').attr('data-text', this.innerText);
+
+            }
+
+        } else {
+            $(this).siblings('input').val(this.innerText);
+        }
+        this.nextSibling.classList.toggle("select-hide");
+        this.classList.toggle("select-arrow-active");
+
+    });
+}
+function closeAllSelect(elmnt) {
+    /*a function that will close all select boxes in the document,
+    except the current select box:*/
+    var x, y, i, arrNo = [];
+    x = document.getElementsByClassName("select-items");
+    y = document.getElementsByClassName("select-selected");
+    for (i = 0; i < y.length; i++) {
+        if (elmnt == y[i]) {
+            arrNo.push(i)
+        } else {
+            y[i].classList.remove("select-arrow-active");
+        }
+    }
+    for (i = 0; i < x.length; i++) {
+        if (arrNo.indexOf(i)) {
+            x[i].classList.add("select-hide");
+        }
+    }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+
+
+
+
+
+// packages slide down on click
+
+// $(document).ready(function () {
+var packagesSlideDown = function () {
+    $('.details-btn').click(function () {
+        if (!$(this).hasClass("active")) {
+            $(this).addClass("active");
+            // var boxHeight = $(this).siblings('#packagesBox').find(".package-inner").height();
+            // $(this).siblings('#packagesBox').find(".package-cont").css({ "height": boxHeight + "px", "overflow": "visible" });
+            $(this).siblings('#packagesBox').find(".package-cont").slideDown(1000);
+        } else {
+            $(this).removeClass("active");
+            // $(this).siblings('#packagesBox').find(".package-cont").css({ "height": "0px", "overflow": "hidden" });
+            $(this).siblings('#packagesBox').find(".package-cont").slideUp(1000);
+        }
+    });
+}
+packagesSlideDown();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        packagesSlideDown();
+
+    }, 100);
+});
+// });
+
+
+// show calculator result
+$('#calculator1btn').click(function () {
+    $(this).css({ "opacity": "0", "pointer-events": "none" });
+    $(this).siblings('#calculated1').css({ "opacity": "1", "visibility": "visible", "pointer-events": "all", "transform": "translate(-50%, 0)" });
+})

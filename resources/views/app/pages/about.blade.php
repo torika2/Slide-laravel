@@ -54,7 +54,7 @@
 		</div>
 	</div>
 </div>
-
+@include('app.layout.components.companyHistory')
 @include('app.layout.components.missionBanner')
 
 <div class="awards-container">

@@ -2055,8 +2055,117 @@ body.animate .picturesContainer.animated .picturesMain{
     color: #EE2A7B;
     margin-bottom: 40px;
 }
+.companyHistorySl{
+    width: 340px;
+    height: 490px;
+    position: relative;
+}
+.companyHistorySlider{
+    padding-left: 368px;
+    z-index: 2;
+}
+.companyHistorySl .companyHistorySlInner{
+    height: 210px;
+    width: 390px;
+    position: absolute;
+    left: -50px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.companyHistorySl:after{
+    content: '';
+    background: #EE2A7B;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 3px);
+    left: 0px;
+
+}
+
+.companyHistorySl:nth-child(even) .companyHistorySlInner{
+    bottom: 0px;
+}
+.companyHistorySl:nth-child(odd) .companyHistorySlInner{
+    top: 0px;
+}
+.companyHistorySl .companyHistorySlInner:after{
+    position: absolute;
+    left: 47px;
+    bottom: -10px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid #fff;
+}
+.companyHistorySl:nth-child(even) .companyHistorySlInner:after{
+    bottom: auto;
+    top: -10px;
+    transform: rotate(180deg);
+}
+.companyHistorySlInner .ttl{
+    font-size: 16px;
+}
+.companyHistorySlInner .txt{
+    font-size: 13px;
+    line-height: 28px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.companyHistorySliderContainer{
+    position: relative;
+    margin-top: 55px;
+}
+.companyHistorySliderContainer:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #9199B4;
+    opacity: .5;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    z-index: 1;
+}
+.companyHistorySlInner a{
+    margin-top: auto;
+    font-size: 13px;
+    position: relative;
+    transition: .6s ease-in-out;
+}
+.companyHistorySlInner a:after{
+    width: 50px;
+    height: 1px;
+    border-radius: 5px;
+    background: #EE2A7B;
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    transition: .6s ease-in-out;
+    transform-origin: left;
+}
+.companyHistorySlInner a:hover{
+    color: #EE2A7B;
+}
+.companyHistorySlInner a:hover:after{
+    transform: scaleX(0);
+}
 /*laptop 1680*/
 @media (max-width: 1900px){
+    .companyHistorySlider{
+        padding-left: 242px;
+    }
     .packagesGridInner{
         margin-top: 55px;
     }
@@ -2087,7 +2196,10 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 
 /*laptop 1366*/
-@media (max-width: 1659px){
+@media (max-width: 1679px){
+    .companyHistorySlider{
+        padding-left: 161px;
+    }
     .picturesMain .pictureItem{
         margin-bottom: 25px;
         margin-right: 30px;
@@ -2132,6 +2244,18 @@ body.animate .picturesContainer.animated .picturesMain{
 
 /*ipad pro 1024*/
 @media (max-width: 1365px){
+    .companyHistorySl{
+        height: 450px;
+    }
+    .companyHistorySl .companyHistorySlInner{
+        height: 190px;
+    }
+    .companyHistorySl .companyHistorySlInner{
+        padding: 20px;
+    }
+    .companyHistorySlider{
+        padding-left: 121px;
+    }
     .directionTabHead{
         height: 433px;
     }
@@ -2382,6 +2506,9 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*ipad 768*/
 @media (max-width: 1023px){
+    .companyHistorySlider{
+        padding-left: 82px;
+    }
     .directionTabHead {
         height: 358px;
     }
@@ -2651,6 +2778,9 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .companyHistorySlider{
+        padding-left: 66px;
+    }
     .directionHeadTab{
         white-space: nowrap;
     }
@@ -2836,6 +2966,7 @@ body.animate .picturesContainer.animated .picturesMain{
     }
     .subSocialsContainer {
         margin-top: 30px;
+        margin-bottom: 100px;
     }
     .closeClaim{
         top: 10px;

@@ -9,7 +9,19 @@ $(document).ready(function () {
         $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
         $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
 
-    })
+    });
+
+
+    //company history start
+
+    var historySlider = new Swiper('.companyHistorySlider', {
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        freeMode: true,
+
+    });
+
+    //company history end
 
 
     // pictures tabs start

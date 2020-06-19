@@ -329,3 +329,8 @@ Route::get('/media-gallery', function () {
     return view('app.pages.mediaGallery');
 
 });
+
+Route::get('/404', function () {
+    return view('app.pages.404');
+
+});

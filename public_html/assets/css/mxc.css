@@ -1038,7 +1038,10 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 }
 .fixedMenuContainerInner{
     overflow-x: hidden!important;
+    -webkit-overflow-scrolling: touch;
 }
+
+
 .fixMenuLang{
     display: none;
 }
@@ -1774,12 +1777,13 @@ body.animate .directionTabHead{
     color: #fff;
     opacity: .8;
     transition: .6s ease-in-out;
+    font-size: 13px;
 }
 .breadcrumb a.active{
     cursor: initial;
 }
 .breadcrumb a:not(.active):hover{
-    color: #EE2A7B;
+    text-decoration: underline;
     opacity: 1;
 }
 .directionHeadTabsCont h3{
@@ -1876,6 +1880,7 @@ body.animate .directHeadContainer{
 }
 .busTabs{
     display: flex;
+    flex-wrap: wrap;
 }
 .busTab{
     height: 37px;
@@ -1888,6 +1893,7 @@ body.animate .directHeadContainer{
     margin-right: 20px;
     transition: .6s ease-in-out;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .busTab.active,.busTab:hover{
     background: #EE2A7B;
@@ -1955,6 +1961,93 @@ body.animate .picturesContainer.animated .picturesMain{
     overflow: hidden;
     transition: .6s ease-in-out;
 
+}
+.directInnerLinkFooter .socs{
+    display: flex;
+    align-items: center;
+}
+.directInnerLinkFooter .socs a{
+    margin-right: 10px;
+    display: flex;
+}
+.directInnerLinkFooter .socs a path{
+    transition: .6s ease-in-out;
+}
+.directInnerLinkFooter .socs a:hover path{
+    fill: #EE2A7B;
+}
+.directInnerLinkFooter .ttl{
+    margin-right: 20px;
+}
+.directInnerLinkFooter{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    flex-direction: column;
+}
+.directInnerLinkFooter .bot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.backBtn span{
+    margin-left: 20px;
+    transition: .6s ease-in-out;
+}
+.backBtn:hover span{
+    color: #EE2A7B;
+}
+.directInnerLinkFooter .btns a{
+    height: 53px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    width: fit-content;
+    border-radius: 8px;
+    transition: .6s ease-in-out;
+}
+.directInnerLinkFooter .btns a.pinkBtn{
+    background: #EE2A7B;
+    border: 1px solid #EE2A7B;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.directInnerLinkFooter .btns a.whiteBtn{
+    border: 1px solid rgba(41,37,98,.7);
+}
+.directInnerLinkFooter .btns a:hover{
+    background: #C20B56;
+    border-color: #C20B56;
+    color: #fff;
+}
+.directInnerLinkFooter .btns{
+    display: flex;
+}
+.directInnerTabList{
+    display: none;
+    flex-direction: column;
+    transform: translateY(15px);
+    opacity: 0;
+    transition: .6s ease-in-out;
+}
+.directInnerTabListContainer.animate .directInnerTabList{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.directInnerTabList.active{
+    display: flex;
+}
+.directInnerTabListContainer{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition: .6s ease-in-out;
+    overflow: hidden;
+}
+.directInnerTabList h4{
+    font-size: 21px;
+    color: #EE2A7B;
+    margin-bottom: 40px;
 }
 /*laptop 1680*/
 @media (max-width: 1900px){
@@ -2552,6 +2645,48 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .fixedMenuContainerInner::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE and Edge */
+    .fixedMenuContainerInner {
+        -ms-overflow-style: none;
+    }
+    .backBtn{
+        margin-top: 20px;
+    }
+    .directInnerLinkFooter .socs a{
+        margin-right: 5px;
+    }
+    .directInnerLinkFooter .socs a svg{
+        width: 25px;
+        height: 25px;
+    }
+    .directInnerLinkFooter .ttl {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .directInnerLinkFooter .bot{
+        flex-direction: column;
+    }
+    .directInnerLinkFooter .btns a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .directInnerLinkFooter .btns a.pinkBtn{
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .directInnerLinkFooter .btns{
+        flex-direction: column;
+    }
+    .busTabs {
+        flex-wrap: inherit;
+    }
+    .busTab{
+        margin-bottom: 10px;
+    }
     .picturesMain .pictureItem{
         width: 100%;
         margin-right: 0px;

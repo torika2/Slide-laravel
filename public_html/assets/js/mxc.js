@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
     $(window).resize(function () {
         if($("#searchContainer").hasClass("active")){
             $("#searchContainer").css("height",$(".searchInner").height() + "px")
@@ -6,7 +7,7 @@ $(document).ready(function () {
 
         $(".mainTag.active").click();
         $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
-
+        $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
 
     })
 
@@ -15,7 +16,7 @@ $(document).ready(function () {
 
     $(".busTab").click(function () {
         let index = $(this).attr("data-index");
-        if(!$(this).hasClass("active")){
+        if(!$(this).hasClass("active") && $(".directHeadContainer").hasClass("businessGallery") ){
             $(".busTab").removeClass("active");
             $(".picturesContainer").removeClass("animated");
             $(this).addClass("active");
@@ -30,6 +31,23 @@ $(document).ready(function () {
             setTimeout(function () {
                 $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
                 $(".picturesContainer").addClass("animated");
+            },750)
+        }
+        if(!$(this).hasClass("active") && $(".directHeadContainer").hasClass("businessInner") ){
+            $(".busTab").removeClass("active");
+            $(".directInnerTabListContainer").removeClass("animate");
+            $(this).addClass("active");
+
+
+            setTimeout(function () {
+                $(".directInnerTabList").removeClass("active");
+                $(".directInnerTabListInner").children("[data-index=" + index + "]").addClass("active");
+
+            },650)
+
+            setTimeout(function () {
+                $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
+                $(".directInnerTabListContainer").addClass("animate");
             },750)
         }
 

@@ -683,11 +683,7 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     transform: translateX(0%);
     transition: .6s cubic-bezier(0, 0.18, 0.25, 0.99);
     transition-delay: 0s;
-<<<<<<< HEAD
-    display: none;
-=======
     visibility: visible;
->>>>>>> 455b8194d20c0d7b6257a79039a7f0aa9da5e6c4
 }
 .fixNavSocials{
     display: flex;
@@ -1019,10 +1015,10 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     opacity: .16;
     content: '';
 }
-.searchBtnContainer .subscrSocials a svg{
-    height: 23px;
-    width: 23px;
-}
+/*.searchBtnContainer .subscrSocials a svg{*/
+/*    height: 23px;*/
+/*    width: 23px;*/
+/*}*/
 .searchBtnContainer .subscrSocials a{
     display: flex;
     margin-left: 15px;
@@ -1178,7 +1174,14 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
 }
 footer{
     padding: 0px 102px;
+    margin-top: 90px;
 
+}
+.page-home footer{
+    margin-top: 0px!important;
+}
+.subMenu.animate{
+    margin-bottom: 30px;
 }
 .footerInner{
     display: flex;
@@ -1727,7 +1730,6 @@ body.help #helpContainer div{
     width: 100%;
     background: #292562;
     border-radius: 4px;
-    margin-bottom: 90px;
 }
 .ltlCommercial .subMenuPicLinkContainerInner h3{
     transform: translateX(0px);
@@ -2400,8 +2402,8 @@ body.animate .picturesContainer.animated .picturesMain{
     .directHeadContainer{
         margin-top: -80px;
     }
-    .ltlCommercial{
-        margin-bottom: 40px;
+    footer{
+        margin-top: 40px;
     }
     .packageGrid:nth-child(2){
         margin-top: 0px;
@@ -2471,7 +2473,7 @@ body.animate .picturesContainer.animated .picturesMain{
     }
     footer .leftContainer{
         width: 100%;
-        padding-top: 80px;
+        padding-top: 0px;
         padding-right: 0px;
     }
     footer .imgContainer{
@@ -2649,6 +2651,9 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .directionHeadTab{
+        white-space: nowrap;
+    }
     .fixedMenuContainerInner::-webkit-scrollbar {
         display: none;
     }

@@ -124,6 +124,35 @@ var mySwiper = new Swiper('.direction-slider', {
   }
 });
 
+var mySwiper = new Swiper('.bonus-slider', {
+  speed: 1000,
+  slidesPerView: 4,
+  spaceBetween: 60,
+  watchOverflow: true,
+  breakpoints: {
+    320: {
+    	slidesPerView: 1.15,
+    	spaceBetween: 15
+    },
+    768: {
+    	slidesPerView: 2.15,
+    	spaceBetween: 30
+    },
+    1024: {
+    	spaceBetween: 30
+    },
+    1366: {
+    	spaceBetween: 60,
+    },
+    1599: {
+    	spaceBetween: 60
+    },
+    1900: {
+    	spaceBetween: 60
+    }
+  }
+});
+
 var mySwiper = new Swiper('.packages-slider', {
   speed: 1000,
   slidesPerView: "auto",
@@ -309,41 +338,56 @@ $("#rangeDate").flatpickr({
 
 
  	const slideBtn = document.querySelectorAll(".slide-btn");
- 	let allowToChange ;
+ 	const body = document.getElementsByTagName("BODY")[0];
+ // 	let allowToChange;
+ // 	allowToChange = false;
+	// setTimeout(() => allowToChange = true, 1200);
  	var timeout;
 
 	slideBtn.forEach(function(item){
 
-		// const slideChange = function(){
 			item.addEventListener("mouseenter", function(e){
-				if(allowToChange != false){
-					// allowToChange = false;
-					// setTimeout(() => allowToChange = true, 5000);
+				const mouseEnter = function(){
+
+					/*სლაიდს ვცვლით თუ 2 მილიწამი გააჩერა მაუსი*/
 					clearTimeout(timeout);	
 					timeout = setTimeout(function(){
+
+
 				    	let attribute = item.getAttribute("data-slide");
 				    	const parent = item.parentElement.parentElement;
+
 				    	const slides = parent.querySelectorAll(".slide");
 				    	const slide = parent.querySelector("[data-slide='" + attribute + "']");
-				    	let checkFirstHover = false;
+
+				    	/*ღილაკის ჰოვერი*/
 				    	item.classList.add("hovered");
 
+				    	let checkFirstHover = false; /*პირველ ჰოვერზე რადგან slide in კლასი არაა რომ დავადოთ slide out, ვიგებთ ამას და პირველ სლაიდს ვადებთ slkide-in კლასს*/
+				    	
 				    	slides.forEach(function(slide){
-				    		
 				    		if(slide.classList.contains("slide-in")){
 				    			checkFirstHover = true;
 				    		}
 				    	})
-				    	console.log(checkFirstHover);
-				    	if(checkFirstHover == false){
+
+				    	/*პირველ ცდაზე slide out კლასს ვადებთ 1 სურათს*/
+				    	if(checkFirstHover === false){
 				    		slides[0].classList.add("slide-out");
-				    		setTimeout(() => slide.classList.remove("slide-out"), 1500);
-				    	}else{ 
+				    		setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
+
+				    		body.classList.add("disable");
+				    		setTimeout(() => body.classList.remove("disable"), 1000);
+				    	}else/*ვადებთ slide out კლასს იმ სურათს რომელიც არის გამოტანილი, რომ ავიდეს ზევით*/
+				    	{ 
 					    	slides.forEach(function(slide){
 					    		if(slide.classList.contains("slide-in")){
 					    			slide.classList.add("slide-out")
 					    			slide.classList.remove("slide-in")
-					    			setTimeout(() => slide.classList.remove("slide-out"), 1500);
+					    			setTimeout(() => slide.classList.remove("slide-out"), 1000);
+
+					    			body.classList.add("disable");
+				    				setTimeout(() => body.classList.remove("disable"), 1000);
 					    		}
 					    	})
 					    }
@@ -352,12 +396,11 @@ $("#rangeDate").flatpickr({
 				    },500);
 			    	
 			    }
+			    mouseEnter();
 			})
-			item.addEventListener("mouseleave", function(){
-				if(allowToChange != false){
-					// allowToChange = false;
-					// setTimeout(() => allowToChange = true, 1000);
-
+			item.addEventListener("mouseleave", function(e){
+				const mouseLeave = function(){
+					/*ღილაკის ჰოვერი*/
 					slideBtn.forEach(function(item){
 						item.classList.remove("hovered");
 					})
@@ -368,20 +411,23 @@ $("#rangeDate").flatpickr({
 						const parent = item.parentElement.parentElement;
 						const slides = parent.querySelectorAll(".slide");
 
+						/*ანჰოვერზე გაგვაქვს სლაიდი და შემოგვაქვს პირველი სუღათი*/
 						slides.forEach(function(slide){
 				    		if(slide.classList.contains("slide-in")){
 				    			slide.classList.add("slide-out")
 				    			slide.classList.remove("slide-in")
-				    			setTimeout(() => slide.classList.remove("slide-out"), 1500);
+				    			setTimeout(() => slide.classList.remove("slide-out"), 1000);
+
+				    			body.classList.add("disable");
+				    			setTimeout(() => body.classList.remove("disable"), 1000);
 				    		}
 				    	})
 						slides[0].classList.add("slide-in");
 
 				    },500);
 				}
+				mouseLeave();
 			 })
-
-		// }
 
 	})
 

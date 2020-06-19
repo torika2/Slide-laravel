@@ -7,10 +7,10 @@
 		        	<a href="#">
 			        	<div class="img-box">
 			        		<picture>
-			                  <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-			                  <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-			                  <img src="http://gpi.test/assets/img/img (30).jpg" class="img-absolute" alt="">
-			                </picture>
+					            <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
+					            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
+					            <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+					        </picture>
 			                <div class="img-layer"></div>
 			                <span>
 								<span class="noto-bold ttl">ვრცლად</span>
@@ -31,10 +31,10 @@
 		        	<a href="#">
 			        	<div class="img-box">
 			        		<picture>
-			                  <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-			                  <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-			                  <img src="http://gpi.test/assets/img/img (30).jpg" class="img-absolute" alt="">
-			                </picture>
+					            <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
+					            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
+					            <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+					        </picture>
 			                <div class="img-layer"></div>
 			                <span>
 								<span class="noto-bold ttl">ვრცლად</span>
@@ -55,10 +55,10 @@
 		        	<a href="#">
 			        	<div class="img-box">
 			        		<picture>
-			                  <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-			                  <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-			                  <img src="http://gpi.test/assets/img/img (30).jpg" class="img-absolute" alt="">
-			                </picture>
+					            <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
+					            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
+					            <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+					        </picture>
 			                <div class="img-layer"></div>
 			                <span>
 								<span class="noto-bold ttl">ვრცლად</span>
@@ -79,10 +79,10 @@
 		        	<a href="#">
 			        	<div class="img-box">
 			        		<picture>
-			                  <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-			                  <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-			                  <img src="http://gpi.test/assets/img/img (30).jpg" class="img-absolute" alt="">
-			                </picture>
+					            <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
+					            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
+					            <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+					        </picture>
 			                <div class="img-layer"></div>
 			                <span>
 								<span class="noto-bold ttl">ვრცლად</span>

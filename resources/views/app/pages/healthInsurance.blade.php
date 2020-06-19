@@ -24,7 +24,7 @@
     </div>
 </section>
 <section class="container-secondary">
-    <div class="packages flex-box justify-center">
+    <div class="packages flex-box justify-center kfn_anim k-fadeUp">
         <div class="package-box flex-box column">
             <div class="flex-box column al-center">
                 <h3 class="fira-bold font-34">მედი</h3>

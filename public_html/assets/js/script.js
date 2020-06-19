@@ -129,13 +129,13 @@ $(window).resize(function () {
 function serviceF() {
     $('.service-box').on('click', function () {
         if (!$(this).hasClass('active')) {
-            $('.service-box').find('.service-description').slideUp(500);
-            $(this).find('.service-description').slideDown(500);
+            $('.service-box').find('.service-description').slideUp(700);
+            $(this).find('.service-description').slideDown(700);
             $('.service-box').removeClass('active');
             $(this).addClass('active');
             return
         } else {
-            $(this).find('.service-description').slideUp(500);
+            $(this).find('.service-description').slideUp(700);
             $(this).removeClass('active');
         }
     });

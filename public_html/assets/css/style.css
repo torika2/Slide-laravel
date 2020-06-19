@@ -2380,3 +2380,43 @@ input::-webkit-inner-spin-button {
         margin-bottom: 15px;
     }
 }
+
+/* 404 page */
+
+.error-page {
+    min-height: 500px;
+    background: #fff;
+    border-radius: 8px;
+
+}
+.error-text {
+    margin-top: 15px;
+}
+.error-text a, .error-text p {
+    font-size: inherit;
+    font-family: inherit;
+}
+.error-text a {
+    text-decoration: underline;
+    transition: 0.6s;
+}
+.error-text a:hover {
+    color: #C20B56;
+}
+
+@media(max-width: 1023px) {
+    .error-page {
+        min-height: 300px;
+    }
+    .error-text.font-21 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+
+/* How to use Page */
+
+.how-to-title {
+    margin-bottom: 25px;
+}

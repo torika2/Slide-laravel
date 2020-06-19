@@ -327,7 +327,7 @@ Route::get('/media-gallery', function () {
 
 });
 
-Route::get('/404', function () {
-    return view('app.pages.404');
+Route::get('/how-to-use', function () {
+    return view('app.pages.howToUse');
 
 });

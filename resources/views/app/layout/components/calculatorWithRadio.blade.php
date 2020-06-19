@@ -26,7 +26,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-box ">
+                    <div class="flex-box">
                         <div class="flex-box column select-box1">
                             <p class="noto-bold">ავტომობილის ტიპი</p>
                             <div class="custom-select">

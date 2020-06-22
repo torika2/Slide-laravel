@@ -334,3 +334,8 @@ Route::get('/how-to-use', function () {
     return view('app.pages.howToUse');
 
 });
+
+Route::get('/faq', function () {
+    return view('app.pages.faq');
+
+});

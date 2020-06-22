@@ -24,7 +24,7 @@
     </div>
 </section>
 <section class="container-secondary">
-    <div class="packages flex-box justify-center">
+    <div class="packages flex-box justify-center kfn_anim k-fadeUp">
         <div class="package-box flex-box column">
             <div class="flex-box column al-center">
                 <h3 class="fira-bold font-34">მედი</h3>
@@ -78,10 +78,10 @@
 </section>
 
 @include('app.layout.components.subMenu')
-@include('app.layout.components.realStories')
+@include('app.layout.components.directionSlider')
 @include('app.layout.components.providerClinics')
 @include('app.layout.components.serviceScheme')
-@include('app.layout.components.subMenu')
+@include('app.layout.components.realStories')
 @include('app.layout.components.counter')
 @include('app.layout.components.findAgent')
 @include('app.layout.components.faqSlider')

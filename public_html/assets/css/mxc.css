@@ -1887,6 +1887,7 @@ body.animate .directHeadContainer{
     height: 3px;
     background: #EE2A7B;
     border-radius: 2px;
+    display: none;
 }
 .busTabs{
     display: flex;
@@ -2063,6 +2064,13 @@ body.animate .picturesContainer.animated .picturesMain{
     width: 340px;
     height: 490px;
     position: relative;
+    transition: .6s ease-in-out;
+    transform: translateX(50px);
+    opacity: 0;
+}
+.companyHistorySl.active-sl{
+    transform: translateX(0px);
+    opacity: 1;
 }
 .companyHistorySlider{
     padding-left: 368px;
@@ -2164,6 +2172,97 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 .companyHistorySlInner a:hover:after{
     transform: scaleX(0);
+}
+.aboutHistory .head{
+    display: flex;
+    position: relative;
+    height: 28px;
+}
+.aboutHistory .head .ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9px;
+    width: 9px;
+    background: rgba(45,37,98,.8);
+    border-radius: 50%;
+    top: 6px;
+    left: 61px;
+    position: absolute;
+    transition: .6s ease-in-out;
+}
+.aboutHistory.active .head .ic{
+    background: #EE2A7B;
+    /*height: 27px;*/
+    /*width: 27px;*/
+    /*top: 0px;*/
+    /*left: 52px;*/
+    transform: scale(3);
+    top: 9px;
+}
+.aboutHistory.active .head .ic svg{
+    transform: scale(.5);
+}
+.aboutHistory .head .ic svg{
+    transform: scale(0);
+    transition: .6s ease-in-out;
+}
+.aboutHistory .head .yearHistory{
+    width: 65px;
+    transition: .6s ease-in-out;
+}
+.aboutHistory .head .ttl{
+    width: calc(100% - 65px);
+    margin-right: 0px;
+    padding-left: 50px;
+    transition: .6s ease-in-out;
+}
+.aboutHistory{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+
+}
+.aboutHistoryDescr{
+    width: calc(100% - 115px);
+    margin-left: auto;
+    overflow: hidden;
+    height: 0px;
+    transition: .6s ease-in-out;
+}
+.aboutHistoryDescrInner img{
+    width: 100%;
+    margin: 60px 0px;
+    border-radius: 8px;
+}
+.aboutHistoryContainer{
+    position: relative;
+}
+.aboutHistoryContainer:after{
+    width: 1px;
+    opacity: .2;
+    background: #9199B4;
+    height: calc(100% - 38px);
+    left: 65px;
+    top: 10px;
+    content: '';
+    position: absolute;
+    z-index: 0;
+}
+.aboutHistory.active .yearHistory{
+    font-size: 21px;
+    color: #EE2A7B;
+    transform: translateX(-8px) scale(1.08);
+}
+.aboutHistory.active .head .ttl{
+    color: #EE2A7B;
+    font-size: 21px;
+}
+.aboutHistory.active .aboutHistoryDescr{
+   padding: 20px 0px;
 }
 /*laptop 1680*/
 @media (max-width: 1900px){
@@ -2816,6 +2915,36 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .aboutHistoryDescrInner img{
+        margin: 20px 0px;
+    }
+    .aboutHistory.active .aboutHistoryDescr {
+        padding: 10px 0px;
+    }
+    .aboutHistoryDescr{
+
+        width: calc(100% - 80px);
+    }
+    .aboutHistory.active .head .ic{
+        transform: scale(2);
+    }
+    .aboutHistory .head .ic{
+        left: 51px;
+    }
+    .aboutHistoryContainer:after{
+        left: 55px;
+    }
+    .aboutHistory.active .head .ttl {
+        color: #EE2A7B;
+        font-size: 13px;
+    }
+    .aboutHistory .head .yearHistory{
+        width: 55px;
+    }
+    .aboutHistory .head .ttl{
+        padding-left: 20px;
+        width: calc(100% - 55px);
+    }
     .companyHistorySlider{
         padding-left: 66px;
     }

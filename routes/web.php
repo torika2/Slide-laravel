@@ -319,7 +319,9 @@ Route::get('/business-insurance-risks', function () {
 Route::get('/business-insurance-risks-inner', function () {
     return view('app.pages.businessInsuranceRisksInner');
 });
-
+Route::get('/about-history', function () {
+    return view('app.pages.aboutHistory');
+});
 Route::get('/third-party', function () {
     return view('app.pages.thirdParty');
 

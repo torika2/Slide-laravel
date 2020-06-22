@@ -1,22 +1,85 @@
 $(document).ready(function () {
+
+    $(".mobT").click(function () {
+        if(window.innerWidth < 768){
+            if(!$(this).hasClass("active")){
+                $(".mobT").removeClass("active")
+                $(".mobTOpener").css("height","0px");
+                $(this).next(".mobTOpener").css("height", $(this).next(".mobTOpener").children().height() + 20 + "px");
+            }else{
+                $(".mobTOpener").css("height","0px");
+            }
+
+        }
+    });
+
+    $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
     $(window).resize(function () {
         if($("#searchContainer").hasClass("active")){
             $("#searchContainer").css("height",$(".searchInner").height() + "px")
         }
 
         $(".mainTag.active").click();
+        $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
+        $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
+
+    });
 
 
+    //company history start
 
-    })
-    // setTimeout(function () {
-    //     $("header .secondFloor .leftContainer.active").addClass("animated")
-    // },300)
+    var historySlider = new Swiper('.companyHistorySlider', {
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        freeMode: true,
+
+    });
+
+    //company history end
 
 
-    // setTimeout(function () {
-    //     $("body").addClass("noTransition");
-    // },2500);
+    // pictures tabs start
+
+    $(".busTab").click(function () {
+        let index = $(this).attr("data-index");
+        if(!$(this).hasClass("active") && $(".directHeadContainer").hasClass("businessGallery") ){
+            $(".busTab").removeClass("active");
+            $(".picturesContainer").removeClass("animated");
+            $(this).addClass("active");
+
+
+            setTimeout(function () {
+                $(".picturesMain").removeClass("active");
+                $(".picturesInner").children("[data-index=" + index + "]").addClass("active");
+
+            },650)
+
+            setTimeout(function () {
+                $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
+                $(".picturesContainer").addClass("animated");
+            },750)
+        }
+        if(!$(this).hasClass("active") && $(".directHeadContainer").hasClass("businessInner") ){
+            $(".busTab").removeClass("active");
+            $(".directInnerTabListContainer").removeClass("animate");
+            $(this).addClass("active");
+
+
+            setTimeout(function () {
+                $(".directInnerTabList").removeClass("active");
+                $(".directInnerTabListInner").children("[data-index=" + index + "]").addClass("active");
+
+            },650)
+
+            setTimeout(function () {
+                $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
+                $(".directInnerTabListContainer").addClass("animate");
+            },750)
+        }
+
+    });
+
+    // pictures tabs end
 
     $(".helpBtn").click(function () {
         if(!$(this).hasClass("active")){

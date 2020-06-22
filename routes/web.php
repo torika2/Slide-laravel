@@ -316,6 +316,9 @@ Route::get('/business-insurance', function () {
 Route::get('/business-insurance-risks', function () {
     return view('app.pages.businessInsuranceRisks');
 });
+Route::get('/business-insurance-risks-inner', function () {
+    return view('app.pages.businessInsuranceRisksInner');
+});
 
 Route::get('/third-party', function () {
     return view('app.pages.thirdParty');
@@ -324,5 +327,10 @@ Route::get('/third-party', function () {
 
 Route::get('/media-gallery', function () {
     return view('app.pages.mediaGallery');
+
+});
+
+Route::get('/404', function () {
+    return view('app.pages.404');
 
 });

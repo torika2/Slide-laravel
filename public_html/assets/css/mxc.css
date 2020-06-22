@@ -1195,6 +1195,8 @@ footer .imgContainer{
 }
 footer .imgContainer img{
     width: 145px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 footer .rightContainer{
@@ -1485,6 +1487,7 @@ body.help #helpContainer .closeHelp{
     align-items: center;
     transition: .6s ease-in-out;
     margin-top: 15px;
+    cursor: pointer;
 }
 .helpPresentation a path{
     transition: .6s ease-in-out;
@@ -1613,6 +1616,7 @@ body.help #helpContainer div{
     border-bottom: 1px solid #9199B4;
     margin-bottom: 10px;
     font-size: 13px;
+    border-radius: 0px;
 }
 .claimPopupContent input::placeholder{
     color: #292562;
@@ -2163,6 +2167,12 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*laptop 1680*/
 @media (max-width: 1900px){
+    .helpDirection{
+        margin-top: 30px;
+    }
+    .helpHotline{
+        margin-top: 55px;
+    }
     .companyHistorySlider{
         padding-left: 242px;
     }
@@ -2190,13 +2200,41 @@ body.animate .picturesContainer.animated .picturesMain{
         padding: 0px 260px;
     }
     .fixedHead{
-        width: 80px;
+        width: 70px;
     }
 
 }
 
 /*laptop 1366*/
 @media (max-width: 1679px){
+    .helpLinks .ttl{
+        margin-top: 20px;
+    }
+    .helpOpenTime{
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .helpDirection {
+        margin-top: 20px;
+    }
+    .chatBtns a svg{
+        transform: scale(.8);
+    }
+    .chatBtns a{
+        height: 40px;
+    }
+    .helpHotline{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+    }
+    .fixedHead.active .fixedLogo{
+        transform: scale(.8);
+    }
+    .fixedHead{
+        width: 50px;
+    }
     .companyHistorySlider{
         padding-left: 161px;
     }
@@ -2812,6 +2850,8 @@ body.animate .picturesContainer.animated .picturesMain{
     .directInnerLinkFooter .btns a{
         margin-left: auto;
         margin-right: auto;
+        width: 100%;
+        justify-content: center;
     }
     .directInnerLinkFooter .btns a.pinkBtn{
         margin-right: auto;
@@ -3044,9 +3084,7 @@ body.animate .picturesContainer.animated .picturesMain{
         margin-bottom: 0px;
         margin-top: 20px;
     }
-    .mobT.active ~ .mobTOpener{
-       max-height: 500px;
-    }
+
     .footerSubMenu .ttl{
         margin-bottom: 0px;
     }
@@ -3057,7 +3095,7 @@ body.animate .picturesContainer.animated .picturesMain{
         display: flex;
     }
     .contactContainer{
-        max-height: 0px;
+        height: 0px;
         transition: 1s ease-in-out;
         overflow: hidden;
     }
@@ -3084,9 +3122,9 @@ body.animate .picturesContainer.animated .picturesMain{
         display: none;
     }
     .footerSubMenuInner{
-        transition: 1s ease-in-out;
+        transition: .6s ease-in-out;
         overflow: hidden;
-        max-height: 0px;
+        height: 0px;
     }
     .footerSubMenuContainer{
         flex-direction: column;

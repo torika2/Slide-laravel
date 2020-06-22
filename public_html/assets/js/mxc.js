@@ -1,4 +1,18 @@
 $(document).ready(function () {
+
+    $(".mobT").click(function () {
+        if(window.innerWidth < 768){
+            if(!$(this).hasClass("active")){
+                $(".mobT").removeClass("active")
+                $(".mobTOpener").css("height","0px");
+                $(this).next(".mobTOpener").css("height", $(this).next(".mobTOpener").children().height() + 20 + "px");
+            }else{
+                $(".mobTOpener").css("height","0px");
+            }
+
+        }
+    });
+
     $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
     $(window).resize(function () {
         if($("#searchContainer").hasClass("active")){

@@ -1207,6 +1207,7 @@ body {
   border: 1px solid rgba(145, 153, 180, 0.7);
   border-radius: 0 0 8px 8px;
   border-top: 0;
+  transition: 1s;
 }
 .smart-box-container .left-side .smart-box .slider-container:after {
   content: '';
@@ -1226,6 +1227,19 @@ body {
 }
 .smart-box-container .left-side .smart-box .slider-container .sliders .slider.active {
   display: block;
+}
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .slide-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 37px;
+}
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .slide-arrows div {
+  margin: 0 22px;
+  cursor: pointer;
+}
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .slide-arrows div svg path {
+  
 }
 
 /* END OF _SMART-BOX */

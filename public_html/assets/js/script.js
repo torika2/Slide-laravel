@@ -419,3 +419,38 @@ $('#calculator1btn').click(function () {
     $(this).css({ "opacity": "0", "pointer-events": "none" });
     $(this).siblings('#calculated1').css({ "opacity": "1", "visibility": "visible", "pointer-events": "all", "transform": "translate(-50%, 0)" });
 })
+
+var compare = function () {
+    $('.compare-box').hover(function () {
+        if (window.innerWidth > 1024) {
+            $(this).closest('.package-box').find('.package-info').css('transform', 'translateY(-45px)');
+        }
+    })
+};
+
+
+// Faq List Slider
+var mySwiper = undefined;
+function initSwiper() {
+    var screenWidth = $(window).width();
+    if (screenWidth < 767 && mySwiper == undefined) {
+        mySwiper = new Swiper('.faq-list', {
+            slidesPerView: 'auto',
+            spaceBetween: 50,
+            freeMode: true
+        });
+    } else if (screenWidth > 766 && mySwiper != undefined) {
+        mySwiper.destroy();
+        mySwiper = undefined;
+        jQuery('.swiper-wrapper').removeAttr('style');
+        jQuery('.swiper-slide').removeAttr('style');
+    }
+}
+
+//Swiper plugin initialization
+initSwiper();
+
+//Swiper plugin initialization on window resize
+$(window).on('resize', function () {
+    initSwiper();
+});

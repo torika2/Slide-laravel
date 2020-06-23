@@ -339,3 +339,8 @@ Route::get('/faq', function () {
     return view('app.pages.faq');
 
 });
+
+Route::get('/faq-inner', function () {
+    return view('app.pages.faqInner');
+
+});

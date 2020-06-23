@@ -1,9 +1,6 @@
-/* #ecoist-slider {
-    display: none;
+.p-b-144 {
+    padding-bottom: 144px;
 }
-header {
-    display: none;
-} */
 .text-center {
     text-align: center;
 }
@@ -25,6 +22,9 @@ header {
     .imgg .img-absolute {
         transform: translateY(0) !important;
     }
+    .p-b-144 {
+        padding-bottom: 89px;
+    }
 }
 @media(max-width: 1023px) {
     .container-secondary {
@@ -34,6 +34,9 @@ header {
 @media(max-width: 767px) {
     .container-secondary {
         padding: 0 16px;
+    }
+    .p-b-144 {
+        padding-bottom: 55px;
     }
 }
 /* became member */
@@ -1121,11 +1124,6 @@ header {
     background: #FCB618;
     padding: 0 10px;
 }
-/* .lable.popular > .lable.discount {
-    right: -30px;
-    top: 0;
-    left: 100%;
-} */
 .two-lables {
     position: absolute;
     top: -16px;
@@ -1138,12 +1136,6 @@ header {
     position: relative;
     top: unset;
 }
-/* .two-lables> .lable span {
-    right: -40px;
-    left: unset;
-    transform: unset;
-    top: 0;
-} */
 .two-lables span {
     transform: translate(0);
 }
@@ -1226,9 +1218,7 @@ header {
 .details-tooltip {
     background: #292562;
     position: absolute;
-    top: -42px;
     top: -54px;
-    /* left: 8px; */
     left: 50%;
     transform: translateX(-50%);
     font-size: 10px;
@@ -1273,6 +1263,10 @@ header {
 .area-box {
     color: #9199B4;
 }
+.policy-packages .package-box > div:last-child {
+    height: unset;
+    margin-top: auto;
+}
 .package-info {
     position: relative;
     width: 95%;
@@ -1283,11 +1277,11 @@ header {
     overflow: hidden;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    text-align: start;
+    text-align: center;
     display: none;
 }
 .package-text.show {
-    display: flex;
+    display: -webkit-box;
 }
 
 /* hover */
@@ -2573,4 +2567,142 @@ input:focus::-webkit-input-placeholder {
         margin-bottom: 12px;
     }
 
+}
+
+
+/* FAQ Inner */
+.page-faqInner .head-banner.policy-medi .banner-content {
+    bottom: 320px;
+}
+.page-faqInner .packages-outer {
+    padding-bottom: 33px;
+}
+.faq-links {
+    width: 312px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.faq-categories .service-content {
+    display: block;
+    width: calc(100% - 312px);
+    padding-left: 63px;
+    padding-top: 20px;
+    opacity: 1;
+    border-left: 1px solid rgba(145, 153, 180, 0.2);
+}
+.page-faqInner .packages-outer .back-btn {
+    display: flex;
+    align-items: center;
+}
+.faq-list .swiper-wrapper {
+    flex-direction: column;
+}
+.faq-list {
+    padding-left: 28px;
+    margin-top: 48px;
+}
+.faq-list li {
+    position: relative;
+    list-style: decimal-leading-zero;
+    font-family: "NotoSansGeorgian-Bold", "NotoSans-Bold";
+    padding-left: 0px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+.faq-list li::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #EE2A7B;
+    top: 14px;
+    left: -8px;
+    position: absolute;
+    bottom: 5px;
+    z-index: 5;
+}
+.faq-list li:last-child {
+    margin-bottom: 0;
+}
+.faq-list li a {
+    transition: 0.6s;
+}
+/* hover */
+.faq-list li:hover {
+    color: #EE2A7B;
+}
+.faq-list li:hover a {
+    color: #EE2A7B;
+}
+/* active */
+.faq-list li.active {
+    color: #EE2A7B;
+}
+.faq-list li.active a {
+    color: #EE2A7B;
+}
+
+@media(max-width: 1365px) {
+    .page-faqInner .head-banner.policy-medi .banner-content {
+        bottom: 250px;
+    }
+    .faq-categories .service-content {
+        padding-left: 40px;
+    }
+}
+@media(max-width: 1023px) {
+    .page-faqInner .head-banner.policy-medi .banner-content {
+        bottom: 190px;
+    }
+    .faq-categories .service-content {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    .page-faqInner .head-banner .banner-content h1 {
+        max-width: 240px;
+    }
+    .faq-list .swiper-wrapper {
+        flex-direction: row;
+    }
+    .faq-categories {
+        flex-direction: column;
+    }
+    .faq-categories .service-content {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 60px;
+        border-left: none;
+    }
+    .faq-links {
+        width: auto;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .faq-list li {
+        width: auto;
+        margin-bottom: 0;
+    }
+    .faq-outer {
+        overflow: hidden;
+    }
+    .faq-list {
+        overflow: visible;
+    }
+    .page-faqInner .faq-title, .page-faqInner .faq-subtitle {
+        text-align: left;
+    }
+    .page-faqInner .faq-title::after {
+        margin: unset;
+        margin-top: 6px;
+        margin-bottom: 12px;
+    }
+    .faq-list {
+        margin-top: 20px;
+    }
+    .page-faqInner .packages-outer .back-btn {
+        display: none;
+    }
 }

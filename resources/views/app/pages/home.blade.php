@@ -110,7 +110,7 @@
 @include('app.layout.components.faqSlider')
 
 
-<section class="social-banner m-t-144">
+<section class="social-banner">
     <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/social.jpg')}}">

@@ -75,7 +75,8 @@
     width: 60px;
     height: 3px;
     background: #fff;
-    margin: 32px 0;
+    margin-top: 15px;
+    margin-bottom: 32px;
     border-radius: 20px;
 }
 
@@ -84,7 +85,7 @@
         bottom: 90px;
     }
     .became-member .img-box {
-        padding-top: 39.026%;
+        padding-top: 38.863%;
     }
 }
 @media(max-width: 1679px) {
@@ -2658,6 +2659,12 @@ input:focus::-webkit-input-placeholder {
     .faq-categories .service-content {
         padding-left: 20px;
     }
+    .faq-list {
+        margin-top: 30px;
+    }
+    .page-faqInner .packages-outer .ver-social {
+        margin-top: 30px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -2704,5 +2711,8 @@ input:focus::-webkit-input-placeholder {
     }
     .page-faqInner .packages-outer .back-btn {
         display: none;
+    }
+    .page-faqInner .packages-outer .ver-social {
+        margin-top: 25px;
     }
 }

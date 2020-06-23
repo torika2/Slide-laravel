@@ -85,6 +85,9 @@
     <div class="right-side">fw</div>
 </div>
 
+@include('app.layout.components.subMenu')
+@include('app.layout.components.ecoistSlider')
+
 <section class="became-member m-t-233">
     <div class="img-box imgg">
         <picture>
@@ -107,8 +110,8 @@
     </div>
 </section>
 
+@include('app.layout.components.newsOuter')
 @include('app.layout.components.faqSlider')
-
 
 <section class="social-banner">
     <div class="img-box imgg">
@@ -127,10 +130,4 @@
     </div>
 </section>
 
-@include('app.layout.components.videoContainer')
-@include('app.layout.components.ecoistSlider')
-@include('app.layout.components.subMenu')
-@include('app.layout.components.newsOuter')
-@include('app.layout.components.directionSlider')
-@include('app.layout.components.realStories')
 @endsection

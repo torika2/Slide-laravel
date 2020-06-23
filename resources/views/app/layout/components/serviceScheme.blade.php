@@ -17,7 +17,7 @@
                 <div id="servicetab-1" class="service-content current">
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">სტომატოლოგია</h3>
+                            <h3 class="service-name noto-bold font-21">სტომატოლოგია</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -32,7 +32,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">პროფ. კვლევები</h3>
+                            <h3 class="service-name noto-bold font-21">პროფ. კვლევები</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -47,7 +47,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">ამბულატორიული</h3>
+                            <h3 class="service-name noto-bold font-21">ამბულატორიული</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -62,7 +62,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">ჰოსპიტალური მომსახურება</h3>
+                            <h3 class="service-name noto-bold font-21">ჰოსპიტალური მომსახურება</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -77,7 +77,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">პედიატრია</h3>
+                            <h3 class="service-name noto-bold font-21">პედიატრია</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -92,7 +92,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">მედიკამენტები</h3>
+                            <h3 class="service-name noto-bold font-21">მედიკამენტები</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -109,7 +109,7 @@
                 <div id="servicetab-2" class="service-content">
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">პედიატრია</h3>
+                            <h3 class="service-name noto-bold font-21">პედიატრია</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -124,7 +124,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">მედიკამენტები</h3>
+                            <h3 class="service-name noto-bold font-21">მედიკამენტები</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -139,7 +139,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">სტომატოლოგია</h3>
+                            <h3 class="service-name noto-bold font-21">სტომატოლოგია</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -155,7 +155,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">პროფ. კვლევები</h3>
+                            <h3 class="service-name noto-bold font-21">პროფ. კვლევები</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -170,7 +170,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">ამბულატორიული</h3>
+                            <h3 class="service-name noto-bold font-21">ამბულატორიული</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და
@@ -185,7 +185,7 @@
                     </div>
                     <div class="service-box">
                         <div class="service-head flex-box between">
-                            <h3 class="service-name font-21">ჰოსპიტალური მომსახურება</h3>
+                            <h3 class="service-name noto-bold font-21">ჰოსპიტალური მომსახურება</h3>
                             <img src="{{asset('assets/img/tr.svg')}}" alt="">
                         </div>
                         <div class="service-description text">შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და

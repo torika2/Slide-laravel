@@ -1,7 +1,6 @@
 @extends('app.layout.app')
 @section('pageName')home @endsection
 @section('content')
-
 <div class="container smart-box-container">
     <div class="left-side">
         <div class="smart-box">
@@ -84,7 +83,8 @@
     </div>
     <div class="right-side">fw</div>
 </div>
-
+@include('app.layout.components.subMenu')
+@include('app.layout.components.ecoistSlider')
 <section class="became-member m-t-233">
     <div class="img-box imgg">
         <picture>
@@ -106,11 +106,9 @@
         </div>
     </div>
 </section>
-
+@include('app.layout.components.newsOuter')
 @include('app.layout.components.faqSlider')
-
-
-<section class="social-banner m-t-144">
+<section class="social-banner">
     <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/social.jpg')}}">
@@ -126,11 +124,4 @@
         <a href="#" class="btn-white">გაიგე მეტი</a>
     </div>
 </section>
-
-@include('app.layout.components.videoContainer')
-@include('app.layout.components.ecoistSlider')
-@include('app.layout.components.subMenu')
-@include('app.layout.components.newsOuter')
-@include('app.layout.components.directionSlider')
-@include('app.layout.components.realStories')
 @endsection

@@ -3,14 +3,14 @@ window.onload = function () {
 
     document.querySelector('#loader-fragment').style.opacity = '0'
 
-    $("body").addClass("animate");
+    document.body.classList.add('animate');
     setTimeout(function () {
         $("header .secondFloor .leftContainer.active").addClass("animated")
     }, 300)
 
 
     setTimeout(function () {
-        $("body").addClass("noTransition");
+        document.body.classList.add('noTransition');
     }, 2500);
 
 
@@ -274,7 +274,7 @@ window.onload = function () {
 
     var smartBox = {
         init : function(){
-            // სმარტ ბოქსის სლაიდერები
+            // სმარტ ბოქსის სლაიდერებ
             this.smartBoxSliders()
             // კონტეინერის სიმაღლის გაგება
             this.containerHeight()
@@ -285,7 +285,25 @@ window.onload = function () {
             })
         },
         smartBoxSliders : function(){
-            var first = new Swiper('.smart-box-container .swiper-container', {
+            var first = new Swiper('.smart-box-container .swiper-container.buy-slider', {
+                speed: 400,
+                spaceBetween: 90,
+                slidesPerView: 4,
+                navigation: {
+                    nextEl: '.swiper-button-next-btn',
+                    prevEl: '.swiper-button-prev-btn',
+                }
+            });
+            var first = new Swiper('.smart-box-container .swiper-container.remuneration-slider', {
+                speed: 400,
+                spaceBetween: 90,
+                slidesPerView: 4,
+                navigation: {
+                    nextEl: '.swiper-button-next-btn',
+                    prevEl: '.swiper-button-prev-btn',
+                }
+            });
+            var first = new Swiper('.smart-box-container .swiper-container.pay-slider', {
                 speed: 400,
                 spaceBetween: 90,
                 slidesPerView: 4,

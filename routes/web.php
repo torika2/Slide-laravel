@@ -326,3 +326,13 @@ Route::get('/media-gallery', function () {
     return view('app.pages.mediaGallery');
 
 });
+
+Route::get('/agents', function () {
+    return view('app.pages.agents');
+
+});
+
+Route::get('/agent', function () {
+    return view('app.pages.agent');
+
+});

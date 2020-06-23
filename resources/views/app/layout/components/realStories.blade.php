@@ -7,9 +7,9 @@
 		        	<a href="#">
 			        	<div class="img-box">
 			        		<picture>
-					            <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
-					            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
-					            <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+					            <source media="(max-width: 767px)" srcset="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}">
+					            <source media="(max-width: 1023px)" srcset="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}">
+					            <img src="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}" class="img-absolute" alt="">
 					        </picture>
 			                <div class="img-layer"></div>
 			                <span>
@@ -31,9 +31,9 @@
 		        	<a href="#">
 			        	<div class="img-box">
 			        		<picture>
-					            <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
-					            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
-					            <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+					            <source media="(max-width: 767px)" srcset="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}">
+					            <source media="(max-width: 1023px)" srcset="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}">
+					            <img src="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}" class="img-absolute" alt="">
 					        </picture>
 			                <div class="img-layer"></div>
 			                <span>
@@ -55,9 +55,9 @@
 		        	<a href="#">
 			        	<div class="img-box">
 			        		<picture>
-					            <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
-					            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
-					            <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+					            <source media="(max-width: 767px)" srcset="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}">
+					            <source media="(max-width: 1023px)" srcset="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}">
+					            <img src="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}" class="img-absolute" alt="">
 					        </picture>
 			                <div class="img-layer"></div>
 			                <span>
@@ -79,9 +79,9 @@
 		        	<a href="#">
 			        	<div class="img-box">
 			        		<picture>
-					            <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
-					            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
-					            <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+					            <source media="(max-width: 767px)" srcset="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}">
+					            <source media="(max-width: 1023px)" srcset="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}">
+					            <img src="{{asset('http://gpi.connect.ge/assets/img/sport.jpg')}}" class="img-absolute" alt="">
 					        </picture>
 			                <div class="img-layer"></div>
 			                <span>

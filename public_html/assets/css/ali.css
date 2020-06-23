@@ -4257,7 +4257,7 @@ input:focus::-webkit-input-placeholder {
 .page-agents .package-inner{
   margin-top: 0;
 }
-.page-agents .package-inner > .text{
+.page-agents .directHeadInner > .text{
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -4419,6 +4419,7 @@ input:focus::-webkit-input-placeholder {
 
 .page-agents .ver-social{
   padding-top: 50px;
+  padding-bottom: 60px;
   border-top: 1px solid rgba(145,153,180,0.5);
 }
 @media(max-width: 1900px){
@@ -4506,8 +4507,8 @@ input:focus::-webkit-input-placeholder {
   display: flex;
 }
 .agent .img-box{
-  width: 34.6%;
-  padding-top: 34.6%;
+  width: 33.6%;
+  padding-top: 33.6%;
   border-radius: 8px;
   overflow: hidden;
   flex:none;
@@ -4608,6 +4609,7 @@ input:focus::-webkit-input-placeholder {
 .comment-form{
   max-width: 836px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 .comment-form .ttl{

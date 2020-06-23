@@ -2,9 +2,9 @@
 @section('pageName')agent @endsection
 @section('content')
 
-@include('app.layout.components.faqSlider')
-<div class="package-cont">
-	<div class="package-inner">
+@include('app.layout.components.directionTabHead')
+<div class="directHeadContainer">
+	<div class="directHeadInner">
 		<div class="agent">
 				<div class="img-box">
 					<picture>

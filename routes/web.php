@@ -335,7 +335,7 @@ Route::get('/media-gallery', function () {
 
 });
 
-<<<<<<< HEAD
+
 Route::get('/agents', function () {
     return view('app.pages.agents');
 
@@ -345,7 +345,7 @@ Route::get('/agent', function () {
     return view('app.pages.agent');
 
 });
-=======
+
 Route::get('/how-to-use', function () {
     return view('app.pages.howToUse');
 
@@ -355,4 +355,4 @@ Route::get('/faq', function () {
     return view('app.pages.faq');
 
 });
->>>>>>> 0c5f8ef8e3dd5ddde72195d91ac1c10bfdd781e1
+

@@ -2,8 +2,10 @@
 @section('pageName')agents @endsection
 @section('content')
 
-<div class="package-cont">
-	<div class="package-inner">
+
+@include('app.layout.components.directionTabHead')
+<div class="directHeadContainer">
+	<div class="directHeadInner">
 		<div class="fira-bold font-34 ttl">
 			იპოვე აგენტი და შეარჩიე რაღაც შენთვის  
 		</div>

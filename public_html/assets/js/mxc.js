@@ -1,4 +1,41 @@
 $(document).ready(function () {
+
+    $(".aboutHistory").click(function () {
+        if(!$(this).hasClass("active")){
+            $(".aboutHistory").removeClass("active");
+            $(this).addClass("active");
+            $(".aboutHistoryDescr").css("height","0px");
+            $(this).children(".aboutHistoryDescr").css("height", $(this).find(".aboutHistoryDescrInner").height() + "px");
+            console.log($(this).find(".aboutHistoryDescrInner").height())
+        }else{
+            $(".aboutHistory").removeClass("active");
+            $(".aboutHistoryDescr").css("height","0px");
+        }
+    });
+
+    var observerSl = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active-sl')
+            }
+        });
+    }, { rootMargin: "0px 0px 0px 0px" });
+    document.querySelectorAll('.companyHistorySl').forEach(img => { observerSl.observe(img) });
+
+    $(".mobT").click(function () {
+        if(window.innerWidth < 768){
+            if(!$(this).hasClass("active")){
+                $(".mobT").removeClass("active")
+                $(".mobTOpener").css("height","0px");
+                $(this).next(".mobTOpener").css("height", $(this).next(".mobTOpener").children().height() + 20 + "px");
+            }else{
+                $(".mobTOpener").css("height","0px");
+            }
+
+        }
+    });
+
+    $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
     $(window).resize(function () {
         if($("#searchContainer").hasClass("active")){
             $("#searchContainer").css("height",$(".searchInner").height() + "px")
@@ -6,16 +43,28 @@ $(document).ready(function () {
 
         $(".mainTag.active").click();
         $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
+        $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
+
+    });
 
 
-    })
+    //company history start
+
+    var historySlider = new Swiper('.companyHistorySlider', {
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        freeMode: true,
+
+    });
+
+    //company history end
 
 
     // pictures tabs start
 
     $(".busTab").click(function () {
         let index = $(this).attr("data-index");
-        if(!$(this).hasClass("active")){
+        if(!$(this).hasClass("active") && $(".directHeadContainer").hasClass("businessGallery") ){
             $(".busTab").removeClass("active");
             $(".picturesContainer").removeClass("animated");
             $(this).addClass("active");
@@ -30,6 +79,23 @@ $(document).ready(function () {
             setTimeout(function () {
                 $(".picturesContainer").css("height",$(".picturesInner").height() + 'px');
                 $(".picturesContainer").addClass("animated");
+            },750)
+        }
+        if(!$(this).hasClass("active") && $(".directHeadContainer").hasClass("businessInner") ){
+            $(".busTab").removeClass("active");
+            $(".directInnerTabListContainer").removeClass("animate");
+            $(this).addClass("active");
+
+
+            setTimeout(function () {
+                $(".directInnerTabList").removeClass("active");
+                $(".directInnerTabListInner").children("[data-index=" + index + "]").addClass("active");
+
+            },650)
+
+            setTimeout(function () {
+                $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
+                $(".directInnerTabListContainer").addClass("animate");
             },750)
         }
 

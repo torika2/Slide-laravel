@@ -8,7 +8,7 @@
                     <div class="flex-box column product-price">
                         <p class="noto-bold">ლიმიტი</p>
                         <div class="input-box flex-box">
-                            <input type="number" name="price" value="50000">
+                            <input type="number" name="price" placeholder="50000">
                             <div class="currency-box box-2 flex-box al-center">
                                 <div class="currency-stick"></div>
                                 <div class="cur-tab gel flex-box al-center justify-center noto-bold current">₾

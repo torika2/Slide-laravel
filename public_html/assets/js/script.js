@@ -129,13 +129,13 @@ $(window).resize(function () {
 function serviceF() {
     $('.service-box').on('click', function () {
         if (!$(this).hasClass('active')) {
-            $('.service-box').find('.service-description').slideUp(500);
-            $(this).find('.service-description').slideDown(500);
+            $('.service-box').find('.service-description').slideUp(350);
+            $(this).find('.service-description').slideDown(350);
             $('.service-box').removeClass('active');
             $(this).addClass('active');
             return
         } else {
-            $(this).find('.service-description').slideUp(500);
+            $(this).find('.service-description').slideUp(350);
             $(this).removeClass('active');
         }
     });
@@ -159,6 +159,23 @@ var compare = function () {
 }
 compare();
 
+
+var details = function () {
+    $('.info-icon').hover(function () {
+        if (window.innerWidth > 1024) {
+            $(this).closest('.package-box').find('.package-info').css('transform', 'translateY(-45px)');
+        }
+    })
+
+    $('.info-icon').mouseleave(function () {
+        if (window.innerWidth > 1024) {
+            $(this).closest('.package-box').find('.package-info').css('transform', 'translateY(0px)');
+        }
+    })
+}
+details();
+
+
 // package box width
 if ($('.package-box').length === 1) {
     $('.packages').css('width', 'max-content');
@@ -169,13 +186,13 @@ if ($('.package-box').length === 1) {
 function choosePolicy() {
     $('.policy-list-item').on('click', function () {
         if (!$(this).hasClass('active')) {
-            $('.policy-list-item').find('.item-hidden').slideUp(500);
-            $(this).find('.item-hidden').slideDown(500);
+            $('.policy-list-item').find('.item-hidden').slideUp(350);
+            $(this).find('.item-hidden').slideDown(350);
             $('.policy-list-item').removeClass('active');
             $(this).addClass('active');
             return
         } else {
-            $(this).find('.item-hidden').slideUp(500);
+            $(this).find('.item-hidden').slideUp(350);
             $(this).removeClass('active');
         }
     });

@@ -1,6 +1,7 @@
 body , html {
   margin: 0;
   width: 100%;
+  position: relative;
   overflow-x: hidden;
 }
 .container {
@@ -1138,10 +1139,14 @@ body {
 .smart-box-container .left-side {
   width: 836px;
   padding-top: 36px;
+  position: relative;
+  z-index: 3;
 }
 .smart-box-container .right-side {
   width: calc(100% - 836px);
   padding-left: 113px;
+  position: relative;
+  z-index: 3;
 }
 .smart-box-container .left-side .smart-box {
   -webkit-box-shadow: 0px 0px 40px 0px rgba(0,153,255,0.05);
@@ -1238,8 +1243,85 @@ body {
   margin: 0 22px;
   cursor: pointer;
 }
-.smart-box-container .left-side .smart-box .slider-container .sliders .slider .slide-arrows div svg path {
-  
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .slide-arrows div svg line {
+  transition: .5s;
+}
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .slide-arrows div:hover svg line {
+  stroke: #EE2A7B;
+}
+.smart-box-container .right-side .image-container {
+  width: 100%;
+  position: relative;
+  padding-top: 153%;
+}
+.smart-box-container .right-side .image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.smart-box-container .slider--container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 135%;
+  background: red;
+}
+.smart-box-container .slider--container .item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FCB618;
+}
+.smart-box-container .slider--container .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: hard-light;
+}
+.ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  transform: translate(0,-1%);
+  width: calc(100% - 100px);
+  line-height: 0;
+  z-index: 2;
+  overflow: hidden;
+}
+.ribbon img {
+  width: 100%;
+  /*margin-top: -16%;*/
+  position: relative;
+  display: block;
+}
+@media (max-width: 1599px){
+  .smart-box-container .left-side {
+    width: 714px;
+  }
+  .smart-box-container .right-side {
+    width: calc(100% - 714px);
+    padding-left: 67px;
+  }
+}
+@media (max-width: 1365px) {
+  .smart-box-container .left-side {
+    width: 578px;
+    padding-top: 0;
+  }
+  .smart-box-container .right-side {
+    width: calc(100% - 578px);
+    padding-left: 30px;
+  }
+  .smart-box-container.container {
+    padding-top: 35px;
+    padding-right: 71px;
+  }
 }
 
 /* END OF _SMART-BOX */

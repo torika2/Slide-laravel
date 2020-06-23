@@ -22,7 +22,7 @@
             <div class="slider-container">
                 <div class="sliders">
                     <div class="slider active">
-                        <div class="swiper-container">
+                        <div class="swiper-container buy-slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="img">
@@ -82,8 +82,24 @@
             </div>
         </div>
     </div>
-    <div class="right-side">fw</div>
+    <div class="right-side">
+        <div class="image-container">
+            <img src="{{asset('assets/img/Skate+.png')}}" alt="">
+            <img src="" data-src="{{asset('assets/img/Skate+.png')}}" alt="">
+        </div>
+    </div>
+    <div class="slider--container">
+        <div class="item">
+            <img src="{{asset('assets/img/social.jpg')}}" alt="">
+        </div>
+    </div>
 </div>
+
+@include('app.layout.components.subMenu')
+
+
+@include('app.layout.components.ecoistSlider')
+
 
 <section class="became-member m-t-233">
     <div class="img-box imgg">
@@ -110,6 +126,7 @@
 @include('app.layout.components.faqSlider')
 
 
+
 <section class="social-banner m-t-144">
     <div class="img-box imgg">
         <picture>
@@ -128,9 +145,8 @@
 </section>
 
 @include('app.layout.components.videoContainer')
-@include('app.layout.components.ecoistSlider')
-@include('app.layout.components.subMenu')
 @include('app.layout.components.newsOuter')
-@include('app.layout.components.directionSlider')
 @include('app.layout.components.realStories')
+@include('app.layout.components.directionSlider')
+
 @endsection

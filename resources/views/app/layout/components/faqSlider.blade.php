@@ -1,7 +1,7 @@
 <section class="container faq-section m-t-144">
     <h2 class="faq-title fira-bold font-55 kfn_anim k-fadeUp">ხშირად აინტერესებთ</h2>
     <div class="faq-subtitle font-21 kfn_anim k-fadeUp">აირჩიე კატეგორია</div>
-    <div class="faq-slider swiper-container kfn_anim k-fadeUp">
+    <div class="faq-slider swiper-container p-b-144 kfn_anim k-fadeUp">
         <div class="swiper-wrapper">
             <a href="#" class="swiper-slide">
                 <div class="slider-num fira-bold font-89">

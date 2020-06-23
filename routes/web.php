@@ -335,6 +335,17 @@ Route::get('/media-gallery', function () {
 
 });
 
+
+Route::get('/agents', function () {
+    return view('app.pages.agents');
+
+});
+
+Route::get('/agent', function () {
+    return view('app.pages.agent');
+
+});
+
 Route::get('/how-to-use', function () {
     return view('app.pages.howToUse');
 
@@ -344,3 +355,9 @@ Route::get('/faq', function () {
     return view('app.pages.faq');
 
 });
+
+Route::get('/faq-inner', function () {
+    return view('app.pages.faqInner');
+
+});
+

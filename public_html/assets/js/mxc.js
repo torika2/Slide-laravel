@@ -56,6 +56,12 @@ $(document).ready(function () {
         freeMode: true,
 
     });
+    var teamSlider = new Swiper('.teamSlider', {
+        slidesPerView: 'auto',
+        // spaceBetween: 30,
+        freeMode: true,
+
+    });
 
     //company history end
 

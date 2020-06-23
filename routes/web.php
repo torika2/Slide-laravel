@@ -319,7 +319,12 @@ Route::get('/business-insurance-risks', function () {
 Route::get('/business-insurance-risks-inner', function () {
     return view('app.pages.businessInsuranceRisksInner');
 });
-
+Route::get('/about-history', function () {
+    return view('app.pages.aboutHistory');
+});
+Route::get('/about-finance', function () {
+    return view('app.pages.aboutFinance');
+});
 Route::get('/third-party', function () {
     return view('app.pages.thirdParty');
 
@@ -330,7 +335,29 @@ Route::get('/media-gallery', function () {
 
 });
 
-Route::get('/404', function () {
-    return view('app.pages.404');
+
+Route::get('/agents', function () {
+    return view('app.pages.agents');
 
 });
+
+Route::get('/agent', function () {
+    return view('app.pages.agent');
+
+});
+
+Route::get('/how-to-use', function () {
+    return view('app.pages.howToUse');
+
+});
+
+Route::get('/faq', function () {
+    return view('app.pages.faq');
+
+});
+
+Route::get('/faq-inner', function () {
+    return view('app.pages.faqInner');
+
+});
+

@@ -1,5 +1,27 @@
 $(document).ready(function () {
 
+    $(".aboutHistory").click(function () {
+        if(!$(this).hasClass("active")){
+            $(".aboutHistory").removeClass("active");
+            $(this).addClass("active");
+            $(".aboutHistoryDescr").css("height","0px");
+            $(this).children(".aboutHistoryDescr").css("height", $(this).find(".aboutHistoryDescrInner").height() + "px");
+            console.log($(this).find(".aboutHistoryDescrInner").height())
+        }else{
+            $(".aboutHistory").removeClass("active");
+            $(".aboutHistoryDescr").css("height","0px");
+        }
+    });
+
+    var observerSl = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active-sl')
+            }
+        });
+    }, { rootMargin: "0px 0px 0px 0px" });
+    document.querySelectorAll('.companyHistorySl').forEach(img => { observerSl.observe(img) });
+
     $(".mobT").click(function () {
         if(window.innerWidth < 768){
             if(!$(this).hasClass("active")){
@@ -31,6 +53,12 @@ $(document).ready(function () {
     var historySlider = new Swiper('.companyHistorySlider', {
         slidesPerView: 'auto',
         spaceBetween: 30,
+        freeMode: true,
+
+    });
+    var teamSlider = new Swiper('.teamSlider', {
+        slidesPerView: 'auto',
+        // spaceBetween: 30,
         freeMode: true,
 
     });

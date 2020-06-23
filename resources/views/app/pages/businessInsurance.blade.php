@@ -72,7 +72,7 @@
 				</span>
 			</div>
 
-	 		<div class="dot" style="background-color: #6768FF"></div>
+	 		<div class="dot" style="background-color: #EE2A7B"></div>
 
 	 		<div class="more">
 	 			<div></div>
@@ -92,7 +92,7 @@
 				</span>
 			</div>
 
-	 		<div class="dot" style="background-color: #6768FF"></div>
+	 		<div class="dot" style="background-color: #FCB618"></div>
 
 	 		<div class="more">
 	 			<div></div>

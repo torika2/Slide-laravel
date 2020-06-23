@@ -2,8 +2,10 @@
 @section('pageName')article @endsection
 @section('content')
 
-<div class="package-cont">
-	<div class="package-inner">
+
+@include('app.layout.components.directionTabHead')
+<div class="directHeadContainer">
+	<div class="directHeadInner">
 		
 		<div class="article">
 			<div class="noto-bold font-34 ttl">ბიზნესის კონკურსზე, ორმა პროექტმა ორ ნომინაციაში გაიმარჯვა!</div>

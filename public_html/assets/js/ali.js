@@ -337,106 +337,235 @@ $("#rangeDate").flatpickr({
    /*start of head slider*/
 
 
- 	const slideBtn = document.querySelectorAll(".slide-btn");
- 	const body = document.getElementsByTagName("BODY")[0];
+ 	
  // 	let allowToChange;
  // 	allowToChange = false;
 	// setTimeout(() => allowToChange = true, 1200);
- 	var timeout;
+ // 	var timeout;
 
-	slideBtn.forEach(function(item){
+	// slideBtn.forEach(function(item){
 
-			item.addEventListener("mouseenter", function(e){
-				const mouseEnter = function(){
+	// 		item.addEventListener("mouseenter", function(e){
+	// 			const mouseEnter = function(){
 
-					/*სლაიდს ვცვლით თუ 2 მილიწამი გააჩერა მაუსი*/
-					clearTimeout(timeout);	
-					timeout = setTimeout(function(){
+	// 				/*სლაიდს ვცვლით თუ 2 მილიწამი გააჩერა მაუსი*/
+	// 				clearTimeout(timeout);	
+	// 				timeout = setTimeout(function(){
 
 
-				    	let attribute = item.getAttribute("data-slide");
-				    	const parent = item.parentElement.parentElement;
+	// 			    	let attribute = item.getAttribute("data-slide");
+	// 			    	const parent = item.parentElement.parentElement;
 
-				    	const slides = parent.querySelectorAll(".slide");
-				    	const slide = parent.querySelector("[data-slide='" + attribute + "']");
+	// 			    	const slides = parent.querySelectorAll(".slide");
+	// 			    	const slide = parent.querySelector("[data-slide='" + attribute + "']");
 
-				    	/*ღილაკის ჰოვერი*/
-				    	item.classList.add("hovered");
+	// 			    	/*ღილაკის ჰოვერი*/
+	// 			    	item.classList.add("hovered");
 
-				    	let checkFirstHover = false; /*პირველ ჰოვერზე რადგან slide in კლასი არაა რომ დავადოთ slide out, ვიგებთ ამას და პირველ სლაიდს ვადებთ slkide-in კლასს*/
+	// 			    	let checkFirstHover = false; /*პირველ ჰოვერზე რადგან slide in კლასი არაა რომ დავადოთ slide out, ვიგებთ ამას და პირველ სლაიდს ვადებთ slkide-in კლასს*/
 				    	
-				    	slides.forEach(function(slide){
-				    		if(slide.classList.contains("slide-in")){
-				    			checkFirstHover = true;
-				    		}
-				    	})
+	// 			    	slides.forEach(function(slide){
+	// 			    		if(slide.classList.contains("slide-in")){
+	// 			    			checkFirstHover = true;
+	// 			    		}
+	// 			    	})
 
-				    	/*პირველ ცდაზე slide out კლასს ვადებთ 1 სურათს*/
-				    	if(checkFirstHover === false){
-				    		slides[0].classList.add("slide-out");
-				    		setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
+	// 			    	/*პირველ ცდაზე slide out კლასს ვადებთ 1 სურათს*/
+	// 			    	if(checkFirstHover === false){
+	// 			    		slides[0].classList.add("slide-out");
+	// 			    		setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
+	// 			    	}else/*ვადებთ slide out კლასს იმ სურათს რომელიც არის გამოტანილი, რომ ავიდეს ზევით*/
+	// 			    	{ 
+	// 				    	slides.forEach(function(slide){
+	// 				    		if(slide.classList.contains("slide-in")){
+	// 				    			slide.classList.add("slide-out")
+	// 				    			slide.classList.remove("slide-in")
+	// 				    			setTimeout(() => slide.classList.remove("slide-out"), 1000);
+	// 				    		}
+	// 				    	})
+	// 				    }
+	// 			    	slide.classList.add("slide-in");
 
-				    		body.classList.add("disable");
-				    		setTimeout(() => body.classList.remove("disable"), 1000);
-				    	}else/*ვადებთ slide out კლასს იმ სურათს რომელიც არის გამოტანილი, რომ ავიდეს ზევით*/
-				    	{ 
-					    	slides.forEach(function(slide){
-					    		if(slide.classList.contains("slide-in")){
-					    			slide.classList.add("slide-out")
-					    			slide.classList.remove("slide-in")
-					    			setTimeout(() => slide.classList.remove("slide-out"), 1000);
-
-					    			body.classList.add("disable");
-				    				setTimeout(() => body.classList.remove("disable"), 1000);
-					    		}
-					    	})
-					    }
-				    	slide.classList.add("slide-in");
-
-				    },500);
+	// 			    },500);
 			    	
-			    }
-			    mouseEnter();
-			})
-			item.addEventListener("mouseleave", function(e){
-				const mouseLeave = function(){
-					/*ღილაკის ჰოვერი*/
-					slideBtn.forEach(function(item){
-						item.classList.remove("hovered");
+	// 		    	return true;
+	// 		    }
+	// 		    mouseEnter();
+	// 		})
+	// 		item.addEventListener("mouseleave", function(e){
+	// 			const mouseLeave = function(){
+	// 				/*ღილაკის ჰოვერი*/
+	// 				slideBtn.forEach(function(item){
+	// 					item.classList.remove("hovered");
+	// 				})
+
+	// 				clearTimeout(timeout);	
+	// 				timeout = setTimeout(function(){
+
+	// 					const parent = item.parentElement.parentElement;
+	// 					const slides = parent.querySelectorAll(".slide");
+
+	// 					/*ანჰოვერზე გაგვაქვს სლაიდი და შემოგვაქვს პირველი სუღათი*/
+	// 					slides.forEach(function(slide){
+	// 			    		if(slide.classList.contains("slide-in")){
+	// 			    			slide.classList.add("slide-out")
+	// 			    			slide.classList.remove("slide-in")
+	// 			    			setTimeout(() => slide.classList.remove("slide-out"), 1000);
+	// 			    		}
+	// 			    	})
+	// 					slides[0].classList.add("slide-in");
+
+	// 			    },500);
+	// 			}
+	// 			mouseLeave();
+	// 		 })
+
+	// })
+
+	const slideBtn = document.querySelectorAll(".slide-btn");
+	let mouseHover;
+	allowToChange = true;
+	
+
+ 	slideBtn.forEach(function(button){
+
+		button.addEventListener('mouseenter', function(event){
+			let eventTarget = event.target;
+
+	 		const mouseEnter = function(){
+	 			console.log();
+	 			// setTimeout(() => allowToChange = value, 1000);
+
+	 			let id = eventTarget.getAttribute('data-slide');
+	 			let parent = eventTarget.parentElement.parentElement;
+	 			let slides = parent.querySelectorAll(".slide");
+	 			let slidesArr = Array.from(slides);
+	 			let slideIn = slides.item(id);
+	 			let slideOut = slidesArr.find(function(item){
+	 				if(item.classList.contains("slide-in")){
+	 					return true;
+	 				}
+	 			})
+	 			let slideOutId;
+	 			if(slideOut != undefined){
+	 				slideOutId = slideOut.getAttribute('data-slide');
+	 			}
+				
+	 			const deleteSlideIn = function(){
+	 				slides.forEach(function(slide){
+						slide.classList.remove("slide-in");
 					})
+	 			}
 
-					clearTimeout(timeout);	
-					timeout = setTimeout(function(){
-
-						const parent = item.parentElement.parentElement;
-						const slides = parent.querySelectorAll(".slide");
-
-						/*ანჰოვერზე გაგვაქვს სლაიდი და შემოგვაქვს პირველი სუღათი*/
-						slides.forEach(function(slide){
-				    		if(slide.classList.contains("slide-in")){
-				    			slide.classList.add("slide-out")
-				    			slide.classList.remove("slide-in")
-				    			setTimeout(() => slide.classList.remove("slide-out"), 1000);
-
-				    			body.classList.add("disable");
-				    			setTimeout(() => body.classList.remove("disable"), 1000);
-				    		}
-				    	})
-						slides[0].classList.add("slide-in");
-
-				    },500);
+	 			const deleteSlideOut = function(){
+	 				slides.forEach(function(slide){
+						slide.classList.remove("slide-out");
+					})
+	 			}
+				
+				if(slideOut === undefined){
+					slides[0].classList.add("slide-out");
+					// setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
+					setTimeout(() => deleteSlideOut(), 1000);
+				}else if(slideOutId != id){
+					// slideOut.classList.remove("slide-in");
+					deleteSlideIn();
+					slideOut.classList.add("slide-out");
+					// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+					setTimeout(() => deleteSlideOut(), 1000);
 				}
-				mouseLeave();
-			 })
 
-	})
+				slideIn.classList.add("slide-in");
+	 		}
 
- 	
+
+	 		clearTimeout(mouseHover);
+			mouseHover = setTimeout(function(eventTarget){
+				// console.log(allowToChange);
+					// if(allowToChange){
+					// 	console.log(eventTarget);
+					// 	mouseEnter();
+					// 	allowToChange = false;
+					// }else{
+					// 	setTimeout(() => mouseEnter(eventTarget), 1000);
+					// }
+					
+	 			mouseEnter();
+	 		},1000)
+
+	 		
+ 		})
+
+ 		
+		button.addEventListener('mouseleave', function(event){
+			let eventTarget = event.target;
+
+ 			const mouseLeave = function(){
+ 				// allowToChange = false;
+	 			// setTimeout(() => allowToChange = true, 1000);
+				// setTimeout(() => allowToChange = value, 1000);
+	 			
+
+	 			let id = eventTarget.getAttribute('data-slide');
+	 			let parent = eventTarget.parentElement.parentElement;
+	 			let slides = parent.querySelectorAll(".slide");
+				let slideOut = slides.item(id);
+				let slideIn = slides[0];
+
+
+				const deleteSlideIn = function(){
+	 				slides.forEach(function(slide){
+						slide.classList.remove("slide-in");
+					})
+	 			}
+
+	 			const deleteSlideOut = function(){
+	 				slides.forEach(function(slide){
+						slide.classList.remove("slide-out");
+					})
+	 			}
+
+				
+
+				// slideOut.classList.remove("slide-in");
+				deleteSlideIn();
+				slideOut.classList.add("slide-out");
+				slideIn.classList.add("slide-in");
+				// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+				setTimeout(() => deleteSlideOut(), 1000);
+	 		}
+
+
+	 		clearTimeout(mouseHover);
+				mouseHover = setTimeout(function(eventTarget){
+					
+					// if(allowToChange){
+					// 	mouseLeave();
+					// 	allowToChange = false;
+					// }else{
+					// 	setTimeout(() => mouseLeave(eventTarget), 1000);
+					// }
+					
+	 				mouseLeave();
+	 			
+	 		},1000)
+
+ 		})
+		
+ 		
+ 		
+ 	})
+
+
+ 	const mouseEnter = function(button){
+
+ 	}
 
 
 	/*start of direction with hover*/
 
 	const direction = document.querySelectorAll(".direction");
+	let timeout;
 
 	direction.forEach(function(item){
 		const text = item.querySelector(".text");
@@ -471,5 +600,51 @@ $("#rangeDate").flatpickr({
 
 	})
 
+	/*start of checkbox star rate */
+
+	let checkboxStar = document.querySelectorAll(".checkbox-star");
+
+	checkboxStar.forEach(function(checkbox){
+		checkbox.onclick = function(){
+			let star = checkbox.getAttribute("data-star");
+			let parent = checkbox.parentElement.parentElement.parentElement.className  = star;
+			let checkboxInput =  checkbox.parentElement.parentElement.parentElement.parentElement.querySelector(".checkbox-input");
+			checkboxInput.value = star;
+		}
+	})
+
+
+	/*agent popup*/
+
+	let connectAgentBtn = document.querySelectorAll(".connect-agent");
+	let closeAgentBtn = document.querySelectorAll(".close-agent");
+	let messagePopup = document.querySelectorAll(".massage-form");
+
+
+	closeAgentBtn.forEach(function(btn){
+		btn.onclick = function(){
+			document.body.classList.remove("agent-popup");
+		}
+	})
+
+	messagePopup.forEach(function(popup){
+		popup.addEventListener('click',function(e){
+			e.stopPropagation();
+		})
+	})
+
+
+	document.addEventListener("click", function(){
+		if(document.body.classList.contains("agent-popup")){
+			document.body.classList.remove("agent-popup");
+		}
+	})
+
+	connectAgentBtn.forEach(function(btn){
+		btn.onclick = function(e){
+			e.stopPropagation()
+			document.body.classList.add("agent-popup");
+		}
+	})
 
 })

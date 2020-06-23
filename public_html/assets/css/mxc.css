@@ -1887,6 +1887,7 @@ body.animate .directHeadContainer{
     height: 3px;
     background: #EE2A7B;
     border-radius: 2px;
+    display: none;
 }
 .busTabs{
     display: flex;
@@ -2063,6 +2064,13 @@ body.animate .picturesContainer.animated .picturesMain{
     width: 340px;
     height: 490px;
     position: relative;
+    transition: .6s ease-in-out;
+    transform: translateX(50px);
+    opacity: 0;
+}
+.companyHistorySl.active-sl{
+    transform: translateX(0px);
+    opacity: 1;
 }
 .companyHistorySlider{
     padding-left: 368px;
@@ -2165,6 +2173,177 @@ body.animate .picturesContainer.animated .picturesMain{
 .companyHistorySlInner a:hover:after{
     transform: scaleX(0);
 }
+.aboutHistory .head{
+    display: flex;
+    position: relative;
+    height: 28px;
+}
+.aboutHistory .head .ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9px;
+    width: 9px;
+    background: rgba(45,37,98,.8);
+    border-radius: 50%;
+    top: 6px;
+    left: 61px;
+    position: absolute;
+    transition: .6s ease-in-out;
+}
+.aboutHistory.active .head .ic{
+    background: #EE2A7B;
+    /*height: 27px;*/
+    /*width: 27px;*/
+    /*top: 0px;*/
+    /*left: 52px;*/
+    transform: scale(3);
+    top: 9px;
+}
+.aboutHistory.active .head .ic svg{
+    transform: scale(.5);
+}
+.aboutHistory .head .ic svg{
+    transform: scale(0);
+    transition: .6s ease-in-out;
+}
+.aboutHistory .head .yearHistory{
+    width: 65px;
+    transition: .6s ease-in-out;
+}
+.aboutHistory .head .ttl{
+    width: calc(100% - 65px);
+    margin-right: 0px;
+    padding-left: 50px;
+    transition: .6s ease-in-out;
+}
+.aboutHistory{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+
+}
+.aboutHistoryDescr{
+    width: calc(100% - 115px);
+    margin-left: auto;
+    overflow: hidden;
+    height: 0px;
+    transition: .6s ease-in-out;
+}
+.aboutHistoryDescrInner img{
+    width: 100%;
+    margin: 60px 0px;
+    border-radius: 8px;
+}
+.aboutHistoryContainer{
+    position: relative;
+}
+.aboutHistoryContainer:after{
+    width: 1px;
+    opacity: .2;
+    background: #9199B4;
+    height: calc(100% - 38px);
+    left: 65px;
+    top: 10px;
+    content: '';
+    position: absolute;
+    z-index: 0;
+}
+.aboutHistory.active .yearHistory{
+    font-size: 21px;
+    color: #EE2A7B;
+    transform: translateX(-8px) scale(1.08);
+}
+.aboutHistory.active .head .ttl{
+    color: #EE2A7B;
+    font-size: 21px;
+}
+.aboutHistory.active .aboutHistoryDescr{
+   padding: 20px 0px;
+}
+.aboutHistory:hover .yearHistory,.aboutHistory:hover .ttl{
+    color: #EE2A7B;
+}
+.aboutHistory:hover .ic{
+    background: #EE2A7B;
+}
+.aboutFinanceList{
+    width: 100%;
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+    background-image: linear-gradient(to right, #CFCFCF 50%, rgba(145, 153, 180, 0) 0%);
+    background-position: bottom;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+    transition: .6s ease-in-out;
+}
+.aboutFinanceList .ys{
+    display: flex;
+    width: calc(100% - 120px);
+    align-items: center;
+
+}
+.aboutFinanceList .ttl{
+    margin-right: 0px;
+    width: 44.4%;
+    padding: 0px 15px;
+}
+.aboutFinanceList a{
+    color: #EE2A7B;
+    transition: .6s ease-in-out;
+    text-decoration: underline;
+    text-decoration-color: #EE2A7B;
+}
+.aboutFinanceList a:hover{
+    text-decoration-color: transparent;
+    color: #292562;
+}
+.aboutFinanceList .year{
+    width: 21.9%;
+    padding-left: 30px;
+    position: relative;
+}
+.aboutFinanceList .year:after,.aboutFinanceList .size:after{
+    content: '';
+    height: 30px;
+    width: 1px;
+    position: absolute;
+    left: 0px;
+    top: -7px;
+    display: flex;
+    background-image: linear-gradient(to top, #CFCFCF 50%, rgba(145, 153, 180, 0) 0%);
+    background-position: left;
+    background-size: 1px 10px;
+    background-repeat: repeat-y;
+}
+.aboutFinanceList .size{
+    padding-left: 30px;
+    position: relative;
+}
+.moreListBtn{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 37px;
+    border: 1px solid rgba(145,153,180,.7);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 90px;
+    border-radius: 8px;
+    transition: .6s ease-in-out;
+    cursor: pointer;
+}
+.moreListBtn:hover{
+    background: #EE2A7B;
+    border-color: #EE2A7B;
+    color: #fff;
+}
 /*laptop 1680*/
 @media (max-width: 1900px){
     .helpDirection{
@@ -2207,6 +2386,12 @@ body.animate .picturesContainer.animated .picturesMain{
 
 /*laptop 1366*/
 @media (max-width: 1679px){
+    .moreListBtn{
+        margin-top: 50px;
+    }
+    .aboutFinanceList .ttl{
+        width: 55%;
+    }
     .helpLinks .ttl{
         margin-top: 20px;
     }
@@ -2544,6 +2729,51 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*ipad 768*/
 @media (max-width: 1023px){
+    .moreListBtn{
+        height: 40px;
+        font-size: 13px;
+        margin-top: 65px;
+    }
+    .directHeadInner h3{
+        margin-bottom: 30px;
+    }
+    .aboutFinanceList a{
+        position: relative;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+    }
+    .aboutFinanceList a:after{
+        content: '';
+        height: 30px;
+        width: 1px;
+        position: absolute;
+        left: 0px;
+        top: -7px;
+        display: flex;
+        background-image: linear-gradient(to top, #CFCFCF 50%, rgba(145, 153, 180, 0) 0%);
+        background-position: left;
+        background-size: 1px 10px;
+        background-repeat: repeat-y;
+    }
+    .aboutFinanceList .year:after,.aboutFinanceList .size:after{
+        display: none;
+    }
+    .aboutFinanceList .year{
+        width: auto;
+        padding-left: 15px;
+    }
+    .aboutFinanceList .size{
+        padding-left: 10px;
+    }
+    .aboutFinanceList .ttl{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .aboutFinanceList .ys{
+        width: calc(100% - 160px);
+        flex-wrap: wrap;
+    }
     .companyHistorySlider{
         padding-left: 82px;
     }
@@ -2816,6 +3046,60 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .moreListBtn{
+        width: 100%;
+        margin-top: 55px;
+        justify-content: center;
+    }
+    .directInnerLinkFooter .aboutFinanceList .ttl{
+        font-size: 16px;
+    }
+    .aboutFinanceList a:after{
+        display: none;
+    }
+    .aboutFinanceList a{
+        width: 100%;
+        padding: 0px;
+        justify-content: start;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    .aboutFinanceList{
+        flex-direction: column;
+    }
+    .aboutFinanceList .ys{
+        width: 100%;
+    }
+    .aboutHistoryDescrInner img{
+        margin: 20px 0px;
+    }
+    .aboutHistory.active .aboutHistoryDescr {
+        padding: 10px 0px;
+    }
+    .aboutHistoryDescr{
+
+        width: calc(100% - 80px);
+    }
+    .aboutHistory.active .head .ic{
+        transform: scale(2);
+    }
+    .aboutHistory .head .ic{
+        left: 51px;
+    }
+    .aboutHistoryContainer:after{
+        left: 55px;
+    }
+    .aboutHistory.active .head .ttl {
+        color: #EE2A7B;
+        font-size: 13px;
+    }
+    .aboutHistory .head .yearHistory{
+        width: 55px;
+    }
+    .aboutHistory .head .ttl{
+        padding-left: 20px;
+        width: calc(100% - 55px);
+    }
     .companyHistorySlider{
         padding-left: 66px;
     }

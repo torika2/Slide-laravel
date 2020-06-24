@@ -12,7 +12,7 @@
         </div>
         <div>
             <div id="tab-1" class="tab-content current">
-                <div class="swiper-container provider-clinics-slider individual">
+                <div class="swiper-container provider-clinics-slider">
                     <div class="swiper-wrapper">
                         <a href="#" class="swiper-slide">
                             <div class="provider-img-box">

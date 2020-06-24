@@ -177,6 +177,7 @@
     -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
     box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
     transition: 0.8s;
+    background: #fff;
 }
 .slider-title {
     display: -webkit-box;
@@ -2715,4 +2716,17 @@ input:focus::-webkit-input-placeholder {
     .page-faqInner .packages-outer .ver-social {
         margin-top: 25px;
     }
+}
+
+/* Component Z-index */
+.became-member,
+.faq-section,
+.social-banner,
+.head-banner,
+.container-secondary,
+.provider-clinics-section,
+.scheme-container,
+.mission-banner {
+    position: relative;
+    z-index: 10;
 }

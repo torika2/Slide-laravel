@@ -425,19 +425,25 @@ $("#rangeDate").flatpickr({
 	const slideBtn = document.querySelectorAll(".slide-btn");
 	let mouseHover;
 	allowToChange = true;
-	
 
- 	slideBtn.forEach(function(button){
+var allowChange = true,
+	dots = document.querySelectorAll('.slide-btn');
 
-		button.addEventListener('mouseenter', function(event){
-			let eventTarget = event.target;
+dots.forEach(function(el){
+	el.addEventListener("mousemove", function(e){
+		e.stopPropagation();
+	})
+	el.addEventListener('click',function(e){
+		e.stopPropagation();
+    	if(allowChange){
+    		const mouseEnter = function(){
+    			dots.forEach(function(el){
+					el.classList.remove("hovered");
 
-	 		const mouseEnter = function(){
-	 			console.log();
-	 			// setTimeout(() => allowToChange = value, 1000);
-
-	 			let id = eventTarget.getAttribute('data-slide');
-	 			let parent = eventTarget.parentElement.parentElement;
+				})
+    			el.classList.add("hovered");
+	 			let id = el.getAttribute('data-slide');
+	 			let parent = el.parentElement.parentElement;
 	 			let slides = parent.querySelectorAll(".slide");
 	 			let slidesArr = Array.from(slides);
 	 			let slideIn = slides.item(id);
@@ -477,90 +483,218 @@ $("#rangeDate").flatpickr({
 
 				slideIn.classList.add("slide-in");
 	 		}
+	 		mouseEnter();
+        	allowChange = false;
+        	this.style.pointerEvents = 'all';
+            dots.forEach(function(elem){
+            	elem.style.pointerEvents = 'none';
+            })
+            setTimeout(function(){
+            	allowChange = true;
+                dots.forEach(function(elem){
+                    elem.style.pointerEvents = 'all';
+                })
+            },1000)
+        }
+    })
+})
+// document.addEventListener('mousemove',function(){
+// 	if(allowChange){
+//     	const mouseLeave = function(){
+// 			dots.forEach(function(el){
+// 				el.classList.remove("hovered");
+// 			})
+//     		let slideOut = document.querySelector(".slide-in");
+// 			let slides = document.querySelectorAll(".slide");
+
+// 			if(!slides[0].classList.contains("slide-in") && slideOut != undefined){
+// 				slideOut.classList.remove("slide-in");
+// 				slideOut.classList.add("slide-out");
+// 				setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+				
+// 				slides[0].classList.add("slide-in")
+// 			}	
+// 	 	}
+// 	 	mouseLeave();
+//     }
+// })
+
+let body = document.body;
+body.onclick = function(){
+	if(allowChange){
+    	const mouseLeave = function(){
+			dots.forEach(function(el){
+				el.classList.remove("hovered");
+			})
+    		let slideOut = document.querySelector(".slide-in");
+			let slides = document.querySelectorAll(".slide");
+
+			if(!slides[0].classList.contains("slide-in") && slideOut != undefined){
+				slideOut.classList.remove("slide-in");
+				slideOut.classList.add("slide-out");
+				setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+				
+				slides[0].classList.add("slide-in")
+			}	
+	 	}
+	 	mouseLeave();
+	 	allowChange = false;
+	 	setTimeout(() => allowChange = true, 1000);
+    }
+}
+
+	
+
+ 	// slideBtn.forEach(function(button){
+
+		// button.addEventListener('click', function(event){
+		// 	let eventTarget = event.target;
+		// 	button.classList.add("hovered");
+
+	 // 		const mouseEnter = function(){
+	 // 			console.log();
+
+	 // 			// let id = eventTarget.getAttribute('data-slide');
+	 // 			// let parent = eventTarget.parentElement.parentElement;
+	 // 			let id = button.getAttribute('data-slide');
+	 // 			let parent = button.parentElement.parentElement;
+	 // 			let slides = parent.querySelectorAll(".slide");
+	 // 			let slidesArr = Array.from(slides);
+	 // 			let slideIn = slides.item(id);
+	 // 			let slideOut = slidesArr.find(function(item){
+	 // 				if(item.classList.contains("slide-in")){
+	 // 					return true;
+	 // 				}
+	 // 			})
+	 // 			let slideOutId;
+	 // 			if(slideOut != undefined){
+	 // 				slideOutId = slideOut.getAttribute('data-slide');
+	 // 			}
+				
+	 // 			const deleteSlideIn = function(){
+	 // 				slides.forEach(function(slide){
+		// 				slide.classList.remove("slide-in");
+		// 			})
+	 // 			}
+
+	 // 			const deleteSlideOut = function(){
+	 // 				slides.forEach(function(slide){
+		// 				slide.classList.remove("slide-out");
+		// 			})
+	 // 			}
+				
+		// 		if(slideOut === undefined){
+		// 			slides[0].classList.add("slide-out");
+		// 			// setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
+		// 			setTimeout(() => deleteSlideOut(), 1000);
+		// 		}else if(slideOutId != id){
+		// 			// slideOut.classList.remove("slide-in");
+		// 			deleteSlideIn();
+		// 			slideOut.classList.add("slide-out");
+		// 			// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+		// 			setTimeout(() => deleteSlideOut(), 1000);
+		// 		}
+
+		// 		slideIn.classList.add("slide-in");
+	 // 		}
 
 
-	 		clearTimeout(mouseHover);
-			mouseHover = setTimeout(function(eventTarget){
-				// console.log(allowToChange);
-					// if(allowToChange){
-					// 	console.log(eventTarget);
-					// 	mouseEnter();
-					// 	allowToChange = false;
-					// }else{
-					// 	setTimeout(() => mouseEnter(eventTarget), 1000);
-					// }
-					
-	 			mouseEnter();
-	 		},1000)
+		// 	if(allowToChange){
+		// 		mouseEnter();
+		// 		allowToChange = false;
+		// 		setTimeout(() => allowToChange = true, 1000);
+		// 	}		
 
 	 		
- 		})
+ 	// 	})
 
  		
-		button.addEventListener('mouseleave', function(event){
-			let eventTarget = event.target;
+		// document.body.addEventListener('click', function(event){
+		// 	let eventTarget = event.target;
+		// 	button.classList.remove("hovered");
+			
 
- 			const mouseLeave = function(){
- 				// allowToChange = false;
-	 			// setTimeout(() => allowToChange = true, 1000);
-				// setTimeout(() => allowToChange = value, 1000);
+ 	// 		const mouseLeave = function(){
+ 	// 			// allowToChange = false;
+	 			
+		// 		// setTimeout(() => allowToChange = value, 1000);
 	 			
 
-	 			let id = eventTarget.getAttribute('data-slide');
-	 			let parent = eventTarget.parentElement.parentElement;
-	 			let slides = parent.querySelectorAll(".slide");
-				let slideOut = slides.item(id);
-				let slideIn = slides[0];
+	 // 			let id = eventTarget.getAttribute('data-slide');
+	 // 			let parent = eventTarget.parentElement.parentElement;
+	 // 			let slides = parent.querySelectorAll(".slide");
+		// 		let slideOut = slides.item(id);
+		// 		let slideIn = slides[0];
 
 
-				const deleteSlideIn = function(){
-	 				slides.forEach(function(slide){
-						slide.classList.remove("slide-in");
-					})
-	 			}
+		// 		const deleteSlideIn = function(){
+	 // 				slides.forEach(function(slide){
+		// 				slide.classList.remove("slide-in");
+		// 			})
+	 // 			}
 
-	 			const deleteSlideOut = function(){
-	 				slides.forEach(function(slide){
-						slide.classList.remove("slide-out");
-					})
-	 			}
+	 // 			const deleteSlideOut = function(){
+	 // 				slides.forEach(function(slide){
+		// 				slide.classList.remove("slide-out");
+		// 			})
+	 // 			}
 
 				
 
-				// slideOut.classList.remove("slide-in");
-				deleteSlideIn();
-				slideOut.classList.add("slide-out");
-				slideIn.classList.add("slide-in");
-				// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
-				setTimeout(() => deleteSlideOut(), 1000);
-	 		}
+		// 		// slideOut.classList.remove("slide-in");
+		// 		deleteSlideIn();
+		// 		slideOut.classList.add("slide-out");
+		// 		slideIn.classList.add("slide-in");
+		// 		// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+		// 		setTimeout(() => deleteSlideOut(), 1000);
+	 // 		}
 
 
-	 		clearTimeout(mouseHover);
-				mouseHover = setTimeout(function(eventTarget){
+	 // 		// clearTimeout(mouseHover);
+		// 		// mouseHover = setTimeout(function(eventTarget){
 					
-					// if(allowToChange){
-					// 	mouseLeave();
-					// 	allowToChange = false;
-					// }else{
-					// 	setTimeout(() => mouseLeave(eventTarget), 1000);
-					// }
+		// 			if(allowToChange){
+		// 				mouseLeave();
+		// 				allowToChange = false;
+		// 				setTimeout(() => allowToChange = true, 1000);
+		// 			}
 					
-	 				mouseLeave();
+	 // 				// mouseLeave();
 	 			
-	 		},1000)
+	 // 		// },500)
 
- 		})
+ 	// 	})
 		
  		
  		
- 	})
+ 	// })
 
 
  	const mouseEnter = function(button){
 
  	}
 
+ 	// if (document.querySelector('.head-slider') != undefined) {
+
+ 	// 	var lastItem = null,
+ 	// 		sliderItems = document.querySelectorAll('.head-slider .slide-btn'),
+ 	// 		sliderItemsAll = document.querySelectorAll('.head-slider .slide-btn *'),
+ 	// 		allowToChange = true;
+
+ 	// 	document.addEventListener('mousemove',function(e){
+ 	// 		lastItem = e.target;
+ 	// 	})
+
+ 	// 	sliderItemsAll.forEach(function(el){
+ 	// 		el.addEventListener('mousemove',function(e){
+ 	// 			e.stopPropagation()
+ 	// 		})
+ 	// 	})
+
+
+
+
+ 	// }
 
 	/*start of direction with hover*/
 
@@ -583,16 +717,16 @@ $("#rangeDate").flatpickr({
 			clearTimeout(timeout);	
 			timeout = setTimeout(function(){
 				setTimeout(() => txt.style.height = hoverHeight + 'px', 0);
-				setTimeout(() => text.classList.add("hide"), 600);
+				setTimeout(() => text.classList.add("hide"), 0);
 				txt.classList.add("hovered");
-			},200);
+			},0);
 		})
 
 		item.addEventListener("mouseleave", function(){
 			clearTimeout(timeout);	
 			timeout = setTimeout(function(){
 				setTimeout(() => txt.style.height = textHeight + 'px', 0);
-				setTimeout(() => text.classList.remove("hide"), 600);
+				setTimeout(() => text.classList.remove("hide"), 0);
 				txt.classList.remove("hovered");
 			},200);
 		})

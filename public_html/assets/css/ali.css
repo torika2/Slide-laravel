@@ -3352,18 +3352,14 @@ input:focus::-webkit-input-placeholder {
 
 
 /*start of news*/
-.page-news .package-cont,
-.page-article .package-cont{
-  margin-top: 220px;
-}
-.page-news .package-inner,
-.page-article .package-inner{
-  padding: 60px 60px 90px;
-}
+
 .page-news .top{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.page-news .pagination{
+  padding-bottom: 90px;
 }
 .page-news .top .ttl{
   padding-right: 20px;
@@ -3470,18 +3466,13 @@ input:focus::-webkit-input-placeholder {
 }
 
 @media(max-width: 1679px){
-  .page-news .package-inner,
-  .page-article .package-inner {
-    padding: 50px 30px;
-  }
   .page-news .item > .ttl {
     margin-left: 45px;
   }
 }
 @media(max-width: 1365px){
-  .page-news .package-cont,
-  .page-article .package-cont {
-    padding: 0 71px;
+  .page-news .pagination{
+    padding-bottom: 60px;
   }
   .page-news .img-box{
     height: 300px;
@@ -3515,14 +3506,6 @@ input:focus::-webkit-input-placeholder {
   }
 }
 @media(max-width: 767px){
-  .page-news .package-inner,
-  .page-article .package-inner {
-    padding: 50px 20px;
-  }
-  .page-news .package-cont,
-  .page-article .package-cont {
-    padding: 0 15px;
-  }
   .page-news .top{
     flex-direction: column;
   }
@@ -3555,6 +3538,9 @@ input:focus::-webkit-input-placeholder {
 
 
 /*start of article*/
+.page-article .ver-social{
+  padding-bottom: 60px;
+ }
 .article .img-box{
   width: 100%;
   padding-top: 37.6%;
@@ -3708,7 +3694,7 @@ input:focus::-webkit-input-placeholder {
 .slide.slide-in{
   animation-name: SlideIn;
   animation-duration: 1s;
-  animation-timing-function: cubic-bezier(0.4, 0.01, 0.1, 0.99) ;
+  animation-timing-function: cubic-bezier(0.63,-0.01, 0.25, 1) ;
   animation-fill-mode: both;
   z-index: 10;
 }
@@ -3725,7 +3711,7 @@ input:focus::-webkit-input-placeholder {
 .slide.slide-out {
   animation-name: SlideOut;
   animation-duration: 1s;
-  animation-timing-function:  cubic-bezier(0.4, 0.01, 0.1, 0.99);
+  animation-timing-function:  cubic-bezier(0.63,-0.01, 0.25, 1) ;
   animation-fill-mode: both;
   transform-origin: top;
   overflow: hidden;
@@ -3738,7 +3724,7 @@ input:focus::-webkit-input-placeholder {
   animation-name: SlideOutImg;
   animation-duration: 1s;
 
-  animation-timing-function:  cubic-bezier(0.4, 0.01, 0.1, 0.99);
+  animation-timing-function:  cubic-bezier(0.63,-0.01, 0.25, 1) ;
   animation-fill-mode: both;
   transition-delay: 0s !important;
   transform-origin: bottom;
@@ -3826,8 +3812,11 @@ input:focus::-webkit-input-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.6s;
 }
-
+.slide-btn .top span{
+  transition: 0.6s;
+}
 .slide-btn .dot{
   width: 18px;
   height: 18px;
@@ -3871,8 +3860,12 @@ input:focus::-webkit-input-placeholder {
   opacity: 1;
    transition: max-height 0.4s 0s, opacity 0.4s 0.1s;
 }
-
-
+.slide-btn.hovered .top{
+  background-color: #EE2A7B;
+}
+.slide-btn.hovered .top span{
+  color: #fff;
+}
 
 
 
@@ -4022,10 +4015,11 @@ input:focus::-webkit-input-placeholder {
 .direction .txt{
   transition: 0.6s;
   backface-visibility: hidden;
-  transition-delay: 0.4s;
+  transition-delay: 0.1s;
 } 
 .direction .hover{
   transition: 0.4s;
+  transition-delay: 0s;
   backface-visibility: hidden;
   opacity: 0;
 }
@@ -4034,7 +4028,7 @@ input:focus::-webkit-input-placeholder {
   overflow: hidden;
 }
 .direction .text{
-  transition: opacity 0.4s;
+  transition: opacity 0.4s, transform 0s 0s;
   opacity: 1;
 }
 .direction .text-inner{
@@ -4045,20 +4039,19 @@ input:focus::-webkit-input-placeholder {
 }
 
 
+.direction .txt.hovered{
+  transition-delay: 0s;
+}
 .direction .hovered .hover{
   opacity: 1;
-  transition-delay: 1s;
-  backface-visibility: hidden;
-}
-.direction .hovered .text{
-  opacity: 0;
+  transition-delay: 0.4s;
   backface-visibility: hidden;
 }
 .direction .text.hide{
   transform: translateY(-100%);
   opacity: 0;
-  transition: opacity 0.4s;
   backface-visibility: hidden;
+  transition: opacity 0.4s, transform 0.4s 0.3s;
 }
 
 @media(max-width: 1900px){

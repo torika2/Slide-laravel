@@ -2,8 +2,9 @@
 @section('pageName')news @endsection
 @section('content')
 
-<div class="package-cont">
-	<div class="package-inner">
+@include('app.layout.components.directionTabHead')
+<div class="directHeadContainer">
+	<div class="directHeadInner">
 		<div class="top">
 			<h2 class="fira-bold font-34 ttl">უახლესი ამბები</h2>
 			

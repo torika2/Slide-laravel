@@ -1,7 +1,6 @@
 @extends('app.layout.app')
 @section('pageName')home @endsection
 @section('content')
-
 <div class="container smart-box-container">
     <div class="left-side">
         <div class="smart-box">
@@ -84,10 +83,8 @@
     </div>
     <div class="right-side">fw</div>
 </div>
-
 @include('app.layout.components.subMenu')
 @include('app.layout.components.ecoistSlider')
-
 <section class="became-member m-t-233">
     <div class="img-box imgg">
         <picture>
@@ -109,10 +106,8 @@
         </div>
     </div>
 </section>
-
 @include('app.layout.components.newsOuter')
 @include('app.layout.components.faqSlider')
-
 <section class="social-banner">
     <div class="img-box imgg">
         <picture>
@@ -129,5 +124,4 @@
         <a href="#" class="btn-white">გაიგე მეტი</a>
     </div>
 </section>
-
 @endsection

@@ -7,10 +7,6 @@
         ჩვენ გირჩევთ შენი ცხოვრების ეტაპზე რომელი სადაზღვევო პოლისი შეგეფერება
     </div>
     <div class="tab-section  kfn_anim k-fadeUp">
-        <!-- <div class="tabs flex-box justify-center">
-            <div class="tab-link btn-white current" data-tab="tab-1">ინდივიდუალური</div>
-            <div class="tab-link btn-white" data-tab="tab-2" id="tabCorporate">კორპორაციული</div>
-        </div> -->
         <div class="services-tabs insurance-tabs flex-box al-center">
             <div class="stick"></div>
             <div class="tab-link flex-box al-center justify-center noto-bold current" data-tab="tab-1">

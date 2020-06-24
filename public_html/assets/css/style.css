@@ -2833,9 +2833,6 @@ input:focus::-webkit-input-placeholder {
     .career-head h1 {
         margin-bottom: 70px;
     }
-    /* .career-head .directionHeadTabsCont {
-        bottom: 40px;
-    } */
     .career-head .directionHeadTabs {
         margin-left: 15px;
     }
@@ -2855,3 +2852,7 @@ input:focus::-webkit-input-placeholder {
     position: relative;
     z-index: 10;
 } */
+
+.page-business-risks-inner .ltlCommercialContainer.m-t-144 {
+    margin-top: 0;
+}

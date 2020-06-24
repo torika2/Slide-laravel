@@ -2843,7 +2843,8 @@ input:focus::-webkit-input-placeholder {
 
 
 /* Component Z-index */
-.became-member,
+
+/* .became-member,
 .faq-section,
 .social-banner,
 .head-banner,
@@ -2853,4 +2854,4 @@ input:focus::-webkit-input-placeholder {
 .mission-banner {
     position: relative;
     z-index: 10;
-}
+} */

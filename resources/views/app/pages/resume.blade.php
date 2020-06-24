@@ -25,7 +25,7 @@
 	        <div class="directionHeadTabsCont">
 	            <h3 class="fira-bold font-55">ბიზნეს რისკები</h3>
 	            <div class="directionHeadTabs">
-	                <a href="##" class="directionHeadTab fira-bold uppercase">
+	                <a href="##" class="directionHeadTab fira-bold uppercase" style="visibility: hidden;">
 	                    <img src="{{asset('assets/img/file.svg')}}" alt="">
 	                    <span class="font-16 noto-semibold">სააპლიკაციო ანკეტა</span>
 	                </a>
@@ -35,29 +35,22 @@
 	</section>
 
 
-	<section class="directHeadContainer vacancy">
+	<section class="directHeadContainer vacancy resume">
 		<div class="white--container">
 			<div class="heading">
 				<h2 class="font-34 fira-bold uppercase">დაზღვეულთა მომსახურების მენეჯერი</h2>
-				<div class="term">
-					<span class="font-21 noto-bold">ბოლო ვადა:</span>
-					<span class="font-16 noto-regular">2020 წლის 29 სექტემბერი</span>
+				<div class="text">
+					აუცილებელია უმაღლესი სამედიცინო განათლება (უპირატესობა ენიჭება მედიცინის ფაკულტეტს);
+					მინიმუმ ერთ წლიანი სამუშაო გამოცდილება მომსახურების სფეროში;
+					სრულყოფილი სასაუბრო და წერა-კითხვის უნარები რუსულ და ქართულ ენებში;
+					კომპიუტერთან მუშაობის უნარი (Windows, MS Office, Internet and E-mail);
+					დაძაბულ რეჟიმში მუშაობის უნარი;
+					ორგანიზებულობა და პასუხისმგებლობის გრძნობა.
 				</div>
 				<img src="{{asset('assets/img/Path 6178.svg')}}" alt="">
 			</div>
 			<div class="form-container">
 				<div class="side">
-					<div class="text">
-					   აუცილებელია უმაღლესი სამედიცინო განათლება (უპირატესობა ენიჭება მედიცინის ფაკულტეტს);
-					   მინიმუმ ერთ წლიანი სამუშაო გამოცდილება მომსახურების სფეროში;
-					   სრულყოფილი სასაუბრო და წერა-კითხვის უნარები რუსულ და ქართულ ენებში;
-					   კომპიუტერთან მუშაობის უნარი (Windows, MS Office, Internet and E-mail);
-					   დაძაბულ რეჟიმში მუშაობის უნარი;
-					   ორგანიზებულობა და პასუხისმგებლობის გრძნობა.
-					</div>
-				</div>
-				<div class="side">
-					<img src="{{asset('assets/img/Path 10204.svg')}}" id="line" alt="">
 					<h3 class="font-21 noto-bold">შეავსე განაცხადი</h3>
 					<a href="" id="linkedIn">
 						<img src="{{asset('assets/img/Icon awesome-linkedin.svg')}}" alt="">
@@ -128,7 +121,7 @@
 							</div>
 							<div class="error font-13 noto-regular">გთხოვთ შეავსოთ ფორმა</div>
 						</div>
-						<div class="input">
+						<div class="input textarea">
 							<label for="motivation" class="font-16 noto-bold">
 								სამოტივაციო წერილი
 							</label>
@@ -147,26 +140,6 @@
 						</div>
 						<button type="submit">submit</button>
 					</form>
-				</div>
-			</div>
-			<div class="vacancy-footer">
-				<div class="socials">
-					<span class="font-16 noto-bold">გაუზიარე მეგობარს:</span>
-					<a href="">
-						<img src="{{asset('assets/img/Subtraction 3.svg')}}" alt="">
-					</a>
-					<a href="">
-						<img src="{{asset('assets/img/twitter-square-brands.svg')}}" alt="">
-					</a>
-					<a href="">
-						<img src="{{asset('assets/img/envelope-square-solid.svg')}}" alt="">
-					</a>
-				</div>
-				<div class="back">
-					<a href="">
-						<img src="{{asset('assets/img/Group 599.svg')}}" alt="">
-						<span class="font-16 noto-bold">უკან დაბრუნება	</span>
-					</a>
 				</div>
 			</div>
 		</div>    

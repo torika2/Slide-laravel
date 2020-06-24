@@ -329,6 +329,9 @@ Route::get('/third-party', function () {
     return view('app.pages.thirdParty');
 
 });
+Route::get('/media-release', function () {
+    return view('app.pages.mediaRelease');
+});
 
 Route::get('/media-gallery', function () {
     return view('app.pages.mediaGallery');
@@ -363,6 +366,11 @@ Route::get('/faq-inner', function () {
 
 Route::get('/vacancy', function () {
     return view('app.pages.vacancy');
+
+});
+
+Route::get('/resume', function () {
+    return view('app.pages.resume');
 
 });
 

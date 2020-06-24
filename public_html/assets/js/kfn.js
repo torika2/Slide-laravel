@@ -272,6 +272,92 @@ window.onload = function () {
         ecoistSliderCursor()
     }
 
+    if (document.querySelector('form .input') != undefined) {
+        document.querySelector('.agree .checkbox').addEventListener('click',function(){
+            this.classList.toggle('active')
+        })
+        var inputs = document.querySelectorAll('input');
+        inputs.forEach(function(el){
+            el.addEventListener('change',function(){
+                this.parentNode.classList.remove('errored')
+                if (this.parentNode.parentNode != undefined) {
+                    this.parentNode.parentNode.classList.remove('errored')
+                }
+            })
+        })
+        document.querySelector('#file-input').addEventListener('change',function(){
+            if (this.value == '') {
+                document.querySelector('form .input .content .file-name').style.display = 'none'
+                document.querySelector('form .input .content h2').style.display = 'flex'
+            }else {
+                document.querySelector('form .input .content .file-name').style.display = 'flex'
+                document.querySelector('form .input .content h2').style.display = 'none'
+                document.querySelector('form .input .content .file-name h3').innerHTML = this.value.replace(/C:\\fakepath\\/i, '');
+            }
+        })
+        document.querySelector('form .input .content .file-name img').addEventListener('click',function(){
+            document.querySelector('#file-input').value = '';
+            document.querySelector('form .input .content .file-name').style.display = 'none'
+            document.querySelector('form .input .content h2').style.display = 'flex'
+        })
+        document.querySelector('#form').addEventListener('submit',function(e){
+            if (document.querySelector('#name').value === '') {
+                document.querySelector('#name').parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#name').parentNode.classList.remove('errored')
+            }
+            if (document.querySelector('#surname').value === '') {
+                document.querySelector('#surname').parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#surname').parentNode.classList.remove('errored')
+            }
+            if (document.querySelector('#city').value === '') {
+                document.querySelector('#city').parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#city').parentNode.classList.remove('errored')
+            }
+            if (document.querySelector('#country').value === '') {
+                document.querySelector('#country').parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#country').parentNode.classList.remove('errored')
+            }
+            if (document.querySelector('#last').value === '') {
+                document.querySelector('#last').parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#last').parentNode.classList.remove('errored')
+            }
+            if (document.querySelector('#mobile').value === '') {
+                document.querySelector('#mobile').parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#mobile').parentNode.classList.remove('errored')
+            }
+            if (document.querySelector('#mobile').value === '') {
+                document.querySelector('#mobile').parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#mobile').parentNode.classList.remove('errored')
+            }
+            if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.querySelector('#email').value)) {
+                document.querySelector('#email').parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#email').parentNode.classList.remove('errored')
+            }
+            if (document.querySelector('#file-input').value === '') {
+                document.querySelector('#file-input').parentNode.parentNode.classList.add('errored')
+                e.preventDefault()
+            }else {
+                document.querySelector('#file-input').parentNode.parentNode.classList.remove('errored')
+            }
+        })
+    }
+
     var smartBox = {
         init : function(){
             // სმარტ ბოქსის სლაიდერებ

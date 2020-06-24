@@ -369,4 +369,9 @@ Route::get('/vacancy', function () {
 
 });
 
+Route::get('/resume', function () {
+    return view('app.pages.resume');
+
+});
+
 

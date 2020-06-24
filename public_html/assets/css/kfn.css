@@ -1348,6 +1348,14 @@ body {
   overflow: hidden;
   padding-bottom: 27px;
 }
+.directHeadContainer.vacancy.resume .heading {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 60px;
+}
+.directHeadContainer.vacancy.resume .heading .text {
+  margin-top: 60px;
+}
 .directHeadContainer.vacancy .heading .term span {
   display: inline-flex;
   margin-left: 10px;
@@ -1366,6 +1374,9 @@ body {
   justify-content: space-between;
   position: relative;
 }
+.directHeadContainer.vacancy.resume .form-container {
+  padding-top: 60px;
+}
 .directHeadContainer.vacancy .form-container .side {
   position: relative;
   overflow: hidden;
@@ -1373,6 +1384,11 @@ body {
 .directHeadContainer.vacancy .form-container .side:nth-child(1) {
   width: calc(100% - 610px);
   padding-right: 85px;
+}
+.directHeadContainer.vacancy.resume .form-container .side:nth-child(1) {
+  width: 100%;
+  padding-right: 220px;
+  padding-left: 220px;
 }
 .directHeadContainer.vacancy .form-container .side:nth-child(2) {
   width: 610px;
@@ -1405,6 +1421,26 @@ body {
 }
 .directHeadContainer.vacancy .form-container .side form {
   margin-top: 30px;
+}
+.directHeadContainer.vacancy.resume form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.directHeadContainer.vacancy.resume form .input {
+  width: 50%;
+}
+.directHeadContainer.vacancy.resume form .input:nth-child(odd) {
+  padding-right: 30px;
+}
+.directHeadContainer.vacancy.resume form .input:nth-child(even) {
+  padding-left: 30px;
+}
+.directHeadContainer.vacancy.resume form .input.textarea {
+  width: 100%;
+  padding-right: 0;
+}
+.directHeadContainer.vacancy.resume .white--container {
+  padding-bottom: 60px;
 }
 form .input {
   width: 100%;
@@ -1542,6 +1578,12 @@ form .input .content input {
   transition: .4s;
   opacity: 0;
 }
+@media (max-width: 1900px){
+  .directHeadContainer.vacancy.resume .form-container .side:nth-child(1){
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
 @media (max-width: 1500px){
   .directHeadContainer.vacancy .form-container .side:nth-child(2) {
     width: 510px;
@@ -1564,6 +1606,19 @@ form .input .content input {
   .directHeadContainer .white--container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .directHeadContainer.vacancy.resume .form-container .side:nth-child(1) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .directHeadContainer.vacancy.resume form .input:nth-child(odd) {
+    padding-right: 15px;
+  }
+  .directHeadContainer.vacancy.resume form .input:nth-child(even) {
+    padding-left: 15px;
+  }
+  .directHeadContainer.vacancy.resume form .input.textarea {
+    padding-right: 0;
   }
 }
 @media (max-width: 1023px){
@@ -1592,6 +1647,11 @@ form .input .content input {
   .directHeadContainer.vacancy .form-container .side #linkedIn {
     height: auto;
     padding: 10px;
+  }
+  .directHeadContainer.vacancy.resume form .input {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
 }
 .vacancy-page-type .directionHeadTab img {

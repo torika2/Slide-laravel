@@ -238,6 +238,31 @@ button {
     font-size: 16px;
     line-height: 25px;
 }
+.text ul li {
+    position: relative;
+    padding-left: 13px;
+}
+.text ul li:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(41, 37, 98, 0.6);
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+.text ol {
+    padding-left: 13px;
+}
+.text ol li {
+    list-style: decimal;
+}
+.text image, .text video, .text iframe {
+    width: 100%;
+    height: auto;
+}
 .text a {
     color: #EE2A7B;
 }

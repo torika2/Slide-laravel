@@ -32,3 +32,9 @@
 
 
 <div id="loader-fragment" style="width: 100%; height: 100vh; position: fixed; top: 0; left: 0; z-index: 999999999999; background: white; pointer-events: none; transition: .4s;"></div>
+
+
+<div class="ribbon">
+    <img src="{{asset('assets/img/01.png')}}" alt="">
+    <img src="{{asset('assets/img/02.png')}}" alt="">
+</div>

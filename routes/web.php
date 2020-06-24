@@ -364,3 +364,9 @@ Route::get('/faq-inner', function () {
 
 });
 
+Route::get('/vacancy', function () {
+    return view('app.pages.vacancy');
+
+});
+
+

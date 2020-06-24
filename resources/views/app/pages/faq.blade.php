@@ -11,6 +11,11 @@
         <div class="img-overlay"></div>
     </div>
     <div class="container-secondary banner-content flex-box column">
+        <nav class="banner-links flex-box al-center">
+            <a href="#" class="flex-box al-center font-13 noto-semibold">ჩემთვის</a>
+            <a href="#" class="flex-box al-center font-13 noto-semibold">დაზღვევა</a>
+            <a href="#" class="flex-box al-center font-13 noto-semibold">ჯანმრთელობის დაზღვევა</a>
+        </nav>
         <h1 class="fira-bold font-55 white">
             ხშირად აინტერესებთ
         </h1>

@@ -367,3 +367,7 @@ Route::get('/vacancy', function () {
 });
 
 
+Route::get('/career', function () {
+    return view('app.pages.career');
+
+});

@@ -437,7 +437,7 @@ var packagesSlideDown = function () {
         } else {
             $(this).removeClass("active");
         }
-        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(1000);
+        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(600);
     });
 }
 packagesSlideDown();
@@ -511,6 +511,7 @@ var clinicsSlider1 = new Swiper('.individual', {
             spaceBetween: 15,
         },
         768: {
+            slidesPerView: 2,
             spaceBetween: 15,
         },
         1024: {
@@ -569,8 +570,8 @@ $('#tabCorporate').click(function () {
 // service tab stick function
 var insuranceSwitch = function () {
     var navLinks = document.querySelectorAll('.tab-link'),
-        nav = document.querySelector('.services-tabs'),
-        stick = document.querySelector('.services-tabs .stick'),
+        nav = document.querySelector('.insurance-tabs'),
+        stick = document.querySelector('.insurance-tabs .stick'),
         result,
         activeElem;
 

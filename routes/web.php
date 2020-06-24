@@ -367,3 +367,22 @@ Route::get('/vacancy', function () {
 });
 
 
+Route::get('/about-mission', function () {
+    return view('app.pages.aboutMission');
+
+});
+
+Route::get('/about-partners', function () {
+    return view('app.pages.aboutPartners');
+
+});
+
+Route::get('/about-management', function () {
+    return view('app.pages.aboutManagement');
+
+});
+
+Route::get('/terms', function () {
+    return view('app.pages.terms');
+
+});

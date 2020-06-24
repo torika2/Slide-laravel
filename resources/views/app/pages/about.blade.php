@@ -130,6 +130,6 @@
     </div>
 </div>
 
-
+@include('app.layout.components.fullWidthNews')
 
 @endsection

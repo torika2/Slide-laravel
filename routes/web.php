@@ -329,9 +329,6 @@ Route::get('/third-party', function () {
     return view('app.pages.thirdParty');
 
 });
-Route::get('/media-release', function () {
-    return view('app.pages.mediaRelease');
-});
 
 Route::get('/media-gallery', function () {
     return view('app.pages.mediaGallery');
@@ -369,13 +366,23 @@ Route::get('/vacancy', function () {
 
 });
 
-Route::get('/resume', function () {
-    return view('app.pages.resume');
+
+Route::get('/about-mission', function () {
+    return view('app.pages.aboutMission');
 
 });
 
+Route::get('/about-partners', function () {
+    return view('app.pages.aboutPartners');
 
-Route::get('/career', function () {
-    return view('app.pages.career');
+});
+
+Route::get('/about-management', function () {
+    return view('app.pages.aboutManagement');
+
+});
+
+Route::get('/terms', function () {
+    return view('app.pages.terms');
 
 });

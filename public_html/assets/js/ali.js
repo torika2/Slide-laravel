@@ -28,6 +28,34 @@ $(document).ready(function () {
 	    }
 	  });
 
+	var mySwiper = new Swiper ('.brand-platform-slider', {
+	    speed: 1000,
+	    slidesPerView: 3,
+	    spaceBetween: 31,
+	    watchOverflow: true,
+	    breakpoints: {
+	      320: {
+	        spaceBetween: 15,
+	        slidesPerView: 1.145
+	      },
+	      768: {
+	        spaceBetween: 15
+	      },
+	      1024: {
+	        spaceBetween: 31
+	      },
+	      1366: {
+	        spaceBetween: 31
+	      },
+	      1599: {
+	        spaceBetween: 31
+	      },
+	      1900: {
+	        spaceBetween: 31
+	      }
+	    }
+	  });
+
 	var mySwiper = new Swiper ('.stories-slider', {
 	    speed: 1000,
 	    slidesPerView: 3,
@@ -153,31 +181,43 @@ var mySwiper = new Swiper('.bonus-slider', {
   }
 });
 
-var mySwiper = new Swiper('.packages-slider', {
-  speed: 1000,
-  slidesPerView: "auto",
-  navigation: {
-	 nextEl: '.swiper-button-next',
-	 prevEl: '.swiper-button-prev',
-  },
-  watchOverflow: true,
-  breakpoints: {
-    320: {
-    	spaceBetween: 10,
-    },
-    768: {
-    },
-    1024: {
-    },
-    1366: {
-    },
-    1599: {
-    },
-    1900: {
+function packagesSlider (){
+	var mySwiper = new Swiper('.packages-slider', {
+	  speed: 1000,
+	  slidesPerView: "auto",
+	  navigation: {
+		 nextEl: '.swiper-button-next',
+		 prevEl: '.swiper-button-prev',
+	  },
+	  watchOverflow: true,
+	  breakpoints: {
+	    320: {
+	    	spaceBetween: 10,
+	    },
+	    768: {
+	    },
+	    1024: {
+	    },
+	    1366: {
+	    },
+	    1599: {
+	    },
+	    1900: {
 
-    }
-  }
-  
+	    }
+	  }
+	  
+	});
+}
+packagesSlider();
+const detailsBtn = document.querySelectorAll(".details-btn");
+detailsBtn.forEach(function(btn){
+	btn.onclick = function(){
+		packagesSlider();
+	}
+})
+$(window).resize(function(){
+  packagesSlider();
 });
 
 /*date select*/
@@ -529,13 +569,14 @@ body.onclick = function(){
     		let slideOut = document.querySelector(".slide-in");
 			let slides = document.querySelectorAll(".slide");
 
-			if(!slides[0].classList.contains("slide-in") && slideOut != undefined){
-				slideOut.classList.remove("slide-in");
-				slideOut.classList.add("slide-out");
-				setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
-				
-				slides[0].classList.add("slide-in")
-			}	
+			if(slideOut != undefined && slides != undefined)
+				if(!slides[0].classList.contains("slide-in") && slideOut != undefined){
+					slideOut.classList.remove("slide-in");
+					slideOut.classList.add("slide-out");
+					setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+					
+					slides[0].classList.add("slide-in")
+				}	
 	 	}
 	 	mouseLeave();
 	 	allowChange = false;
@@ -775,6 +816,7 @@ body.onclick = function(){
 	})
 
 	connectAgentBtn.forEach(function(btn){
+		console.log(btn);
 		btn.onclick = function(e){
 			e.stopPropagation()
 			document.body.classList.add("agent-popup");

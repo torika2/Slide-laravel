@@ -212,4 +212,10 @@
 
     </section>
 
+
+    @include('app.layout.components.subMenu')
+    @include('app.layout.components.insuranceTabs')
+    @include('app.layout.components.packagesGrid')
+    @include('app.layout.components.videoContainer')
+    @include('app.layout.components.counter')
 @endsection

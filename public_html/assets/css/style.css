@@ -2764,7 +2764,9 @@ input:focus::-webkit-input-placeholder {
     color: #fff;
     background: transparent;
 }
-
+.provider-img-box img {
+    max-width: 90px;
+}
 @media(max-width: 1679px) {
     .insurance-tab-container .provider-clinics-slider .swiper-slide {
         height: 248px;

@@ -5,7 +5,7 @@ $(document).ready(function () {
             $(".aboutHistory").removeClass("active");
             $(this).addClass("active");
             $(".aboutHistoryDescr").css("height","0px");
-            $(this).children(".aboutHistoryDescr").css("height", $(this).find(".aboutHistoryDescrInner").height() + "px");
+            $(this).children(".aboutHistoryDescr").css("height", $(this).find(".aboutHistoryDescrInner").height() + 20 + "px");
             console.log($(this).find(".aboutHistoryDescrInner").height())
         }else{
             $(".aboutHistory").removeClass("active");

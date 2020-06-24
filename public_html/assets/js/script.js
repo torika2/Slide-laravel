@@ -45,41 +45,71 @@ $(document).ready(function () {
 
 
 // Provider Clinics Slider
-var providerSlider = function () {
-    var clinicsSlider1 = new Swiper('.individual', {
-        slidesPerView: 4,
-        spaceBetween: 60,
-        breakpoints: {
-            300: {
-                slidesPerView: 1.3,
-                spaceBetween: 15,
-            },
-            768: {
-                spaceBetween: 15,
-            },
-            1024: {
-                spaceBetween: 30,
-            },
-            1366: {
-                spaceBetween: 60,
-            },
-            1680: {
-                spaceBetween: 60,
-            },
-            1900: {
-                slidesPerView: 4,
-            },
+// var providerSlider = function () {
+//     var clinicsSlider = new Swiper('.provider-clinics-slider', {
+//         slidesPerView: 4,
+//         spaceBetween: 60,
+//         breakpoints: {
+//             300: {
+//                 slidesPerView: 1.3,
+//                 spaceBetween: 15,
+//             },
+//             768: {
+//                 spaceBetween: 15,
+//             },
+//             1024: {
+//                 spaceBetween: 30,
+//             },
+//             1366: {
+//                 spaceBetween: 60,
+//             },
+//             1680: {
+//                 spaceBetween: 60,
+//             },
+//             1900: {
+//                 slidesPerView: 4,
+//             },
 
-        }
-    });
+//         }
+//     });
+// }
+// providerSlider();
+
+// $(window).resize(function () {
+//     setTimeout(function () {
+//         providerSlider();
+//     }, 100);
+// });
+
+var clinicsSwiper = undefined;
+function clinicsSlider() {
+    var screenWidth = $(window).width();
+    if (screenWidth < 767 && clinicsSwiper == undefined) {
+        clinicsSwiper = new Swiper('.provider-clinics-slider', {
+            slidesPerView: 1.3,
+            spaceBetween: 15,
+            freeMode: true
+        });
+    } else if (screenWidth > 766 && clinicsSwiper != undefined) {
+        clinicsSwiper.destroy();
+        clinicsSwiper = undefined;
+        jQuery('.swiper-wrapper').removeAttr('style');
+        jQuery('.swiper-slide').removeAttr('style');
+    }
 }
-providerSlider();
 
-$(window).resize(function () {
+
+//Swiper plugin initialization on window resize
+$(window).on('resize', function () {
     setTimeout(function () {
-        providerSlider();
+        clinicsSlider();
     }, 100);
 });
+//Swiper plugin initialization
+clinicsSlider();
+
+
+
 
 // Service scheme Tabs
 $(document).ready(function () {
@@ -407,7 +437,7 @@ var packagesSlideDown = function () {
         } else {
             $(this).removeClass("active");
         }
-        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(1000);
+        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(600);
     });
 }
 packagesSlideDown();
@@ -481,6 +511,7 @@ var clinicsSlider1 = new Swiper('.individual', {
             spaceBetween: 15,
         },
         768: {
+            slidesPerView: 2,
             spaceBetween: 15,
         },
         1024: {
@@ -533,4 +564,35 @@ $('#tabCorporate').click(function () {
             }
         });
     }, 100);
+});
+
+
+// service tab stick function
+var insuranceSwitch = function () {
+    var navLinks = document.querySelectorAll('.tab-link'),
+        nav = document.querySelector('.insurance-tabs'),
+        stick = document.querySelector('.insurance-tabs .stick'),
+        result,
+        activeElem;
+
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+        })
+    })
+}
+insuranceSwitch();
+
+$(window).resize(function () {
+    setTimeout(function () {
+        insuranceSwitch();
+    }, 500);
 });

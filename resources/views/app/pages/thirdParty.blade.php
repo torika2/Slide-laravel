@@ -288,5 +288,5 @@
 @include('app.layout.components.findAgent')
 @include('app.layout.components.faqSlider')
 
-
+@include('app.layout.components.insuranceTabs')
 @endsection

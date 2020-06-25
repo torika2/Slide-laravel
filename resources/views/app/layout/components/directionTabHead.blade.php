@@ -17,7 +17,7 @@
             <a href="" class="noto-semibold active">GPI-ის ისტორია</a>
         </div>
         <div class="directionHeadTabsCont">
-            <h3 class="fira-bold font-55">ბიზნეს რისკები</h3>
+            <h1 class="fira-bold font-55">ბიზნეს რისკები</h1>
             <div class="directionHeadTabs">
                 <a href="##" class="directionHeadTab active fira-bold uppercase">
                     <i></i>

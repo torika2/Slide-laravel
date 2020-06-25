@@ -1,5 +1,5 @@
 <footer>
-    <div class="footerInner">
+    <div class="footerInner kfn_anim k-fadeUp">
         <div class="imgContainer">
             <img src="{{asset('assets/img/footerImg.png')}}" alt="">
         </div>

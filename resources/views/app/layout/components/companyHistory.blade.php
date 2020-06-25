@@ -1,4 +1,4 @@
-<section class="companyHistory m-t-144">
+<section class="companyHistory m-t-144 kfn_anim k-fadeUp">
     <div class="container">
         <h2 class="fira-bold font-55 text-center ">კომპანიის ისტორია</h2>
         <div class="subTtl text-center">ჩვენი კომპანიის დროის ხაზი სადაც შეგიძლიათ კომლედ <br>გაეცნოთ ინფორმაციას ჩვენ შესახებ</div>

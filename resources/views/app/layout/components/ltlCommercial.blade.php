@@ -1,4 +1,4 @@
-<section class="ltlCommercialContainer container m-t-144">
+<section class="ltlCommercialContainer container m-t-144 kfn_anim k-fadeUp">
     <div class="ltlCommercial">
         <img src="{{asset('assets/img/ltlCommercial.jpg')}}" alt="">
         <div class="subMenuPicLinkContainerInner">

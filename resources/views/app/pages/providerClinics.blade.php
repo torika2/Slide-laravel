@@ -76,6 +76,7 @@
                             </a>
                         </div>
                     </div>
+                    @include('app.layout.components.pagination')
                     <div class="bot">
                         <div class="socs">
                             <div class="ttl">გაუზიარე მეგობარს:</div>

@@ -1,4 +1,4 @@
-<section class="teamContainer container m-t-144">
+<section class="teamContainer container m-t-144 kfn_anim k-fadeUp">
     <h2 class="fira-bold font-55 text-center">
         <div class="fira-bold font-55 text-center">საზოგადოებასთან</div>
         <div class="fira-bold font-34 text-center">ურთიერთობის წარმომადგენელი</div>

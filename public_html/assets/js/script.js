@@ -458,6 +458,15 @@ var compare = function () {
     })
 };
 
+
+
+
+
+
+
+
+
+
 if (document.querySelector('body').classList.contains('page-faqInner')){
     // Faq List Slider
     var faqSwiper = undefined;

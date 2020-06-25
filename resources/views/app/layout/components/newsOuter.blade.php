@@ -1,4 +1,4 @@
-<div class="m-t-144 news-outer">
+<div class="kfn_anim k-fadeUp m-t-144 news-outer">
 	<div class="container">
 		<div class="top">
 			<h3 class="fira-bold font-34 ttl">სხვა სიახლეები</h3>
@@ -34,7 +34,7 @@
 						</span>
 					</div>
 					<time class="noto-medium font-21">25 dec 2020</time>
-					<h2 class="noto-bold font-21 ttl">ჯიპიაი ჰოლდინგი ვენის სადაზღვევო ჯგუფის წევრებს საქართველოში მოგზაურობისკენ მოუწოდებს.</h2>
+					<h2 class="kfn_anim k-fadeUp noto-bold font-21 ttl">ჯიპიაი ჰოლდინგი ვენის სადაზღვევო ჯგუფის წევრებს საქართველოში მოგზაურობისკენ მოუწოდებს.</h2>
 				</a>
 				<a href="#" class="swiper-slide">
 					<div class="img-box">
@@ -55,7 +55,7 @@
 						</span>
 					</div>
 					<time class="noto-medium font-21">25 dec 2020</time>
-					<h2 class="noto-bold font-21 ttl">ჯიპიაი ჰოლდინგი ვენის სადაზღვევო ჯგუფის წევრებს საქართველოში მოგზაურობისკენ მოუწოდებს.</h2>
+					<h2 class="kfn_anim k-fadeUp noto-bold font-21 ttl">ჯიპიაი ჰოლდინგი ვენის სადაზღვევო ჯგუფის წევრებს საქართველოში მოგზაურობისკენ მოუწოდებს.</h2>
 				</a>
 			</div>
 		</div>

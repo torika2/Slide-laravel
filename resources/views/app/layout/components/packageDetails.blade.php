@@ -1,7 +1,7 @@
-<div class="package-det">
+<div class="kfn_anim k-fadeUp package-det">
 	<h2 class="noto-bold font-21 ttl">მედი ბაზისური პოლისის დეტალები</h2>
 
-	<div class="package-details-list">
+	<div class="kfn_anim k-fadeUp package-details-list">
 		 <div class="item">
 		 	<div class="info">
 		 		<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
@@ -156,7 +156,7 @@
 
 
 	</div>
-	<div class="bottom">
+	<div class="kfn_anim k-fadeUp bottom">
 		<div class="amount">
 			<div class="noto-bold">11</div>
 			<div >₾</div>
@@ -167,7 +167,7 @@
 		</a>
 	</div>
 
-	<div class="ver-social">
+	<div class="kfn_anim k-fadeUp ver-social">
 		<div class="social">
 			<span class="noto-bold">გაუზიარე მეგობარს:</span>
 			<div>

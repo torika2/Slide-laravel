@@ -1,4 +1,4 @@
-<div class="m-t-144 container">
+<div class="kfn_anim k-fadeUp m-t-144 container">
 	<div class="direction-slider">
 		<div class="swiper-wrapper">
 	        <div class="swiper-slide">

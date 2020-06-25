@@ -2540,6 +2540,9 @@ body.animate .picturesContainer.animated .picturesMain{
     margin-bottom: 30px;
     border-radius: 8px;
 }
+.providerClinicsListContainer{
+    margin-bottom: 20px;
+}
 .providerClinicsFrst,.providerClinicsScnd{
     display: flex;
     align-items: center;
@@ -3399,6 +3402,67 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .providerClinicsList .direction svg{
+        transform: scale(.8);
+        margin-right: 10px;
+    }
+    .providerClinicsList .direction{
+        font-size: 13px;
+    }
+    .providerClinicsList .mob{
+        width: 100%;
+        font-size: 13px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .providerClinicsScnd{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .providerClinicsList .address{
+        font-size: 13px;
+        width: 100%;
+    }
+    .providerClinicsList .mob .dashedLine{
+        display: none;
+    }
+    .providerClinicsScnd{
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .providerClinicsList .name{
+        width: 100%;
+        justify-content: center;
+        padding: 0px;
+        display: flex;
+        margin-top: 20px;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .providerClinicsList .name .dashedLine{
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .providerClinicsList .name .dashedLine:after{
+        width: 30px;
+        height: 1px;
+        background-image: linear-gradient(to right, #CFCFCF 50%, rgba(145, 153, 180, 0) 0%);
+        background-position: top;
+        background-size: 10px 1px;
+        background-repeat: repeat-x;
+    }
+    .providerLogo{
+        width: 100%;
+        justify-content: center;
+    }
+    .providerClinicsFrst{
+        flex-direction: column;
+    }
+    .providerClinicsList{
+        padding: 25px 20px;
+        margin-bottom: 10px;
+    }
     .mediaRelDescr a{
         font-size: 13px;
         margin-top: 5px;

@@ -56,8 +56,32 @@
 </div>
 @include('app.layout.components.companyHistory')
 @include('app.layout.components.missionBanner')
+@include('app.layout.components.bonusServices')
 
-<div class="awards-container">
+<section class="became-member find-agent m-t-233 kfn_anim k-fadeUp">
+    <div class="img-box imgg">
+        <picture>
+            <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (42).jpg')}}">
+            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (42).jpg')}}">
+            <img src="{{asset('assets/img/img (42).jpg')}}" class="img-absolute" alt="">
+        </picture>
+        <div class="img-overlay"></div>
+    </div>
+    <div class="container component-content flex-box column">
+        <img src="{{asset('assets/img/vig.png')}}" alt="" class="banner-logo">
+        <p class="font-21 white fira-medium">არაუშავს, ჩვენი დაზღვევის აგენტი სწრაფად <br> შეგარჩევინებს პაკეტს</p>
+        <div class="bottom-line"></div>
+        <div class="component-btns flex-box">
+            <a href="#" class="btn-white">ვრცლად</a>
+        </div>
+    </div>
+</section>
+
+@include('app.layout.components.newsOuter')
+@include('app.layout.components.fullWidthNews')
+@include('app.layout.components.becomeMember')
+
+<div class="awards-container m-t-144">
     <div class="heading">
         <h2 class="font-34 fira-bold">ჯილდოები</h2>
     </div>
@@ -129,7 +153,5 @@
         </div>
     </div>
 </div>
-
-
 
 @endsection

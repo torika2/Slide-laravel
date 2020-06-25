@@ -329,6 +329,7 @@ Route::get('/third-party', function () {
     return view('app.pages.thirdParty');
 
 });
+
 Route::get('/media-release', function () {
     return view('app.pages.mediaRelease');
 });
@@ -374,3 +375,33 @@ Route::get('/vacancy', function () {
 });
 
 
+Route::get('/about-mission', function () {
+    return view('app.pages.aboutMission');
+
+});
+
+Route::get('/about-partners', function () {
+    return view('app.pages.aboutPartners');
+
+});
+
+Route::get('/about-management', function () {
+    return view('app.pages.aboutManagement');
+
+});
+
+Route::get('/terms', function () {
+    return view('app.pages.terms');
+
+});
+
+
+Route::get('/suggestion', function () {
+    return view('app.pages.suggestion');
+
+});
+
+Route::get('/brand-platform', function () {
+    return view('app.pages.brandPlatform');
+
+});

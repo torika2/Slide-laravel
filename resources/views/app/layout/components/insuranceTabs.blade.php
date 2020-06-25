@@ -1,17 +1,13 @@
 <section class="container provider-clinics-section insurance-tab-container m-t-144">
-    <h2 class="insurance-tabs-title flex-box column al-center text-center">
+    <h2 class="insurance-tabs-title flex-box column al-center text-center kfn_anim k-fadeUp">
         <span class="font-55 fira-bold">დაზღვევა,</span>
         <span class="font-34 fira-bold">რომლიც გჭირდება</span>
     </h2>
-    <div class="provider-clinics-description text-center">
+    <div class="provider-clinics-description text-center  kfn_anim k-fadeUp">
         ჩვენ გირჩევთ შენი ცხოვრების ეტაპზე რომელი სადაზღვევო პოლისი შეგეფერება
     </div>
-    <div class="tab-section">
-        <!-- <div class="tabs flex-box justify-center">
-            <div class="tab-link btn-white current" data-tab="tab-1">ინდივიდუალური</div>
-            <div class="tab-link btn-white" data-tab="tab-2" id="tabCorporate">კორპორაციული</div>
-        </div> -->
-        <div class="services-tabs flex-box al-center">
+    <div class="tab-section  kfn_anim k-fadeUp">
+        <div class="services-tabs insurance-tabs flex-box al-center">
             <div class="stick"></div>
             <div class="tab-link flex-box al-center justify-center noto-bold current" data-tab="tab-1">
                 სავალდებულო</div>

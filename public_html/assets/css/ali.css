@@ -5454,6 +5454,10 @@ input:focus::-webkit-input-placeholder {
 .page-terms .packages-outer .back-btn{
   display: flex;
 }
+.page-terms .container-secondary{
+  position: relative;
+  z-index: 11;
+}
 @media (min-width: 1024px){
   .page-terms .btn-white:hover path{
     stroke: #fff;

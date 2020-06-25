@@ -386,3 +386,14 @@ Route::get('/terms', function () {
     return view('app.pages.terms');
 
 });
+
+
+Route::get('/suggestion', function () {
+    return view('app.pages.suggestion');
+
+});
+
+Route::get('/brand-platform', function () {
+    return view('app.pages.brandPlatform');
+
+});

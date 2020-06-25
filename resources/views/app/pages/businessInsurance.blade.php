@@ -40,7 +40,7 @@
 		<h1 class="fira-bold font-55 white ttl">წარმატებული ბიზნესისთვის</h1>
 		 <div class="slide-btn-wrap">
 		 	
-		 	<div class="slide-btn" data-slide="1">
+		 	<div class="slide-btn kfn_anim k-slideUp" data-slide="1">
 		 		<div class="top">
 		 			<span class="fira-bold font-21">ინდუსტრია</span>
 		 		</div>
@@ -60,7 +60,7 @@
 		 		</div>
 		 	</div>
 
-		 	<div class="slide-btn" data-slide="2">
+		 	<div class="slide-btn kfn_anim k-slideUp" style="transition-delay: .1s;" data-slide="2">
 		 		<div class="top">
 		 			<span class="fira-bold font-21">ინდუსტრია</span>
 		 		</div>
@@ -80,7 +80,7 @@
 		 		</div>
 		 	</div>
 
-		 	<div class="slide-btn" data-slide="3">
+		 	<div class="slide-btn kfn_anim k-slideUp" style="transition-delay: .2s;" data-slide="3">
 		 		<div class="top">
 		 			<span class="fira-bold font-21">ინდუსტრია</span>
 		 		</div>

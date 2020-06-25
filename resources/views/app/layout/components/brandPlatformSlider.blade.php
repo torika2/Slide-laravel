@@ -1,4 +1,4 @@
-<div class="brand-platform-slider">
+<div class="kfn_anim k-fadeUp brand-platform-slider">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
         	<div class="content">

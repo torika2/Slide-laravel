@@ -1,4 +1,4 @@
-<div class="m-t-144 direction-wrap">
+<div class="kfn_anim k-fadeUp m-t-144 direction-wrap">
 	<div class="direction">
 		<div class="img-box">
 			<picture>

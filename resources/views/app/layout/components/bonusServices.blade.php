@@ -1,4 +1,4 @@
-<div class="m-t-144 bonus-servises">
+<div class="kfn_anim k-fadeUp m-t-144 bonus-servises">
     <div class="container">
         <h2 class="font-55 fira-bold ttl">ჟიპიაი ჰოლდინგს</h2>
         <div class="font-34 fira-bold subtitle">მომავლის ხედვა</div>
@@ -7,7 +7,7 @@
         </div>
         <span class="noto-bold font-21">ჩვენი ღირებულებები</span>
 
-        <div class="bonus-slider">
+        <div class="kfn_anim k-fadeUp bonus-slider">
 
             <div class="swiper-wrapper">
                 <div class="swiper-slide">

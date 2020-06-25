@@ -56,7 +56,7 @@
 
 	 		<div class="more">
 	 			<div></div>
-	 			<span class="noto-bold white">გაიგე მეტი</span>
+	 			<a href="#" class="noto-bold white">გაიგე მეტი</a>
 	 		</div>
 	 	</div>
 
@@ -76,7 +76,7 @@
 
 	 		<div class="more">
 	 			<div></div>
-	 			<span class="noto-bold white">გაიგე მეტი</span>
+	 			<a href="#" class="noto-bold white">გაიგე მეტი</a>
 	 		</div>
 	 	</div>
 
@@ -96,7 +96,7 @@
 
 	 		<div class="more">
 	 			<div></div>
-	 			<span class="noto-bold white">გაიგე მეტი</span>
+	 			<a href="#" class="noto-bold white">გაიგე მეტი</a>
 	 		</div>
 	 	</div>
 	 </div>

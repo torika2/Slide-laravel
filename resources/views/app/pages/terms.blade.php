@@ -24,15 +24,11 @@
 <section class="container-secondary policy-packages kfn_anim k-fadeUp active-kfn">
     <div class="packages-outer">
 
-        <div class="choose-policy m-t-144">
+        <div class="choose-policy">
             <ul class="policy-list">
                 <li class="policy-list-item active">
                     <div class="item-head flex-box al-center between">
                         <div class="item-left flex-box al-center">
-                            <div class="item-img-box flex-box">
-                                <img src="http://gpi.test/assets/img/health-icon.svg" alt="">
-                            </div>
-
                             <h3 class="fira-bold font-34">ჯანმრთელობა</h3>
                         </div>
                         <div class="item-right plus">
@@ -62,15 +58,21 @@
                             გამოყენება, რადგან უბრალოდ „ტექსტი ტექსტი ტექსტი“ ან სხვა გამეორებადი სიტყვების ჩაყრა,
                             ხელოვნურ ვიზუალურ სიმეტრიას ქმნის და არაბუნებრივად გამოიყურება.
                         </div>
-                        <a href="#" class="service-btn btn-white">ანაზღაურება</a>
+                        <a href="#" class="service-btn btn-white">
+                        	ანაზღაურება
+                        	<svg xmlns="http://www.w3.org/2000/svg" width="15.527" height="15.527" viewBox="0 0 15.527 15.527">
+							  <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(-3.5 -3.5)">
+							    <path id="Path_8755" data-name="Path 8755" d="M18.027,22.5v3.006a1.5,1.5,0,0,1-1.5,1.5H6a1.5,1.5,0,0,1-1.5-1.5V22.5" transform="translate(0 -8.982)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							    <path id="Path_8756" data-name="Path 8756" d="M10.5,15l3.758,3.758L18.015,15" transform="translate(-2.994 -5.239)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							    <path id="Path_8757" data-name="Path 8757" d="M18,13.518V4.5" transform="translate(-6.736)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							  </g>
+							</svg>
+                        </a>
                     </div>
                 </li>
                 <li class="policy-list-item">
                     <div class="item-head flex-box al-center between">
                         <div class="item-left flex-box al-center">
-                            <div class="item-img-box flex-box">
-                                <img src="http://gpi.test/assets/img/travel-icon.svg" alt="">
-                            </div>
                             <h3 class="fira-bold font-34">მოგზაურობა</h3>
                         </div>
                         <div class="item-right plus">
@@ -88,15 +90,21 @@
                             გამოყენება, რადგან უბრალოდ „ტექსტი ტექსტი ტექსტი“ ან სხვა გამეორებადი სიტყვების ჩაყრა,
                             ხელოვნურ ვიზუალურ სიმეტრიას ქმნის და არაბუნებრივად გამოიყურება.
                         </div>
-                        <a href="#" class="service-btn btn-white">ანაზღაურება</a>
+                        <a href="#" class="service-btn btn-white">
+                        	ანაზღაურება
+                        	<svg xmlns="http://www.w3.org/2000/svg" width="15.527" height="15.527" viewBox="0 0 15.527 15.527">
+							  <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(-3.5 -3.5)">
+							    <path id="Path_8755" data-name="Path 8755" d="M18.027,22.5v3.006a1.5,1.5,0,0,1-1.5,1.5H6a1.5,1.5,0,0,1-1.5-1.5V22.5" transform="translate(0 -8.982)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							    <path id="Path_8756" data-name="Path 8756" d="M10.5,15l3.758,3.758L18.015,15" transform="translate(-2.994 -5.239)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							    <path id="Path_8757" data-name="Path 8757" d="M18,13.518V4.5" transform="translate(-6.736)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							  </g>
+							</svg>
+                        </a>
                     </div>
                 </li>
                 <li class="policy-list-item">
                     <div class="item-head flex-box al-center between">
                         <div class="item-left flex-box al-center">
-                            <div class="item-img-box flex-box">
-                                <img src="http://gpi.test/assets/img/car-icon.svg" alt="">
-                            </div>
                             <h3 class="fira-bold font-34">ავტომობილი</h3>
                         </div>
                         <div class="item-right plus">
@@ -114,15 +122,21 @@
                             გამოყენება, რადგან უბრალოდ „ტექსტი ტექსტი ტექსტი“ ან სხვა გამეორებადი სიტყვების ჩაყრა,
                             ხელოვნურ ვიზუალურ სიმეტრიას ქმნის და არაბუნებრივად გამოიყურება.
                         </div>
-                        <a href="#" class="service-btn btn-white">ანაზღაურება</a>
+                        <a href="#" class="service-btn btn-white">
+                        	ანაზღაურება
+                        	<svg xmlns="http://www.w3.org/2000/svg" width="15.527" height="15.527" viewBox="0 0 15.527 15.527">
+							  <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(-3.5 -3.5)">
+							    <path id="Path_8755" data-name="Path 8755" d="M18.027,22.5v3.006a1.5,1.5,0,0,1-1.5,1.5H6a1.5,1.5,0,0,1-1.5-1.5V22.5" transform="translate(0 -8.982)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							    <path id="Path_8756" data-name="Path 8756" d="M10.5,15l3.758,3.758L18.015,15" transform="translate(-2.994 -5.239)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							    <path id="Path_8757" data-name="Path 8757" d="M18,13.518V4.5" transform="translate(-6.736)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							  </g>
+							</svg>
+                        </a>
                     </div>
                 </li>
                 <li class="policy-list-item">
                     <div class="item-head flex-box al-center between">
                         <div class="item-left flex-box al-center">
-                            <div class="item-img-box flex-box">
-                                <img src="http://gpi.test/assets/img/property-icon.svg" alt="">
-                            </div>
                             <h3 class="fira-bold font-34">ქონება</h3>
                         </div>
                         <div class="item-right plus">
@@ -140,7 +154,16 @@
                             გამოყენება, რადგან უბრალოდ „ტექსტი ტექსტი ტექსტი“ ან სხვა გამეორებადი სიტყვების ჩაყრა,
                             ხელოვნურ ვიზუალურ სიმეტრიას ქმნის და არაბუნებრივად გამოიყურება.
                         </div>
-                        <a href="#" class="service-btn btn-white">ანაზღაურება</a>
+                        <a href="#" class="service-btn btn-white">
+                        	ანაზღაურება
+                        	<svg xmlns="http://www.w3.org/2000/svg" width="15.527" height="15.527" viewBox="0 0 15.527 15.527">
+							  <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(-3.5 -3.5)">
+							    <path id="Path_8755" data-name="Path 8755" d="M18.027,22.5v3.006a1.5,1.5,0,0,1-1.5,1.5H6a1.5,1.5,0,0,1-1.5-1.5V22.5" transform="translate(0 -8.982)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							    <path id="Path_8756" data-name="Path 8756" d="M10.5,15l3.758,3.758L18.015,15" transform="translate(-2.994 -5.239)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							    <path id="Path_8757" data-name="Path 8757" d="M18,13.518V4.5" transform="translate(-6.736)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							  </g>
+							</svg>
+                        </a>
                     </div>
                 </li>
             </ul>

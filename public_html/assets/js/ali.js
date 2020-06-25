@@ -1,230 +1,259 @@
 $(document).ready(function () {
 
-	var mySwiper = new Swiper ('.swiper-subMenu', {
-	    speed: 1000,
-	    slidesPerView: 3,
-	    spaceBetween: 60,
-	    watchOverflow: true,
-	    breakpoints: {
-	      320: {
-	        spaceBetween: 15,
-	        slidesPerView: 1.145
-	      },
-	      768: {
-	        spaceBetween: 15
-	      },
-	      1024: {
-	        spaceBetween: 33
-	      },
-	      1366: {
-	        spaceBetween: 60
-	      },
-	      1599: {
-	        spaceBetween: 60
-	      },
-	      1900: {
-	        spaceBetween: 60
-	      }
-	    }
-	  });
-
-	var mySwiper = new Swiper ('.brand-platform-slider', {
-	    speed: 1000,
-	    slidesPerView: 3,
-	    spaceBetween: 31,
-	    watchOverflow: true,
-	    breakpoints: {
-	      320: {
-	        spaceBetween: 15,
-	        slidesPerView: 1.145
-	      },
-	      768: {
-	        spaceBetween: 15
-	      },
-	      1024: {
-	        spaceBetween: 31
-	      },
-	      1366: {
-	        spaceBetween: 31
-	      },
-	      1599: {
-	        spaceBetween: 31
-	      },
-	      1900: {
-	        spaceBetween: 31
-	      }
-	    }
-	  });
-
-	var mySwiper = new Swiper ('.stories-slider', {
-	    speed: 1000,
-	    slidesPerView: 3,
-	    spaceBetween: 60,
-	    watchOverflow: true,
-	    breakpoints: {
-	      320: {
-	        spaceBetween: 15,
-	        slidesPerView: 1.145
-	      },
-	      768: {
-	        spaceBetween: 15
-	      },
-	      1024: {
-	        spaceBetween: 30
-	      },
-	      1366: {
-	        spaceBetween: 60
-	      },
-	      1599: {
-	        spaceBetween: 60
-	      },
-	      1900: {
-	        spaceBetween: 60
-	      }
-	    }
-	  });
-  
-  var mySwiper = new Swiper('.newsOuter-slider', {
-  speed: 1000,
-  slidesPerView: 2,
-  spaceBetween: 60,
-  breakpoints: {
-    320: {
-      spaceBetween: 15,
-      slidesPerView: 1.15,
-      touchRatio: 1
-    },
-    768: {
-      spaceBetween: 15,
-      slidesPerView: 1.3325,
-      touchRatio: 1
-    },
-    1024: {
-      spaceBetween: 30,
-      slidesPerView: 2,
-      touchRatio: 0
-    },
-    1366: {
-      spaceBetween: 60,
-      slidesPerView: 2,
-      touchRatio: 0
-    },
-    1599: {
-      spaceBetween: 60,
-      slidesPerView: 2,
-      touchRatio: 0
-    },
-    1900: {
-      spaceBetween: 60,
-      slidesPerView: 2,
-      touchRatio: 0
-    }
-  }
-});
-
-var mySwiper = new Swiper('.direction-slider', {
-  speed: 1000,
-  slidesPerView: 1,
-  spaceBetween: 30,
-  watchOverflow: true,
-  pagination: {
-  	el: '.swiper-pagination',
-  	clickable: true
-  },
-  navigation: {
-	 nextEl: '.swiper-button-next',
-	 prevEl: '.swiper-button-prev',
-  },
-  breakpoints: {
-    320: {
-    },
-    768: {
-    },
-    1024: {
-    },
-    1366: {
-    },
-    1599: {
-    },
-    1900: {
-
-    }
-  }
-});
-
-var mySwiper = new Swiper('.bonus-slider', {
-  speed: 1000,
-  slidesPerView: 4,
-  spaceBetween: 60,
-  watchOverflow: true,
-  breakpoints: {
-    320: {
-    	slidesPerView: 1.15,
-    	spaceBetween: 15
-    },
-    768: {
-    	slidesPerView: 2.15,
-    	spaceBetween: 30
-    },
-    1024: {
-    	spaceBetween: 30
-    },
-    1366: {
-    	spaceBetween: 60,
-    },
-    1599: {
-    	spaceBetween: 60
-    },
-    1900: {
-    	spaceBetween: 60
-    }
-  }
-});
-
-function packagesSlider (){
-	var mySwiper = new Swiper('.packages-slider', {
-	  speed: 1000,
-	  slidesPerView: "auto",
-	  navigation: {
-		 nextEl: '.swiper-button-next',
-		 prevEl: '.swiper-button-prev',
-	  },
-	  watchOverflow: true,
-	  breakpoints: {
-	    320: {
-	    	spaceBetween: 10,
-	    },
-	    768: {
-	    },
-	    1024: {
-	    },
-	    1366: {
-	    },
-	    1599: {
-	    },
-	    1900: {
-
-	    }
-	  }
-	  
-	});
-}
-packagesSlider();
-const detailsBtn = document.querySelectorAll(".details-btn");
-detailsBtn.forEach(function(btn){
-	btn.onclick = function(){
-		packagesSlider();
+	function subMenuSlider(){
+		var mySwiper = new Swiper ('.swiper-subMenu', {
+		    speed: 1000,
+		    slidesPerView: 3,
+		    spaceBetween: 60,
+		    watchOverflow: true,
+		    breakpoints: {
+		      320: {
+		        spaceBetween: 15,
+		        slidesPerView: 1.145
+		      },
+		      768: {
+		        spaceBetween: 15
+		      },
+		      1024: {
+		        spaceBetween: 33
+		      },
+		      1366: {
+		        spaceBetween: 60
+		      },
+		      1599: {
+		        spaceBetween: 60
+		      },
+		      1900: {
+		        spaceBetween: 60
+		      }
+		    }
+		  });
 	}
-})
-$(window).resize(function(){
-  packagesSlider();
-});
 
-/*date select*/
-$("#rangeDate").flatpickr({
-    mode: 'range',
-    dateFormat: "Y-m-d"
-});
+	function brandPlatformSlider(){
+		var mySwiper = new Swiper ('.brand-platform-slider', {
+		    speed: 1000,
+		    slidesPerView: 3,
+		    spaceBetween: 31,
+		    watchOverflow: true,
+		    breakpoints: {
+		      320: {
+		        spaceBetween: 15,
+		        slidesPerView: 1.145
+		      },
+		      768: {
+		        spaceBetween: 15
+		      },
+		      1024: {
+		        spaceBetween: 31
+		      },
+		      1366: {
+		        spaceBetween: 31
+		      },
+		      1599: {
+		        spaceBetween: 31
+		      },
+		      1900: {
+		        spaceBetween: 31
+		      }
+		    }
+		  });
+	}
+
+	function storiesSlider(){
+		var mySwiper = new Swiper ('.stories-slider', {
+		    speed: 1000,
+		    slidesPerView: 3,
+		    spaceBetween: 60,
+		    watchOverflow: true,
+		    breakpoints: {
+		      320: {
+		        spaceBetween: 15,
+		        slidesPerView: 1.145
+		      },
+		      768: {
+		        spaceBetween: 15
+		      },
+		      1024: {
+		        spaceBetween: 30
+		      },
+		      1366: {
+		        spaceBetween: 60
+		      },
+		      1599: {
+		        spaceBetween: 60
+		      },
+		      1900: {
+		        spaceBetween: 60
+		      }
+		    }
+		  });
+	}
+  
+
+  	function newsOuterSlider(){
+		  var mySwiper = new Swiper('.newsOuter-slider', {
+		  speed: 1000,
+		  slidesPerView: 2,
+		  spaceBetween: 60,
+		  breakpoints: {
+		    320: {
+		      spaceBetween: 15,
+		      slidesPerView: 1.15,
+		      touchRatio: 1
+		    },
+		    768: {
+		      spaceBetween: 15,
+		      slidesPerView: 1.3325,
+		      touchRatio: 1
+		    },
+		    1024: {
+		      spaceBetween: 30,
+		      slidesPerView: 2,
+		      touchRatio: 0
+		    },
+		    1366: {
+		      spaceBetween: 60,
+		      slidesPerView: 2,
+		      touchRatio: 0
+		    },
+		    1599: {
+		      spaceBetween: 60,
+		      slidesPerView: 2,
+		      touchRatio: 0
+		    },
+		    1900: {
+		      spaceBetween: 60,
+		      slidesPerView: 2,
+		      touchRatio: 0
+		    }
+		  }
+		});
+	}
+
+
+  	function directionSlider(){
+		var mySwiper = new Swiper('.direction-slider', {
+		  speed: 1000,
+		  slidesPerView: 1,
+		  spaceBetween: 30,
+		  watchOverflow: true,
+		  pagination: {
+		  	el: '.swiper-pagination',
+		  	clickable: true
+		  },
+		  navigation: {
+			 nextEl: '.swiper-button-next',
+			 prevEl: '.swiper-button-prev',
+		  },
+		  breakpoints: {
+		    320: {
+		    },
+		    768: {
+		    },
+		    1024: {
+		    },
+		    1366: {
+		    },
+		    1599: {
+		    },
+		    1900: {
+
+		    }
+		  }
+		});
+	}
+
+	function bonusSlider(){
+		var mySwiper = new Swiper('.bonus-slider', {
+		  speed: 1000,
+		  slidesPerView: 4,
+		  spaceBetween: 60,
+		  watchOverflow: true,
+		  breakpoints: {
+		    320: {
+		    	slidesPerView: 1.15,
+		    	spaceBetween: 15
+		    },
+		    768: {
+		    	slidesPerView: 2.15,
+		    	spaceBetween: 30
+		    },
+		    1024: {
+		    	spaceBetween: 30
+		    },
+		    1366: {
+		    	spaceBetween: 60,
+		    },
+		    1599: {
+		    	spaceBetween: 60
+		    },
+		    1900: {
+		    	spaceBetween: 60
+		    }
+		  }
+		});
+	}
+
+	function packagesSlider(){
+		var mySwiper = new Swiper('.packages-slider', {
+		  speed: 1000,
+		  slidesPerView: "auto",
+		  navigation: {
+			 nextEl: '.swiper-button-next',
+			 prevEl: '.swiper-button-prev',
+		  },
+		  watchOverflow: true,
+		  breakpoints: {
+		    320: {
+		    	spaceBetween: 10,
+		    },
+		    768: {
+		    },
+		    1024: {
+		    },
+		    1366: {
+		    },
+		    1599: {
+		    },
+		    1900: {
+
+		    }
+		  }
+		  
+		});
+	}
+
+	packagesSlider();
+	bonusSlider();
+	directionSlider();
+	newsOuterSlider();
+	storiesSlider();
+	brandPlatformSlider();
+	subMenuSlider();
+
+	$(window).resize(function(){
+	    packagesSlider();
+	    bonusSlider();
+	    directionSlider();
+		newsOuterSlider();
+		storiesSlider();
+		brandPlatformSlider();
+		subMenuSlider();
+	});
+
+	const detailsBtn = document.querySelectorAll(".details-btn");
+	detailsBtn.forEach(function(btn){
+		btn.onclick = function(){
+			packagesSlider();
+		}
+	})
+	
+	/*date select*/
+	$("#rangeDate").flatpickr({
+	    mode: 'range',
+	    dateFormat: "Y-m-d"
+	});
 
 
 
@@ -253,7 +282,8 @@ $("#rangeDate").flatpickr({
 
 
  	/*inputs script*/
- 	const input = document.querySelectorAll(".placeholder-wrap");
+ 	let input = document.querySelectorAll(".placeholder-wrap");
+
  	input.forEach(function(item){
 	    item.childNodes[1].onkeyup = function (){
 	      if(item.childNodes[1].value != ''){
@@ -327,49 +357,49 @@ $("#rangeDate").flatpickr({
 
 		}
 
-	   /*contact tabs scripts*/
+   /*contact tabs scripts*/
 
-	   const tabCont = document.querySelectorAll(".tabs");
-	   const branchesWrap = document.getElementById("branches-grid-wrap");
+   const tabCont = document.querySelectorAll(".tabs");
+   const branchesWrap = document.getElementById("branches-grid-wrap");
 
-	   tabCont.forEach(function(item){
-		   	for(let i =0; i < item.children.length; i++){
-		   		item.children[i].onclick = function(){
-		   			for(let j =0; j < item.children.length; j++){
-		   				item.children[j].classList.remove("active");
-		   			}
-		   			item.children[i].classList.add("active");
-		   			for(let k = 0; k < branchesWrap.children.length; k++){
-		   				$("#branches-grid-wrap").children().eq(k).slideUp();
-		   			}
-		   			let branchId =item.children[i].getAttribute("data-branch");
-		   			setTimeout(() => $('#' + branchId).slideDown(), 600);
-		   		}
-		   	}
-	   })
+   tabCont.forEach(function(item){
+	   	for(let i =0; i < item.children.length; i++){
+	   		item.children[i].onclick = function(){
+	   			for(let j =0; j < item.children.length; j++){
+	   				item.children[j].classList.remove("active");
+	   			}
+	   			item.children[i].classList.add("active");
+	   			for(let k = 0; k < branchesWrap.children.length; k++){
+	   				$("#branches-grid-wrap").children().eq(k).slideUp();
+	   			}
+	   			let branchId =item.children[i].getAttribute("data-branch");
+	   			setTimeout(() => $('#' + branchId).slideDown(), 600);
+	   		}
+	   	}
+   })
 
 
-	   /*policy compare*/
+	/*policy compare*/
 
-	   /**hovers**/
-	   const compareItem = document.querySelectorAll(".compare-item");
-	   
-	   compareItem.forEach(function(item){
-	   	item.addEventListener("mouseenter", function(){
-	   		let attribute = item.getAttribute("data-hover");
-	   		let itemWithSameAttr = document.querySelectorAll("[data-hover='" + attribute + "']");
-	   		itemWithSameAttr.forEach(function(item2){
-	   			item2.classList.add("hovered");
-	   		})
-		  })
-		  item.addEventListener("mouseleave", function(){
-		    let attribute = item.getAttribute("data-hover");
-	   		let itemWithSameAttr = document.querySelectorAll("[data-hover='" + attribute + "']");
-	   		itemWithSameAttr.forEach(function(item2){
-	   			item2.classList.remove("hovered");
-	   		})
-		  })
-	   })
+   /**hovers**/
+   const compareItem = document.querySelectorAll(".compare-item");
+   
+   compareItem.forEach(function(item){
+   	item.addEventListener("mouseenter", function(){
+   		let attribute = item.getAttribute("data-hover");
+   		let itemWithSameAttr = document.querySelectorAll("[data-hover='" + attribute + "']");
+   		itemWithSameAttr.forEach(function(item2){
+   			item2.classList.add("hovered");
+   		})
+	  })
+	  item.addEventListener("mouseleave", function(){
+	    let attribute = item.getAttribute("data-hover");
+   		let itemWithSameAttr = document.querySelectorAll("[data-hover='" + attribute + "']");
+   		itemWithSameAttr.forEach(function(item2){
+   			item2.classList.remove("hovered");
+   		})
+	  })
+   })
 
 
 
@@ -377,403 +407,154 @@ $("#rangeDate").flatpickr({
    /*start of head slider*/
 
 
- 	
- // 	let allowToChange;
- // 	allowToChange = false;
-	// setTimeout(() => allowToChange = true, 1200);
- // 	var timeout;
+   if (document.querySelector('body').classList.contains('page-business')){
+		var allowChange = true,
+		dots = document.querySelectorAll('.slide-btn');
 
-	// slideBtn.forEach(function(item){
-
-	// 		item.addEventListener("mouseenter", function(e){
-	// 			const mouseEnter = function(){
-
-	// 				/*სლაიდს ვცვლით თუ 2 მილიწამი გააჩერა მაუსი*/
-	// 				clearTimeout(timeout);	
-	// 				timeout = setTimeout(function(){
-
-
-	// 			    	let attribute = item.getAttribute("data-slide");
-	// 			    	const parent = item.parentElement.parentElement;
-
-	// 			    	const slides = parent.querySelectorAll(".slide");
-	// 			    	const slide = parent.querySelector("[data-slide='" + attribute + "']");
-
-	// 			    	/*ღილაკის ჰოვერი*/
-	// 			    	item.classList.add("hovered");
-
-	// 			    	let checkFirstHover = false; /*პირველ ჰოვერზე რადგან slide in კლასი არაა რომ დავადოთ slide out, ვიგებთ ამას და პირველ სლაიდს ვადებთ slkide-in კლასს*/
-				    	
-	// 			    	slides.forEach(function(slide){
-	// 			    		if(slide.classList.contains("slide-in")){
-	// 			    			checkFirstHover = true;
-	// 			    		}
-	// 			    	})
-
-	// 			    	/*პირველ ცდაზე slide out კლასს ვადებთ 1 სურათს*/
-	// 			    	if(checkFirstHover === false){
-	// 			    		slides[0].classList.add("slide-out");
-	// 			    		setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
-	// 			    	}else/*ვადებთ slide out კლასს იმ სურათს რომელიც არის გამოტანილი, რომ ავიდეს ზევით*/
-	// 			    	{ 
-	// 				    	slides.forEach(function(slide){
-	// 				    		if(slide.classList.contains("slide-in")){
-	// 				    			slide.classList.add("slide-out")
-	// 				    			slide.classList.remove("slide-in")
-	// 				    			setTimeout(() => slide.classList.remove("slide-out"), 1000);
-	// 				    		}
-	// 				    	})
-	// 				    }
-	// 			    	slide.classList.add("slide-in");
-
-	// 			    },500);
-			    	
-	// 		    	return true;
-	// 		    }
-	// 		    mouseEnter();
-	// 		})
-	// 		item.addEventListener("mouseleave", function(e){
-	// 			const mouseLeave = function(){
-	// 				/*ღილაკის ჰოვერი*/
-	// 				slideBtn.forEach(function(item){
-	// 					item.classList.remove("hovered");
-	// 				})
-
-	// 				clearTimeout(timeout);	
-	// 				timeout = setTimeout(function(){
-
-	// 					const parent = item.parentElement.parentElement;
-	// 					const slides = parent.querySelectorAll(".slide");
-
-	// 					/*ანჰოვერზე გაგვაქვს სლაიდი და შემოგვაქვს პირველი სუღათი*/
-	// 					slides.forEach(function(slide){
-	// 			    		if(slide.classList.contains("slide-in")){
-	// 			    			slide.classList.add("slide-out")
-	// 			    			slide.classList.remove("slide-in")
-	// 			    			setTimeout(() => slide.classList.remove("slide-out"), 1000);
-	// 			    		}
-	// 			    	})
-	// 					slides[0].classList.add("slide-in");
-
-	// 			    },500);
-	// 			}
-	// 			mouseLeave();
-	// 		 })
-
-	// })
-
-	const slideBtn = document.querySelectorAll(".slide-btn");
-	let mouseHover;
-	allowToChange = true;
-
-var allowChange = true,
-	dots = document.querySelectorAll('.slide-btn');
-
-dots.forEach(function(el){
-	el.addEventListener("mousemove", function(e){
-		e.stopPropagation();
-	})
-	el.addEventListener('click',function(e){
-		e.stopPropagation();
-    	if(allowChange){
-    		const mouseEnter = function(){
-    			dots.forEach(function(el){
-					el.classList.remove("hovered");
-
-				})
-    			el.classList.add("hovered");
-	 			let id = el.getAttribute('data-slide');
-	 			let parent = el.parentElement.parentElement;
-	 			let slides = parent.querySelectorAll(".slide");
-	 			let slidesArr = Array.from(slides);
-	 			let slideIn = slides.item(id);
-	 			let slideOut = slidesArr.find(function(item){
-	 				if(item.classList.contains("slide-in")){
-	 					return true;
-	 				}
-	 			})
-	 			let slideOutId;
-	 			if(slideOut != undefined){
-	 				slideOutId = slideOut.getAttribute('data-slide');
-	 			}
-				
-	 			const deleteSlideIn = function(){
-	 				slides.forEach(function(slide){
-						slide.classList.remove("slide-in");
-					})
-	 			}
-
-	 			const deleteSlideOut = function(){
-	 				slides.forEach(function(slide){
-						slide.classList.remove("slide-out");
-					})
-	 			}
-				
-				if(slideOut === undefined){
-					slides[0].classList.add("slide-out");
-					// setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
-					setTimeout(() => deleteSlideOut(), 1000);
-				}else if(slideOutId != id){
-					// slideOut.classList.remove("slide-in");
-					deleteSlideIn();
-					slideOut.classList.add("slide-out");
-					// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
-					setTimeout(() => deleteSlideOut(), 1000);
-				}
-
-				slideIn.classList.add("slide-in");
-	 		}
-	 		mouseEnter();
-        	allowChange = false;
-        	this.style.pointerEvents = 'all';
-            dots.forEach(function(elem){
-            	elem.style.pointerEvents = 'none';
-            })
-            setTimeout(function(){
-            	allowChange = true;
-                dots.forEach(function(elem){
-                    elem.style.pointerEvents = 'all';
-                })
-            },1000)
-        }
-    })
-})
-// document.addEventListener('mousemove',function(){
-// 	if(allowChange){
-//     	const mouseLeave = function(){
-// 			dots.forEach(function(el){
-// 				el.classList.remove("hovered");
-// 			})
-//     		let slideOut = document.querySelector(".slide-in");
-// 			let slides = document.querySelectorAll(".slide");
-
-// 			if(!slides[0].classList.contains("slide-in") && slideOut != undefined){
-// 				slideOut.classList.remove("slide-in");
-// 				slideOut.classList.add("slide-out");
-// 				setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
-				
-// 				slides[0].classList.add("slide-in")
-// 			}	
-// 	 	}
-// 	 	mouseLeave();
-//     }
-// })
-
-let body = document.body;
-body.onclick = function(){
-	if(allowChange){
-    	const mouseLeave = function(){
-			dots.forEach(function(el){
-				el.classList.remove("hovered");
+		dots.forEach(function(el){
+			el.addEventListener("click", function(e){
+				e.stopPropagation();
 			})
-    		let slideOut = document.querySelector(".slide-in");
-			let slides = document.querySelectorAll(".slide");
+			el.addEventListener('click',function(e){
+				e.stopPropagation();
+		    	if(allowChange){
+		    		const mouseEnter = function(){
+		    			dots.forEach(function(el){
+							el.classList.remove("hovered");
 
-			if(slideOut != undefined && slides != undefined)
-				if(!slides[0].classList.contains("slide-in") && slideOut != undefined){
-					slideOut.classList.remove("slide-in");
-					slideOut.classList.add("slide-out");
-					setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
-					
-					slides[0].classList.add("slide-in")
-				}	
-	 	}
-	 	mouseLeave();
-	 	allowChange = false;
-	 	setTimeout(() => allowChange = true, 1000);
-    }
-}
+						})
+		    			el.classList.add("hovered");
+			 			let id = el.getAttribute('data-slide');
+			 			let parent = el.parentElement.parentElement;
+			 			let slides = parent.querySelectorAll(".slide");
+			 			let slidesArr = Array.from(slides);
+			 			let slideIn = slides.item(id);
+			 			let slideOut = slidesArr.find(function(item){
+			 				if(item.classList.contains("slide-in")){
+			 					return true;
+			 				}
+			 			})
+			 			let slideOutId;
+			 			if(slideOut != undefined){
+			 				slideOutId = slideOut.getAttribute('data-slide');
+			 			}
+						
+			 			const deleteSlideIn = function(){
+			 				slides.forEach(function(slide){
+								slide.classList.remove("slide-in");
+							})
+			 			}
 
+			 			const deleteSlideOut = function(){
+			 				slides.forEach(function(slide){
+								slide.classList.remove("slide-out");
+							})
+			 			}
+						
+						if(slideOut === undefined){
+							slides[0].classList.add("slide-out");
+							// setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
+							setTimeout(() => deleteSlideOut(), 1000);
+						}else if(slideOutId != id){
+							// slideOut.classList.remove("slide-in");
+							deleteSlideIn();
+							slideOut.classList.add("slide-out");
+							// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+							setTimeout(() => deleteSlideOut(), 1000);
+						}
+
+						slideIn.classList.add("slide-in");
+			 		}
+			 		mouseEnter();
+		        	allowChange = false;
+		        	this.style.pointerEvents = 'all';
+		            // dots.forEach(function(elem){
+		            // 	elem.style.pointerEvents = 'none';
+		            // })
+		            setTimeout(function(){
+		            	allowChange = true;
+		                dots.forEach(function(elem){
+		                    elem.style.pointerEvents = 'all';
+		                })
+		            },1000)
+		        }
+		    })
+		})
+
+
+		let body = document.body;
+		body.onclick = function(){
+			if(allowChange){
+		    	const mouseLeave = function(){
+					dots.forEach(function(el){
+						el.classList.remove("hovered");
+					})
+		    		let slideOut = document.querySelector(".slide-in");
+					let slides = document.querySelectorAll(".slide");
+
+					if(!slides[0].classList.contains("slide-in") && slideOut != undefined){
+						slideOut.classList.remove("slide-in");
+						slideOut.classList.add("slide-out");
+						setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
+						
+						slides[0].classList.add("slide-in")
+					}	
+			 	}
+			 	mouseLeave();
+			 	allowChange = false;
+			 	setTimeout(() => allowChange = true, 1000);
+		    }
+		}
+	}
 	
 
- 	// slideBtn.forEach(function(button){
-
-		// button.addEventListener('click', function(event){
-		// 	let eventTarget = event.target;
-		// 	button.classList.add("hovered");
-
-	 // 		const mouseEnter = function(){
-	 // 			console.log();
-
-	 // 			// let id = eventTarget.getAttribute('data-slide');
-	 // 			// let parent = eventTarget.parentElement.parentElement;
-	 // 			let id = button.getAttribute('data-slide');
-	 // 			let parent = button.parentElement.parentElement;
-	 // 			let slides = parent.querySelectorAll(".slide");
-	 // 			let slidesArr = Array.from(slides);
-	 // 			let slideIn = slides.item(id);
-	 // 			let slideOut = slidesArr.find(function(item){
-	 // 				if(item.classList.contains("slide-in")){
-	 // 					return true;
-	 // 				}
-	 // 			})
-	 // 			let slideOutId;
-	 // 			if(slideOut != undefined){
-	 // 				slideOutId = slideOut.getAttribute('data-slide');
-	 // 			}
-				
-	 // 			const deleteSlideIn = function(){
-	 // 				slides.forEach(function(slide){
-		// 				slide.classList.remove("slide-in");
-		// 			})
-	 // 			}
-
-	 // 			const deleteSlideOut = function(){
-	 // 				slides.forEach(function(slide){
-		// 				slide.classList.remove("slide-out");
-		// 			})
-	 // 			}
-				
-		// 		if(slideOut === undefined){
-		// 			slides[0].classList.add("slide-out");
-		// 			// setTimeout(() => slides[0].classList.remove("slide-out"), 1000);
-		// 			setTimeout(() => deleteSlideOut(), 1000);
-		// 		}else if(slideOutId != id){
-		// 			// slideOut.classList.remove("slide-in");
-		// 			deleteSlideIn();
-		// 			slideOut.classList.add("slide-out");
-		// 			// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
-		// 			setTimeout(() => deleteSlideOut(), 1000);
-		// 		}
-
-		// 		slideIn.classList.add("slide-in");
-	 // 		}
-
-
-		// 	if(allowToChange){
-		// 		mouseEnter();
-		// 		allowToChange = false;
-		// 		setTimeout(() => allowToChange = true, 1000);
-		// 	}		
-
-	 		
- 	// 	})
-
- 		
-		// document.body.addEventListener('click', function(event){
-		// 	let eventTarget = event.target;
-		// 	button.classList.remove("hovered");
-			
-
- 	// 		const mouseLeave = function(){
- 	// 			// allowToChange = false;
-	 			
-		// 		// setTimeout(() => allowToChange = value, 1000);
-	 			
-
-	 // 			let id = eventTarget.getAttribute('data-slide');
-	 // 			let parent = eventTarget.parentElement.parentElement;
-	 // 			let slides = parent.querySelectorAll(".slide");
-		// 		let slideOut = slides.item(id);
-		// 		let slideIn = slides[0];
-
-
-		// 		const deleteSlideIn = function(){
-	 // 				slides.forEach(function(slide){
-		// 				slide.classList.remove("slide-in");
-		// 			})
-	 // 			}
-
-	 // 			const deleteSlideOut = function(){
-	 // 				slides.forEach(function(slide){
-		// 				slide.classList.remove("slide-out");
-		// 			})
-	 // 			}
-
-				
-
-		// 		// slideOut.classList.remove("slide-in");
-		// 		deleteSlideIn();
-		// 		slideOut.classList.add("slide-out");
-		// 		slideIn.classList.add("slide-in");
-		// 		// setTimeout(() => slideOut.classList.remove("slide-out"), 1000);
-		// 		setTimeout(() => deleteSlideOut(), 1000);
-	 // 		}
-
-
-	 // 		// clearTimeout(mouseHover);
-		// 		// mouseHover = setTimeout(function(eventTarget){
-					
-		// 			if(allowToChange){
-		// 				mouseLeave();
-		// 				allowToChange = false;
-		// 				setTimeout(() => allowToChange = true, 1000);
-		// 			}
-					
-	 // 				// mouseLeave();
-	 			
-	 // 		// },500)
-
- 	// 	})
-		
- 		
- 		
- 	// })
-
-
- 	const mouseEnter = function(button){
-
- 	}
-
- 	// if (document.querySelector('.head-slider') != undefined) {
-
- 	// 	var lastItem = null,
- 	// 		sliderItems = document.querySelectorAll('.head-slider .slide-btn'),
- 	// 		sliderItemsAll = document.querySelectorAll('.head-slider .slide-btn *'),
- 	// 		allowToChange = true;
-
- 	// 	document.addEventListener('mousemove',function(e){
- 	// 		lastItem = e.target;
- 	// 	})
-
- 	// 	sliderItemsAll.forEach(function(el){
- 	// 		el.addEventListener('mousemove',function(e){
- 	// 			e.stopPropagation()
- 	// 		})
- 	// 	})
 
 
 
-
- 	// }
 
 	/*start of direction with hover*/
 
 	const direction = document.querySelectorAll(".direction");
 	let timeout;
 
-	direction.forEach(function(item){
-		const text = item.querySelector(".text");
-		const txt = item.querySelector(".txt");
-		const hover = item.querySelector(".hover");
+	function directionWithHover(){
+		direction.forEach(function(item){
+			const text = item.querySelector(".text");
+			const txt = item.querySelector(".txt");
+			const hover = item.querySelector(".hover");
 
-		const hoverHeight = hover.offsetHeight;
-		const textHeight = text.offsetHeight;
+			const hoverHeight = hover.offsetHeight;
+			const textHeight = text.offsetHeight;
 
 
-		txt.style.height = textHeight + 'px';
+			txt.style.height = textHeight + 'px';
 
-		
-		item.addEventListener("mouseenter", function(){
-			clearTimeout(timeout);	
-			timeout = setTimeout(function(){
-				setTimeout(() => txt.style.height = hoverHeight + 'px', 0);
-				setTimeout(() => text.classList.add("hide"), 0);
-				txt.classList.add("hovered");
-			},0);
+			
+			item.addEventListener("mouseenter", function(){
+				clearTimeout(timeout);	
+				timeout = setTimeout(function(){
+					setTimeout(() => txt.style.height = hoverHeight + 'px', 0);
+					setTimeout(() => text.classList.add("hide"), 0);
+					txt.classList.add("hovered");
+				},0);
+			})
+
+			item.addEventListener("mouseleave", function(){
+				clearTimeout(timeout);	
+				timeout = setTimeout(function(){
+					setTimeout(() => txt.style.height = textHeight + 'px', 0);
+					setTimeout(() => text.classList.remove("hide"), 0);
+					txt.classList.remove("hovered");
+				},200);
+			})
+
+
 		})
-
-		item.addEventListener("mouseleave", function(){
-			clearTimeout(timeout);	
-			timeout = setTimeout(function(){
-				setTimeout(() => txt.style.height = textHeight + 'px', 0);
-				setTimeout(() => text.classList.remove("hide"), 0);
-				txt.classList.remove("hovered");
-			},200);
-		})
-
-
-	})
+	}
+	directionWithHover();
+	$(window).resize(function(){
+	    directionWithHover();
+	});
 
 	/*start of checkbox star rate */
 

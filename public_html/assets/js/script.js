@@ -437,7 +437,7 @@ var packagesSlideDown = function () {
         } else {
             $(this).removeClass("active");
         }
-        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(1000);
+        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(600);
     });
 }
 packagesSlideDown();
@@ -460,18 +460,18 @@ var compare = function () {
 
 
 // Faq List Slider
-var mySwiper = undefined;
+var faqSwiper = undefined;
 function initSwiper() {
     var screenWidth = $(window).width();
-    if (screenWidth < 767 && mySwiper == undefined) {
-        mySwiper = new Swiper('.faq-list', {
+    if (screenWidth < 767 && faqSwiper == undefined) {
+        faqSwiper = new Swiper('.faq-list', {
             slidesPerView: 'auto',
             spaceBetween: 50,
             freeMode: true
         });
-    } else if (screenWidth > 766 && mySwiper != undefined) {
-        mySwiper.destroy();
-        mySwiper = undefined;
+    } else if (screenWidth > 766 && faqSwiper != undefined) {
+        faqSwiper.destroy();
+        faqSwiper = undefined;
         jQuery('.swiper-wrapper').removeAttr('style');
         jQuery('.swiper-slide').removeAttr('style');
     }
@@ -511,6 +511,7 @@ var clinicsSlider1 = new Swiper('.individual', {
             spaceBetween: 15,
         },
         768: {
+            slidesPerView: 2,
             spaceBetween: 15,
         },
         1024: {
@@ -569,8 +570,8 @@ $('#tabCorporate').click(function () {
 // service tab stick function
 var insuranceSwitch = function () {
     var navLinks = document.querySelectorAll('.tab-link'),
-        nav = document.querySelector('.services-tabs'),
-        stick = document.querySelector('.services-tabs .stick'),
+        nav = document.querySelector('.insurance-tabs'),
+        stick = document.querySelector('.insurance-tabs .stick'),
         result,
         activeElem;
 

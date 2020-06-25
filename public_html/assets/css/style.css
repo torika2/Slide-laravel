@@ -2760,8 +2760,95 @@ input:focus::-webkit-input-placeholder {
     margin-right: 0;
     border: none;
 }
+.insurance-tab-container .tab-link.current {
+    color: #fff;
+    background: transparent;
+}
+.insurance-tab-container .provider-img-box img {
+    max-width: 90px;
+}
+@media(max-width: 1679px) {
+    .insurance-tab-container .provider-clinics-slider .swiper-slide {
+        height: 248px;
+    }
+    .slide-text.font-21 {
+        font-size: 16px;
+    }
+}
+@media(max-width: 1365px) {
+    .insurance-tab-container .provider-clinics-slider .swiper-slide {
+        height: 213px;
+    }
+    .insurance-tab-container .tab-link {
+        height: 30px;
+        font-size: 13px;
+    }
+    .slide-text.font-21 {
+        font-size: 13px;
+    }
+}
+@media(max-width: 767px) {
+    .insurance-tab-container .tab-link {
+        width: 50%;
+    }
+}
 
+/* Career head */
+.directionTabHead.career-head {
+    height: 700px;
+}
+.career-head .directionHeadTab {
+    padding-left: 15px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    height: 79px;
+}
+.career-head .directionHeadTabsCont {
+    bottom: 40px;
+}
+.career-head h1 {
+    margin-bottom: 193px;
+}
 
+@media(max-width: 1900px) {
+    .directionTabHead.career-head {
+        height: 650px;
+    }
+}
+@media(max-width: 1365px) {
+    .directionTabHead.career-head {
+        height: 450px;
+    }
+    .career-head h1 {
+        margin-bottom: 125px;
+    }
+    .career-head .directionHeadTab {
+        padding: 0 10px;
+        height: 40px;
+    }
+
+}
+@media(max-width: 1023px) {
+    .directionTabHead.career-head {
+        height: 360px;
+    }
+    .career-head h1 {
+        margin-bottom: 70px;
+    }
+    .career-head .directionHeadTabs {
+        margin-left: 15px;
+    }
+}
+.banner-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1023px) {
+    .banner-logo {
+        margin-bottom: 10px;
+    }
+}
 
 
 /* Component Z-index */
@@ -2769,10 +2856,14 @@ input:focus::-webkit-input-placeholder {
 .faq-section,
 .social-banner,
 .head-banner,
-.container-secondary,
+.packages-outer,
 .provider-clinics-section,
 .scheme-container,
 .mission-banner {
     position: relative;
     z-index: 10;
+}
+
+.page-business-risks-inner .ltlCommercialContainer.m-t-144 {
+    margin-top: 0;
 }

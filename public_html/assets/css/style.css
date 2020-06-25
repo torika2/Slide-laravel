@@ -2839,6 +2839,16 @@ input:focus::-webkit-input-placeholder {
         margin-left: 15px;
     }
 }
+.banner-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1023px) {
+    .banner-logo {
+        margin-bottom: 10px;
+    }
+}
 
 
 /* Component Z-index */

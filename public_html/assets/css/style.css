@@ -2842,18 +2842,17 @@ input:focus::-webkit-input-placeholder {
 
 
 /* Component Z-index */
-
-/* .became-member,
+.became-member,
 .faq-section,
 .social-banner,
 .head-banner,
-.container-secondary,
+.packages-outer,
 .provider-clinics-section,
 .scheme-container,
 .mission-banner {
     position: relative;
     z-index: 10;
-} */
+}
 
 .page-business-risks-inner .ltlCommercialContainer.m-t-144 {
     margin-top: 0;

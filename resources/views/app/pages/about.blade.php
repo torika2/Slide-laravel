@@ -80,6 +80,7 @@
 @include('app.layout.components.newsOuter')
 @include('app.layout.components.fullWidthNews')
 @include('app.layout.components.becomeMember')
+@include('app.layout.components.partnersSlider')
 
 <div class="awards-container m-t-144">
     <div class="heading">

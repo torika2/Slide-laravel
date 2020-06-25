@@ -195,7 +195,9 @@
     opacity: 0.5;
     transition: 0.8s;
 }
-
+.faq-section ~ .ltlCommercialContainer.m-t-144 {
+    margin-top: 0;
+}
 /* hover */
     .faq-slider .swiper-slide:hover {
         background: #FCB618;

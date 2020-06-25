@@ -332,6 +332,10 @@ Route::get('/third-party', function () {
 Route::get('/media-release', function () {
     return view('app.pages.mediaRelease');
 });
+Route::get('/provider-clinics', function () {
+    return view('app.pages.providerClinics');
+});
+
 
 Route::get('/media-gallery', function () {
     return view('app.pages.mediaGallery');

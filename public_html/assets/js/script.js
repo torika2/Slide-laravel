@@ -460,18 +460,18 @@ var compare = function () {
 
 
 // Faq List Slider
-var mySwiper = undefined;
+var faqSwiper = undefined;
 function initSwiper() {
     var screenWidth = $(window).width();
-    if (screenWidth < 767 && mySwiper == undefined) {
-        mySwiper = new Swiper('.faq-list', {
+    if (screenWidth < 767 && faqSwiper == undefined) {
+        faqSwiper = new Swiper('.faq-list', {
             slidesPerView: 'auto',
             spaceBetween: 50,
             freeMode: true
         });
-    } else if (screenWidth > 766 && mySwiper != undefined) {
-        mySwiper.destroy();
-        mySwiper = undefined;
+    } else if (screenWidth > 766 && faqSwiper != undefined) {
+        faqSwiper.destroy();
+        faqSwiper = undefined;
         jQuery('.swiper-wrapper').removeAttr('style');
         jQuery('.swiper-slide').removeAttr('style');
     }

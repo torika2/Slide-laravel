@@ -358,6 +358,26 @@ window.onload = function () {
         })
     }
 
+    if (document.querySelector('.partners-slider-container') != undefined) {
+        var partnersSlider = new Swiper('.partners-slider-container .swiper-container', {
+            speed: 400,
+            spaceBetween: 0,
+            slidesPerView: 5,
+            watchOverflow: true,
+            breakpoints: {
+              320: {
+                slidesPerView: 1.5
+              },
+              768: {
+                slidesPerView: 3
+              },
+              1024: {
+                slidesPerView: 5
+              }
+            }
+        });
+    }
+
     var smartBox = {
         init : function(){
             // სმარტ ბოქსის სლაიდერებ

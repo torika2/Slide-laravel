@@ -1,8 +1,8 @@
 <section class="packagesGridContainer container m-t-144">
-    <h2 class="fira-bold font-55 text-center">რატომ დავაზღვიო პაკეტი მედით? ჰა?</h2>
+    <h2 class="fira-bold font-55 text-center kfn_anim k-fadeUp">რატომ დავაზღვიო პაკეტი მედით? ჰა?</h2>
     <div class="packagesGridInner">
 
-        <div class="packageGrid">
+        <div class="packageGrid kfn_anim k-fadeUp">
             <div class="packageItem">
                 <div class="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.359" height="67.284" viewBox="0 0 66.359 67.284">
@@ -50,7 +50,7 @@
                 <div class="txt">როგორც ჰიგიენური წმენდა, ასევე რთული ქირურგიული ოპერაციების დაფინანსება.</div>
             </div>
         </div>
-       <div class="packageGrid">
+        <div class="packageGrid kfn_anim k-fadeUp">
            <div class="packageItem">
                <div class="icon">
                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.507" height="46.94" viewBox="0 0 68.507 46.94">
@@ -97,7 +97,7 @@
                <div class="txt">ირჩევთ კლინიკას, სადაც იქნება თქვენი პირადი ექიმი/პედიატრი და მიიღებთ ყველა სახის სამედიცინო მომსახურებას</div>
            </div>
        </div>
-        <div class="packageGrid">
+        <div class="packageGrid kfn_anim k-fadeUp">
             <div class="packageItem">
                 <div class="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.892" height="76.817" viewBox="0 0 64.892 76.817">

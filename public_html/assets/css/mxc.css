@@ -1797,7 +1797,7 @@ body.animate .directionTabHead{
     text-decoration: underline;
     opacity: 1;
 }
-.directionHeadTabsCont h3{
+.directionHeadTabsCont h1{
     color: #fff;
     margin-bottom: 20px;
 }
@@ -2510,6 +2510,110 @@ body.animate .picturesContainer.animated .picturesMain{
     border-color: #EE2A7B;
     color: #EE2A7B;
 }
+.providerClinicsSubTxt a{
+    transition: .6s ease-in-out;
+    color: #EE2A7B;
+}
+.providerClinicsSubTxt a:hover{
+    color: #C20B56;
+}
+.providerClinicsSubTxt{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.provClSubTtl{
+    font-size: 21px;
+}
+.provClLtlTtl{
+    font-size: 13px;
+    color: #EE2A7B;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.providerClinicsList{
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
+    padding: 45px 50px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.providerClinicsListContainer{
+    margin-bottom: 20px;
+}
+.providerClinicsFrst,.providerClinicsScnd{
+    display: flex;
+    align-items: center;
+}
+.providerClinicsList .providerLogo img{
+    height: 50px;
+}
+.providerClinicsList .providerLogo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.providerClinicsFrst{
+    width: 36%;
+}
+.providerClinicsScnd{
+    width: 45%;
+}
+.providerClinicsList .name{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100% - 200px);
+    position: relative;
+}
+.providerClinicsList .address{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100% - 225px);
+    position: relative;
+}
+.providerClinicsList .mob{
+    width: 225px;
+}
+.dashedLine{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.dashedLine:after{
+    content: '';
+    height: 30px;
+    width: 1px;
+    display: flex;
+    background-image: linear-gradient(to top, #CFCFCF 50%, rgba(145, 153, 180, 0) 0%);
+    background-position: left;
+    background-size: 1px 10px;
+    background-repeat: repeat-y;
+}
+.providerClinicsList .mob{
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    transition: .6s ease-in-out;
+}
+.providerClinicsList .mob:hover,.providerClinicsList .direction:hover{
+    color: #EE2A7B;
+
+}
+.providerClinicsList .direction{
+    display: flex;
+    align-items: center;
+    transition: .6s ease-in-out;
+    padding-left: 15px;
+    position: relative;
+}
+.providerClinicsList .direction svg{
+    margin-right: 15px;
+}
 /*laptop 1680*/
 @media (max-width: 1900px){
 
@@ -2553,6 +2657,25 @@ body.animate .picturesContainer.animated .picturesMain{
 
 /*laptop 1366*/
 @media (max-width: 1679px){
+    .providerClinicsList{
+        padding: 25px 30px;
+    }
+    .providerClinicsList .address{
+        width: calc(100% - 180px);
+    }
+    .providerClinicsList .mob {
+        width: 180px;
+    }
+    .providerClinicsScnd {
+        width: 47%;
+    }
+    .providerClinicsList .name{
+        width: calc(100% - 170px);
+    }
+
+    .providerClinicsList .providerLogo{
+        width: 170px;
+    }
     .mediaRelease .ttlInn{
         font-size: 16px;
     }
@@ -2637,6 +2760,42 @@ body.animate .picturesContainer.animated .picturesMain{
 
 /*ipad pro 1024*/
 @media (max-width: 1365px){
+    .providerClinicsList .direction{
+        margin-right: auto;
+        padding-left: 0px;
+    }
+    .providerClinicsList .mob {
+        width: 210px;
+    }
+    .providerClinicsList .address .dashedLine,.direction .dashedLine{
+        display: none;
+    }
+    .providerClinicsList .address {
+        width: calc(100% - 210px);
+        padding-left: 0px;
+    }
+    .providerClinicsList .providerLogo {
+        width: 200px;
+    }
+    .providerClinicsFrst{
+        width: 100%;
+    }
+    .providerClinicsList{
+        padding: 45px 50px;
+    }
+    .providerClinicsScnd{
+        width: 100%;
+        margin-top: 33px;
+        padding-top: 20px;
+        margin-bottom: 25px;
+        background-image: linear-gradient(to right, #CFCFCF 50%, rgba(145, 153, 180, 0) 0%);
+        background-position: top;
+        background-size: 10px 1px;
+        background-repeat: repeat-x;
+    }
+    .providerClinicsList{
+        flex-direction: column;
+    }
     .mediaRelease {
         width: calc(100% / 2 - 10px);
     }
@@ -3243,6 +3402,67 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .providerClinicsList .direction svg{
+        transform: scale(.8);
+        margin-right: 10px;
+    }
+    .providerClinicsList .direction{
+        font-size: 13px;
+    }
+    .providerClinicsList .mob{
+        width: 100%;
+        font-size: 13px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .providerClinicsScnd{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .providerClinicsList .address{
+        font-size: 13px;
+        width: 100%;
+    }
+    .providerClinicsList .mob .dashedLine{
+        display: none;
+    }
+    .providerClinicsScnd{
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .providerClinicsList .name{
+        width: 100%;
+        justify-content: center;
+        padding: 0px;
+        display: flex;
+        margin-top: 20px;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .providerClinicsList .name .dashedLine{
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .providerClinicsList .name .dashedLine:after{
+        width: 30px;
+        height: 1px;
+        background-image: linear-gradient(to right, #CFCFCF 50%, rgba(145, 153, 180, 0) 0%);
+        background-position: top;
+        background-size: 10px 1px;
+        background-repeat: repeat-x;
+    }
+    .providerLogo{
+        width: 100%;
+        justify-content: center;
+    }
+    .providerClinicsFrst{
+        flex-direction: column;
+    }
+    .providerClinicsList{
+        padding: 25px 20px;
+        margin-bottom: 10px;
+    }
     .mediaRelDescr a{
         font-size: 13px;
         margin-top: 5px;
@@ -3418,7 +3638,7 @@ body.animate .picturesContainer.animated .picturesMain{
     .directHeadContainer {
         margin-top: -150px;
     }
-    .directionHeadTabsCont h3{
+    .directionHeadTabsCont h1{
         width: 45%;
         margin-left: auto;
         margin-right: auto;

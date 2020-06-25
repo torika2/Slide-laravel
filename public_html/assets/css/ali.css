@@ -5206,9 +5206,39 @@ input:focus::-webkit-input-placeholder {
   opacity: 1;
   pointer-events: all;
 }
-
-
-
+.page-about-partners .packageGrid:nth-child(2) {
+  margin-top: 0px;
+}
+.page-about-partners .packagesGridInner{
+  margin-top: 55px;
+}
+.page-about-partners .bottom-line{
+  background-color: #EE2A7B;
+}
+.page-about-partners .component-content .btn-white{
+  padding: 0 15px;
+  height: 50px;
+}
+.page-about-partners .component-content .btn-white span:first-child{
+  margin-right: 5px;
+  transition: 0.6s;
+  font-size: 21px;
+}
+.page-about-partners .component-content .btn-white span:last-child{
+  font-size: 21px;
+  color:#EE2A7B;
+  transition: 0.6s;
+}
+@media(min-width: 1024px){
+  .page-about-partners .component-content .btn-white:hover span{
+    color: #fff;
+  }
+}
+@media(max-width: 767px){
+  .page-about-partners .component-content .btn-white span{
+    font-size: 16px !important;
+  }
+}
 /*brand platform*/
 .page-brand-platform .directHeadInner > .ttl{
   margin-bottom: 34px;

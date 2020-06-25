@@ -65,4 +65,6 @@
 	@include('app.layout.components.becomeMember')
 	@include('app.layout.components.teamContainer')
 
+	
+
 @endsection

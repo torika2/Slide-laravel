@@ -1,4 +1,7 @@
- 
+@extends('app.layout.app')
+@section('pageName')about-mission @endsection
+@section('content')
+	@include('app.layout.components.directionTabHead')
 	<div class="directHeadContainer">
 		<div class="directHeadInner">
 			<div class="fira-bold font-34 ttl">მისია მიზანი</div>
@@ -59,5 +62,7 @@
 		</div>
 	</div>
 	@include('app.layout.components.bonusServices')
+	@include('app.layout.components.becomeMember')
+	@include('app.layout.components.teamContainer')
 
 @endsection

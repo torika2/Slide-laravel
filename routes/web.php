@@ -374,4 +374,9 @@ Route::get('/resume', function () {
 
 });
 
+Route::get('/suggestion', function () {
+    return view('app.pages.suggestion');
+
+});
+
 

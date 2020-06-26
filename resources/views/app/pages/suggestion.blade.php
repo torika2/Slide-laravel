@@ -65,7 +65,7 @@
 						</div>
 						<div class="text-container">
 							<div class="side">
-								<img src="{{asset('assets/img/businessHead.jpg')}}" alt="">
+								<img src="{{asset('assets/img/Curatio.jpg')}}" alt="">
 								<img src="{{asset('assets/img/Path 9690.svg')}}" alt="" id="line">
 							</div>
 							<div class="side">
@@ -101,7 +101,7 @@
 						</div>
 						<div class="text-container">
 							<div class="side">
-								<img src="{{asset('assets/img/businessHead.jpg')}}" alt="">
+								<img src="{{asset('assets/img/Curatio.jpg')}}" alt="">
 								<img src="{{asset('assets/img/Path 9690.svg')}}" alt="" id="line">
 							</div>
 							<div class="side">
@@ -137,7 +137,7 @@
 						</div>
 						<div class="text-container">
 							<div class="side">
-								<img src="{{asset('assets/img/businessHead.jpg')}}" alt="">
+								<img src="{{asset('assets/img/Curatio.jpg')}}" alt="">
 								<img src="{{asset('assets/img/Path 9690.svg')}}" alt="" id="line">
 							</div>
 							<div class="side">
@@ -173,7 +173,7 @@
 						</div>
 						<div class="text-container">
 							<div class="side">
-								<img src="{{asset('assets/img/businessHead.jpg')}}" alt="">
+								<img src="{{asset('assets/img/Curatio.jpg')}}" alt="">
 								<img src="{{asset('assets/img/Path 9690.svg')}}" alt="" id="line">
 							</div>
 							<div class="side">

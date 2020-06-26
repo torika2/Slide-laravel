@@ -1,4 +1,4 @@
-<div class="partners">
+<div class="kfn_anim k-fadeUp partners">
 	<div class="fira-bold font-34 ttl">ჩვენი პარტნიორები</div>
 	<div class="partners-list">
 		<a href="" class="partner">

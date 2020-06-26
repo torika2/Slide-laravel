@@ -1,4 +1,4 @@
-<div class="m-t-144 full-width-news">
+<div class="kfn_anim k-fadeUp m-t-144 full-width-news">
     <div class="container">
         <h2 class="ttl">
             <span class="font-55 fira-bold">იცხოვრე,</span>
@@ -16,7 +16,7 @@
         </div>
         <time class="noto-medium font-21">25 dec 2020</time>
 
-        <div class="fira-bold font-34 subtitle">
+        <div class="kfn_anim k-fadeUp fira-bold font-34 subtitle">
             ცხოვრების ყველა ეტაპზე ცხოვრების ყველა ეტაპზეცხოვრების ყველა ეტაპზეცხოვრების 
         </div>
     </div>

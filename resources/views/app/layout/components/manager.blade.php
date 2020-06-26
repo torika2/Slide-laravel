@@ -1,4 +1,4 @@
-<div class="manager">
+<div class="kfn_anim k-fadeUp manager">
 	<div class="img-box">
 		<picture>
             <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/became.png">

@@ -1,6 +1,6 @@
-<div class="package-cont">
-	<div class="package-inner">
-		<div class="policy-compare">
+<div class="kfn_anim k-fadeUp package-cont">
+	<div class="kfn_anim k-fadeUp package-inner">
+		<div class="kfn_anim k-fadeUp policy-compare">
 			
 			<div class="fira-bold font-21 ttl">
 				სადაზღვეო კომპანია

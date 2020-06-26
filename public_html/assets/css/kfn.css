@@ -688,6 +688,7 @@ body , html {
   color: white;
   position: absolute;
   top: 50%;
+  padding: 0 50px;
   transform: translate(0,-50%);
 }
 .about-container .swiper-container .swiper-slide {

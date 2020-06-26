@@ -1849,6 +1849,8 @@ form .input .content input {
   all: inherit;
   color: #EE2A7B;
   display: inline-flex;
+  font-size: inherit;
+  font-family: inherit;
 }
 .directHeadContainer.vacancy .main-container .item .box .text-container .side:nth-child(2) .foot {
   display: flex;

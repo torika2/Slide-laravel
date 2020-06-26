@@ -490,7 +490,9 @@
 .package-box > div:last-child {
     height: 100%;
 }
-
+.page-insurance-package .faq-slider.p-b-144 {
+    padding-bottom: 0;
+}
 /* hover */
 @media(min-width: 1025px) {
     .package-box:hover {

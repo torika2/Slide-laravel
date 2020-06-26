@@ -596,6 +596,10 @@ body , html {
   box-shadow: 0px 0px 20px 0px rgba(0,153,255,0.1);
 }
 .ecoist-page-container .main-container .row .side a span {
+  transition: .6s;
+}
+.ecoist-page-container .main-container .row .side a:hover span {
+  color: #ef3582;
 }
 @media (max-width: 767px){
   .ecoist-page-container .heading .side:nth-child(1) {

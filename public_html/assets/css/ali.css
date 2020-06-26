@@ -1792,6 +1792,7 @@ input:focus::-webkit-input-placeholder {
   margin-top: 67px;
 }
 .branches .tabs{
+  position: relative;
   display: flex;
   justify-content: space-between;
   height: 50px;
@@ -1809,6 +1810,7 @@ input:focus::-webkit-input-placeholder {
   border-radius: 8px;
   transition: 0.6s;
   cursor: pointer;
+  z-index: 10;
 }
 .branches .tabs > div span{
   color: #9199B4;
@@ -1817,20 +1819,33 @@ input:focus::-webkit-input-placeholder {
 .branches .tabs > div span:last-child{
   display: none;
 }
-.branches .tabs > div.active{
+/*.branches .tabs > div.active{
   background-color: #EE2A7B;
-}
+}*/
 .branches .tabs > div.active span{
   color: #fff;
 }
-
+.branches .tabs > .bg{
+  position: absolute;
+  width: calc(50% - 10px);
+  height: calc(100% - 10px);
+  top: 5px;
+  left: 5px;
+  background-color: #EE2A7B;
+  z-index: 5;
+ transition: 0.3s ease-in-out;
+ pointer-events: none;
+}
+.branches .right.tabs > .bg{
+ transform: translateX(calc(100% + 10px));
+}
 @media(min-width: 1024px){
-  .branches .tabs > div:hover{
+  /*.branches .tabs > div:hover{
     background-color: #EE2A7B;
-  }
-  .branches .tabs > div:hover span{
+  }*/
+  /*.branches .tabs > div:hover span{
     color: #fff;
-  }
+  }*/
 }
 .page-contact .tabs{
   margin-top: 30px;
@@ -3623,12 +3638,28 @@ body.page-policy-compare.animate .head {
   height: 395px;
 }
 
+.page-article .kfn-video-container .wrapper h2{
+  display: none;
+}
+.page-article .kfn-video-container .wrapper #open-video{
+  right: 50%;
+  transform: translate(50%,-50%);
+}
+.page-article .kfn-video-container.container{
+  padding: 0 155px;
+}
+.page-article .kfn-video-container .wrapper{
+  padding-top: 46.7%;
+}
 @media(max-width: 1900px){
 
 }
 @media(max-width: 1679px){
   .page-article .news-outer .container{
     padding: 0 131px;
+  }
+  .page-article .kfn-video-container.container{
+    padding: 0;
   }
 }
 @media(max-width: 1365px){
@@ -3674,6 +3705,14 @@ body.page-policy-compare.animate .head {
     left: -8px;
     height: 67px;
     bottom: -4px;
+  }
+  .page-article .kfn-video-container .wrapper #open-video{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+  }
+  .page-article .kfn-video-container .wrapper {
+    padding-top: 56.7%;
   }
 }
 

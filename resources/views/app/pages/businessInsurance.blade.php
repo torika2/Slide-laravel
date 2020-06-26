@@ -10,6 +10,8 @@
 
 @include('app.layout.components.insuranceTabs')
 
+@include('app.layout.components.videoContainer')
+
 @include('app.layout.components.counter')
 
 @endsection

@@ -585,28 +585,28 @@ $('#tabCorporate').click(function () {
 
 
 // service tab stick function
-// var insuranceSwitch = function () {
-//     var navLinks = document.querySelectorAll('.tab-link'),
-//         nav = document.querySelector('.insurance-tabs'),
-//         stick = document.querySelector('.insurance-tabs .stick'),
-//         result,
-//         activeElem;
+var insuranceSwitch = function () {
+    var navLinks = document.querySelectorAll('.tab-link'),
+        nav = document.querySelector('.insurance-tabs'),
+        stick = document.querySelector('.insurance-tabs .stick'),
+        result,
+        activeElem;
 
-//     navLinks.forEach(function (elem) {
-//         if (elem.classList.contains('current')) {
-//             result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
-//             stick.style.width = elem.clientWidth + 'px';
-//             stick.style.transform = 'translate(' + result + 'px,0)';
-//             activeElem = elem;
-//         }
-//         elem.addEventListener('click', function () {
-//             result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
-//             stick.style.width = this.clientWidth + 'px';
-//             stick.style.transform = 'translate(' + result + 'px,0)';
-//         })
-//     })
-// }
-// insuranceSwitch();
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+        })
+    })
+}
+insuranceSwitch();
 
 $(window).resize(function () {
     setTimeout(function () {

@@ -177,6 +177,9 @@
 					<span class="noto-bold">სამედიცინო დეპარტამენტი</span>
 					<span class="noto-bold">სამედიცინო</span>
 				</div>
+				<div class="bg">
+					
+				</div>
 			</div>
 
 			<div id="branches-grid-wrap">

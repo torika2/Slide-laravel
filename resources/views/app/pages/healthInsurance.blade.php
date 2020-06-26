@@ -1,5 +1,5 @@
 @extends('app.layout.app')
-
+@section('pageName')insurance-package @endsection
 @section('content')
 
 <section class="head-banner kfn_anim k-fadeUp">

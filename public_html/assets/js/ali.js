@@ -374,6 +374,8 @@ $(document).ready(function () {
                 }
                 let branchId = item.children[i].getAttribute("data-branch");
                 setTimeout(() => $('#' + branchId).slideDown(), 600);
+
+                item.classList.toggle("right");
             }
         }
     })

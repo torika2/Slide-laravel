@@ -1861,6 +1861,7 @@ form .input .content input {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  color: #9199B4;
 }
 .directHeadContainer.vacancy .main-container .item .box .text-container .side:nth-child(2) .foot .address {
   color: #9199B4;

@@ -1183,6 +1183,7 @@ body {
 .smart-box-container.container {
   position: relative;
   display: flex;
+  display: none;
   padding-right: 145px;
   padding-top: 70px;
 }

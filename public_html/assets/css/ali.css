@@ -2288,8 +2288,8 @@ body.page-policy-details.animate .head {
   border-radius: 8px;
   padding: 0 15px;
   transition: 0.6s;
-  width: -webkit-max-content;
-  width: -moz-max-content;
+ /* width: -webkit-max-content;
+  width: -moz-max-content;*/
   min-width: 220px;
   background: rgba(255, 255, 255, 0.1);
 }

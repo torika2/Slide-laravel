@@ -16,7 +16,7 @@
         </div>
         <time class="noto-medium font-21">25 dec 2020</time>
 
-        <div class="kfn_anim k-fadeUp fira-bold font-34 subtitle">
+        <div class="kfn_anim k-fadeUp fira-bold font-21 subtitle">
             ცხოვრების ყველა ეტაპზე ცხოვრების ყველა ეტაპზეცხოვრების ყველა ეტაპზეცხოვრების 
         </div>
     </div>

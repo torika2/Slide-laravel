@@ -1835,6 +1835,7 @@ input:focus::-webkit-input-placeholder {
   z-index: 5;
  transition: 0.3s ease-in-out;
  pointer-events: none;
+ border-right: 8px;
 }
 .branches .right.tabs > .bg{
  transform: translateX(calc(100% + 10px));
@@ -2613,6 +2614,7 @@ body.page-policy-details.animate .head {
   cursor: pointer;
 
   width: 45px;
+  min-width: 45px;
 }
 .package-details-list .info > svg{
   position: absolute;
@@ -2769,6 +2771,7 @@ body.page-policy-details.animate .head {
   }
   .package-details-list .info{
     width: 40px;
+    min-width: 40px;
   }
   .package-details-list .description > div:last-child svg{
     display: block;

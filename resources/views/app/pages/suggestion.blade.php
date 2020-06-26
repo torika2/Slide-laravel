@@ -50,9 +50,9 @@
 	<section class="directHeadContainer vacancy suggesstion">
 		<div class="white--container">
 			<div class="header">
-				<h2 class="font-34 fira-bold kfn_anim k-fadeUp">
+				<h1 class="font-34 fira-bold kfn_anim k-fadeUp">
 					საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა.
-				</h2>
+				</h1>
 				<div class="text kfn_anim k-fadeUp">
 					საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია. განსაკუთრებული პოპულარობა მას 1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული.
 				</div>
@@ -65,7 +65,7 @@
 						</div>
 						<div class="text-container">
 							<div class="side">
-								<img src="{{asset('assets/img/businessHead.jpg')}}" alt="">
+								<img src="{{asset('assets/img/Curatio.jpg')}}" alt="">
 								<img src="{{asset('assets/img/Path 9690.svg')}}" alt="" id="line">
 							</div>
 							<div class="side">
@@ -101,7 +101,7 @@
 						</div>
 						<div class="text-container">
 							<div class="side">
-								<img src="{{asset('assets/img/businessHead.jpg')}}" alt="">
+								<img src="{{asset('assets/img/Curatio.jpg')}}" alt="">
 								<img src="{{asset('assets/img/Path 9690.svg')}}" alt="" id="line">
 							</div>
 							<div class="side">
@@ -137,7 +137,7 @@
 						</div>
 						<div class="text-container">
 							<div class="side">
-								<img src="{{asset('assets/img/businessHead.jpg')}}" alt="">
+								<img src="{{asset('assets/img/Curatio.jpg')}}" alt="">
 								<img src="{{asset('assets/img/Path 9690.svg')}}" alt="" id="line">
 							</div>
 							<div class="side">
@@ -173,7 +173,7 @@
 						</div>
 						<div class="text-container">
 							<div class="side">
-								<img src="{{asset('assets/img/businessHead.jpg')}}" alt="">
+								<img src="{{asset('assets/img/Curatio.jpg')}}" alt="">
 								<img src="{{asset('assets/img/Path 9690.svg')}}" alt="" id="line">
 							</div>
 							<div class="side">

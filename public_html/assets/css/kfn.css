@@ -41,6 +41,7 @@ body , html {
   display: flex;
   justify-content: center;
   position: relative;
+  cursor: pointer;
 }
 #ecoist-slider .slide-dots {
   position: absolute;

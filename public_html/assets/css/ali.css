@@ -2614,6 +2614,7 @@ body.page-policy-details.animate .head {
   cursor: pointer;
 
   width: 45px;
+  min-width: 45px;
 }
 .package-details-list .info > svg{
   position: absolute;
@@ -2770,6 +2771,7 @@ body.page-policy-details.animate .head {
   }
   .package-details-list .info{
     width: 40px;
+    min-width: 40px;
   }
   .package-details-list .description > div:last-child svg{
     display: block;

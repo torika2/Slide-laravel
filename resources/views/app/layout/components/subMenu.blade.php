@@ -1,4 +1,4 @@
-<div class="m-t-144 sub-menu">
+<div class="kfn_anim k-fadeUp m-t-144 sub-menu">
 	<div class="container">
 		<h2 class="ttl">
 			<span class="font-55 fira-bold">იცხოვრე,</span>
@@ -6,7 +6,7 @@
 		</h2>
 		<div class="text">ცხოვრების ყველა ეტაპზე</div>
 
-		<div class="swiper-subMenu">
+		<div class="kfn_anim k-fadeUp swiper-subMenu">
 
 		    <div class="swiper-wrapper">
 		        <div class="swiper-slide subMenuSlide">

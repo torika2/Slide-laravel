@@ -289,8 +289,8 @@
         @include('app.layout.components.pagination')
     </div>
 
-
 </section>
 
+@include('app.layout.components.teamContainer')
 
 @endsection

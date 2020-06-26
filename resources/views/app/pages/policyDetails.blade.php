@@ -38,19 +38,10 @@
     </div>
     <h1 class="fira-bold font-55 white ttl">მედი ბაზისური</h1>
     <a href="" class="sign-up-btn">
-    	<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29.021" viewBox="0 0 29 29.021">
-		  <g id="Group_3508" data-name="Group 3508" transform="translate(-1334 -139.979)">
-		    <g id="Rectangle_1287" data-name="Rectangle 1287" transform="translate(1334 142)" fill="none" stroke="#fff" stroke-width="2">
-		      <rect width="29" height="27" rx="2" stroke="none"/>
-		      <rect x="1" y="1" width="27" height="25" rx="1" fill="none"/>
-		    </g>
-		    <path id="Path_6058" data-name="Path 6058" d="M-15450.782,140.979V145.8" transform="translate(16790)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-		    <path id="Path_6059" data-name="Path 6059" d="M-15450.782,140.979V145.8" transform="translate(16793)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-		    <path id="Path_6062" data-name="Path 6062" d="M-15450.782,120.282V145.8" transform="translate(1481.605 15600.17) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-		    <path id="Path_6060" data-name="Path 6060" d="M-15450.782,140.979V145.8" transform="translate(16805)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-		    <path id="Path_6061" data-name="Path 6061" d="M-15450.782,140.979V145.8" transform="translate(16808)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-		  </g>
-		</svg>
+    	<svg id="calendar_5_" data-name="calendar (5)" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+          <path id="Path_9881" data-name="Path 9881" d="M25.262,2.266H22.656V.906a.906.906,0,0,0-1.812,0V2.266H8.156V.906a.906.906,0,0,0-1.812,0V2.266H3.738A3.742,3.742,0,0,0,0,6V25.262A3.742,3.742,0,0,0,3.738,29H25.262A3.742,3.742,0,0,0,29,25.262V6A3.742,3.742,0,0,0,25.262,2.266ZM3.738,4.078H6.344v.906a.906.906,0,1,0,1.813,0V4.078H20.844v.906a.906.906,0,0,0,1.813,0V4.078h2.605A1.928,1.928,0,0,1,27.187,6V8.156H1.812V6A1.928,1.928,0,0,1,3.738,4.078ZM25.262,27.187H3.738a1.928,1.928,0,0,1-1.926-1.926V9.969H27.187V25.262A1.928,1.928,0,0,1,25.262,27.187Z" fill="#fff"/>
+        </svg>
+
 
 		<span class="noto-semibold white">ექიმთან ჩაეწერე</span>
     </a>
@@ -76,12 +67,12 @@
 </section>
 
 
-<div class="package-cont">
-	<div class="package-inner">
-		<h2 class="fira-bold font-34 ttl">ჯამთელობის ინდივიდუალური დაზღვევა</h2>
-		<h3 class="noto-bold subtitle">მაღალი ხარისხის მომსახურება და 
+<div class="kfn_anim k-fadeUp package-cont">
+	<div class="kfn_anim k-fadeUp package-inner">
+		<h2 class="kfn_anim k-fadeUp fira-bold font-34 ttl">ჯამთელობის ინდივიდუალური დაზღვევა</h2>
+		<h3 class="kfn_anim k-fadeUp noto-bold subtitle">მაღალი ხარისხის მომსახურება და 
 		მრავალფეროვანი სამედიცინო სერვისის დაფინანსება.</h3>
-		<div class="text">
+		<div class="kfn_anim k-fadeUp text">
 			დაზღვევის მომენტიდან თქვენ პირადი ექიმი გყავთ, ბავშვის დაზღვევის შემთხვევაში კი - პირადი პედიატრი. პოლისი ,,მედით" აგინაზღაურდებათ როგორც ამბულატორიული მომსახურების (ვიზიტები სპეციალისტებთან, გამოკვლევები, ანალიზები, ა.შ.), ასევე უეცარ ავადმყოფობასთან დაკავშირებული ხარჯების უმეტესი ნაწილი.
 
 			პოლისი ,,მედით" თავს დაცულად იგრძნობთ, ვინაიდან გაუთვალისწინებელ შემთხვევებში ხარჯების უმეტეს ნაწილს ჩვენ დავფარავთ. რაც მთავარია, თქვენ დარწმუნდებით, რომ ჩვენ მუდამ თქვენს გვერდით ვართ - დღის და ღამის ნებისმიერ მომენტში!

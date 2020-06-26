@@ -1,5 +1,5 @@
-<div class="kfn-video-container container">
-	<div class="wrapper">
+<div class="kfn-video-container container m-t-144">
+	<div class="wrapper kfn_anim k-fadeUp">
 		<img src="{{asset('assets/img/img (17).jpg')}}" alt="">
 		<div id="open-video">
 			<div class="bg"></div>
@@ -9,5 +9,21 @@
 			</svg>
 		</div>
 		<h2 class="font-55 fira-bold uppercase">ანაზრაურებული შემთხვევები</h2>
+	</div>
+</div>
+
+<div id="video-container-popup">
+	<div class="video">
+		<video>
+		  <source src="movie.mp4" type="video/mp4">
+		</video>
+	</div>
+	<div id="close-video-container">
+		<svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+		  <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+		    <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+		    <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+		  </g>
+		</svg>
 	</div>
 </div>

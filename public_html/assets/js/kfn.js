@@ -378,6 +378,22 @@ window.onload = function () {
         });
     }
 
+    if (document.querySelector('#video-container-popup') != undefined) {
+        document.querySelector('.kfn-video-container .wrapper #open-video').addEventListener('click',function(){
+            document.querySelector('#video-container-popup').classList.add('active')
+            document.querySelector('#video-container-popup video').load()
+        })
+        document.querySelector('#video-container-popup').addEventListener('click',function(){
+            this.classList.remove('active')
+        })
+        document.querySelector('#video-container-popup .video').addEventListener('click',function(e){
+            e.stopPropagation()
+        })
+        document.querySelector('#close-video-container').addEventListener('click',function(){
+            document.querySelector('#video-container-popup').classList.remove('active')
+        })
+    }
+
     var smartBox = {
         init : function(){
             // სმარტ ბოქსის სლაიდერებ

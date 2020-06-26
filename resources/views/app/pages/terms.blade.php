@@ -1,7 +1,7 @@
 @extends('app.layout.app')
 @section('pageName')terms @endsection
 @section('content')
-<section class="head-banner policy-medi kfn_anim k-fadeUp active-kfn">
+<section class="head-banner policy-medi kfn_anim k-fadeUp ">
     <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/medi.jpg">
@@ -21,7 +21,7 @@
         </h1>
     </div>
 </section>
-<section class="container-secondary policy-packages kfn_anim k-fadeUp active-kfn">
+<section class="container-secondary policy-packages kfn_anim k-fadeUp ">
     <div class="packages-outer">
 
         <div class="choose-policy">

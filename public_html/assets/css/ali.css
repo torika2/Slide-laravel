@@ -2290,7 +2290,7 @@ body.page-policy-details.animate .head {
   transition: 0.6s;
   width: -webkit-max-content;
   width: -moz-max-content;
-  width: max-content;
+  min-width: 220px;
   background: rgba(255, 255, 255, 0.1);
 }
 .sign-up-btn svg{

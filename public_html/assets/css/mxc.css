@@ -1195,9 +1195,10 @@ footer .imgContainer{
 }
 footer .imgContainer img{
     width: 145px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    margin-bottom: auto;
+    /*height: -webkit-fit-content;*/
+    /*height: -moz-fit-content;*/
+    /*height: fit-content;*/
 }
 footer .rightContainer{
     width: 830px;
@@ -2000,7 +2001,7 @@ body.animate .picturesContainer.animated .picturesMain{
 .directInnerLinkFooter .bot{
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 .backBtn span{
     margin-left: 20px;
@@ -2177,7 +2178,7 @@ body.animate .picturesContainer.animated .picturesMain{
 .aboutHistory .head{
     display: flex;
     position: relative;
-    height: 28px;
+    /*height: 28px;*/
 }
 .aboutHistory .head .ic{
     display: flex;
@@ -2218,6 +2219,10 @@ body.animate .picturesContainer.animated .picturesMain{
     margin-right: 0px;
     padding-left: 50px;
     transition: .6s ease-in-out;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 .aboutHistory{
     display: flex;
@@ -2613,6 +2618,9 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 .providerClinicsList .direction svg{
     margin-right: 15px;
+}
+.directInnerLinkFooter .ttl{
+    font-family: "NotoSansGeorgian-Bold", "NotoSans-Bold";
 }
 /*laptop 1680*/
 @media (max-width: 1900px){
@@ -3399,9 +3407,15 @@ body.animate .picturesContainer.animated .picturesMain{
     .ltlCommercial .subMenuPicLinkContainerInner{
         padding-right: 20px;
     }
+    .directInnerLinkFooter .bot .backBtn{
+        display: none;
+    }
 }
 /*mobile 320*/
 @media (max-width: 767px){
+    .aboutHistory .head .ttl{
+        -webkit-line-clamp: initial;
+    }
     .providerClinicsList .direction svg{
         transform: scale(.8);
         margin-right: 10px;
@@ -3909,10 +3923,9 @@ body.animate .picturesContainer.animated .picturesMain{
     }
     .searchBtnContainer .subscrSocials a svg {
         height: 20px;
-        width: 20px;
     }
     .searchBtnContainer .subscrSocials a{
-        margin-left: 10px;
+        margin-left: 7px;
     }
     .subscrSocials .socTtl{
         font-size: 13px;

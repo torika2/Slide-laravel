@@ -2231,7 +2231,12 @@ input:focus::-webkit-input-placeholder {
 .details-btn.active svg {
     transform: rotate(0deg);
 }
-
+.packagesBox .policy-item .amount {
+    display: none;
+}
+.packagesBox .policy-compare .top {
+    height: 60px;
+}
 @media(max-width: 1365px) {
     .details-btn {
         margin-top: 60px;

@@ -186,6 +186,7 @@ button {
     -webkit-font-feature-settings: 'case';
     font-feature-settings: 'case' on;
     -webkit-font-feature-settings: 'case';
+    font-weight: 100;
 }
 
 .font-13 {

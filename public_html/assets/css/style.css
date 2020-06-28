@@ -2801,6 +2801,9 @@ input:focus::-webkit-input-placeholder {
     .insurance-tab-container .tab-link {
         width: 50%;
     }
+    .insurance-tab-container .provider-clinics-description {
+        display: none;
+    }
 }
 
 /* Career head */

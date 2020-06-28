@@ -42,7 +42,6 @@
         </div>
 
         <div class="choose-policy m-t-144">
-            <h2 class="font-55 fira-bold">აირჩიე პოლისი</h2>
             <ul class="policy-list">
                 <li class="policy-list-item">
                     <div class="item-head flex-box al-center between">

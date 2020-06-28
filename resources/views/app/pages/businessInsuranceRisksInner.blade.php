@@ -108,6 +108,16 @@
 
     @include('app.layout.components.packagesGrid')
     @include('app.layout.components.directionSlider')
+    <div class="text--contaiener container m-t-144">
+        <div class="heading">
+            <h2 class="font-55 fira-bold">
+                თვალსაჩინოებისთვის
+            </h2>
+            <div class="text-container">
+                
+            </div>
+        </div>
+    </div>
     @include('app.layout.components.serviceScheme')
     @include('app.layout.components.findAgent')
     @include('app.layout.components.bonusServices')

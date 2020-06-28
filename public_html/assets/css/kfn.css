@@ -41,6 +41,7 @@ body , html {
   display: flex;
   justify-content: center;
   position: relative;
+  cursor: pointer;
 }
 #ecoist-slider .slide-dots {
   position: absolute;
@@ -52,6 +53,7 @@ body , html {
   align-items: center;
   justify-content: space-between;
   pointer-events: none;
+  z-index: 10;
 }
 .mobile #ecoist-slider .slide-dots {
   display: flex;
@@ -596,6 +598,10 @@ body , html {
   box-shadow: 0px 0px 20px 0px rgba(0,153,255,0.1);
 }
 .ecoist-page-container .main-container .row .side a span {
+  transition: .6s;
+}
+.ecoist-page-container .main-container .row .side a:hover span {
+  color: #ef3582;
 }
 @media (max-width: 767px){
   .ecoist-page-container .heading .side:nth-child(1) {
@@ -667,6 +673,7 @@ body , html {
   justify-content: center;
   overflow: hidden;
   border-radius: 8px;
+  cursor: pointer;
 }
 .about-container .swiper-container .image img {
   width: 100%;
@@ -687,6 +694,7 @@ body , html {
   color: white;
   position: absolute;
   top: 50%;
+  padding: 0 50px;
   transform: translate(0,-50%);
 }
 .about-container .swiper-container .swiper-slide {
@@ -934,6 +942,55 @@ body {
 .awards-container .main-content .row .side svg {
   display: none;
 }
+#awards-popup {
+  width: 100%;
+  height: 100vh;
+  background: rgba(41, 37, 98, 0.9);
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 99999;
+  padding-top: 260px;
+  padding-left: 318px;
+  padding-right: 318px;
+  overflow: auto;
+}
+#awards-popup .content {
+  position: relative;
+  background: white;
+  padding: 50px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.05);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.05);
+  box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.05); 
+}
+#awards-popup .content .wrapper {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  align-items: flex-start;
+}
+#awards-popup .content .wrapper .image {
+  width: 41%;
+  padding-top: 38%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+#awards-popup .content .wrapper .image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+#awards-popup .content .wrapper .text {
+  width: 59%;
+  padding-left: 70px;
+  padding-top: 30px;
+}
 @media (max-width: 1599px){
   .awards-container .main-content .row .side:nth-child(even) {
     padding-left: 50px;
@@ -1088,7 +1145,14 @@ body {
   left: 40px;
   position: absolute;
   top: 40px;
-  border: 1px solid red;
+}
+#video-container-popup .video video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 #close-video-container {
   position: absolute;
@@ -1170,6 +1234,7 @@ body {
 .smart-box-container.container {
   position: relative;
   display: flex;
+  display: none;
   padding-right: 145px;
   padding-top: 70px;
 }
@@ -1384,6 +1449,9 @@ body {
   position: relative;
   overflow: hidden;
   padding-bottom: 27px;
+}
+.directHeadContainer.vacancy .heading h2 {
+  max-width: 70%;
 }
 .directHeadContainer.vacancy.resume .heading {
   flex-direction: column;
@@ -1663,6 +1731,9 @@ form .input .content input {
     flex-direction: column;
     align-items: flex-start;
   }
+  .directHeadContainer.vacancy .heading h2 {
+    max-width: 100%;
+  }
   .directHeadContainer.vacancy .heading .term span {
     margin-right: 10px;
     margin-left: 0;
@@ -1795,6 +1866,7 @@ form .input .content input {
   display: flex;
   align-items: center;
   border-radius: 8px;
+  z-index: 10;
   background: white;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
   -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
@@ -1827,6 +1899,8 @@ form .input .content input {
   all: inherit;
   color: #EE2A7B;
   display: inline-flex;
+  font-size: inherit;
+  font-family: inherit;
 }
 .directHeadContainer.vacancy .main-container .item .box .text-container .side:nth-child(2) .foot {
   display: flex;
@@ -1839,6 +1913,7 @@ form .input .content input {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  color: #9199B4;
 }
 .directHeadContainer.vacancy .main-container .item .box .text-container .side:nth-child(2) .foot .address {
   color: #9199B4;
@@ -1943,3 +2018,10 @@ form .input .content input {
 }
 
 /* END OF _PARTNERS-SLIDER */
+
+.directionHeadTabsCont h3 {
+  color: white;
+}
+textarea {
+  box-shadow: unset;
+}

@@ -146,7 +146,7 @@ ul,li,p,img,h1,h2,h3,h4,h5,h6,input,button,nav {
     margin: 0;
     list-style: none;
 }
-input {
+input , textarea {
     outline: none;
     box-shadow: none;
     -webkit-appearance: none;
@@ -186,6 +186,7 @@ button {
     -webkit-font-feature-settings: 'case';
     font-feature-settings: 'case' on;
     -webkit-font-feature-settings: 'case';
+    font-weight: 100;
 }
 
 .font-13 {

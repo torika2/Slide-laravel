@@ -1888,6 +1888,9 @@ input::-webkit-inner-spin-button {
 .calculator-section {
     z-index: 99;
 }
+.calculator-section.calculator-first {
+    z-index: 100;
+}
 .calculator-container {
     margin: 0 110px;
 }
@@ -2087,7 +2090,7 @@ input:focus::-webkit-input-placeholder {
     }
     .calculator-first .other-inputs > div:last-child {
         flex: unset;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .other-inputs p {
         margin-bottom: 10px;

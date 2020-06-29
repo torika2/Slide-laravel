@@ -1865,6 +1865,7 @@ form .input .content input {
 }
 .directHeadContainer.vacancy .main-container .item {
   width: 50%;
+  display: flex;
   margin-bottom: 60px;
 }
 .directHeadContainer.vacancy .main-container .item:nth-child(odd) {
@@ -1876,6 +1877,8 @@ form .input .content input {
 .directHeadContainer.vacancy .main-container .item .box {
   display: block;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .directHeadContainer.vacancy .main-container .item .box .image {
   padding-top: 54%;
@@ -1905,6 +1908,7 @@ form .input .content input {
   border-radius: 8px;
   z-index: 10;
   background: white;
+  flex: 1;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
   -moz-box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);
   box-shadow: 0px 10px 30px 0px rgba(0,153,255,0.05);

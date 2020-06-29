@@ -13,10 +13,10 @@
                 <div class="swiper-slide">
                     <div class="img">
                         <picture>
-            <source media="(max-width: 767px)" srcset="{{asset('assets/img/medi.jpg')}}">
-            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/medi.jpg')}}">
-            <img src="{{asset('assets/img/medi.jpg')}}" class="img-absolute" alt="">
-        </picture>
+                            <source media="(max-width: 767px)" srcset="{{asset('assets/img/medi.jpg')}}">
+                            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/medi.jpg')}}">
+                            <img src="{{asset('assets/img/medi.jpg')}}" class="" alt="">
+                        </picture>
                     </div>
                     <h3 class="noto-bold font-21 ttl">თანადგომა</h3>
                     <div class="text">
@@ -39,9 +39,9 @@
                 <div class="swiper-slide">
                     <div class="img">
                         <picture>
-                          <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/heart.png">
-                          <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/heart.png">
-                          <img src="http://gpi.test/assets/img/heart.png" class="" alt="">
+                            <source media="(max-width: 767px)" srcset="{{asset('assets/img/heart.png')}}">
+                            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/heart.png')}}">
+                            <img src="{{asset('assets/img/heart.png')}}" class="" alt="">
                         </picture>
                     </div>
                     <h3 class="noto-bold font-21 ttl">თანადგომა</h3>
@@ -52,9 +52,9 @@
                 <div class="swiper-slide">
                     <div class="img">
                         <picture>
-                          <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/heart.png">
-                          <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/heart.png">
-                          <img src="http://gpi.test/assets/img/heart.png" class="" alt="">
+                            <source media="(max-width: 767px)" srcset="{{asset('assets/img/heart.png')}}">
+                            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/heart.png')}}">
+                            <img src="{{asset('assets/img/heart.png')}}" class="" alt="">
                         </picture>
                     </div>
                     <h3 class="noto-bold font-21 ttl">თანადგომა</h3>

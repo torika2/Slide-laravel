@@ -2559,14 +2559,18 @@ input:focus::-webkit-input-placeholder {
 .packages-outer .ver-social {
     margin-top: 60px;
 }
-.packages-outer .packages-slider .swiper-button-next, .packages-outer .packages-slider .swiper-button-prev {
+.packages-outer .swiper-button-next-compare, .packages-outer .swiper-button-prev-compare {
     top: 30px;
 }
-.packages-outer .packages-slider .swiper-button-next {
+.packages-outer .swiper-button-next-compare {
     right: 0px;
+    transform: translateX(0);
 }
-.packages-outer .packages-slider .swiper-button-prev {
+.packages-outer .swiper-button-prev-compare {
     right: 23px;
+}
+.btn-container {
+    margin-top: 90px;
 }
 .details-btn {
     background: #EE2A7B;
@@ -2575,7 +2579,6 @@ input:focus::-webkit-input-placeholder {
     width: -moz-max-content;
     width: max-content;
     margin: 0 auto;
-    margin-top: 90px;
     padding: 0 28px;
     cursor: pointer;
 }
@@ -2600,36 +2603,38 @@ input:focus::-webkit-input-placeholder {
     height: 60px;
 }
 @media(max-width: 1365px) {
-    .details-btn {
+    .btn-container {
         margin-top: 60px;
     }
 }
 @media(max-width: 1365px) {
-    .details-btn {
+    .btn-container {
         margin-top: 30px;
     }
-    /* .packages-outer .policy-compare {
-        padding-top: 50px;
-    } */
 }
 @media(max-width: 767px) {
     .packages-outer .policy-compare > .ttl {
         display: none;
     }
-    .packages-outer .packages-slider .swiper-button-next,
-    .packages-outer .packages-slider .swiper-button-prev {
+    .packages-outer .swiper-button-next-compare,
+    .packages-outer .swiper-button-prev-compare {
         top: 50px;
     }
-    .packages-outer .packages-slider .swiper-button-next {
+    .packages-outer .swiper-button-next-compare {
         left: 50%;
     }
-    .packages-outer .packages-slider .swiper-button-prev {
+    .packages-outer .swiper-button-prev-compare {
         right: 50%;
     }
     .packages-outer .policy-compare {
         padding-top: 0;
     }
-
+    .packages-outer .policy-compare .swiper-wrapper, .packages-outer .policy-compare .static {
+        padding-top: 120px;
+    }
+    .packages-outer .swiper-button-next-compare, .packages-outer .swiper-button-prev-compare {
+        top: 45px;
+    }
 }
 
 

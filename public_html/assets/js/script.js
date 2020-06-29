@@ -433,7 +433,6 @@ document.addEventListener("click", closeAllSelect);
 
 // packages slide down on click
 
-// $(document).ready(function () {
 var packagesSlideDown = function () {
     $('.btn-container').click(function () {
         if (!$(this).hasClass("active")) {
@@ -445,7 +444,6 @@ var packagesSlideDown = function () {
     });
 }
 packagesSlideDown();
-
 
 
 // show calculator result

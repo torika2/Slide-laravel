@@ -163,21 +163,27 @@ $(document).ready(function () {
             breakpoints: {
                 320: {
                     slidesPerView: 1,
+                    spaceBetween: 30,
                 },
                 768: {
                     slidesPerView: 1,
+                    spaceBetween: 30,
                 },
                 1024: {
                     slidesPerView: 1,
+                    spaceBetween: 30,
                 },
                 1366: {
                     slidesPerView: 1,
+                    spaceBetween: 30,
                 },
                 1599: {
                     slidesPerView: 1,
+                    spaceBetween: 30,
                 },
                 1900: {
                     slidesPerView: 1,
+                    spaceBetween: 30,
                 }
             }
         });
@@ -222,31 +228,36 @@ $(document).ready(function () {
         var mySwiper = new Swiper('.packages-slider', {
             speed: 1000,
             slidesPerView: "auto",
-
+            spaceBetween: 0,
             navigation: {
-                nextEl: '.swiper-button-prev-compare',
-                prevEl: '.swiper-button-next-compare',
+                prevEl: '.swiper-button-prev-compare',
+                nextEl: '.swiper-button-next-compare',
             },
             watchOverflow: true,
             breakpoints: {
                 320: {
-                    slidesPerView: "auto",
+                    slidesPerView: 1.09,
                     spaceBetween: 10,
                 },
                 768: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 },
                 1024: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 },
                 1366: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 },
                 1599: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 },
                 1900: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 }
             }
 
@@ -261,15 +272,53 @@ $(document).ready(function () {
     brandPlatformSlider();
     subMenuSlider();
 
-    // $(window).resize(function () {
-    //     packagesSlider();
-    //     bonusSlider();
-    //     directionSlider();
-    //     newsOuterSlider();
-    //     storiesSlider();
-    //     brandPlatformSlider();
-    //     subMenuSlider();
-    // });
+    $(window).resize(function () {
+        setTimeout(function () {
+            directionSlider();
+        }, 100);
+    });
+    $(window).resize(function () {
+        setTimeout(function () {
+            packagesSlider();
+        }, 100);
+    });
+    $(window).resize(function () {
+        setTimeout(function () {
+            bonusSlider();
+        }, 100);
+    });
+    $(window).resize(function () {
+        setTimeout(function () {
+            directionSlider();
+        }, 100);
+    });
+    $(window).resize(function () {
+        setTimeout(function () {
+            newsOuterSlider();
+        }, 100);
+    });
+
+    $(window).resize(function () {
+        setTimeout(function () {
+            storiesSlider();
+        }, 100);
+    });
+    $(window).resize(function () {
+        setTimeout(function () {
+            brandPlatformSlider();
+        }, 100);
+    });
+    $(window).resize(function () {
+        setTimeout(function () {
+            subMenuSlider();
+        }, 100);
+    });
+
+
+
+
+
+
 
     // const detailsBtn = document.querySelectorAll(".details-btn");
     // detailsBtn.forEach(function (btn) {
@@ -278,8 +327,11 @@ $(document).ready(function () {
     //     }
     // })
     $('.btn-container').click(function () {
-        packagesSlider();
+        setTimeout(function () {
+            packagesSlider();
+        }, 200)
     })
+
 
     /*date select*/
     $("#rangeDate").flatpickr({

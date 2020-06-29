@@ -16,7 +16,7 @@
 				</div>
 				<div class="content">
 					<div class="top">
-						<h2 class="noto-bold font-34 ttl">ნიკა გელაშვილი </h2>
+						<h1 class="noto-bold font-34 ttl">ნიკა გელაშვილი </h1>
 						<div class="font-21 city">თბილისი</div>
 					</div>
 					<div class="info">

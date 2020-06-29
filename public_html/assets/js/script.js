@@ -264,67 +264,67 @@ $(window).scroll(kufuna_parallax);
 
 
 // currency switch
-// var currencySwitch = function () {
-//     var navLinks = document.querySelectorAll('.currency-tab'),
-//         nav = document.querySelector('.currency-box.box-1'),
-//         stick = document.querySelector('.currency-box.box-1 .currency-stick'),
-//         result,
-//         activeElem;
+var currencySwitch = function () {
+    var navLinks = document.querySelectorAll('.currency-tab'),
+        nav = document.querySelector('.currency-box.box-1'),
+        stick = document.querySelector('.currency-box.box-1 .currency-stick'),
+        result,
+        activeElem;
 
-//     navLinks.forEach(function (elem) {
-//         if (elem.classList.contains('current')) {
-//             result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
-//             stick.style.width = elem.clientWidth + 'px';
-//             stick.style.transform = 'translate(' + result + 'px,0)';
-//             activeElem = elem;
-//         }
-//         elem.addEventListener('click', function () {
-//             result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
-//             stick.style.width = this.clientWidth + 'px';
-//             stick.style.transform = 'translate(' + result + 'px,0)';
-//             $(this).addClass('current');
-//             $(this).siblings().removeClass('current');
-//         })
-//     })
-// }
-// currencySwitch();
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            $(this).addClass('current');
+            $(this).siblings().removeClass('current');
+        })
+    })
+}
+currencySwitch();
 
-$(window).resize(function () {
-    setTimeout(function () {
-        currencySwitch();
-    }, 500);
-});
+// $(window).resize(function () {
+//     setTimeout(function () {
+//         currencySwitch();
+//     }, 500);
+// });
 
-// var curSwitch = function () {
-//     var navLinks = document.querySelectorAll('.cur-tab'),
-//         nav = document.querySelector('.currency-box.box-2'),
-//         stick = document.querySelector('.currency-box.box-2 .currency-stick'),
-//         result,
-//         activeElem;
+var curSwitch = function () {
+    var navLinks = document.querySelectorAll('.cur-tab'),
+        nav = document.querySelector('.currency-box.box-2'),
+        stick = document.querySelector('.currency-box.box-2 .currency-stick'),
+        result,
+        activeElem;
 
-//     navLinks.forEach(function (elem) {
-//         if (elem.classList.contains('current')) {
-//             result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
-//             stick.style.width = elem.clientWidth + 'px';
-//             stick.style.transform = 'translate(' + result + 'px,0)';
-//             activeElem = elem;
-//         }
-//         elem.addEventListener('click', function () {
-//             result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
-//             stick.style.width = this.clientWidth + 'px';
-//             stick.style.transform = 'translate(' + result + 'px,0)';
-//             $(this).addClass('current');
-//             $(this).siblings().removeClass('current');
-//         })
-//     })
-// }
-// curSwitch();
+    navLinks.forEach(function (elem) {
+        if (elem.classList.contains('current')) {
+            result = elem.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = elem.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            activeElem = elem;
+        }
+        elem.addEventListener('click', function () {
+            result = this.getBoundingClientRect().left - nav.getBoundingClientRect().left;
+            stick.style.width = this.clientWidth + 'px';
+            stick.style.transform = 'translate(' + result + 'px,0)';
+            $(this).addClass('current');
+            $(this).siblings().removeClass('current');
+        })
+    })
+}
+curSwitch();
 
-$(window).resize(function () {
-    setTimeout(function () {
-        curSwitch();
-    }, 500);
-});
+// $(window).resize(function () {
+//     setTimeout(function () {
+//         curSwitch();
+//     }, 500);
+// });
 
 
 
@@ -438,7 +438,7 @@ var packagesSlideDown = function () {
         } else {
             $(this).removeClass("active");
         }
-        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(600);
+        $(this).siblings('.packagesBox').slideToggle(600);
     });
 }
 packagesSlideDown();

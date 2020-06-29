@@ -3,34 +3,35 @@
 		<div class="slides-wrap">
 			<div class="slide" data-slide="0">
 				<picture>
-		            <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/img (33).jpg">
-		            <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/img (33).jpg">
-		            <img src="http://gpi.test/assets/img/img (33).jpg" class="img-absolute" alt="">
-		        </picture>
+                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+                  <img src="{{asset('assets/img/img (30).jpg')}}" class="img-absolute" alt="">
+                </picture>
+
 		        <div class="img-layer"></div>
 			</div>
 			<div class="slide" data-slide="1">
-				<picture>
-		            <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/sport.jpg">
-		            <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/sport.jpg">
-		            <img src="http://gpi.test/assets/img/sport.jpg" class="img-absolute" alt="">
-		        </picture>
+		        <picture>
+                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/sport.jpg')}}">
+                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/sport.jpg')}}">
+                  <img src="{{asset('assets/img/sport.jpg')}}" class="img-absolute" alt="">
+                </picture>
 		        <div class="img-layer"></div>
 			</div>
 			<div class="slide" data-slide="2">
-				<picture>
-		            <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/caseInner.jpg">
-		            <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/caseInner.jpg">
-		            <img src="http://gpi.test/assets/img/caseInner.jpg" class="img-absolute" alt="">
-		        </picture>
+		        <picture>
+                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/caseInner.jpg')}}">
+                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/caseInner.jpg')}}">
+                  <img src="{{asset('assets/img/caseInner.jpg')}}" class="img-absolute" alt="">
+                </picture>
 		        <div class="img-layer"></div>
 			</div>
 			<div class="slide" data-slide="3">
-				<picture>
-		            <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/agent.jpg">
-		            <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/agent.jpg">
-		            <img src="http://gpi.test/assets/img/agent.jpg" class="img-absolute" alt="">
-		        </picture>
+		        <picture>
+                  <source media="(max-width: 767px)" srcset="{{asset('assets/img/agent.jpg')}}">
+                  <source media="(max-width: 1023px)" srcset="{{asset('assets/img/agent.jpg')}}">
+                  <img src="{{asset('assets/img/agent.jpg')}}" class="img-absolute" alt="">
+                </picture>
 		        <div class="img-layer"></div>
 			</div>
 		</div>

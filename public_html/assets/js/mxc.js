@@ -37,6 +37,9 @@ $(document).ready(function () {
 
     $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
     $(window).resize(function () {
+        setTimeout(function () {
+            $(window).resize();
+        },500);
         $(".aboutHistory.active").children(".aboutHistoryDescr").css("height", $(".aboutHistory.active").find(".aboutHistoryDescrInner").height() + 20 + "px");
         if($("#searchContainer").hasClass("active")){
             $("#searchContainer").css("height",$(".searchInner").height() + "px")

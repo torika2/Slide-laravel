@@ -8,9 +8,9 @@
 
         <div class="img-box">
             <picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-              <img src="http://gpi.test/assets/img/img (30).jpg" class="img-absolute" alt="">
+              <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+              <source media="(max-width: 1023px)" srcset="{{asset('assets/img/img (30).jpg')}}">
+              <img src="{{asset('assets/img/img (30).jpg')}}" class="img-absolute" alt="">
             </picture>
             <div class="img-layer"></div>
         </div>

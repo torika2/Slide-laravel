@@ -214,6 +214,7 @@
 
 
     @include('app.layout.components.subMenu')
+    @include('app.layout.components.directionWithHover')
     @include('app.layout.components.insuranceTabs')
     @include('app.layout.components.packagesGrid')
     @include('app.layout.components.videoContainer')

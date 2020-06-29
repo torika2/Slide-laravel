@@ -2,75 +2,75 @@
 	<div class="fira-bold font-34 ttl">ჩვენი პარტნიორები</div>
 	<div class="partners-list">
 		<a href="" class="partner">
-			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <img src="http://gpi.test/assets/img/Curatio.png" class="" alt="">
-            </picture>
+            <picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <img src="{{asset('assets/img/Curatio.png')}}" class="" alt="">
+	        </picture>
+		</a>
+
+		<a href="" class="partner">
+            <picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/medi.jpg')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/medi.jpg')}}">
+	          <img src="{{asset('assets/img/medi.jpg')}}" class="" alt="">
+	        </picture>
+		</a>
+
+		<a href="" class="partner">
+            <picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/tsh.png')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/tsh.png')}}">
+	          <img src="{{asset('assets/img/tsh.png')}}" class="" alt="">
+	        </picture>
 		</a>
 
 		<a href="" class="partner">
 			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/medi.jpg">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/medi.jpg">
-              <img src="http://gpi.test/assets/img/medi.jpg" class="" alt="">
-            </picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <img src="{{asset('assets/img/Curatio.png')}}" class="" alt="">
+	        </picture>
 		</a>
 
 		<a href="" class="partner">
 			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/tsh.png">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/tsh.png">
-              <img src="http://gpi.test/assets/img/tsh.png" class="" alt="">
-            </picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <img src="{{asset('assets/img/Curatio.png')}}" class="" alt="">
+	        </picture>
 		</a>
 
 		<a href="" class="partner">
 			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <img src="http://gpi.test/assets/img/Curatio.png" class="" alt="">
-            </picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <img src="{{asset('assets/img/Curatio.png')}}" class="" alt="">
+	        </picture>
 		</a>
 
 		<a href="" class="partner">
 			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <img src="http://gpi.test/assets/img/Curatio.png" class="" alt="">
-            </picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <img src="{{asset('assets/img/Curatio.png')}}" class="" alt="">
+	        </picture>
 		</a>
 
 		<a href="" class="partner">
 			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/enmedic.png">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/enmedic.png">
-              <img src="http://gpi.test/assets/img/enmedic.png" class="" alt="">
-            </picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <img src="{{asset('assets/img/Curatio.png')}}" class="" alt="">
+	        </picture>
 		</a>
 
 		<a href="" class="partner">
 			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <img src="http://gpi.test/assets/img/Curatio.png" class="" alt="">
-            </picture>
-		</a>
-
-		<a href="" class="partner">
-			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <img src="http://gpi.test/assets/img/Curatio.png" class="" alt="">
-            </picture>
-		</a>
-
-		<a href="" class="partner">
-			<picture>
-              <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/Curatio.png">
-              <img src="http://gpi.test/assets/img/Curatio.png" class="" alt="">
-            </picture>
+	          <source media="(max-width: 767px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/Curatio.png')}}">
+	          <img src="{{asset('assets/img/Curatio.png')}}" class="" alt="">
+	        </picture>
 		</a>
 
 	</div>

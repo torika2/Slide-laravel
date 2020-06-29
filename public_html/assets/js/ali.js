@@ -278,7 +278,9 @@ $(document).ready(function () {
     //     }
     // })
     $('.btn-container').click(function () {
-        packagesSlider();
+        setTimeout(function () {
+            packagesSlider();
+        }, 200)
     })
 
     /*date select*/

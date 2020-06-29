@@ -2559,13 +2559,14 @@ input:focus::-webkit-input-placeholder {
 .packages-outer .ver-social {
     margin-top: 60px;
 }
-.packages-outer .packages-slider .swiper-button-next, .packages-outer .packages-slider .swiper-button-prev {
+.packages-outer .swiper-button-next-compare, .packages-outer .swiper-button-prev-compare {
     top: 30px;
 }
-.packages-outer .packages-slider .swiper-button-next {
+.packages-outer .swiper-button-next-compare {
     right: 0px;
+    transform: translateX(0);
 }
-.packages-outer .packages-slider .swiper-button-prev {
+.packages-outer .swiper-button-prev-compare {
     right: 23px;
 }
 .details-btn {
@@ -2616,14 +2617,14 @@ input:focus::-webkit-input-placeholder {
     .packages-outer .policy-compare > .ttl {
         display: none;
     }
-    .packages-outer .packages-slider .swiper-button-next,
-    .packages-outer .packages-slider .swiper-button-prev {
+    .packages-outer .swiper-button-next-compare,
+    .packages-outer .swiper-button-prev-compare {
         top: 50px;
     }
-    .packages-outer .packages-slider .swiper-button-next {
+    .packages-outer .swiper-button-next-compare {
         left: 50%;
     }
-    .packages-outer .packages-slider .swiper-button-prev {
+    .packages-outer .swiper-button-prev-compare {
         right: 50%;
     }
     .packages-outer .policy-compare {

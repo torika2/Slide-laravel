@@ -113,8 +113,8 @@
 	              <path id="Path_9264" data-name="Path 9264" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
 	            </svg>
             </div>
-            <svg class="drop-line" xmlns="http://www.w3.org/2000/svg" width="1555.746" height="0.5" viewBox="0 0 1555.746 0.5">
-              <path id="Path_9264" data-name="Path 9264" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+            <svg class="drop-line" xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 1">
+              <path id="Path_9264" data-name="Path 9264" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="1" stroke-dasharray="5"/>
             </svg>
             <svg class="center-line" xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
               <path id="Path_10029" data-name="Path 10029" d="M655-7923.56h24.532" transform="translate(-7923.309 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
@@ -146,8 +146,8 @@
 	              <path id="Path_9264" data-name="Path 9264" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
 	            </svg>
             </div>
-            <svg class="drop-line" xmlns="http://www.w3.org/2000/svg" width="1555.746" height="0.5" viewBox="0 0 1555.746 0.5">
-              <path id="Path_9264" data-name="Path 9264" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
+            <svg class="drop-line" xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 1">
+              <path id="Path_9264" data-name="Path 9264" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="1" stroke-dasharray="5"/>
             </svg>
             <svg class="center-line" xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
               <path id="Path_10029" data-name="Path 10029" d="M655-7923.56h24.532" transform="translate(-7923.309 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>

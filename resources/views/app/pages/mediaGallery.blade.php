@@ -25,7 +25,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         118
                     </span>
                 </div>
@@ -48,7 +48,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         118
                     </span>
                 </div>
@@ -71,7 +71,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         118
                     </span>
                 </div>
@@ -94,7 +94,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         102
                     </span>
                 </div>
@@ -117,7 +117,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         9
                     </span>
                 </div>
@@ -140,7 +140,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         78
                     </span>
                 </div>
@@ -163,7 +163,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         55
                     </span>
                 </div>
@@ -186,7 +186,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         10
                     </span>
                 </div>
@@ -209,7 +209,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         2
                     </span>
                 </div>
@@ -232,7 +232,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         118
                     </span>
                 </div>
@@ -255,7 +255,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         118
                     </span>
                 </div>
@@ -278,7 +278,7 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty flex-box al-center noto-semibold white">
+                    <span class="img-qty noto-semibold white">
                         118
                     </span>
                 </div>

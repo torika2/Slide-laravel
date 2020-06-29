@@ -183,7 +183,7 @@
 			</div>
 
 			<div id="branches-grid-wrap">
-				<div class="branches-grid" id="branches-1">
+				<div class="branches-grid active" id="branches-1">
 					<a href="#" class="list">
 						<div class="item">
 							<span>გორი</span>

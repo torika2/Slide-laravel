@@ -2203,8 +2203,13 @@ input:focus::-webkit-input-placeholder {
 .packages-outer .policy-compare {
     padding-top: 90px;
 }
-.packages-outer .package-cont {
+.packages-outer .packagesBox {
     display: none;
+}
+.packages-outer .packagesBox .package-cont.kfn_anim.k-fadeUp {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 1s;
 }
 .packages-outer .back-btn, .packages-outer .buy-btn {
     display: none;
@@ -2860,7 +2865,12 @@ input:focus::-webkit-input-placeholder {
     max-width: 150px;
     margin-bottom: 20px;
 }
-
+.became-member.logo-banner .component-content {
+    bottom: 226px;
+}
+.became-member.logo-banner .component-content .bottom-line {
+    margin-top: 29px;
+}
 @media(max-width: 1023px) {
     .banner-logo {
         margin-bottom: 10px;

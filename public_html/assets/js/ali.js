@@ -42,7 +42,8 @@ $(document).ready(function () {
                     slidesPerView: 1.145
                 },
                 768: {
-                    spaceBetween: 15
+                    spaceBetween: 15,
+                    slidesPerView: 2.145
                 },
                 1024: {
                     spaceBetween: 31
@@ -242,11 +243,14 @@ $(document).ready(function () {
         subMenuSlider();
     });
 
-    const detailsBtn = document.querySelectorAll(".details-btn");
-    detailsBtn.forEach(function (btn) {
-        btn.onclick = function () {
-            packagesSlider();
-        }
+    // const detailsBtn = document.querySelectorAll(".details-btn");
+    // detailsBtn.forEach(function (btn) {
+    //     btn.onclick = function () {
+    //         packagesSlider();
+    //     }
+    // })
+    $('.details-btn').click(function () {
+        packagesSlider();
     })
 
     /*date select*/
@@ -370,11 +374,11 @@ $(document).ready(function () {
                 }
                 item.children[i].classList.add("active");
                 for (let k = 0; k < branchesWrap.children.length; k++) {
-                    $("#branches-grid-wrap").children().eq(k).slideUp();
+                    $("#branches-grid-wrap").children().eq(k).removeClass("active");
                 }
                 let branchId = item.children[i].getAttribute("data-branch");
-                setTimeout(() => $('#' + branchId).slideDown(), 600);
-
+                // setTimeout(() => $('#' + branchId).slideDown(), 600);
+                 $('#' + branchId).addClass("active");
                 item.classList.toggle("right");
             }
         }

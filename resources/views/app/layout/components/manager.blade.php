@@ -1,9 +1,9 @@
 <div class="kfn_anim k-fadeUp manager">
 	<div class="img-box">
 		<picture>
-            <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/became.png">
-            <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/became.png">
-            <img src="http://gpi.test/assets/img/became.png" class="img-absolute" alt="">
+          <source media="(max-width: 767px)" srcset="{{asset('assets/img/caseInner.jpg')}}">
+          <source media="(max-width: 1023px)" srcset="{{asset('assets/img/caseInner.jpg')}}">
+          <img src="{{asset('assets/img/caseInner.jpg')}}" class="img-absolute" alt="">
         </picture>
 	</div>
 	<div class="content">

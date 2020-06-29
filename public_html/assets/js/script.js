@@ -289,11 +289,11 @@ var currencySwitch = function () {
 }
 currencySwitch();
 
-$(window).resize(function () {
-    setTimeout(function () {
-        currencySwitch();
-    }, 500);
-});
+// $(window).resize(function () {
+//     setTimeout(function () {
+//         currencySwitch();
+//     }, 500);
+// });
 
 var curSwitch = function () {
     var navLinks = document.querySelectorAll('.cur-tab'),
@@ -320,11 +320,11 @@ var curSwitch = function () {
 }
 curSwitch();
 
-$(window).resize(function () {
-    setTimeout(function () {
-        curSwitch();
-    }, 500);
-});
+// $(window).resize(function () {
+//     setTimeout(function () {
+//         curSwitch();
+//     }, 500);
+// });
 
 
 
@@ -438,7 +438,7 @@ var packagesSlideDown = function () {
         } else {
             $(this).removeClass("active");
         }
-        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(600);
+        $(this).siblings('.packagesBox').slideToggle(600);
     });
 }
 packagesSlideDown();

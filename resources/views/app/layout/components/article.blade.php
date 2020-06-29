@@ -1,11 +1,11 @@
 <div class="article">
-	<div class="noto-bold font-34 ttl">ბიზნესის კონკურსზე, ორმა პროექტმა ორ ნომინაციაში გაიმარჯვა!</div>
+	<h1 class="noto-bold font-34 ttl">ბიზნესის კონკურსზე, ორმა პროექტმა ორ ნომინაციაში გაიმარჯვა!</h1>
 
 	<div class="img-box">
 		<picture>
-          <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-          <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/img (30).jpg">
-          <img src="http://gpi.test/assets/img/img (30).jpg" class="img-absolute" alt="">
+            <source media="(max-width: 767px)" srcset="{{asset('assets/img/medi.jpg')}}">
+            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/medi.jpg')}}">
+            <img src="{{asset('assets/img/medi.jpg')}}" class="img-absolute" alt="">
         </picture>
         <div class="img-layer"></div>
 	</div>

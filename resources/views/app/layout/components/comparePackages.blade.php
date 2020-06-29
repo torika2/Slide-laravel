@@ -1,1301 +1,1512 @@
 <div class="kfn_anim k-fadeUp package-cont">
 	<div class="kfn_anim k-fadeUp package-inner">
-		<div class="kfn_anim k-fadeUp policy-compare">
+		<div class="policy-compare-wrap">
+			<div class="kfn_anim k-fadeUp policy-compare">
 
-			<div class="fira-bold font-21 ttl">
-				სადაზღვეო კომპანია
-			</div>
-
-			<div class="static">
-				<div class="top">
-					<div class="fira-bold font-21 ttl">
-						სადაზღვეო პრემია
-					</div>
+				<div class="fira-bold font-21 ttl">
+					სადაზღვეო კომპანია
 				</div>
-				<div class="list">
-					<div class="item compare-item" data-hover="h1">
-						<div class="info">
-							<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-							<div class="popup">
-								სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-							</div>
-						</div>
-						<div class="description">
-							<!-- ამ ტექსტს ვადუბლირებთ slider policy-item  description პირველი დივის სპანში მობილურის ვერსიისთვის მჭირდება-->
-							<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო  </span>
-							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="svg-wrap">
-						 	<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
-							  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
+				<div class="static">
+					<div class="top">
+						<div class="fira-bold font-21 ttl">
+							სადაზღვეო პრემია
 						</div>
 					</div>
-					<div class="item compare-item" data-hover="h2">
-						<div class="info">
-							<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-							<div class="popup">
-								სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-							</div>
-						</div>
-						<div class="description">
-							<span>ჰოსპიტალური მომსახურება  </span>
-							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="svg-wrap">
-						 	<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
-							  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-					</div>
-					<div class="item compare-item" data-hover="h3">
-						<div class="info">
-							<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-							<div class="popup">
-								სამკურნალო მანიპულაციები
-							</div>
-						</div>
-						<div class="description">
-							<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-								გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-
-							 </span>
-							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
-							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="svg-wrap">
-						 	<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
-							  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-					</div>
-				</div>
-				<div class="bottom">
-
-				</div>
-			</div>
-
-
-
-			<div class="packages-slider swiper-container">
-				<div class="swiper-wrapper">
-
-
-
-				  <div class="policy-item swiper-slide">
-				  	<div class="top">
-				  		<div class="fira-bold font-21 ttl">ბაზისური</div>
-				  		<div class="amount">
-							<div class="noto-bold">55</div>
-							<div>₾</div>
-						</div>
-				  	</div>
-					<!-- რომელიც არჩეულია list დივს ვადებთ კლასს active -->
-					<div class="list">
-						<div class="item compare-item" data-hover="h1">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
-								</div>
-								<div>
-									<span>100% ულიმიტო წ.ე</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="item compare-item" data-hover="h2">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება </span>
-								</div>
-								<div>
-									<span>
-										<svg xmlns="http://www.w3.org/2000/svg" width="16.657" height="16.657" viewBox="0 0 16.657 16.657">
-										  <g id="Group_1652" data-name="Group 1652" transform="translate(-6286.872 -1697.942)">
-										    <line id="Line_211" data-name="Line 211" x2="11" y2="11" transform="translate(6289.7 1700.77)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"></line>
-										    <line id="Line_212" data-name="Line 212" x1="11" y2="11" transform="translate(6289.7 1700.77)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"></line>
-										  </g>
-										</svg>
-									</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="item compare-item" data-hover="h3">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-
-									 </span>
-								</div>
-								<div>
-									<span>
-										15% 800 ₾
-									</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-					</div>
-
-				  	<div class="bottom">
-				  		<a href="#" class="buy-btn">
-							<span class="noto-bold">შეძენა</span>
-						</a>
-				  	</div>
-				  </div>
-
-
-
-
-
-
-
-				  <div class="policy-item swiper-slide active">
-				  	<div class="top">
-				  		<div class="fira-bold font-21 ttl">ბაზისური</div>
-				  		<div class="amount">
-							<div class="noto-bold">11</div>
-							<div>₾</div>
-						</div>
-				  	</div>
-
-					<div class="list">
-						<div class="item compare-item" data-hover="h1">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
-								</div>
-								<div>
-									<span>100% ულიმიტო წ.ე</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="item compare-item" data-hover="h2">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება </span>
-								</div>
-								<div>
-									<span>100% ულიმიტო</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="item compare-item" data-hover="h3">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-
-									 </span>
-								</div>
-								<div>
-									<span>
-										15% 800 ₾
-									</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-					</div>
-
-				  	<div class="bottom">
-				  		<a href="#" class="buy-btn">
-							<span class="noto-bold">შეძენა</span>
-						</a>
-				  	</div>
-				  </div>
-
- 				  <div class="policy-item swiper-slide">
-				  	<div class="top">
-				  		<div class="fira-bold font-21 ttl">ბაზისური</div>
-				  		<div class="amount">
-							<div class="noto-bold">11</div>
-							<div>₾</div>
-						</div>
-				  	</div>
-
 					<div class="list">
 						<div class="item compare-item" data-hover="h1">
 							<div class="info">
 								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
 								<div class="popup">
 									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
 								</div>
 							</div>
 							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
-								</div>
-								<div>
-									<span>100% ულიმიტო წ.ე</span>
-								</div>
+								<!-- ამ ტექსტს ვადუბლირებთ slider policy-item  description პირველი დივის სპანში მობილურის ვერსიისთვის მჭირდება-->
+								<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო  </span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+								  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
 							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="item compare-item" data-hover="h2">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც
-								</div>
+							<div class="svg-wrap">
+							 	<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+								  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
 							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება </span>
-								</div>
-								<div>
-									<span>100% ულიმიტო</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="item compare-item" data-hover="h3">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-
-									 </span>
-								</div>
-								<div>
-									<span>
-										15% 800 ₾
-									</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-					</div>
-
-				  	<div class="bottom">
-				  		<a href="#" class="buy-btn">
-							<span class="noto-bold">შეძენა</span>
-						</a>
-				  	</div>
-				  </div>
-
-				  <div class="policy-item swiper-slide">
-				  	<div class="top">
-				  		<div class="fira-bold font-21 ttl">ბაზისური</div>
-				  		<div class="amount">
-							<div class="noto-bold">11</div>
-							<div>₾</div>
-						</div>
-				  	</div>
-
-					<div class="list">
-						<div class="item compare-item" data-hover="h1">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
-								</div>
-								<div>
-									<span>100% ულიმიტო წ.ე</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
 						</div>
 						<div class="item compare-item" data-hover="h2">
 							<div class="info">
 								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება </span>
-								</div>
-								<div>
-									<span>100% ულიმიტო</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="item compare-item" data-hover="h3">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
 								<div class="popup">
 									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
 								</div>
 							</div>
 							<div class="description">
-								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-
-									 </span>
-								</div>
-								<div>
-									<span>
-										15% 800 ₾
-									</span>
-								</div>
+								<span>ჰოსპიტალური მომსახურება  </span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+								  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
 							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-					</div>
-
-				  	<div class="bottom">
-				  		<a href="#" class="buy-btn">
-							<span class="noto-bold">შეძენა</span>
-						</a>
-				  	</div>
-				  </div>
-
-				  <div class="policy-item swiper-slide">
-				  	<div class="top">
-				  		<div class="fira-bold font-21 ttl">ბაზისური</div>
-				  		<div class="amount">
-							<div class="noto-bold">11</div>
-							<div>₾</div>
-						</div>
-				  	</div>
-
-					<div class="list">
-						<div class="item compare-item" data-hover="h1">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
-								</div>
+							<div class="svg-wrap">
+							 	<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+								  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
 							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
-								</div>
-								<div>
-									<span>100% ულიმიტო წ.ე</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
-						</div>
-						<div class="item compare-item" data-hover="h2">
-							<div class="info">
-								 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
-								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც
-								</div>
-							</div>
-							<div class="description">
-								<div>
-									<span>ჰოსპიტალური მომსახურება </span>
-								</div>
-								<div>
-									<span>100% ულიმიტო</span>
-								</div>
-							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
 						</div>
 						<div class="item compare-item" data-hover="h3">
 							<div class="info">
 								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-								<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
-								<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
-								<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="13" height="3" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
-								</g>
-								<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-								  <rect width="3" height="10" stroke="none"/>
-								  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
-								</g>
-								</g>
-							</svg>
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
-							  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
-							    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
-							    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
-							    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="10" height="3" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
-							      <rect width="3" height="8" stroke="none"/>
-							      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
-							    </g>
-							  </g>
-							</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
 								<div class="popup">
-									სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									სამკურნალო მანიპულაციები
 								</div>
 							</div>
 							<div class="description">
-								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+								<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+									გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
 
-									 </span>
-								</div>
-								<div>
-									<span>
-										15% 800 ₾
-									</span>
-								</div>
+								 </span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
+								  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
 							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
-							  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
-							</svg>
+							<div class="svg-wrap">
+							 	<svg xmlns="http://www.w3.org/2000/svg" width="1555.746" height="1" viewBox="0 0 1555.746 0.5">
+								  <path id="Path_6197" data-name="Path 6197" d="M655-7923.56H2210.246" transform="translate(-654.75 7923.81)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
 						</div>
 					</div>
+					<div class="bottom">
 
-				  	<div class="bottom">
-				  		<a href="#" class="buy-btn">
-							<span class="noto-bold">შეძენა</span>
-						</a>
-				  	</div>
-				  </div>
-
-
-
-
+					</div>
 				</div>
-				<div class="swiper-button-prev"></div>
-    			<div class="swiper-button-next"></div>
+
+
+
+				<div class="packages-slider swiper-container">
+					<div class="swiper-wrapper">
+
+
+
+					  <div class="policy-item swiper-slide">
+					  	<div class="top">
+					  		<div class="fira-bold font-21 ttl">ბაზისური</div>
+					  		<div class="amount">
+								<div class="noto-bold">55</div>
+								<div>₾</div>
+							</div>
+					  	</div>
+						<!-- რომელიც არჩეულია list დივს ვადებთ კლასს active -->
+						<div class="list">
+							<div class="item compare-item" data-hover="h1">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
+									</div>
+									<div>
+										<span>100% ულიმიტო წ.ე</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h2">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება </span>
+									</div>
+									<div>
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="16.657" height="16.657" viewBox="0 0 16.657 16.657">
+											  <g id="Group_1652" data-name="Group 1652" transform="translate(-6286.872 -1697.942)">
+											    <line id="Line_211" data-name="Line 211" x2="11" y2="11" transform="translate(6289.7 1700.77)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"></line>
+											    <line id="Line_212" data-name="Line 212" x1="11" y2="11" transform="translate(6289.7 1700.77)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"></line>
+											  </g>
+											</svg>
+										</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h3">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+											გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
+										 </span>
+									</div>
+									<div>
+										<span>
+											15% 800 ₾
+										</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+						</div>
+
+					  	<div class="bottom">
+					  		<a href="#" class="buy-btn">
+								<span class="noto-bold">შეძენა</span>
+							</a>
+					  	</div>
+					  </div>
+
+
+
+
+
+
+
+					  <div class="policy-item swiper-slide active">
+					  	<div class="top">
+					  		<div class="fira-bold font-21 ttl">ბაზისური</div>
+					  		<div class="amount">
+								<div class="noto-bold">11</div>
+								<div>₾</div>
+							</div>
+					  	</div>
+
+						<div class="list">
+							<div class="item compare-item" data-hover="h1">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
+									</div>
+									<div>
+										<span>100% ულიმიტო წ.ე</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h2">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება </span>
+									</div>
+									<div>
+										<span>100% ულიმიტო</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h3">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+											გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
+										 </span>
+									</div>
+									<div>
+										<span>
+											15% 800 ₾
+										</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+						</div>
+
+					  	<div class="bottom">
+					  		<a href="#" class="buy-btn">
+								<span class="noto-bold">შეძენა</span>
+							</a>
+					  	</div>
+					  </div>
+
+	 				  <div class="policy-item swiper-slide">
+					  	<div class="top">
+					  		<div class="fira-bold font-21 ttl">ბაზისური</div>
+					  		<div class="amount">
+								<div class="noto-bold">11</div>
+								<div>₾</div>
+							</div>
+					  	</div>
+
+						<div class="list">
+							<div class="item compare-item" data-hover="h1">
+								<div class="info">
+									<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
+									</div>
+									<div>
+										<span>100% ულიმიტო წ.ე</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h2">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება </span>
+									</div>
+									<div>
+										<span>100% ულიმიტო</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h3">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+											გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
+										 </span>
+									</div>
+									<div>
+										<span>
+											15% 800 ₾
+										</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+						</div>
+
+					  	<div class="bottom">
+					  		<a href="#" class="buy-btn">
+								<span class="noto-bold">შეძენა</span>
+							</a>
+					  	</div>
+					  </div>
+
+					  <div class="policy-item swiper-slide">
+					  	<div class="top">
+					  		<div class="fira-bold font-21 ttl">ბაზისური</div>
+					  		<div class="amount">
+								<div class="noto-bold">11</div>
+								<div>₾</div>
+							</div>
+					  	</div>
+
+						<div class="list">
+							<div class="item compare-item" data-hover="h1">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
+									</div>
+									<div>
+										<span>100% ულიმიტო წ.ე</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h2">
+								<div class="info">
+									<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება </span>
+									</div>
+									<div>
+										<span>100% ულიმიტო</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h3">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+											გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
+										 </span>
+									</div>
+									<div>
+										<span>
+											15% 800 ₾
+										</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+						</div>
+
+					  	<div class="bottom">
+					  		<a href="#" class="buy-btn">
+								<span class="noto-bold">შეძენა</span>
+							</a>
+					  	</div>
+					  </div>
+
+					  <div class="policy-item swiper-slide">
+					  	<div class="top">
+					  		<div class="fira-bold font-21 ttl">ბაზისური</div>
+					  		<div class="amount">
+								<div class="noto-bold">11</div>
+								<div>₾</div>
+							</div>
+					  	</div>
+
+						<div class="list">
+							<div class="item compare-item" data-hover="h1">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
+									</div>
+									<div>
+										<span>100% ულიმიტო წ.ე</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h2">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება </span>
+									</div>
+									<div>
+										<span>100% ულიმიტო</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h3">
+								<div class="info">
+									<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+											გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
+										 </span>
+									</div>
+									<div>
+										<span>
+											15% 800 ₾
+										</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+						</div>
+
+					  	<div class="bottom">
+					  		<a href="#" class="buy-btn">
+								<span class="noto-bold">შეძენა</span>
+							</a>
+					  	</div>
+					  </div>
+
+					   <div class="policy-item swiper-slide">
+					  	<div class="top">
+					  		<div class="fira-bold font-21 ttl">ბაზისური</div>
+					  		<div class="amount">
+								<div class="noto-bold">11</div>
+								<div>₾</div>
+							</div>
+					  	</div>
+
+						<div class="list">
+							<div class="item compare-item" data-hover="h1">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება უბედური შემთხვევის გამო</span>
+									</div>
+									<div>
+										<span>100% ულიმიტო წ.ე</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h2">
+								<div class="info">
+									 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>ჰოსპიტალური მომსახურება </span>
+									</div>
+									<div>
+										<span>100% ულიმიტო</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+							<div class="item compare-item" data-hover="h3">
+								<div class="info">
+									<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+									<g id="Group_3479" data-name="Group 3479" transform="translate(-160 -1490)">
+									<path id="MenuClaims" d="M445,8.691a8.692,8.692,0,1,1,8.692,8.692A8.691,8.691,0,0,1,445,8.691Zm1.365,0a7.326,7.326,0,1,0,7.326-7.326A7.322,7.322,0,0,0,446.365,8.691Zm6.849,4.3a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-283.179 1491.861)" fill="#292562"/>
+									<g id="Rectangle_1556" data-name="Rectangle 1556" transform="translate(164 1490)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1557" data-name="Rectangle 1557" transform="translate(164 1508)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="13" height="3" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="12" height="2" fill="none"/>
+									</g>
+									<g id="Rectangle_1558" data-name="Rectangle 1558" transform="translate(178 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									<g id="Rectangle_1559" data-name="Rectangle 1559" transform="translate(160 1495)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+									  <rect width="3" height="10" stroke="none"/>
+									  <rect x="0.5" y="0.5" width="2" height="9" fill="none"/>
+									</g>
+									</g>
+								</svg>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+								  <g id="Group_3485" data-name="Group 3485" transform="translate(-152 -1439)">
+								    <circle id="Ellipse_105" data-name="Ellipse 105" cx="8.5" cy="8.5" r="8.5" transform="translate(153 1440)" fill="#ee2a7b"/>
+								    <path id="MenuClaims" d="M453.214,12.992a.619.619,0,0,1-.2-.478.654.654,0,0,1,.2-.478.7.7,0,0,1,.955,0,.619.619,0,0,1,.2.478.654.654,0,0,1-.2.478.619.619,0,0,1-.478.2A.757.757,0,0,1,453.214,12.992Zm-.2-2.844V4.869a.682.682,0,1,1,1.365,0v5.279a.682.682,0,1,1-1.365,0Z" transform="translate(-292.179 1439.861)" fill="#fff"/>
+								    <g id="Rectangle_1560" data-name="Rectangle 1560" transform="translate(156 1439)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1561" data-name="Rectangle 1561" transform="translate(156 1455)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="10" height="3" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="9" height="2" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1562" data-name="Rectangle 1562" transform="translate(168 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								    <g id="Rectangle_1563" data-name="Rectangle 1563" transform="translate(152 1444)" fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,0)" stroke-width="1">
+								      <rect width="3" height="8" stroke="none"/>
+								      <rect x="0.5" y="0.5" width="2" height="7" fill="none"/>
+								    </g>
+								  </g>
+								</svg>
+									<div class="popup">
+										სამკურნალო მანიპულაციები, რომლებიც არ საჭიროებენ პაციენტის მიერ საწოლის დაკავებას. მომსახურებაზე ვრცელდება მოცდის პერიოდი 24 თვე.
+									</div>
+								</div>
+								<div class="description">
+									<div>
+										<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+											გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
+										 </span>
+									</div>
+									<div>
+										<span>
+											15% 800 ₾
+										</span>
+									</div>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="25.032" height="1" viewBox="0 0 25.032 0.5">
+								  <path id="Path_10495" data-name="Path 10495" d="M655-7923.56h24.532" transform="translate(679.782 -7923.31) rotate(180)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
+								</svg>
+							</div>
+						</div>
+
+					  	<div class="bottom">
+					  		<a href="#" class="buy-btn">
+								<span class="noto-bold">შეძენა</span>
+							</a>
+					  	</div>
+					  </div>
+
+					</div>
+					
+				</div>
 			</div>
+			<div class="swiper-button-prev-compare"></div>
+	    	<div class="swiper-button-next-compare"></div>
 		</div>
+
 		<div class="ver-social">
 			<div class="social">
 				<span class="noto-bold">გაუზიარე მეგობარს:</span>

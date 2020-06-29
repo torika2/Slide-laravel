@@ -3290,7 +3290,7 @@ input:focus::-webkit-input-placeholder {
     }
 }
 #awards-popup {
-    display: none;
+    /*display: none;*/
 }
 
 /* Component Z-index */

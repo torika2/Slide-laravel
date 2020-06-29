@@ -460,7 +460,28 @@ window.onload = function () {
             console.log(smartBox.activeHeight)
         },
     }
-    smartBox.init()
+    if (document.body.classList.contains('page-home')) {
+        smartBox.init()
+    }
+
+    if (document.querySelector('#awards-popup') != undefined) {
+        var links = document.querySelectorAll('.awards-container .main-content .row .side a');
+        links.forEach(function(el){
+            el.addEventListener('click',function(e){
+                e.preventDefault()
+                document.querySelector('#awards-popup').classList.add('active')
+            })
+        })
+        document.querySelector('#awards-popup').addEventListener('click',function(e){
+            this.classList.remove('active')
+        })
+        document.querySelector('#close-awards').addEventListener('click',function(e){
+            document.querySelector('#awards-popup').classList.remove('active')
+        })
+        document.querySelector('#awards-popup .content').addEventListener('click',function(e){
+            e.stopPropagation()
+        })
+    }
 
 
 }

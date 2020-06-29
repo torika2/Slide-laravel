@@ -1,7 +1,7 @@
 <div class="kfn_anim k-fadeUp m-t-144 container">
 	<div class="real-stories">
 		<h2 class="font-55 fira-bold ttl">ნამდვილი ამბები</h2>
-		<div class="stories-slider">
+		<div class="swiper-container stories-slider">
 			<div class="kfn_anim k-fadeUp swiper-wrapper">
 		        <div class="swiper-slide">
 		        	<a href="#">
@@ -101,5 +101,6 @@
 		        </div>
 		    </div>
 		</div>
+		<div class="opacity"></div>
 	</div>
 </div>

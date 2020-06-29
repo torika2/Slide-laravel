@@ -58,7 +58,7 @@
 @include('app.layout.components.missionBanner')
 @include('app.layout.components.bonusServices')
 
-<section class="became-member find-agent m-t-233 kfn_anim k-fadeUp">
+<section class="became-member logo-banner find-agent m-t-233 kfn_anim k-fadeUp">
     <div class="img-box imgg">
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('assets/img/img (42).jpg')}}">

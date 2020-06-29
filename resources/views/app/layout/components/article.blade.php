@@ -1,5 +1,5 @@
 <div class="article">
-	<div class="noto-bold font-34 ttl">ბიზნესის კონკურსზე, ორმა პროექტმა ორ ნომინაციაში გაიმარჯვა!</div>
+	<h1 class="noto-bold font-34 ttl">ბიზნესის კონკურსზე, ორმა პროექტმა ორ ნომინაციაში გაიმარჯვა!</h1>
 
 	<div class="img-box">
 		<picture>

@@ -519,6 +519,9 @@ body , html {
   align-items: center;
   margin-bottom: 128px;
 }
+.ecoist-page-container .heading h3 {
+  color: #EE2A7B;
+}
 .ecoist-page-container .heading .side {
   position: relative;
   width: 50%;

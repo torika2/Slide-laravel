@@ -374,6 +374,7 @@
 }
 .head-banner .banner-content h1, .head-banner .banner-button {
     margin-left: 37px;
+    margin-right: auto;
 }
 .banner-links a {
     color: rgba(255, 255, 255, 0.8);

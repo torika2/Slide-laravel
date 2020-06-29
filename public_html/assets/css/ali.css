@@ -3430,7 +3430,7 @@ body.page-policy-compare.animate .head {
 
 .swiper-button-next-compare,
 .swiper-button-prev-compare{
-    top: -50px;
+    top: -73px;
   }
   .swiper-button-next-compare{
     transform: translateX(0%);
@@ -3446,6 +3446,12 @@ body.page-policy-compare.animate .head {
     bottom: calc(100% + 5px);
     max-width: 200px;
     padding: 8px;
+  }
+
+
+  .packages-slider{
+    width: 100%;
+    max-width: 100%;
   }
 
 }

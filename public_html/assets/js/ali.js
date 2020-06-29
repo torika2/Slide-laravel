@@ -228,7 +228,7 @@ $(document).ready(function () {
         var mySwiper = new Swiper('.packages-slider', {
             speed: 1000,
             slidesPerView: "auto",
-
+            spaceBetween: 0,
             navigation: {
                 prevEl: '.swiper-button-prev-compare',
                 nextEl: '.swiper-button-next-compare',
@@ -236,23 +236,28 @@ $(document).ready(function () {
             watchOverflow: true,
             breakpoints: {
                 320: {
-                    slidesPerView: "auto",
+                    slidesPerView: 1.09,
                     spaceBetween: 10,
                 },
                 768: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 },
                 1024: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 },
                 1366: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 },
                 1599: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 },
                 1900: {
-                    slidesPerView: "auto",
+                    // slidesPerView: "auto",
+                    // spaceBetween: 0,
                 }
             }
 

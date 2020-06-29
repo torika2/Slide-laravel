@@ -62,7 +62,7 @@
                         <a href="##" class="noto-bold pinkBtn">
                             იპოვე აგენტი
                         </a>
-                        <a href="##" class="noto-bold whiteBtn">
+                        <a class="noto-bold whiteBtn connect-agent">
                             დამიკავშირდით
                         </a>
                     </div>
@@ -114,7 +114,7 @@
                 თვალსაჩინოებისთვის
             </h2>
             <div class="text-container">
-                
+
             </div>
         </div>
     </div>
@@ -125,5 +125,5 @@
     @include('app.layout.components.findAgent')
     @include('app.layout.components.faqSlider')
     @include('app.layout.components.ltlCommercial')
-
+    @include('app.layout.components.formPopup')
 @endsection

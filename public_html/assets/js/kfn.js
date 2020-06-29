@@ -38,6 +38,27 @@ window.onload = function () {
         }
     }
 
+    function reloadPage(){
+        var currentWidth = window.innerWidth;
+        window.addEventListener('resize',function(){
+            if (currentWidth > 1023 && window.innerWidth < 1024) {
+                document.querySelector('body').style.opacity = '0';
+                document.querySelector('body').style.transition = '.5s 0s';
+                setTimeout(function(){
+                    window.location.reload()
+                },500)
+            }
+            if (currentWidth < 1024 && window.innerWidth > 1023) {
+                document.querySelector('body').style.opacity = '0';
+                document.querySelector('body').style.transition = '.5s 0s';
+                setTimeout(function(){
+                    window.location.reload()
+                },500)
+            }
+        })
+    }
+    reloadPage()
+
     var mySwiper = new Swiper('.about-container .swiper-container', {
         speed: 1000,
         spaceBetween: 60,
@@ -460,7 +481,28 @@ window.onload = function () {
             console.log(smartBox.activeHeight)
         },
     }
-    smartBox.init()
+    if (document.body.classList.contains('page-home')) {
+        smartBox.init()
+    }
+
+    if (document.querySelector('#awards-popup') != undefined) {
+        var links = document.querySelectorAll('.awards-container .main-content .row .side a');
+        links.forEach(function(el){
+            el.addEventListener('click',function(e){
+                e.preventDefault()
+                document.querySelector('#awards-popup').classList.add('active')
+            })
+        })
+        document.querySelector('#awards-popup').addEventListener('click',function(e){
+            this.classList.remove('active')
+        })
+        document.querySelector('#close-awards').addEventListener('click',function(e){
+            document.querySelector('#awards-popup').classList.remove('active')
+        })
+        document.querySelector('#awards-popup .content').addEventListener('click',function(e){
+            e.stopPropagation()
+        })
+    }
 
 
 }

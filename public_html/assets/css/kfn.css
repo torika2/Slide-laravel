@@ -4,6 +4,20 @@ body , html {
   position: relative;
   overflow-x: hidden;
 }
+.unload {
+  transition: 0s !important;
+}
+#loader-fragment {
+  width: 100%;
+  height: 100vh;
+  z-index: 99999999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  pointer-events: none;
+  transition: .4s;
+}
 .container {
   max-width: 1284px;
   margin: auto;
@@ -519,6 +533,9 @@ body , html {
   align-items: center;
   margin-bottom: 128px;
 }
+.ecoist-page-container .heading h3 {
+  color: #EE2A7B;
+}
 .ecoist-page-container .heading .side {
   position: relative;
   width: 50%;
@@ -924,6 +941,7 @@ body {
     position: absolute;
     top: calc(100% - 2px);
     left: 0;
+    opacity: 0.5;
 }
 .awards-container .main-content .row svg.center-line {
     position: absolute;
@@ -959,11 +977,29 @@ body {
   left: 0;
   position: fixed;
   z-index: 99999;
-  padding-top: 260px;
+  padding-top: 10%;
   padding-left: 318px;
   padding-right: 318px;
   overflow: auto;
-  display: none;
+  pointer-events: none;
+  opacity: 0;
+  transition: .4s;
+}
+#awards-popup.active {
+  opacity: 1;
+  pointer-events: all;
+}
+#close-awards {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+#close-awards svg {
+  transition: .6s;
+}
+#close-awards:hover svg {
+  transform: rotate(180deg);
 }
 #awards-popup .content {
   position: relative;
@@ -980,6 +1016,12 @@ body {
   margin-top: 50px;
   position: relative;
   align-items: flex-start;
+}
+#awards-popup .content .heading {
+  width: 90%;
+}
+#awards-popup .content .heading h3 span {
+  color: #EE2A7B;
 }
 #awards-popup .content .wrapper .image {
   width: 41%;
@@ -1010,6 +1052,10 @@ body {
   }
   .awards-container .main-content {
     margin-top: 25px;
+  }
+  #awards-popup {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 @media (max-width: 1365px){
@@ -1045,6 +1091,13 @@ body {
   .awards-container .main-content .row .side svg {
     display: inline;
   }
+  #awards-popup {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #awards-popup .content .wrapper .text {
+    padding-left: 30px;
+  }
 }
 @media (max-width: 767px){
   .awards-container {
@@ -1055,6 +1108,31 @@ body {
   }
   .awards-container .main-content .row .side:nth-child(odd) {
     padding-right: 0;
+  }
+  #awards-popup {
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
+  #awards-popup .content .wrapper {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  #awards-popup .content .wrapper .image {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #awards-popup .content .wrapper .text {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  #awards-popup .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #close-awards {
+    top: 10px;
+    right: 10px;
   }
 }
 

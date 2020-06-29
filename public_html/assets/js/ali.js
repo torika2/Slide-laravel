@@ -224,8 +224,8 @@ $(document).ready(function () {
             slidesPerView: "auto",
 
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-button-prev-compare',
+                prevEl: '.swiper-button-next-compare',
             },
             watchOverflow: true,
             breakpoints: {

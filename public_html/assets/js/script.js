@@ -81,32 +81,35 @@ $(document).ready(function () {
 //     }, 100);
 // });
 
-var clinicsSwiper = undefined;
-function clinicsSlider() {
-    var screenWidth = $(window).width();
-    if (screenWidth < 767 && clinicsSwiper == undefined) {
-        clinicsSwiper = new Swiper('.provider-clinics-slider', {
-            slidesPerView: 1.3,
-            spaceBetween: 15,
-            freeMode: true
-        });
-    } else if (screenWidth > 766 && clinicsSwiper != undefined) {
-        clinicsSwiper.destroy();
-        clinicsSwiper = undefined;
-        jQuery('.swiper-wrapper').removeAttr('style');
-        jQuery('.swiper-slide').removeAttr('style');
+if (document.querySelector('.provider-slider') != undefined) {
+    var clinicsSwiper = undefined;
+    function clinicsSlider() {
+        var screenWidth = $(window).width();
+        if (screenWidth < 767 && clinicsSwiper == undefined) {
+            clinicsSwiper = new Swiper('.provider-clinics-slider', {
+                slidesPerView: 1.3,
+                spaceBetween: 15,
+                freeMode: true
+            });
+        } else if (screenWidth > 766 && clinicsSwiper != undefined) {
+            clinicsSwiper.destroy();
+            clinicsSwiper = undefined;
+            jQuery('.swiper-wrapper').removeAttr('style');
+            jQuery('.swiper-slide').removeAttr('style');
+        }
     }
+
+
+    //Swiper plugin initialization on window resize
+    $(window).on('resize', function () {
+        setTimeout(function () {
+            clinicsSlider();
+        }, 100);
+    });
+    //Swiper plugin initialization
+    clinicsSlider();
+
 }
-
-
-//Swiper plugin initialization on window resize
-$(window).on('resize', function () {
-    setTimeout(function () {
-        clinicsSlider();
-    }, 100);
-});
-//Swiper plugin initialization
-clinicsSlider();
 
 
 
@@ -468,11 +471,7 @@ var compare = function () {
 
 
 
-
-
-
-if (document.querySelector('body').classList.contains('page-faqInner')) {
-
+if (document.querySelector('.faq-slider') != undefined) {
     // Faq List Slider
     var faqSwiper = undefined;
     function initSwiper() {

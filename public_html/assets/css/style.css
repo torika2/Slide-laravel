@@ -6,6 +6,7 @@
 }
 .container-secondary {
     padding: 0 100px;
+    opacity: 1;
 }
 .imgg {
     overflow: hidden;
@@ -1075,6 +1076,7 @@
     -webkit-box-shadow: 0px 10px 20px 0px rgba(34, 63, 82, 0.05);
     -moz-box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.05);
     box-shadow: 0px 10px 20px 0px rgba(0,153,255,0.05);
+    opacity: 1;
 }
 .package-text-tabs .tabs {
     margin-top: 48px;

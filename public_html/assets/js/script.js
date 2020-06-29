@@ -497,7 +497,9 @@ if (document.querySelector('body').classList.contains('page-faqInner')) {
 
     //Swiper plugin initialization on window resize
     $(window).on('resize', function () {
-        initSwiper();
+        setTimeout(function () {
+            initSwiper();
+        }, 100);
     });
 }
 

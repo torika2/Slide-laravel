@@ -3765,7 +3765,7 @@ body.page-policy-compare.animate .head {
 /*Start Of Head Slider*/
 .head-slider-wrap{
   padding-bottom: 89px;
-  
+
 }
 
 .head-slider{
@@ -4072,7 +4072,7 @@ body.animate .head-slider .slide-btn{
 @media(max-width: 1365px){
   .head-slider > .ttl{
     font-size: 34px;
-    bottom: 150px;    
+    bottom: 150px;
   }
   .head-slider{
     height: 379px;
@@ -4108,7 +4108,7 @@ body.animate .head-slider .slide-btn{
 @media(max-width: 1023px){
   .head-slider > .ttl{
     font-size: 34px;
-    bottom: 150px;    
+    bottom: 150px;
   }
   .head-slider{
     height: 359px;
@@ -5764,7 +5764,7 @@ body.animate .head-slider .slide-btn{
   z-index: 11;
 }
 .page-terms .banner-content.container-secondary{
-  position: absolute; 
+  position: absolute;
 }
 @media (min-width: 1024px){
   .page-terms .btn-white:hover path{

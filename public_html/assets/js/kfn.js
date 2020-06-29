@@ -401,34 +401,53 @@ window.onload = function () {
             this.smartBoxSliders()
             // კონტეინერის სიმაღლის გაგება
             this.containerHeight()
+            // სლაიდერის შეცვლა
+            this.changeSliders()
             window.addEventListener('resize',function(){
                 setTimeout(function() {
                     smartBox.containerHeight()
                 }, 200);
             })
         },
+        activeHeight : document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active'),
+        slideDots : document.querySelectorAll('.smart-box-container .left-side .smart-box .heading .tabs-container ul li'),
+        sliders : document.querySelectorAll('.smart-box-container .left-side .smart-box .slider-container .sliders .slider'),
+        changeSliders : function(){
+            smartBox.slideDots.forEach(function(el){
+                el.addEventListener('click',function(){
+                    index = this.dataset.slide;
+                    console.log(index)
+                    document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active').classList.remove('active')
+                    document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders [data-slide="' + index + '"]').classList.add('active')
+                    document.querySelector('.smart-box-container .left-side .smart-box .heading .tabs-container ul li.active').classList.remove('active')
+                    this.classList.add('active')
+                    smartBox.activeHeight = document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active')
+                    smartBox.containerHeight()
+                })
+            })
+        },
         smartBoxSliders : function(){
-            var first = new Swiper('.smart-box-container .swiper-container.buy-slider', {
+            var one = new Swiper('.smart-box-container .swiper-container.buy-slider', {
                 speed: 400,
-                spaceBetween: 90,
+                spaceBetween: 70,
                 slidesPerView: 4,
                 navigation: {
                     nextEl: '.swiper-button-next-btn',
                     prevEl: '.swiper-button-prev-btn',
                 }
             });
-            var first = new Swiper('.smart-box-container .swiper-container.remuneration-slider', {
+            var two = new Swiper('.smart-box-container .swiper-container.remuneration-slider', {
                 speed: 400,
-                spaceBetween: 90,
+                spaceBetween: 70,
                 slidesPerView: 4,
                 navigation: {
                     nextEl: '.swiper-button-next-btn',
                     prevEl: '.swiper-button-prev-btn',
                 }
             });
-            var first = new Swiper('.smart-box-container .swiper-container.pay-slider', {
+            var three = new Swiper('.smart-box-container .swiper-container.pay-slider', {
                 speed: 400,
-                spaceBetween: 90,
+                spaceBetween: 70,
                 slidesPerView: 4,
                 navigation: {
                     nextEl: '.swiper-button-next-btn',
@@ -436,10 +455,10 @@ window.onload = function () {
                 }
             });
         },
-        activeHeight : document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active').clientHeight,
         containerHeight : function(){
-            document.querySelector('.smart-box-container .left-side .smart-box .slider-container').style.height = smartBox.activeHeight + 'px';
-        }
+            document.querySelector('.smart-box-container .left-side .smart-box .slider-container').style.height = smartBox.activeHeight.clientHeight + 'px';
+            console.log(smartBox.activeHeight)
+        },
     }
     smartBox.init()
 

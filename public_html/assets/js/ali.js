@@ -199,6 +199,7 @@ $(document).ready(function () {
         var mySwiper = new Swiper('.packages-slider', {
             speed: 1000,
             slidesPerView: "auto",
+
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -248,7 +249,7 @@ $(document).ready(function () {
     //         packagesSlider();
     //     }
     // })
-    $('.details-btn').click(function () {
+    $('.btn-container').click(function () {
         packagesSlider();
     })
 
@@ -377,7 +378,7 @@ $(document).ready(function () {
                 }
                 let branchId = item.children[i].getAttribute("data-branch");
                 // setTimeout(() => $('#' + branchId).slideDown(), 600);
-                 $('#' + branchId).addClass("active");
+                $('#' + branchId).addClass("active");
                 item.classList.toggle("right");
             }
         }

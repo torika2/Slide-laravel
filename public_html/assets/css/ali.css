@@ -1851,15 +1851,27 @@ input:focus::-webkit-input-placeholder {
 .page-contact .tabs{
   margin-top: 30px;
 }
-.page-contact .branches-grid-wrap{
-  margin-top: 60px;
+.page-contact #branches-grid-wrap{
+  position: relative;
 }
 .branches-grid{
-  display: flex;
+  opacity: 0;
+  transition: 0.6s;
+  animation: tabAnimation 1s;
+  display: none;
   flex-direction: column;
 }
-.branches-grid:not(:first-child){
-  display: none;
+@keyframes tabAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.branches-grid.active{
+  display: flex;
+  opacity: 1;
 }
 .branches-grid .list{
   position: relative;
@@ -4315,6 +4327,9 @@ body.animate .head-slider .slide-btn{
 
   transition: 0.6s;
 }
+.direction-wrap .txt-mob .text{
+  line-height: 28px;
+}
 
 .direction-wrap .txt-mob .btn span{
   transition: 0.6s;
@@ -5568,6 +5583,7 @@ body.animate .head-slider .slide-btn{
 .page-brand-platform .brand-platform-slider{
   padding-bottom: 90px;
   padding-top: 55px;
+  overflow: hidden;
 }
 
 @media(max-width: 1365px){
@@ -5606,8 +5622,8 @@ body.animate .head-slider .slide-btn{
 }
 .manager .img-box{
   flex:none;
-  padding-top: 30%;
-  width: 30%;
+  padding-top: 23.45%;
+  width: 23.45%;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -5651,6 +5667,10 @@ body.animate .head-slider .slide-btn{
   .manager .content{
     padding-left: 30px;
   }
+  .manager .img-box{
+    padding-top: 30.45%;
+    width: 30.45%;
+  }
 }
 @media(max-width: 1365px){
   .management-list .manager{
@@ -5686,6 +5706,7 @@ body.animate .head-slider .slide-btn{
 
 /*start terms*/
 .page-terms .item-hidden .btn-white{
+  display: inline-flex;
   position: relative;
   padding: 0 77px 0 43px;
 }
@@ -5705,6 +5726,9 @@ body.animate .head-slider .slide-btn{
 .page-terms .container-secondary{
   position: relative;
   z-index: 11;
+}
+.page-terms .banner-content.container-secondary{
+  position: absolute;
 }
 @media (min-width: 1024px){
   .page-terms .btn-white:hover path{

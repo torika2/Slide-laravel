@@ -289,11 +289,11 @@ $(window).scroll(kufuna_parallax);
 // }
 // currencySwitch();
 
-$(window).resize(function () {
-    setTimeout(function () {
-        currencySwitch();
-    }, 500);
-});
+// $(window).resize(function () {
+//     setTimeout(function () {
+//         currencySwitch();
+//     }, 500);
+// });
 
 // var curSwitch = function () {
 //     var navLinks = document.querySelectorAll('.cur-tab'),
@@ -320,11 +320,11 @@ $(window).resize(function () {
 // }
 // curSwitch();
 
-$(window).resize(function () {
-    setTimeout(function () {
-        curSwitch();
-    }, 500);
-});
+// $(window).resize(function () {
+//     setTimeout(function () {
+//         curSwitch();
+//     }, 500);
+// });
 
 
 

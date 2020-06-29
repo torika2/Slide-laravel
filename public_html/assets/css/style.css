@@ -2629,7 +2629,12 @@ input:focus::-webkit-input-placeholder {
     .packages-outer .policy-compare {
         padding-top: 0;
     }
-
+    .packages-outer .policy-compare .swiper-wrapper, .packages-outer .policy-compare .static {
+        padding-top: 120px;
+    }
+    .swiper-button-next-compare, .swiper-button-prev-compare {
+        top: 45px;
+    }
 }
 
 

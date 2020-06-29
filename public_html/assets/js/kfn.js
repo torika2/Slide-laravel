@@ -38,6 +38,27 @@ window.onload = function () {
         }
     }
 
+    function reloadPage(){
+        var currentWidth = window.innerWidth;
+        window.addEventListener('resize',function(){
+            if (currentWidth > 1023 && window.innerWidth < 1024) {
+                document.querySelector('body').style.opacity = '0';
+                document.querySelector('body').style.transition = '.5s 0s';
+                setTimeout(function(){
+                    window.location.reload()
+                },500)
+            }
+            if (currentWidth < 1024 && window.innerWidth > 1023) {
+                document.querySelector('body').style.opacity = '0';
+                document.querySelector('body').style.transition = '.5s 0s';
+                setTimeout(function(){
+                    window.location.reload()
+                },500)
+            }
+        })
+    }
+    reloadPage()
+
     var mySwiper = new Swiper('.about-container .swiper-container', {
         speed: 1000,
         spaceBetween: 60,

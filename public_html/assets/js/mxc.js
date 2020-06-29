@@ -39,8 +39,7 @@ $(document).ready(function () {
     $(window).resize(function () {
 
         setTimeout(function () {
-            sliderTeamFunc()
-            actDir()
+            sliderTeamFunc();
         },500);
 
 
@@ -61,20 +60,16 @@ $(document).ready(function () {
     var historySlider = new Swiper('.companyHistorySlider', {
         slidesPerView: 'auto',
         freeMode: true,
-
     });
 
-    var dirSw = undefined;
     function actDir() {
         var screenWidth = $(window).width();
-        if (screenWidth < 1024 && dirSw == undefined) {
-            dirSw = new Swiper('.directionHeadTabs', {
+        if (screenWidth < 1024) {
+            var dirSw = new Swiper('.directionHeadTabs', {
                 slidesPerView: 'auto',
-                freeMode: true
+                freeMode: true,
+                loop: true
             });
-        } else if (screenWidth > 1023 && dirSw != undefined) {
-            dirSw.destroy();
-            dirSw = undefined;
         }
 
     }

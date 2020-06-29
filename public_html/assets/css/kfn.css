@@ -4,6 +4,20 @@ body , html {
   position: relative;
   overflow-x: hidden;
 }
+.unload {
+  transition: 0s !important;
+}
+#loader-fragment {
+  width: 100%;
+  height: 100vh;
+  z-index: 99999999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  pointer-events: none;
+  transition: .4s;
+}
 .container {
   max-width: 1284px;
   margin: auto;
@@ -927,6 +941,7 @@ body {
     position: absolute;
     top: calc(100% - 2px);
     left: 0;
+    opacity: 0.5;
 }
 .awards-container .main-content .row svg.center-line {
     position: absolute;

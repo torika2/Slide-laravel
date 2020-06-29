@@ -2,6 +2,7 @@
 
 @section('content')
 
+<h1 style="display: none;">About</h1>
 
 <div class="about-container">
 	<div class="swiper-container">

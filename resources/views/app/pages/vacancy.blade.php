@@ -38,7 +38,7 @@
 	<section class="directHeadContainer vacancy">
 		<div class="white--container">
 			<div class="heading">
-				<h2 class="font-34 fira-bold uppercase">დაზღვეულთა მომსახურების მენეჯერი</h2>
+				<h1 class="font-34 fira-bold uppercase">დაზღვეულთა მომსახურების მენეჯერი</h1>
 				<div class="term">
 					<span class="font-21 noto-bold">ბოლო ვადა:</span>
 					<span class="font-16 noto-regular">2020 წლის 29 სექტემბერი</span>

@@ -243,11 +243,14 @@ $(document).ready(function () {
         subMenuSlider();
     });
 
-    const detailsBtn = document.querySelectorAll(".details-btn");
-    detailsBtn.forEach(function (btn) {
-        btn.onclick = function () {
-            packagesSlider();
-        }
+    // const detailsBtn = document.querySelectorAll(".details-btn");
+    // detailsBtn.forEach(function (btn) {
+    //     btn.onclick = function () {
+    //         packagesSlider();
+    //     }
+    // })
+    $('.details-btn').click(function () {
+        packagesSlider();
     })
 
     /*date select*/

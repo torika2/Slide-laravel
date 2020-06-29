@@ -860,6 +860,7 @@
 }
 .services-tabs {
     position: relative;
+    display: inline-flex;
     height: 50px;
     border: 1px solid #B1B7CA;
     border-radius: 8px;
@@ -1888,6 +1889,9 @@ input::-webkit-inner-spin-button {
 .calculator-section {
     z-index: 99;
 }
+.calculator-section.calculator-first {
+    z-index: 100;
+}
 .calculator-container {
     margin: 0 110px;
 }
@@ -2087,7 +2091,7 @@ input:focus::-webkit-input-placeholder {
     }
     .calculator-first .other-inputs > div:last-child {
         flex: unset;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .other-inputs p {
         margin-bottom: 10px;
@@ -2199,8 +2203,13 @@ input:focus::-webkit-input-placeholder {
 .packages-outer .policy-compare {
     padding-top: 90px;
 }
-.packages-outer .package-cont {
+.packages-outer .packagesBox {
     display: none;
+}
+.packages-outer .packagesBox .package-cont.kfn_anim.k-fadeUp {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 1s;
 }
 .packages-outer .back-btn, .packages-outer .buy-btn {
     display: none;
@@ -2800,6 +2809,9 @@ input:focus::-webkit-input-placeholder {
 @media(max-width: 767px) {
     .insurance-tab-container .tab-link {
         width: 50%;
+    }
+    .insurance-tab-container .provider-clinics-description {
+        display: none;
     }
 }
 

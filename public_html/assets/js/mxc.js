@@ -53,7 +53,6 @@ $(document).ready(function () {
 
     var historySlider = new Swiper('.companyHistorySlider', {
         slidesPerView: 'auto',
-        spaceBetween: 30,
         freeMode: true,
 
     });

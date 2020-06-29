@@ -3496,6 +3496,7 @@ body.animate .picturesContainer.animated .picturesMain{
 .mediaRelDescr a:hover{
     -webkit-text-decoration-color: transparent;
     text-decoration-color: transparent;
+    color: #292562;
 }
 .directHeadInner .directHeadCalendar h3{
     margin-bottom: 0px;
@@ -3688,7 +3689,12 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*laptop 1680*/
 @media (max-width: 1900px){
-
+    .mediaRelDescr div,.mediaRelDescr div:nth-child(2){
+        padding-right: 15px;
+    }
+    .mediaRelDescr div{
+        margin-right: 15px;
+    }
     .helpDirection{
         margin-top: 30px;
     }

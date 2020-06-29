@@ -6,7 +6,7 @@
         </div>
 
         <div class="services-section">
-            <div class="services-tabs flex-box al-center">
+            <div class="services-tabs al-center">
                 <div class="stick"></div>
                 <div class="tab-button flex-box al-center justify-center noto-bold current" data-tab="servicetab-1">
                     ინდივიდუალური</div>

@@ -84,7 +84,7 @@
 
 <div class="awards-container m-t-144">
     <div class="heading">
-        <h2 class="font-34 fira-bold">ჯილდოები</h2>
+        <h2 class="font-55 fira-bold">ჯილდოები</h2>
     </div>
     <div class="main-content">
         <div class="row">
@@ -151,6 +151,28 @@
             <svg class="center-line" xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
               <path id="Path_10029" data-name="Path 10029" d="M655-7923.56h24.532" transform="translate(-7923.309 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"/>
             </svg>
+        </div>
+    </div>
+</div>
+
+<div id="awards-popup">
+    <div class="content">
+        <div class="heading">
+            <h2 class="font-21 noto-bold">International Finance Awards</h2>
+            <h3 class="font-16 noto-regular">
+                <span>2015</span>
+                საუკეთესო სადამზღვეო კომპანია
+            </h3>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="{{asset('assets/img/img (42).jpg')}}" alt="">
+            </div>
+            <div class="text font-16 noto-regular">
+                ჯიპიაი ჰოლდინგი დაარსდა 2001 წელის როგორც პირველი კერძო საპენსიო ფონდი საქართველოში. კომპანიისთვის თავიდანვე პრიორიტეტად იქცა საქართველოში ე.წ. სოციალური დაზღვევის: ჯანმრთელობის, სიცოცხლისა და საპენსიო დაზღვევის პოპულარიზება და გავითარება. ამ მიმართულებას "ჯიპიაი ჰოლდინგი" დღესაც აქტიურად ავითარებს.
+
+                "ჯიპიაი ჰოლდინგი" საქმიანობის პირველსავე წელს მნიშვნელოვან შედეგებს მიაღწია დაზღვევის სხვადასხვა სფეროში. ჰოლდინგი დღესაც ინარჩუნებს მოწინავე სადაზღვევო კომპანიის სტატუსს როგორც ზოგადად, ბაზარზე, ისე ცალკეული მიმიმართულებებით, მაგ. ჯანმრთელობის დაზღვევა, ავტოდაზღვევა, ქონების დაზღვევა და ა.შ.
+            </div>
         </div>
     </div>
 </div>

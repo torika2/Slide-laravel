@@ -438,7 +438,7 @@ var packagesSlideDown = function () {
         } else {
             $(this).removeClass("active");
         }
-        $(this).siblings('.packagesBox').find(".package-cont").slideToggle(600);
+        $(this).siblings('.packagesBox').slideToggle(600);
     });
 }
 packagesSlideDown();

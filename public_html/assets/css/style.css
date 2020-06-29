@@ -2569,6 +2569,9 @@ input:focus::-webkit-input-placeholder {
 .packages-outer .swiper-button-prev-compare {
     right: 23px;
 }
+.btn-container {
+    margin-top: 90px;
+}
 .details-btn {
     background: #EE2A7B;
     color: #fff;
@@ -2576,7 +2579,6 @@ input:focus::-webkit-input-placeholder {
     width: -moz-max-content;
     width: max-content;
     margin: 0 auto;
-    margin-top: 90px;
     padding: 0 28px;
     cursor: pointer;
 }
@@ -2601,17 +2603,14 @@ input:focus::-webkit-input-placeholder {
     height: 60px;
 }
 @media(max-width: 1365px) {
-    .details-btn {
+    .btn-container {
         margin-top: 60px;
     }
 }
 @media(max-width: 1365px) {
-    .details-btn {
+    .btn-container {
         margin-top: 30px;
     }
-    /* .packages-outer .policy-compare {
-        padding-top: 50px;
-    } */
 }
 @media(max-width: 767px) {
     .packages-outer .policy-compare > .ttl {
@@ -2633,7 +2632,7 @@ input:focus::-webkit-input-placeholder {
     .packages-outer .policy-compare .swiper-wrapper, .packages-outer .policy-compare .static {
         padding-top: 120px;
     }
-    .swiper-button-next-compare, .swiper-button-prev-compare {
+    .packages-outer .swiper-button-next-compare, .packages-outer .swiper-button-prev-compare {
         top: 45px;
     }
 }

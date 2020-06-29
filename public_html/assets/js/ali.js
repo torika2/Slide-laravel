@@ -268,52 +268,52 @@ $(document).ready(function () {
     subMenuSlider();
 
     $(window).resize(function () {
-         setTimeout(function () {
+        setTimeout(function () {
             directionSlider();
         }, 100);
     });
     $(window).resize(function () {
-         setTimeout(function () {
+        setTimeout(function () {
             packagesSlider();
         }, 100);
     });
     $(window).resize(function () {
-         setTimeout(function () {
+        setTimeout(function () {
             bonusSlider();
         }, 100);
     });
-     $(window).resize(function () {
-         setTimeout(function () {
+    $(window).resize(function () {
+        setTimeout(function () {
             directionSlider();
         }, 100);
     });
-     $(window).resize(function () {
-         setTimeout(function () {
+    $(window).resize(function () {
+        setTimeout(function () {
             newsOuterSlider();
         }, 100);
     });
 
-      $(window).resize(function () {
-         setTimeout(function () {
+    $(window).resize(function () {
+        setTimeout(function () {
             storiesSlider();
         }, 100);
     });
-       $(window).resize(function () {
-         setTimeout(function () {
+    $(window).resize(function () {
+        setTimeout(function () {
             brandPlatformSlider();
         }, 100);
     });
-        $(window).resize(function () {
-         setTimeout(function () {
+    $(window).resize(function () {
+        setTimeout(function () {
             subMenuSlider();
         }, 100);
     });
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 
     // const detailsBtn = document.querySelectorAll(".details-btn");
     // detailsBtn.forEach(function (btn) {
@@ -326,6 +326,7 @@ $(document).ready(function () {
             packagesSlider();
         }, 200)
     })
+
 
     /*date select*/
     $("#rangeDate").flatpickr({

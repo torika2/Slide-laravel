@@ -410,16 +410,17 @@
             </div>
 
         </div>
-
-        <div class="details-btn btn">დეტალურად
-            <svg xmlns="http://www.w3.org/2000/svg" width="12.815" height="7.215" viewBox="0 0 12.815 7.215">
-                <g id="Group_2935" data-name="Group 2935" transform="translate(0.707 6.508) rotate(-90)">
-                    <line id="Line_90" data-name="Line 90" y1="5.6" x2="5.649" transform="translate(0.152 5.801)"
-                        fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1" />
-                    <line id="Line_91" data-name="Line 91" x2="5.801" y2="5.801" fill="none" stroke="#fff"
-                        stroke-linecap="round" stroke-width="1" />
-                </g>
-            </svg>
+        <div class="btn-container flex-box justify-center al-center">
+            <div class="details-btn btn">დეტალურად
+                <svg xmlns="http://www.w3.org/2000/svg" width="12.815" height="7.215" viewBox="0 0 12.815 7.215">
+                    <g id="Group_2935" data-name="Group 2935" transform="translate(0.707 6.508) rotate(-90)">
+                        <line id="Line_90" data-name="Line 90" y1="5.6" x2="5.649" transform="translate(0.152 5.801)"
+                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1" />
+                        <line id="Line_91" data-name="Line 91" x2="5.801" y2="5.801" fill="none" stroke="#fff"
+                            stroke-linecap="round" stroke-width="1" />
+                    </g>
+                </svg>
+            </div>
         </div>
 
         <div class="packagesBox">

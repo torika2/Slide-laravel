@@ -1,5 +1,5 @@
 @extends('app.layout.app')
-@section('pageName')home @endsection
+@section('pageName') @endsection
 @section('content')
 
 <div class="vacancy-page-type">
@@ -229,6 +229,8 @@
 	</section>
 
 </div>
+
+@include('app.layout.components.ltlCommercial')
 
 
 

@@ -5728,7 +5728,7 @@ body.animate .head-slider .slide-btn{
   z-index: 11;
 }
 .page-terms .banner-content.container-secondary{
-  position: absolute;
+  position: absolute; 
 }
 @media (min-width: 1024px){
   .page-terms .btn-white:hover path{

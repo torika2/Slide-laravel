@@ -138,7 +138,6 @@ $(document).ready(function () {
             speed: 1000,
             slidesPerView: 1,
             spaceBetween: 30,
-            watchOverflow: true,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true

@@ -860,6 +860,7 @@
 }
 .services-tabs {
     position: relative;
+    display: inline-flex;
     height: 50px;
     border: 1px solid #B1B7CA;
     border-radius: 8px;

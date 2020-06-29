@@ -22,12 +22,13 @@
         </h1>
         <a href="#" class="btn white banner-button">
             <div class="button-img-box">
-                <img src="{{asset('assets/img/3508.svg')}}" alt="">
+                <img src="{{asset('assets/img/calendar-svg.svg')}}" alt="">
                 <img src="{{asset('assets/img/calendar-icon.svg')}}" alt="">
             </div>
 
             ექიმთან ჩაწერა
         </a>
+
     </div>
 </section>
 

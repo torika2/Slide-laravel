@@ -2591,7 +2591,7 @@ body.animate .directionTabHead{
     text-decoration: underline;
     opacity: 1;
 }
-.directionHeadTabsCont h1{
+.directionHeadTabsCont h1,.directionHeadTabsCont h3{
     color: #fff;
     margin-bottom: 20px;
 }
@@ -4870,7 +4870,7 @@ body.animate .picturesContainer.animated .picturesMain{
     .directHeadContainer {
         margin-top: -150px;
     }
-    .directionHeadTabsCont h1{
+    .directionHeadTabsCont h1,.directionHeadTabsCont h3{
         width: 45%;
         margin-left: auto;
         margin-right: auto;
@@ -4894,6 +4894,9 @@ body.animate .picturesContainer.animated .picturesMain{
         overflow: auto;
         padding-left: 17px;
         padding-right: 17px;
+
+    }
+    body.mobile .directionHeadTabs{
         -webkit-overflow-scrolling: touch;
     }
     .directionHeadTabs::-webkit-scrollbar {
@@ -5135,6 +5138,7 @@ body.animate .picturesContainer.animated .picturesMain{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        height: 45px;
     }
     .footerSubMenu.socMob{
         display: none;

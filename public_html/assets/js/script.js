@@ -432,7 +432,7 @@ document.addEventListener("click", closeAllSelect);
 
 // $(document).ready(function () {
 var packagesSlideDown = function () {
-    $('.details-btn').click(function () {
+    $('.btn-container').click(function () {
         if (!$(this).hasClass("active")) {
             $(this).addClass("active");
         } else {
@@ -497,7 +497,9 @@ if (document.querySelector('body').classList.contains('page-faqInner')) {
 
     //Swiper plugin initialization on window resize
     $(window).on('resize', function () {
-        initSwiper();
+        setTimeout(function () {
+            initSwiper();
+        }, 100);
     });
 }
 

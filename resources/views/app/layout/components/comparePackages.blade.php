@@ -1,7 +1,7 @@
 <div class="kfn_anim k-fadeUp package-cont">
 	<div class="kfn_anim k-fadeUp package-inner">
 		<div class="kfn_anim k-fadeUp policy-compare">
-			
+
 			<div class="fira-bold font-21 ttl">
 				სადაზღვეო კომპანია
 			</div>
@@ -195,9 +195,9 @@
 							</div>
 						</div>
 						<div class="description">
-							<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-								გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-								 	
+							<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+								გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
 							 </span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="1" height="25.032" viewBox="0 0 0.5 25.032">
 							  <path id="Path_6241" data-name="Path 6241" d="M655-7923.56h24.532" transform="translate(-7923.31 -654.75) rotate(90)" fill="none" stroke="#9199b4" stroke-linecap="round" stroke-width="0.5" stroke-dasharray="5"></path>
@@ -214,13 +214,13 @@
 					</div>
 				</div>
 				<div class="bottom">
-					
+
 				</div>
 			</div>
-	
 
 
-			<div class="packages-slider">
+
+			<div class="packages-slider swiper-container">
 				<div class="swiper-wrapper">
 
 
@@ -418,9 +418,9 @@
 							</div>
 							<div class="description">
 								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										 	
+									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
 									 </span>
 								</div>
 								<div>
@@ -443,10 +443,10 @@
 				  </div>
 
 
-				 
 
 
-				  
+
+
 
 				  <div class="policy-item swiper-slide active">
 				  	<div class="top">
@@ -456,7 +456,7 @@
 							<div>₾</div>
 						</div>
 				  	</div>
-					
+
 					<div class="list">
 						<div class="item compare-item" data-hover="h1">
 							<div class="info">
@@ -634,9 +634,9 @@
 							</div>
 							<div class="description">
 								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										  	
+									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
 									 </span>
 								</div>
 								<div>
@@ -666,7 +666,7 @@
 							<div>₾</div>
 						</div>
 				  	</div>
-					
+
 					<div class="list">
 						<div class="item compare-item" data-hover="h1">
 							<div class="info">
@@ -844,9 +844,9 @@
 							</div>
 							<div class="description">
 								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										  	
+									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
 									 </span>
 								</div>
 								<div>
@@ -876,7 +876,7 @@
 							<div>₾</div>
 						</div>
 				  	</div>
-					
+
 					<div class="list">
 						<div class="item compare-item" data-hover="h1">
 							<div class="info">
@@ -1054,9 +1054,9 @@
 							</div>
 							<div class="description">
 								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										  	
+									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
 									 </span>
 								</div>
 								<div>
@@ -1086,7 +1086,7 @@
 							<div>₾</div>
 						</div>
 				  	</div>
-					
+
 					<div class="list">
 						<div class="item compare-item" data-hover="h1">
 							<div class="info">
@@ -1264,9 +1264,9 @@
 							</div>
 							<div class="description">
 								<div>
-									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე  	
-										  	
+									<span>გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+										გეგმიური ამბულატორიული მომსახურება პირადი ექიმის სამსახურის ბაზაზე
+
 									 </span>
 								</div>
 								<div>
@@ -1285,12 +1285,12 @@
 				  		<a href="#" class="buy-btn">
 							<span class="noto-bold">შეძენა</span>
 						</a>
-				  	</div> 
+				  	</div>
 				  </div>
 
-			
 
-				  
+
+
 				</div>
 				<div class="swiper-button-prev"></div>
     			<div class="swiper-button-next"></div>

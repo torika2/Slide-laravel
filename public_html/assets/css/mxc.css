@@ -3696,7 +3696,7 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 .directionHeadTabs .swiper-wrapper{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: initial;
 }
 /*laptop 1680*/
 @media (max-width: 1900px){
@@ -4852,6 +4852,9 @@ body.animate .picturesContainer.animated .picturesMain{
         width: calc(100% + 20px);
         padding-right: 10px;
         overflow: auto;
+
+    }
+    body.mobile .busTabs{
         -webkit-overflow-scrolling: touch;
     }
     .busTabs::-webkit-scrollbar {

@@ -1678,6 +1678,8 @@ header .secondFloor .leftContainer .subMenuBtn:hover path,header .secondFloor .l
     border: 1px solid rgba(145,153,180,0.75);
     border-radius: 8px;
     background: #fff;
+    z-index: 10;
+    position: relative;
 }
 .searchHeight{
     padding: 10px 55px 65px 55px;

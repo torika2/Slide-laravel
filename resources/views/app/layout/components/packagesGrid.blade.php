@@ -1,5 +1,5 @@
 <section class="packagesGridContainer container m-t-144">
-    <h2 class="fira-bold font-55 text-center kfn_anim k-fadeUp">რატომ დავაზღვიო პაკეტი მედით? ჰა?</h2>
+    <h2 class="fira-bold font-55 text-center kfn_anim k-fadeUp">რატომ დავაზღვიო პაკეტი მედით?</h2>
     <div class="packagesGridInner">
 
         <div class="packageGrid kfn_anim k-fadeUp">

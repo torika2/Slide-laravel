@@ -4,9 +4,9 @@
         	<div class="content">
         		<div class="img-box">
         			<picture>
-			            <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/gpi.png">
-			            <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/gpi.png">
-			            <img src="http://gpi.test/assets/img/gpi.png" class="" alt="">
+			            <source media="(max-width: 767px)" srcset="{{asset('assets/img/gpi.png')}}">
+			            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/gpi.png')}}">
+			            <img src="{{asset('assets/img/gpi.png')}}" class="" alt="">
 			        </picture>
         		</div>
         		<div class="noto-bold subtitle">
@@ -28,9 +28,9 @@
         	<div class="content">
         		<div class="img-box">
         			<picture>
-			            <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/pdf.png">
-			            <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/pdf.png">
-			            <img src="http://gpi.test/assets/img/pdf.png" class="" alt="">
+			            <source media="(max-width: 767px)" srcset="{{asset('assets/img/pdf.png')}}">
+			            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/pdf.png')}}">
+			            <img src="{{asset('assets/img/pdf.png')}}" class="" alt="">
 			        </picture>
         		</div>
         		<div class="noto-bold subtitle">
@@ -52,9 +52,9 @@
         	<div class="content">
         		<div class="img-box">
         			<picture>
-			            <source media="(max-width: 767px)" srcset="http://gpi.test/assets/img/use-cases.jpg">
-			            <source media="(max-width: 1023px)" srcset="http://gpi.test/assets/img/use-cases.jpg">
-			            <img src="http://gpi.test/assets/img/use-cases.jpg" class="" alt="">
+			            <source media="(max-width: 767px)" srcset="{{asset('assets/img/use-cases.jpg')}}">
+			            <source media="(max-width: 1023px)" srcset="{{asset('assets/img/use-cases.jpg')}}">
+			            <img src="{{asset('assets/img/use-cases.jpg')}}" class="" alt="">
 			        </picture>
         		</div>
         		<div class="noto-bold subtitle">

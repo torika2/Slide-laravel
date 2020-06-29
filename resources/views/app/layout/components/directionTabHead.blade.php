@@ -18,51 +18,54 @@
         </div>
         <div class="directionHeadTabsCont">
             <h1 class="fira-bold font-55">ბიზნეს რისკები</h1>
-            <div class="directionHeadTabs">
-                <a href="##" class="directionHeadTab active fira-bold uppercase">
-                    <i></i>
-                    ისტორია
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    მისია
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    ანგარიშები
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    მენეჯმენტი
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    CSR
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    პარტნიორობა
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    მისია
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    ანგარიშები
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    მენეჯმენტი
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    CSR
-                </a>
-                <a href="##" class="directionHeadTab fira-bold uppercase">
-                    <i></i>
-                    პარტნიორობა
-                </a>
+            <div class="directionHeadTabs swiper-container">
+                <div class="swiper-wrapper">
+                    <a href="##" class="swiper-slide directionHeadTab active fira-bold uppercase">
+                        <i></i>
+                        ისტორია
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        მისია
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        ანგარიშები
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        მენეჯმენტი
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        CSR
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        პარტნიორობა
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        მისია
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        ანგარიშები
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        მენეჯმენტი
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        CSR
+                    </a>
+                    <a href="##" class="swiper-slide directionHeadTab fira-bold uppercase">
+                        <i></i>
+                        პარტნიორობა
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>

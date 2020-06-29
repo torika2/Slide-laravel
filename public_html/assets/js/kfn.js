@@ -424,6 +424,8 @@ window.onload = function () {
             this.containerHeight()
             // სლაიდერის შეცვლა
             this.changeSliders()
+            // სლაიდერის სურათების შეცვლა
+            this.changeSlideImgs()
             window.addEventListener('resize',function(){
                 setTimeout(function() {
                     smartBox.containerHeight()
@@ -433,6 +435,11 @@ window.onload = function () {
         activeHeight : document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active'),
         slideDots : document.querySelectorAll('.smart-box-container .left-side .smart-box .heading .tabs-container ul li'),
         sliders : document.querySelectorAll('.smart-box-container .left-side .smart-box .slider-container .sliders .slider'),
+        firstSlideImgs : document.querySelectorAll('.smart-box-container .right-side .image-container img'),
+        firstSlideImgActive : document.querySelector('.smart-box-container .right-side .image-container img.active'),
+        secondSlideImgs : document.querySelectorAll('.smart-box-container .slider--container .item img'),
+        secondSlideImgActive : document.querySelector('.smart-box-container .slider--container .item img.active'),
+        sliderItems: document.querySelectorAll('.smart-box-container .left-side .smart-box .slider-container .sliders .slider .swiper-slide'),
         changeSliders : function(){
             smartBox.slideDots.forEach(function(el){
                 el.addEventListener('click',function(){
@@ -444,6 +451,31 @@ window.onload = function () {
                     this.classList.add('active')
                     smartBox.activeHeight = document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active')
                     smartBox.containerHeight()
+                })
+            })
+        },
+        changeSlideImgs: function(){
+            smartBox.sliderItems.forEach(function(el){
+                el.addEventListener('click',function(){
+                    index = this.dataset.slider
+                    smartBox.firstSlideImgs.forEach(function(el){
+                        el.classList.remove('not-active')
+                    })
+                    smartBox.secondSlideImgs.forEach(function(el){
+                        el.classList.remove('not-active')
+                    })            
+                    document.querySelector('.smart-box-container .right-side .image-container img.active').classList.add('not-active')
+                    document.querySelector('.smart-box-container .slider--container .item img.active').classList.add('not-active')
+                    document.querySelector('.smart-box-container .right-side .image-container img.active').classList.remove('active')
+                    document.querySelector('.smart-box-container .slider--container .item img.active').classList.remove('active')
+                    smartBox.firstSlideImgs[index].classList.add('active')
+                    smartBox.secondSlideImgs[index].classList.add('active')
+                    if (smartBox.firstSlideImgs[index].getAttribute('src') == null) {
+                        smartBox.firstSlideImgs[index].setAttribute('src',smartBox.firstSlideImgs[index].dataset.desktopsrc)
+                    }
+                    if (smartBox.secondSlideImgs[index].getAttribute('src') == null) {
+                        smartBox.secondSlideImgs[index].setAttribute('src',smartBox.secondSlideImgs[index].dataset.desktopsrc)
+                    }
                 })
             })
         },
@@ -479,7 +511,7 @@ window.onload = function () {
         containerHeight : function(){
             document.querySelector('.smart-box-container .left-side .smart-box .slider-container').style.height = smartBox.activeHeight.clientHeight + 'px';
             console.log(smartBox.activeHeight)
-        },
+        }
     }
     if (document.body.classList.contains('page-home')) {
         smartBox.init()

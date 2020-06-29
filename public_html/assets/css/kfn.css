@@ -1431,7 +1431,7 @@ body {
   height: auto;
 }
 .smart-box-container .left-side .smart-box .slider-container .sliders .slider .img {
-  padding-top: 70%;
+  padding-top: 50%;
   position: relative;
   margin: auto;
   margin-top: 50px;
@@ -1441,9 +1441,12 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   top: 0;
   left: 0;
+}
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .swiper-slide {
+  cursor: pointer;
 }
 .smart-box-container .left-side .smart-box .slider-container .sliders .slider .slide-arrows {
   display: flex;
@@ -1465,11 +1468,15 @@ body {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 40px;
+  transition: transform .6s;
+}
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .swiper-slide:hover h2 {
+  transform: translate(0,-10px);
 }
 .smart-box-container .right-side .image-container {
   width: 100%;
   position: relative;
-  padding-top: 153%;
+  padding-top: 113%;
 }
 .smart-box-container .right-side .image-container img {
   position: absolute;
@@ -1477,13 +1484,42 @@ body {
   left: 0;
   width: 100%;
   object-fit: cover;
+  visibility: hidden;
+}
+.smart-box-container .right-side .image-container img.not-active{
+  animation: FirstOut 1s cubic-bezier(0.68, 0.02, 0.62, 1.01) both;
+  visibility: visible;
+}
+.smart-box-container .right-side .image-container img.active {
+  animation: FirstIn 1s cubic-bezier(0.17,-0.01, 0.35, 1) both .6s;
+  visibility: visible;
+}
+@keyframes FirstOut {
+  from {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(0,100px);
+    opacity: 0;
+  }
+}
+@keyframes FirstIn {
+  from {
+    transform: translate(0,-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0,0px);
+    opacity: 1;
+  }
 }
 .smart-box-container .slider--container {
   position: absolute;
   top: 0;
   right: 0;
   width: 40%;
-  height: 135%;
+  height: 172%;
   background: red;
 }
 .smart-box-container .slider--container .item {
@@ -1498,19 +1534,52 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
   mix-blend-mode: hard-light;
+  visibility: hidden;
+}
+.smart-box-container .slider--container .item img.active {
+  animation: secondIn 1s cubic-bezier(0.17,-0.01, 0.35, 1) both .6s;
+  visibility: visible;
+}
+.smart-box-container .slider--container .item img.not-active {
+  animation: secondOut 1s cubic-bezier(0.68, 0.02, 0.62, 1.01) both;
+  visibility: visible;
+}
+@keyframes secondOut {
+  from {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(100px,0);
+    opacity: 0;
+  }
+}
+@keyframes secondIn {
+  from {
+    transform: translate(0,100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0,0px);
+    opacity: 1;
+  }
 }
 .ribbon {
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
-  transform: translate(0,-1%);
+  transform: translate(0,-5%);
   width: calc(100% - 100px);
   line-height: 0;
   z-index: 2;
   overflow: hidden;
-  display: none;
+  pointer-events: none;
+  /*display: none;*/
 }
 .ribbon img {
   width: 100%;

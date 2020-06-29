@@ -432,7 +432,7 @@ document.addEventListener("click", closeAllSelect);
 
 // $(document).ready(function () {
 var packagesSlideDown = function () {
-    $('.details-btn').click(function () {
+    $('.btn-container').click(function () {
         if (!$(this).hasClass("active")) {
             $(this).addClass("active");
         } else {

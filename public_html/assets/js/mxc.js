@@ -37,8 +37,10 @@ $(document).ready(function () {
 
     $(".directInnerTabListContainer").css("height",$(".directInnerTabListInner").height() + 'px');
     $(window).resize(function () {
+
         setTimeout(function () {
             sliderTeamFunc()
+            actDir()
         },500);
 
 
@@ -61,6 +63,24 @@ $(document).ready(function () {
         freeMode: true,
 
     });
+
+    var dirSw = undefined;
+    function actDir() {
+        var screenWidth = $(window).width();
+        if (screenWidth < 1024 && dirSw == undefined) {
+            dirSw = new Swiper('.directionHeadTabs', {
+                slidesPerView: 'auto',
+                freeMode: true
+            });
+        } else if (screenWidth > 1023 && dirSw != undefined) {
+            dirSw.destroy();
+            dirSw = undefined;
+        }
+
+    }
+    actDir()
+
+
     var sliderTeamFunc = function () {
         var teamSlider = new Swiper('.teamSlider', {
             slidesPerView: 'auto',
@@ -69,6 +89,7 @@ $(document).ready(function () {
 
         });
     }
+
     sliderTeamFunc()
 
     //company history end

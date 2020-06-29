@@ -3694,6 +3694,10 @@ body.animate .picturesContainer.animated .picturesMain{
 .teamLinkCont a.em{
     font-size: 13px;
 }
+.directionHeadTabs .swiper-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
 /*laptop 1680*/
 @media (max-width: 1900px){
     .mediaRelDescr div,.mediaRelDescr div:nth-child(2){
@@ -4174,6 +4178,9 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*ipad 768*/
 @media (max-width: 1023px){
+    .directionHeadTabs .swiper-wrapper{
+        flex-wrap: nowrap;
+    }
     footer .rightContainer  .footerSubMenu .ttl{
         height: auto;
     }
@@ -4891,10 +4898,10 @@ body.animate .picturesContainer.animated .picturesMain{
     .directionHeadTabs{
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-        overflow: auto;
+        /*overflow: auto;*/
         padding-left: 17px;
-        padding-right: 17px;
-
+        /*padding-right: 17px;*/
+        /*-webkit-overflow-scrolling: touch;*/
     }
     body.mobile .directionHeadTabs{
         -webkit-overflow-scrolling: touch;

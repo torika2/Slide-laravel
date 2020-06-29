@@ -163,27 +163,27 @@ $(document).ready(function () {
             breakpoints: {
                 320: {
                     slidesPerView: 1,
-                    spaceBetween: 30,
+                    spaceBetween: 30
                 },
                 768: {
                     slidesPerView: 1,
-                    spaceBetween: 30,
+                    spaceBetween: 30
                 },
                 1024: {
                     slidesPerView: 1,
-                    spaceBetween: 30,
+                    spaceBetween: 30
                 },
                 1366: {
                     slidesPerView: 1,
-                    spaceBetween: 30,
+                    spaceBetween: 30
                 },
                 1599: {
                     slidesPerView: 1,
-                    spaceBetween: 30,
+                    spaceBetween: 30
                 },
                 1900: {
                     slidesPerView: 1,
-                    spaceBetween: 30,
+                    spaceBetween: 30
                 }
             }
         });
@@ -272,11 +272,12 @@ $(document).ready(function () {
     brandPlatformSlider();
     subMenuSlider();
 
-    $(window).resize(function () {
-         setTimeout(function () {
-            directionSlider();
-        }, 100);
-    });
+    // $(window).resize(function () {
+    //      setTimeout(function () {
+    //         directionSlider();
+    //     }, 100);
+    //      directionSlider();
+    // });
     $(window).resize(function () {
          setTimeout(function () {
             packagesSlider();

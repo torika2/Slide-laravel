@@ -409,20 +409,20 @@ button {
 
 
 /* light gallery styles*/
-/* .lg-actions .lg-next, .lg-actions .lg-prev {
+.lg-actions .lg-next, .lg-actions .lg-prev {
     outline: none !important;
     border: none;
-} */
+}
 .lg-backdrop {
     background: rgba(41, 37, 98, 0.9) !important;
 }
-/* .lg-sub-html {
+.lg-sub-html {
     display: none !important;
-} */
-/* .lg-outer.lg-thumb-open .lg-thumb-outer {
+}
+.lg-outer.lg-thumb-open .lg-thumb-outer {
     display: none !important;
-} */
-/* .lg-toolbar #lg-counter,
+}
+.lg-toolbar #lg-counter,
 .lg-toolbar .lg-download,
 .lg-toolbar .lg-autoplay-button,
 .lg-toolbar .lg-fullscreen,
@@ -431,6 +431,6 @@ button {
 .lg-toolbar #lg-actual-size,
 .lg-toolbar #lg-share {
     display: none !important;
-} */
+}
 
 

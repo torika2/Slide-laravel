@@ -5,7 +5,7 @@ $(document).ready(function () {
             $(".aboutHistory").removeClass("active");
             $(this).addClass("active");
             $(".aboutHistoryDescr").css("height","0px");
-            $(this).children(".aboutHistoryDescr").css("height", $(this).find(".aboutHistoryDescrInner").height() + 20 + "px");
+            $(this).children(".aboutHistoryDescr").css("height", $(this).find(".aboutHistoryDescrInner").height() + 30 + "px");
             console.log($(this).find(".aboutHistoryDescrInner").height())
         }else{
             $(".aboutHistory").removeClass("active");
@@ -40,10 +40,11 @@ $(document).ready(function () {
 
         setTimeout(function () {
             sliderTeamFunc();
+            $(".aboutHistory.active").children(".aboutHistoryDescr").css("height", $(".aboutHistory.active").find(".aboutHistoryDescrInner").height() + 30 + "px");
         },500);
 
 
-        $(".aboutHistory.active").children(".aboutHistoryDescr").css("height", $(".aboutHistory.active").find(".aboutHistoryDescrInner").height() + 20 + "px");
+
         if($("#searchContainer").hasClass("active")){
             $("#searchContainer").css("height",$(".searchInner").height() + "px")
         }

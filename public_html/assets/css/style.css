@@ -2761,6 +2761,7 @@ input:focus::-webkit-input-placeholder {
     -webkit-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
+    flex-grow: 1;
 }
 .gallery-outer .pagination {
     margin-top: 35px;

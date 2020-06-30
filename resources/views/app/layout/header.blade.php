@@ -144,6 +144,13 @@
     </div>
 </div>
 <div class="page-wrap">
+
+
+<!-- <div class="ribbon">
+    <img src="{{asset('assets/img/01.png')}}" alt="">
+    <img src="{{asset('assets/img/02.png')}}" alt="">
+</div> -->
+
 <header>
     <div class="in">
         <div class="firstFloor">

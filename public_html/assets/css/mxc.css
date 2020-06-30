@@ -2606,6 +2606,7 @@ body.animate .directionTabHead{
     width: 100%;
 }
 .directionHeadTab{
+    flex-basis: 0px;
     height: 53px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3698,7 +3699,7 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 .directionHeadTabs .swiper-wrapper{
     display: flex;
-    flex-wrap: initial;
+    flex-wrap: wrap;
 }
 /*laptop 1680*/
 @media (max-width: 1900px){
@@ -4180,6 +4181,9 @@ body.animate .picturesContainer.animated .picturesMain{
 }
 /*ipad 768*/
 @media (max-width: 1023px){
+    .directionHeadTabs .swiper-wrapper{
+        flex-wrap: initial;
+    }
     .directionHeadTabs .swiper-wrapper{
         flex-wrap: nowrap;
     }

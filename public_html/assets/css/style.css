@@ -2725,6 +2725,9 @@ input:focus::-webkit-input-placeholder {
     -o-transition: 0.6s;
     transition: 0.6s;
 }
+.gallery-container .images a:not(:first-child) {
+    display: none;
+}
 .gallery-box {
     margin-right: 60px;
 }
@@ -3205,6 +3208,7 @@ input:focus::-webkit-input-placeholder {
 @media(max-width: 767px) {
     .insurance-tab-container .tab-link {
         width: 50%;
+        min-width: unset;
     }
     .insurance-tab-container .provider-clinics-description {
         display: none;

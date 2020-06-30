@@ -421,14 +421,18 @@ window.onload = function () {
             // სმარტ ბოქსის სლაიდერებ
             this.smartBoxSliders()
             // კონტეინერის სიმაღლის გაგება
-            this.containerHeight()
+            // this.containerHeight()
             // სლაიდერის შეცვლა
             this.changeSliders()
             // სლაიდერის სურათების შეცვლა
             this.changeSlideImgs()
+            // ღილაკების სექციის ჩართვა
+            this.buttonSection()
+            // ღილაკების სექციის გამორთვა
+            this.closeButtonSection()
             window.addEventListener('resize',function(){
                 setTimeout(function() {
-                    smartBox.containerHeight()
+                    // smartBox.containerHeight()
                 }, 200);
             })
         },
@@ -442,15 +446,68 @@ window.onload = function () {
         sliderItems: document.querySelectorAll('.smart-box-container .left-side .smart-box .slider-container .sliders .slider .swiper-slide'),
         changeSliders : function(){
             smartBox.slideDots.forEach(function(el){
+                el.addEventListener('click',function(e){
+                    if (document.querySelector('.slider-components .slide-component.active') == undefined) {
+                        index = this.dataset.slide;
+                        document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active').classList.remove('active')
+                        document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders [data-slide="' + index + '"]').classList.add('active')
+                        document.querySelector('.smart-box-container .left-side .smart-box .heading .tabs-container ul li.active').classList.remove('active')
+                        this.classList.add('active')
+                        smartBox.activeHeight = document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active')
+                        // smartBox.containerHeight()
+                    }else {
+                        // document.body.classList.add('no-events');
+                    }
+                })
+            })
+        },
+        closeButtonSection : function(){
+            closeBtns = document.querySelectorAll('.slider-components .slide-component .item .close');
+            closeBtns.forEach(function(el){
                 el.addEventListener('click',function(){
-                    index = this.dataset.slide;
-                    console.log(index)
-                    document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active').classList.remove('active')
-                    document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders [data-slide="' + index + '"]').classList.add('active')
-                    document.querySelector('.smart-box-container .left-side .smart-box .heading .tabs-container ul li.active').classList.remove('active')
-                    this.classList.add('active')
-                    smartBox.activeHeight = document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active')
-                    smartBox.containerHeight()
+                    smartBox.firstSlideImgs.forEach(function(el){
+                        el.classList.remove('not-active')
+                    })
+                    smartBox.secondSlideImgs.forEach(function(el){
+                        el.classList.remove('not-active')
+                    })            
+                    document.querySelector('.smart-box-container .right-side .image-container img.active').classList.add('not-active')
+                    document.querySelector('.smart-box-container .slider--container .item img.active').classList.add('not-active')
+                    document.querySelector('.smart-box-container .right-side .image-container img.active').classList.remove('active')
+                    document.querySelector('.smart-box-container .slider--container .item img.active').classList.remove('active')
+                    smartBox.firstSlideImgs[0].classList.add('active')
+                    smartBox.secondSlideImgs[0].classList.add('active')
+                    if (smartBox.firstSlideImgs[0].getAttribute('src') == null) {
+                        smartBox.firstSlideImgs[0].setAttribute('src',smartBox.firstSlideImgs[0].dataset.desktopsrc)
+                    }
+                    if (smartBox.secondSlideImgs[0].getAttribute('src') == null) {
+                        smartBox.secondSlideImgs[0].setAttribute('src',smartBox.secondSlideImgs[0].dataset.desktopsrc)
+                    }
+                    document.body.classList.add('closing-smart-box');
+                    setTimeout(function() {
+                        document.querySelector('.slider-components .slide-component.active .item.active').classList.remove('active');
+                        document.querySelector('.slider-components .slide-component.active').classList.remove('active');
+                        document.body.classList.remove('opening-smart-box' , 'opened-smart-box')
+                        document.body.classList.remove('closing-smart-box');
+                    }, 500);
+                })  
+            })
+        },
+        buttonSection : function(){
+            smartBox.sliderItems.forEach(function(el){
+                el.addEventListener('click',function(){
+                    // ვთიშავთ pointer-event-ებს
+                    document.body.classList.add('opening-smart-box')
+                    // ვიგებთ აქტიური სლაიდის ინდექსს
+                    index = document.querySelector('.smart-box-container .left-side .smart-box .slider-container .sliders .slider.active').dataset.slide;
+                    currentIndex = this.dataset.item;
+                    setTimeout(function() {
+                        // ვაქრობთ აქტიურ სლაიდს
+                        document.body.classList.add('opened-smart-box')
+                        document.querySelectorAll('.slider-components .slide-component')[index - 1].classList.add('active')
+                        document.querySelectorAll('.slider-components .slide-component.active .item')[currentIndex - 1].classList.add('active')
+                    }, 500);
+
                 })
             })
         },
@@ -510,7 +567,6 @@ window.onload = function () {
         },
         containerHeight : function(){
             document.querySelector('.smart-box-container .left-side .smart-box .slider-container').style.height = smartBox.activeHeight.clientHeight + 'px';
-            console.log(smartBox.activeHeight)
         }
     }
     if (document.body.classList.contains('page-home')) {

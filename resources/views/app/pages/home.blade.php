@@ -1,7 +1,7 @@
 @extends('app.layout.app')
 @section('pageName')home @endsection
 @section('content')
-<div style="position: relative;">
+<div style="position: relative; width: 100%;">
     <div class="ribbon">
         <img src="{{asset('assets/img/01.png')}}" alt="">
         <img src="{{asset('assets/img/02.png')}}" alt="">
@@ -206,21 +206,1047 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="slider-components">
-                        <div class="slide-component">
+                    <div class="slider-components">
+                        <div class="slide-component" data-component="1">
                             <div class="item">
                                 <div class="side">
                                     <div class="image">
                                         <img src="{{asset('assets/img/Group 589.png')}}" alt="">
                                         <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
                                     </div>
+                                    <div class="stick"></div>
                                 </div>
-                                <div class="side"></div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="slide-component"></div>
-                        <div class="slide-component"></div>
-                    </div> -->
+                        <div class="slide-component" data-component="2">
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-component" data-component="3">
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="side">
+                                    <div class="image">
+                                        <img src="{{asset('assets/img/Group 589.png')}}" alt="">
+                                        <h2 class="font-16 noto-semibold">ჯანმრთელობა</h2>
+                                    </div>
+                                    <div class="stick"></div>
+                                </div>
+                                <div class="side">
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ექსკლუზივი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">მრავალჯერადი</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="main">
+                                            <span class="font-16 fira-bold">ფრენის გადადება</span>
+                                        </div>
+                                        <div class="hover">
+                                            <div class="basket">
+                                                <img src="{{asset('assets/img/shedzena.svg')}}" alt="">
+                                                <div class="popup">
+                                                    <span class="noto-medium font-10">შეიძინე ონლაინ</span>
+                                                    <img src="{{asset('assets/img/Polygon 100.svg')}}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <img src="{{asset('assets/img/MenuClaimss.svg')}}" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27.21" height="27.21" viewBox="0 0 27.21 27.21">
+                                          <g id="Group_3164" data-name="Group 3164" transform="translate(23.674 3.536) rotate(90)">
+                                            <line id="Line_15" data-name="Line 15" x2="20.139" y2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                            <line id="Line_16" data-name="Line 16" y1="20.139" x2="20.139" transform="translate(0 0)" fill="none" stroke="#ee2a7b" stroke-linecap="round" stroke-width="5"></line>
+                                          </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

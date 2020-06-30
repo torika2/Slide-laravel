@@ -48,6 +48,7 @@ body , html {
   width: 100%;
   position: relative;
   margin-bottom: 192px;
+  z-index: 5;
 }
 #ecoist-slider .slider-container {
   width: 100%;
@@ -1424,6 +1425,13 @@ body {
 .smart-box-container .left-side .smart-box .slider-container .sliders .slider {
   visibility: hidden;
   height: 0;
+  transition: opacity .5s;
+}
+.opening-smart-box .smart-box-container .left-side .smart-box .slider-container .sliders .slider.active {
+  opacity: 0;
+}
+.opened-smart-box .smart-box-container .left-side .smart-box .slider-container .sliders .slider.active {
+  display: none;
 }
 .smart-box-container .left-side .smart-box .slider-container .sliders .slider.active {
   display: block;
@@ -1431,7 +1439,7 @@ body {
   height: auto;
 }
 .smart-box-container .left-side .smart-box .slider-container .sliders .slider .img {
-  padding-top: 70%;
+  padding-top: 50%;
   position: relative;
   margin: auto;
   margin-top: 50px;
@@ -1441,9 +1449,12 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   top: 0;
   left: 0;
+}
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .swiper-slide {
+  cursor: pointer;
 }
 .smart-box-container .left-side .smart-box .slider-container .sliders .slider .slide-arrows {
   display: flex;
@@ -1465,11 +1476,15 @@ body {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 40px;
+  transition: transform .6s;
+}
+.smart-box-container .left-side .smart-box .slider-container .sliders .slider .swiper-slide:hover h2 {
+  transform: translate(0,-10px);
 }
 .smart-box-container .right-side .image-container {
   width: 100%;
   position: relative;
-  padding-top: 153%;
+  padding-top: 113%;
 }
 .smart-box-container .right-side .image-container img {
   position: absolute;
@@ -1477,13 +1492,42 @@ body {
   left: 0;
   width: 100%;
   object-fit: cover;
+  visibility: hidden;
+}
+.smart-box-container .right-side .image-container img.not-active{
+  animation: FirstOut 1s cubic-bezier(0.68, 0.02, 0.62, 1.01) both;
+  visibility: visible;
+}
+.smart-box-container .right-side .image-container img.active {
+  animation: FirstIn 1s cubic-bezier(0.17,-0.01, 0.35, 1) both .6s;
+  visibility: visible;
+}
+@keyframes FirstOut {
+  from {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(0,100px);
+    opacity: 0;
+  }
+}
+@keyframes FirstIn {
+  from {
+    transform: translate(0,-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0,0px);
+    opacity: 1;
+  }
 }
 .smart-box-container .slider--container {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 3px;
   width: 40%;
-  height: 135%;
+  height: 172%;
   background: red;
 }
 .smart-box-container .slider--container .item {
@@ -1498,25 +1542,244 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
   mix-blend-mode: hard-light;
+  visibility: hidden;
+}
+.smart-box-container .slider--container .item img.active {
+  animation: secondIn 1s cubic-bezier(0.17,-0.01, 0.35, 1) both .6s;
+  visibility: visible;
+}
+.smart-box-container .slider--container .item img.not-active {
+  animation: secondOut 1s cubic-bezier(0.68, 0.02, 0.62, 1.01) both;
+  visibility: visible;
+}
+@keyframes secondOut {
+  from {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(100px,0);
+    opacity: 0;
+  }
+}
+@keyframes secondIn {
+  from {
+    transform: translate(0,100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0,0px);
+    opacity: 1;
+  }
 }
 .ribbon {
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
-  transform: translate(0,-1%);
+  transform: translate(0,-5%);
   width: calc(100% - 100px);
   line-height: 0;
   z-index: 2;
   overflow: hidden;
-  display: none;
+  pointer-events: none;
+  /*display: none;*/
 }
 .ribbon img {
   width: 100%;
-  /*margin-top: -16%;*/
   position: relative;
   display: block;
+}
+.slider-components .slide-component {
+  visibility: hidden;
+  height: 0;
+}
+.slider-components .slide-component.active {
+  visibility: visible;
+  height: auto;
+}
+.slider-components .slide-component .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  padding-top: 45px;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.5s;
+}
+.slider-components .slide-component .item.active {
+  opacity: 1;
+  pointer-events: all;
+  position: relative;
+}
+.closing-smart-box .slider-components .slide-component .item.active {
+  opacity: 0;
+}
+.slider-components .slide-component .item .side {
+  position: relative;
+}
+.slider-components .slide-component .item .side:nth-child(1) {
+  text-align: center;
+  width: 170px;
+  padding-right: 40px;
+}
+.slider-components .slide-component .item .side:nth-child(1) h2 {
+  margin-top: 25px;
+}
+.slider-components .slide-component .item .side:nth-child(1) .stick {
+  width: 1px;
+  height: 117px;
+  background: #9199B4;
+  right: 0;
+  left: unset;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+.slider-components .slide-component .item .side:nth-child(2) {
+  width: calc(100% - 170px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 43px;
+}
+.slider-components .slide-component .item .side:nth-child(2) a {
+  display: inline-flex;
+  height: 50px;
+  border: 1px solid #9199B4;
+  border-radius: 8px;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+  opacity: 0;
+  transition: .4s;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(1){}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(2){
+  transition-delay: 0.1s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(3){
+  transition-delay: 0.2s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(4){
+  transition-delay: 0.3s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(5){
+  transition-delay: 0.4s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(6){
+  transition-delay: 0.5s;
+}
+.slider-components .slide-component .item.active .side:nth-child(2) a {
+  opacity: 1;
+}
+.slider-components .slide-component .item .side:nth-child(2) a .main {
+  overflow: hidden;
+  transition: .4s;
+  opacity: 1;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:hover .main {
+  transform: scale(0.8);
+  opacity: 0;
+}
+.slider-components .slide-component .item .side:nth-child(2) a .main span {
+  display: block;
+  transform: translate(0,100%);
+  transition: 1s;
+}
+.slider-components .slide-component .item.active .side:nth-child(2) a .main span {
+  transform: translate(0,0);
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(2) .main span {
+  transition-delay: 0.1s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(3) .main span {
+  transition-delay: 0.2s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(4) .main span {
+  transition-delay: 0.3s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(5) .main span {
+  transition-delay: 0.4s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:nth-child(6) .main span {
+  transition-delay: 0.5s;
+}
+.slider-components .slide-component .item .side:nth-child(2) .close {
+  transform: rotate(180deg);
+  transition: 1s;
+}
+.slider-components .slide-component .item.active .side:nth-child(2) .close {
+  transform: rotate(0deg);
+}
+.slider-components .slide-component .item .side:nth-child(2) a .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  opacity: 0;
+  transition: .4s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a:hover .hover {
+  opacity: 1;
+}
+.slider-components .slide-component .item .side:nth-child(2) a .hover .basket {
+  width: calc(100% - 60px);
+  display: flex;
+  background: #EE2A7B;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 6px 0 0 6px;
+}
+.slider-components .slide-component .item .side:nth-child(2) a .hover .basket .popup {
+  position: absolute;
+  display: flex;
+  bottom: calc(100% + 18px);
+  background: #9199B4;
+  padding: 9px 13px;
+  white-space: nowrap;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translate(0,-10px);
+  pointer-events: none;
+  transition: .4s;
+}
+.slider-components .slide-component .item .side:nth-child(2) a .hover .basket:hover .popup {
+  opacity: 1;
+  transform: translate(0,0);
+  pointer-events: all;
+}
+.slider-components .slide-component .item .side:nth-child(2) a .hover .basket .popup img {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  margin-left: -6px;
+}
+.slider-components .slide-component .item .side:nth-child(2) a .hover .basket .popup span {
+  color: white;
+  font-size: 10px;
+}
+.slider-components .slide-component .item .side:nth-child(2) a .hover .info {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 0 8px 8px 0;
 }
 @media (max-width: 1599px){
   .smart-box-container .left-side {
@@ -2143,4 +2406,14 @@ form .input .content input {
 }
 textarea {
   box-shadow: unset;
+}
+
+
+.page-home .sub-menu {
+  position: relative;
+  z-index: 5;
+}
+.news-outer {
+  position: relative;
+  z-index: 5;
 }

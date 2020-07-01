@@ -6,7 +6,7 @@
     <div class="provider-clinics-description text-center  kfn_anim k-fadeUp">
         ჩვენ გირჩევთ შენი ცხოვრების ეტაპზე რომელი სადაზღვევო პოლისი შეგეფერება
     </div>
-    <div class="tab-section  kfn_anim k-fadeUp">
+    <div class="tab-section flex-box column kfn_anim k-fadeUp">
         <div class="services-tabs insurance-tabs flex-box al-center">
             <div class="stick"></div>
             <div class="tab-link flex-box al-center justify-center noto-bold current" data-tab="tab-1">

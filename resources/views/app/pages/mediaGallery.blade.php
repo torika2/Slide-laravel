@@ -25,9 +25,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         118
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -48,9 +48,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         118
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -71,9 +71,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         118
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -94,9 +94,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         102
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -117,9 +117,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         9
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -140,9 +140,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         78
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -163,9 +163,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         55
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -186,9 +186,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         10
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -209,9 +209,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         2
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -232,9 +232,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         118
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -255,9 +255,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         118
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>
@@ -278,9 +278,9 @@
                         </a>
                     </div>
                     <div class="img-overlay"></div>
-                    <span class="img-qty noto-semibold white">
+                    <div class="img-qty noto-semibold white">
                         118
-                    </span>
+                    </div>
                 </div>
                 <div class="gallery-title">ჯი პი აი ჰოლდინგი ექსპო ჯორჯიის საგამოფენო სივრცეში</div>
             </div>

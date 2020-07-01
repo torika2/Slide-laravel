@@ -9,7 +9,7 @@ $(document).ready(function () {
             breakpoints: {
                 320: {
                     spaceBetween: 15,
-                    slidesPerView: 1.145
+                    slidesPerView: 1
                 },
                 768: {
                     spaceBetween: 15,

@@ -699,4 +699,28 @@ $(document).ready(function () {
         }
     })
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Bais Bank*/
+
 })

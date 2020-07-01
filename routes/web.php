@@ -405,3 +405,21 @@ Route::get('/brand-platform', function () {
     return view('app.pages.brandPlatform');
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('/basis', function () {
+    return view('app.pages.basis');
+
+});

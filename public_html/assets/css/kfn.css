@@ -1426,9 +1426,18 @@ body {
   visibility: hidden;
   height: 0;
   transition: opacity .5s;
+  animation: fadee .5s both;
+}
+@keyframes fadee {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
 }
 .opening-smart-box .smart-box-container .left-side .smart-box .slider-container .sliders .slider.active {
-  opacity: 0;
+  animation: fadeeOut .5s both;
 }
 .opened-smart-box .smart-box-container .left-side .smart-box .slider-container .sliders .slider.active {
   display: none;
@@ -1640,7 +1649,12 @@ body {
   right: 0;
   left: unset;
   top: 50%;
-  transform: translate(0,-50%);
+  transition: 1s;
+  transform-origin: top;
+  transform: scaleY(0) translate(0,-50%);
+}
+.opened-smart-box .slider-components .slide-component .item .side:nth-child(1) .stick {
+  transform: scaleY(1) translate(0,-50%);
 }
 .slider-components .slide-component .item .side:nth-child(2) {
   width: calc(100% - 170px);
@@ -1658,12 +1672,11 @@ body {
   position: relative;
   padding: 0 20px;
   opacity: 0;
-  transition: .4s;
+  transition: 1s;
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.slider-components .slide-component .item .side:nth-child(2) a:nth-child(1){}
 .slider-components .slide-component .item .side:nth-child(2) a:nth-child(2){
   transition-delay: 0.1s;
 }
@@ -1717,6 +1730,8 @@ body {
 .slider-components .slide-component .item .side:nth-child(2) .close {
   transform: rotate(180deg);
   transition: 1s;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .slider-components .slide-component .item.active .side:nth-child(2) .close {
   transform: rotate(0deg);

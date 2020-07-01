@@ -1,6 +1,9 @@
 @extends('app.layout.app')
 @section('pageName')home @endsection
 @section('content')
+<form action="" id="test">
+    <input type="text"  style="height: 0; outline: none; border: none;">
+</form>
 <div style="position: relative; width: 100%;">
     <div class="ribbon">
         <img src="{{asset('assets/img/01.png')}}" alt="">

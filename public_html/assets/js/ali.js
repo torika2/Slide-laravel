@@ -716,11 +716,140 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
     /*Bais Bank*/
+
+    let slider = document.querySelector("#offerSlider");
+
+    let prebBtn = document.querySelector("#arrow-prev");
+    let nextBtn = document.querySelector("#arrow-next");
+    
+    let offerDots = document.querySelectorAll(".offer-dot");
+
+    let slides = document.querySelectorAll(".offer-slide");
+    let slidesLength = slides.length;
+
+    let slideImg = document.querySelectorAll(".slide-img");
+
+    let attr;
+    let slideActive;
+
+
+
+    nextBtn.onclick = function(){
+        slides.forEach(function(slide){
+            if(slide.classList.contains("active")){
+               attr = slide.getAttribute("data-slide");
+               if(attr == slidesLength){
+                attr = 1 ;
+               }else{
+                attr++;
+               }
+               slide.classList.remove("active");
+               slide.classList.add("no-active");
+               setTimeout(() => slide.classList.remove("no-active"), 500);
+            }
+        })
+
+        slideImg.forEach(function(img){
+            if(img.classList.contains("active")){
+               img.classList.remove("active");
+               img.classList.add("no-active");
+               setTimeout(() => img.classList.remove("no-active"), 1500);
+            }
+        })
+
+
+        offerDots.forEach(function(dot){
+            dot.classList.remove("active");
+        })
+
+        slideActive = document.querySelectorAll("[data-slide='" + attr + "']");
+
+        slideActive[0].classList.add("active");/*img*/
+        setTimeout(() => slideActive[1].classList.add("active"), 700); /*text*/
+        slideActive[2].classList.add("active"); /*dot*/
+
+
+        slider.classList.add("stop");
+        setTimeout(() => slider.classList.remove("stop"), 1600);
+    }
+
+    prebBtn.onclick = function(){
+
+        slides.forEach(function(slide){
+            if(slide.classList.contains("active")){
+               attr = slide.getAttribute("data-slide");
+               if(attr == 1){
+                attr = slidesLength ;
+               }else{
+                attr--;
+               }
+               slide.classList.remove("active");
+               slide.classList.add("no-active");
+               setTimeout(() => slide.classList.remove("no-active"), 500);
+            }
+        })
+
+        slideImg.forEach(function(img){
+            if(img.classList.contains("active")){
+               img.classList.remove("active");
+               img.classList.add("no-active");
+               setTimeout(() => img.classList.remove("no-active"), 1500);
+            }
+        })
+
+        offerDots.forEach(function(dot){
+            dot.classList.remove("active");
+        })
+
+        slideActive = document.querySelectorAll("[data-slide='" + attr + "']");
+        
+        slideActive[0].classList.add("active");/*img*/
+        setTimeout(() => slideActive[1].classList.add("active"), 700); /*text*/
+        slideActive[2].classList.add("active"); /*dot*/
+
+        slider.classList.add("stop");
+        setTimeout(() => slider.classList.remove("stop"), 1600);
+    }
+
+
+    offerDots.forEach(function(dot){
+        dot.onclick = function(){
+            if( !dot.classList.contains("active")){
+                attr = dot.getAttribute("data-slide");
+                
+                slides.forEach(function(slide){
+                    if(slide.classList.contains("active")){
+                        slide.classList.remove("active");
+                        slide.classList.add("no-active");
+                        setTimeout(() => slide.classList.remove("no-active"), 500);
+                    }
+                })
+
+                slideImg.forEach(function(img){
+                    if(img.classList.contains("active")){
+                       img.classList.remove("active");
+                       img.classList.add("no-active");
+                       setTimeout(() => img.classList.remove("no-active"), 1500);
+                    }
+                })
+
+                offerDots.forEach(function(dotNoActive){
+                    dotNoActive.classList.remove("active");
+                })
+
+                slideActive = document.querySelectorAll("[data-slide='" + attr + "']");
+
+                slideActive[0].classList.add("active");/*img*/
+                setTimeout(() => slideActive[1].classList.add("active"), 700); /*text*/
+                slideActive[2].classList.add("active"); /*dot*/
+
+                slider.classList.add("stop");
+                setTimeout(() => slider.classList.remove("stop"), 1600); 
+            }
+        }
+    })
+
+
 
 })

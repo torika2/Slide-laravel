@@ -21,7 +21,17 @@ class TranslationsController extends Controller
         if (request('search')) {
             $keyword = request('search');
         }
-        $words = Words::where('key', 'LIKE', '%' . $keyword . '%')->orderBy('id', 'DESC')->paginate(20);
+        $query = Words::query();
+        $query->where('key','LIKE', '%' . $keyword . '%');
+
+        foreach (getLocales() as $locale) {
+            $query->orWhere(function ($query) use($keyword,$locale){
+                return $query->where('value->'.$locale->locale , 'LIKE', '%' . $keyword . '%');
+            });
+        }
+
+
+        $words = $query->orderBy('id', 'DESC')->paginate(20);
         return view('CMS.Pages.Languages.translations', compact('words'));
     }
 

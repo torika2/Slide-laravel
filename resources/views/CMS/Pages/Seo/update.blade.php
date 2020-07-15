@@ -73,6 +73,7 @@
                                                     'data' => $data,
                                                     'column' => 'image',
                                                     'label' => 'image',
+                                                    'class' => 'aaa',
                                                     'placeHolder' => '',
                                                     'folder' => 'img',
                                                     'helpText' => '',

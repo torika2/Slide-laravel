@@ -128,8 +128,10 @@
                     <?php $modules = Config::get('cmsModules'); ?>
 
                     @foreach($modules as $module)
+
                     <?php $module = (object) $module; ?>
-                        @canany($module->gates)
+
+                    @canany($module->gates)
                         <li class="{{ in_array(\Route::current()->getName(), $module->namespaces) ? 'active' : '' }}">
                             <?php
                                 if(!empty($module->params) && $module->routeName){

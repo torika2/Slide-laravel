@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,6 +14,16 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        if(\Request::is('connect*')){
+            Paginator::defaultView('vendor.pagination.cms');
+        }
+        else {
+            Paginator::defaultView('vendor.pagination.app');
+        }
+
+
+
+
         $this->app->bind('path.public', function() {
             return base_path().'/public_html';
         });
@@ -25,6 +36,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
         //
     }
 }

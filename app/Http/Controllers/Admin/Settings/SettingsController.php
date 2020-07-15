@@ -18,8 +18,9 @@ class SettingsController extends Controller
         $sitename = Settings::where('key', 'sitename')->first();
         $devmode = Settings::where('key', 'devmode')->first();
         $mail = Settings::where('key','email')->first();
+        $social = Settings::where('key','social')->first();
 
-        return view('CMS.Pages.Settings.mainSettings', compact('sitename', 'devmode','mail'));
+        return view('CMS.Pages.Settings.mainSettings', compact('sitename', 'devmode','mail','social'));
     }
 
     public function store(Request $request)
@@ -44,6 +45,7 @@ class SettingsController extends Controller
         $valid['username']= 'nullable|string';
         $valid['contact']= 'nullable|email';
 
+
         request()->validate($valid);
         $sitename = Settings::where('key', 'sitename')->first();
         foreach ($locales as $locale) {
@@ -53,6 +55,18 @@ class SettingsController extends Controller
             }
         }
         $sitename->save();
+
+        $socials = Settings::where('key','social')->first();
+        $data = [
+
+            'facebook' => $request->facebook,
+            'tweeter' => $request->tweeter,
+            'vimeo' => $request->vimeo,
+            'pinterest' => $request->pinterest,
+        ];
+        $socials->data = $data;
+        $socials->save();
+
 
         $devmode = Settings::where('key', 'devmode')->first();
         $data = [];

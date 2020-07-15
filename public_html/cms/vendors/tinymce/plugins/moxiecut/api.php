@@ -5,15 +5,14 @@ ini_set("display_errors","1");
 ini_set("upload_max_filesize", $max_uploaded_size);
 ini_set("post_max_size", $max_uploaded_size);
 
-$charset = "utf-8";     //для файловой системы windlows прописать cp1251
+$charset = "utf-8";
 $preview_types = array("jpg","png","gif","bmp");
 $forbidden = explode(",","php,js,htm,cgi,xml,wml,pl,perl,asp,php3,php4,html");
-$uploaddir = "/uploads/tinymce";
+$uploaddir = "/files";
 $globaldirs = array("images"=>array("ext"=>"jpg,gif,png,bmp"),
                     "documents"=>array("ext"=>"doc,xls,pdf,ppt,txt,csv"),
                     "media"=>array("ext"=>"mp3,wmv,avi,mp4,mov,flv,mkv,mpg"),
-                    "other"=>array("ext"=>"dat,exe,zip,rar,iso"),
-                    "downloaded"=>array("ext"=>""),
+
               );
 
 $OUT = array();
@@ -52,7 +51,7 @@ function GetData($path,$ext=false,$filter=false){
 
 function GetAttrFiles($path,$arr){
     global $workdir,$preview_types, $charset;
-    $num = count($arr);
+    //$num = count($arr);
     if(!$arr)
     {
         return;
@@ -115,10 +114,10 @@ function sendparamsfile($path,$size,$modify,$file=false, $insert = false){
 
     $realPath = $path; //$uploaddir.$path;
     //$realPath = $uploaddir.$path;
-    
+
     if($insert) $realPath = $uploaddir.$path;
 
-    $data = array(      //для того чтобы автоматом подключало режим thumbnails
+    $data = array(      //пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ thumbnails
         "path"=>$realPath,
         "size"=>$size,
         "lastModified"=>$modify,
@@ -189,7 +188,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     }
 
 
-    //инициализация, вывод папок, конфиги для них
+    //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ
     if($method == "listRoots")
     {
         $OUT["jsonrpc"] = $jsrpc;
@@ -201,7 +200,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     if($method == "listFiles")
     {
         $OUT["jsonrpc"] = $jsrpc;
-        if($PARAMS["only_files"])   //просмотр изображений
+        if($PARAMS["only_files"])   //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         {
             $extensions = $PARAMS["extensions"];    //"jpg,gif,png,jpeg",
             $filez = GetData($path,$extensions,$PARAMS["filter"]);
@@ -271,7 +270,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     if($method == "FileInfo")
     {
         $OUT["jsonrpc"] = $jsrpc;
-        //вставка изображения
+        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         if($PARAMS["insert"])
         {
             $file = $workdir.$PARAMS["paths"][0];
@@ -295,14 +294,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
         $OUT["id"] = $id;
     }
 
-    if($method == "getConfig")  // аплод файлов
+    if($method == "getConfig")  // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
     {
         $OUT["jsonrpc"] = $jsrpc;
         $OUT["result"] = sendparamsdir($DIR[1]);
         $OUT["id"] = $id;
     }
 
-    if($_GET["action"] == "upload") //закачка файлов
+    if($_GET["action"] == "upload") //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
     {
         $OUT["jsonrpc"] = $jsrpc;
         $file = $_FILES["file"]["tmp_name"];
@@ -326,7 +325,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
         $OUT["id"] = $id;
     }
 
-    if($method == "delete")  // удаление файлов
+    if($method == "delete")  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
     {
         $OUT["jsonrpc"] = $jsrpc;
         foreach($PARAMS["paths"] as $file)
@@ -345,7 +344,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
         $OUT["id"] = $id;
     }
 
-    if($method == "createDirectory")  // создание директории
+    if($method == "createDirectory")  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     {
         mkdir($workdir.$path);
         $OUT["jsonrpc"] = $jsrpc;
@@ -353,7 +352,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
         $OUT["id"] = $id;
     }
 
-    if($method == "moveTo")  // переименование, перенос
+    if($method == "moveTo")  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     {
         $OUT["jsonrpc"] = $jsrpc;
         $from = $PARAMS["from"];
@@ -379,7 +378,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             if(!strstr($from,"..") && !strstr($to,"..") && !in_array($type,$forbidden))
             {
                 $from = iconv('utf-8', $charset, $from);
-                rename($workdir.$from,$to);  //переименование
+                rename($workdir.$from,$to);  //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
             }
             else
                $OUT["error"] = array("code"=>"100","message"=>"This filetype is forbidden! Rename aborted!","data"=>"");
@@ -388,7 +387,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
         $OUT["id"] = $id;
     }
 
-    if($method == "copyTo")  // копирование
+    if($method == "copyTo")  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     {
         $from = $PARAMS["from"];
         $to = iconv('utf-8', $charset, $workdir.$PARAMS["to"]);

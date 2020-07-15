@@ -1,8 +1,8 @@
-<?php 
+<?php
     $format = isset($format) ? $format : 'Y-m-d H:i';
     $enableTime = isset($enableTime) && !$enableTime ? 0 : 1;
     $carbon = \Carbon\Carbon::now()->format($format);
-    $lang = isset($lang) && $laenableTimeng ? $lang : false; 
+    $lang = isset($lang) && $laenableTimeng ? $lang : false;
     $data = isset($data) && !empty($data) ? (object) $data : [];
     $label = isset($label) && $label ? $label : 'name';
     $columnName = isset($column) && $column ? $column : 'name';
@@ -10,12 +10,12 @@
     $name = $lang ? $columnName.'_'.$lang->locale : $columnName;
     //Define $value
     if($data && $lang && $data->translate($lang->locale)->locale == $lang->locale){
-        $value = old($name) ? old($name) : $data->translate($lang->locale)->{$columnName};
+        $value =  old($name,$data->getTranslation($columnName,$lang->locale));
     }
     elseif($data && !$lang){ $value = $data->{$columnName}; }
-    else { $value = old($name) ? old($name) : $carbon; }
+    else { $value = old($name,$carbon); }
     //End of $value Definition
-    $helpText = isset($helpText) ? $helpText : '';   
+    $helpText = isset($helpText) ? $helpText : '';
     $required = isset($required) && $required ? $required : false;
 
 ?>

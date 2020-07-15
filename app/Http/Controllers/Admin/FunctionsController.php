@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 use App\Providers\ImageServiceProvider as imageHandle;
 use App\Models\Seo\Seo;
 use App\Models\About\About;
+use App\Models\UseCase\Industry;
+use App\Models\UseCase\UseCases;
 use Image;
 use File;
 use Gate;
@@ -190,18 +192,104 @@ class FunctionsController extends Controller
 
     public function getModel($model){
         $data = '';
+
         $models = collect([
 
+            [
+                'name' => 'software',
+                'namespace' => 'App\Models\Software\Software',
+            ],
+
+
+            [
+                'name' => 'welyhube',
+                'namespace' => 'App\Models\Home\WelyHube',
+            ],
+
+            [
+                'name' => 'advantagestatic',
+                'namespace' => 'App\Models\Home\AdvantageStatic',
+            ],
+
+            [
+                'name' => 'advantage',
+                'namespace' => 'App\Models\Home\Advantage',
+            ],
+            [
+                'name' => 'homehead',
+                'namespace' => 'App\Models\Home\Head',
+            ],
+
+
+            [
+                'name' => 'homesoftware',
+                'namespace' => 'App\Models\Home\SoftwareComponent',
+            ],
+
+
+
+            [
+                'name' => 'products',
+                'namespace' => 'App\Models\Product\Products',
+            ],
+
+            [
+                'name' => 'productimages',
+                'namespace' => 'App\Models\Product\ProductImages',
+            ],
+
+
+
+            [
+                'name' => 'projects',
+                'namespace' => 'App\Models\Projects\Projects',
+            ],
+            [
+                'name' => 'ucindustry',
+                'namespace' => 'App\Models\UseCase\Industry',
+            ],
+            [
+                'name' => 'usecase',
+                'namespace' => 'App\Models\UseCase\UseCases',
+            ],
+
+
+            [
+                'name' => 'usecasecontainer',
+                'namespace' => 'App\Models\UseCase\Container',
+            ],
+
+
+            [
+                'name' => 'projectimages',
+                'namespace' => 'App\Models\Projects\ProjectImages',
+            ],
+
+            [
+                'name' => 'clients',
+                'namespace' => 'App\Models\Clients\Clients',
+            ],
+            [
+                'name' => 'solutions',
+                'namespace' => 'App\Models\Solutions\Solutions',
+            ],
             [
                 'name' => 'seo',
                 'namespace' => 'App\Models\Seo\Seo',
             ],
+
+            [
+                'name' => 'staticdata',
+                'namespace' => 'App\Models\StaticData\StaticData',
+            ],
+
             [
                 'name' => 'about',
                 'namespace' => 'App\Models\About\About',
             ],
 
         ]);
+
         if(!$model){
             return false;
         }

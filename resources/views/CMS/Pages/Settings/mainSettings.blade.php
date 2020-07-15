@@ -134,6 +134,35 @@
 
 
 
+                                        <h7>
+                                            {{tr('Settings')}} :<span class="fw-300"><i>{{tr('social networks')}}</i></span>
+                                        </h7>
+
+                                        <div class="form-group col-md-6" >
+                                            <label class="form-label" for="facebook">{{tr('facebook')}}</label>
+                                            <input type="text" class="form-control" value="{{$social->data['facebook']}}" name="facebook" id="facebook">
+                                        </div>
+
+                                        <div class="form-group col-md-6" >
+                                            <label class="form-label" for="tweeter">{{tr('tweeter')}}</label>
+                                            <input type="text" class="form-control" value="{{$social->data['tweeter']}}" name="tweeter" id="tweeter">
+                                        </div>
+
+                                        <div class="form-group col-md-6" >
+                                            <label class="form-label" for="vimeo">{{tr('vimeo')}}</label>
+                                            <input type="text" class="form-control" value="{{$social->data['vimeo']}}" name="vimeo" id="vimeo">
+                                        </div>
+
+                                        <div class="form-group col-md-6" >
+                                            <label class="form-label" for="pinterest">{{tr('pinterest')}}</label>
+                                            <input type="text" class="form-control" value="{{$social->data['pinterest']}}" name="pinterest" id="pinterest">
+                                        </div>
+
+
+
+
+
+
                                         @can('updateSettings')
                                         <div class="form-group">
                                             <button type="submit" id="savebutton" class="btn btn-success waves-effect waves-themed">save changes</button>

@@ -1,4 +1,4 @@
-<?php  
+<?php
     $data = isset($data) && !empty($data) ? (object) $data : [];
     $label = isset($label) ? ucfirst($label) : '';
     $columnName = isset($columnName) ? $columnName  : 'image';
@@ -12,13 +12,13 @@
     //check plugin scope, if model multilingual and the plugin is also multilingual
     $values = isset($values) ?  $values : null;
     $placeHolder = isset($placeHolder) && $placeHolder ? $placeHolder : 'fill the field!';
-    $helpText = isset($helpText) ? $helpText : ''; 
-?> 
+    $helpText = isset($helpText) ? $helpText : '';
+?>
 <div class="form-group {!! $columnId !!} col-md-4">
     <label class="col-form-label text-lg-left form-label">{{ $label }}</label>
     <div class="input-group bg-white">
 	    <div class="custom-file" style="overflow:hidden;">
-	        <input type="file" name="{{$name}}[]" class="required borrowerImageFile custom-file-input" id="{{$columnId}}" data-errormsg="PhotoUploadErrorMsg" multiple="multiple">
+	        <input type="file" accept="image/*" name="{{$name}}[]" class="required borrowerImageFile custom-file-input" id="{{$columnId}}" data-errormsg="PhotoUploadErrorMsg" multiple="multiple">
 	        <label class="custom-file-label" for="{{$columnId}}">Choose file</label>
 	    </div>
 	</div>
@@ -47,14 +47,14 @@
 
 @push('componentScripts')
 <script>
-	$('{!! "#".$columnId !!}').change(function(e){ 
+	$('{!! "#".$columnId !!}').change(function(e){
         let {!! $name !!}MultiImg = new handleMultiImages('{!! $columnId !!}',event.target.files);
         {{ $name }}MultiImg.change();
     });
 </script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#js-lightgallery{!!$name!!}").lightGallery(); 
+        $("#js-lightgallery{!!$name!!}").lightGallery();
     });
 </script>
 <script>

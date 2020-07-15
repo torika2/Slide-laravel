@@ -1,5 +1,5 @@
-<?php 
-    $lang = isset($lang) && $lang ? $lang : false; 
+<?php
+    $lang = isset($lang) && $lang ? $lang : false;
     $data = isset($data) && !empty($data) ? (object) $data : [];
     $optionName = isset($optionName) ? $optionName : 'name';
     $optionValue = isset($optionValue) ? $optionValue : 'value';
@@ -7,13 +7,14 @@
     $columnName = isset($column) && $column ? $column : 'name';
     $columnId = $lang ? $columnName.'_'.$lang->locale : $columnName;
     $name = $lang ? $columnName.'_'.$lang->locale : $columnName;
-    $helpText = isset($helpText) ? $helpText : '';   
+    $helpText = isset($helpText) ? $helpText : '';
     $required = isset($required) && $required ? $required : false;
-    $dataLoad = isset($dataLoad) && !empty($dataLoad) ? $dataLoad : [];  
-    
+    $dataLoad = isset($dataLoad) && !empty($dataLoad) ? $dataLoad : [];
+
     //Define $value
-    if($data && $lang && $data->translate($lang->locale)->locale == $lang->locale){
-        $value = old($name) ? old($name) : $data->translate($lang->locale)->{$columnName};
+    if($data && $lang ){
+       // $value = old($name) ? old($name) : $data->translate($lang->locale)->{$columnName};
+        $value = old($name,$data->getTranslation($columnName,$lang->locale));
     }
     elseif($data && !$lang){ $value = $data->{$columnName}; }
     else { $value = old($name) ? old($name) : ''; }
@@ -24,6 +25,7 @@
     <label class="col-form-label text-lg-left form-label" for="single-disabled-result">{{tr($label)}}@if($lang): ({{$lang->locale}})@endif</label>
     <div class="input-group bg-white">
         <select name="{{ $name }}" class="select2 form-control select2-hidden-accessible" id="single-disabled-result" data-select2-id="single-disabled-result" tabindex="-1" aria-hidden="true" <?= $required ? 'required' : '' ?>>
+            <option value="">{{tr('none')}}</option>
             @foreach($dataLoad as $op)
                 <option value="{{ $op->{$optionValue} }}" <?= ($op->{$optionValue} == $value) ? 'selected' : '' ?>>{{ $op->{$optionName} }}</option>
             @endforeach

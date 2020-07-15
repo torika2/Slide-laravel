@@ -74,8 +74,12 @@ class ImageServiceProvider extends ServiceProvider
             self::removeImage($data, $column, $folder);
         }
         $filename = "img-" . date('H-i-s') . rand(111111, 999999);
+        $originalFileName = $filename.'.'.$src->getClientOriginalExtension();
         $webp = $filename . '.webp';
         $jpg = $filename . '.jpg';
+        $original = $filename.'.'.$src->getClientOriginalExtension();
+
+
         $directory = self::setDirectory($folder);
 
         if ($directory) {
@@ -83,6 +87,7 @@ class ImageServiceProvider extends ServiceProvider
             if ($ImageData->webp) {
                 $img->encode('webp')->save(public_path($directory . $webp));
             }
+            $img->save(public_path($directory . $original));
 
             if ($thumbs) {
                 foreach ($thumbs as $key => $thumb) {
@@ -146,10 +151,10 @@ class ImageServiceProvider extends ServiceProvider
 
         if (isset($ImageData->locale) && $ImageData->locale) {
 
-            $data->setTranslation($column, $ImageData->locale, $filename);
+            $data->setTranslation($column, $ImageData->locale, $originalFileName);
 
         } else {
-            $data->{$column} = $filename;
+            $data->{$column} = $originalFileName;
         }
 
         $data->save();
@@ -177,44 +182,131 @@ class ImageServiceProvider extends ServiceProvider
         $destinationPath = 'uploads/' . $folder . '/';
         $thumbs = !empty($ImageData->thumbs) ? $ImageData->thumbs : [];
 
+        if (!isset($ImageData->webp)) {
+
+            $ImageData->webp = false;
+
+        }
+
         if (!$data && !$id && !$column && !$src && !$relatedColumn && !$relatedId) {
             $response['status'] = '404';
             $response['message'] = 'data not found!';
             return $response;
         }
 
-        $filename = "img-" . date('H-i-s') . rand(111111, 999999) . '.' . $src->getClientOriginalExtension();
 
+        $filename = "img-" . date('H-i-s') . rand(111111, 999999);
+        $originalFileName = $filename.'.'.$src->getClientOriginalExtension();
+
+        $webp = $filename . '.webp';
+        $jpg = $filename . '.jpg';
+        $original = $filename.'.'.$src->getClientOriginalExtension();
         $directory = self::setDirectory($folder);
         $img = Image::make($src->getRealPath());
 
-        if ($thumbs) {
+        /*if ($thumbs) {
             foreach ($thumbs as $key => $thumb) {
                 if (isset($thumb['width']) && isset($thumb['thumb']) && $thumb['thumb']) {
+
                     $img->resize($thumb['width'], null, function ($constraint) {
                         $constraint->aspectRatio();
                     })->save(public_path($directory . $thumb['thumb'] . '_' . $filename));
+
                 } elseif (isset($thumb['width']) && ((isset($thumb['thumb']) && !$thumb['thumb']) || !isset($thumb['thumb']))) {
+
                     $img->resize($thumb['width'], null, function ($constraint) {
                         $constraint->aspectRatio();
                     })->save(public_path($directory . $filename));
+
                 }
                 if (isset($thumb['height']) && isset($thumb['thumb']) && $thumb['thumb']) {
+
                     $img->resize(null, $thumb['height'], function ($constraint) {
                         $constraint->aspectRatio();
                     })->save(public_path($directory . $thumb['thumb'] . '_' . $filename));
+
                 } elseif (isset($thumb['height']) && ((isset($thumb['thumb']) && !$thumb['thumb']) || !isset($thumb['thumb']))) {
+
                     $img->resize(null, $thumb['height'], function ($constraint) {
                         $constraint->aspectRatio();
                     })->save(public_path($directory . $filename));
+
                 }
             }
         } else {
             $img->save(public_path($directory . $filename));
+        }*/
+
+
+        if ($directory) {
+            $img->save(public_path($directory . $jpg));
+            if ($ImageData->webp) {
+                $img->encode('webp')->save(public_path($directory . $webp));
+            }
+            $img->save(public_path($directory . $original));
+
+            if ($thumbs) {
+                foreach ($thumbs as $key => $thumb) {
+                    if (isset($thumb['width']) && isset($thumb['thumb']) && $thumb['thumb']) {
+
+                        $img->resize($thumb['width'], null, function ($constraint) {
+                            $constraint->aspectRatio();
+                        })->save(public_path($directory . '/thumbs/' . $jpg));
+
+                        if ($ImageData->webp) {
+                            $img->resize($thumb['width'], null, function ($constraint) {
+                                $constraint->aspectRatio();
+                            })->encode('webp')->save(public_path($directory . '/thumbs/' . $webp));
+                        }
+
+
+                    } elseif (isset($thumb['width']) && ((isset($thumb['thumb']) && !$thumb['thumb']) || !isset($thumb['thumb']))) {
+
+                        $img->resize($thumb['width'], null, function ($constraint) {
+                            $constraint->aspectRatio();
+                        })->save(public_path($directory . '/thumbs/' . $jpg));
+                        if ($ImageData->webp) {
+                            $img->resize($thumb['width'], null, function ($constraint) {
+                                $constraint->aspectRatio();
+                            })->encode('webp')->save(public_path($directory . '/thumbs/' . $webp));
+                        }
+
+                    }
+
+                    if (isset($thumb['height']) && isset($thumb['thumb']) && $thumb['thumb']) {
+
+                        $img->resize(null, $thumb['height'], function ($constraint) {
+                            $constraint->aspectRatio();
+                        })->save(public_path($directory . '/thumbs/' . $jpg));
+
+                        if ($ImageData->webp) {
+                            $img->resize(null, $thumb['height'], function ($constraint) {
+                                $constraint->aspectRatio();
+                            })->ncode('webp')->save(public_path($directory . '/thumbs/' . $webp));
+                        }
+
+
+                    } elseif (isset($thumb['height']) && ((isset($thumb['thumb']) && !$thumb['thumb']) || !isset($thumb['thumb']))) {
+
+                        $img->resize(null, $thumb['height'], function ($constraint) {
+                            $constraint->aspectRatio();
+                        })->save(public_path($directory . '/thumbs/' . $jpg));
+
+                        if ($ImageData->webp) {
+                            $img->resize(null, $thumb['height'], function ($constraint) {
+                                $constraint->aspectRatio();
+                            })->ncode('webp')->save(public_path($directory . '/thumbs/' . $webp));
+                        }
+
+
+                    }
+                }
+            }
+            //$img->save(public_path($directory.$filename));
         }
 
         $data->{$relatedColumn} = $relatedId;
-        $data->{$column} = $filename;
+        $data->{$column} = $originalFileName;
         $data->save();
     }
 
@@ -228,10 +320,15 @@ class ImageServiceProvider extends ServiceProvider
 
 
         if (!empty($record)) {
+            $original =  public_path('/files/' . $folder . '/' . $record );
             $file = public_path('/files/' . $folder . '/' . $record . '.jpg');
             $fileWebp = public_path('/files/' . $folder . '/' . $record . '.webp');
             $thumbs = public_path('/files/' . $folder . '/thumbs/' . $record . '.jpg');
             $thumbsWebp = public_path('/files/' . $folder . '/thumbs/' . $record) . '.webp';
+
+            if (file_exists($original)) {
+                File::delete($original);
+            }
             if (file_exists($file)) {
                 File::delete($file);
             }

@@ -6,6 +6,88 @@
 return [
 
 
+
+
+
+
+    [
+        'label' => 'Menus',
+        'hasChildren' => true,
+        'namespaces' => [
+            'CMS.footerMenu.columns',
+            'CMS.footerMenu.list',
+            'CMS.footerMenu.create',
+            'CMS.footerMenu.update',
+            'CMS.menu.list',
+            'CMS.menu.create',
+            'CMS.menu.update'
+        ],
+        'gates' => ['updateMenu'],
+        'routeName' => '',
+        'params' => [],
+        'icon' => 'far fa-list',
+        'children' => [
+
+            [
+                'label' => 'Main Menu',
+                'gate' => 'updateMenu',
+                'namespace' => 'menu*',
+                'routeName' => 'CMS.menu.list',
+                'params' => [],
+            ],
+
+            [
+                'label' => 'Footer Menu',
+                'gate' => 'updateMenu',
+                'namespace' => 'footerMenu*',
+                'routeName' => 'CMS.footerMenu.columns',
+                'params' => [],
+            ],
+
+
+
+
+        ],
+    ],
+
+    [
+        'label' => 'faq & tutorials',
+        'hasChildren' => true,
+        'namespaces' => [
+            'CMS.faq.list',
+            'CMS.faq.create',
+            'CMS.faq.update',
+            'CMS.tutorials.tags.list',
+            'CMS.tutorials.tags.create',
+            'CMS.tutorials.tags.update',
+            'CMS.tutorials.list',
+            'CMS.tutorials.create',
+            'CMS.tutorials.update',
+        ],
+        'gates' => ['viewFAQ','viewTutorial'],
+        'routeName' => '',
+        'params' => [],
+        'icon' => 'far fa-info-circle',
+        'children' => [
+
+            [
+                'label' => 'faq',
+                'gate' => 'viewFAQ',
+                'namespace' => 'faq',
+                'routeName' => 'CMS.faq.list',
+                'params' => [],
+            ],
+
+            [
+                'label' => 'tutorial',
+                'gate' => 'viewTutorial',
+                'namespace' => 'tutorials/tags',
+                'routeName' => 'CMS.tutorials.tags.list',
+                'params' => [],
+            ],
+        ],
+    ],
+
     [
         'label' => 'About',
         'hasChildren' => true,
@@ -52,8 +134,51 @@ return [
         ],
     ],
 
+    [
+        'label' => 'Privacy Policy',
+        'hasChildren' => false,
+        'namespaces' => ['CMS.privacy.index', 'CMS.privacy.edit'],
+        'gates' => ['updatePrivacy'],
+        'routeName' => 'CMS.privacy.index',
+        'params' => [],
+        'icon' => 'fal fa-caret-circle-up',
+        'children' => [],
+    ],
 
+    [
+        'label' => 'Term and Conditons',
+        'hasChildren' => false,
+        'namespaces' => ['CMS.terms.index', 'CMS.terms.edit'],
+        'gates' => ['updateTerms'],
+        'routeName' => 'CMS.terms.index',
+        'params' => [],
+        'icon' => 'fal fa-caret-circle-up',
+        'children' => [],
+    ],
 
+    [
+        'label' => 'contact',
+        'hasChildren' => false,
+        'namespaces' => ['CMS.contact.list', 'CMS.contact.create','CMS.contact.update'],
+        'gates' => ['viewContact'],
+        'routeName' => 'CMS.contact.list',
+        'params' => [],
+        'icon' => 'far fa-phone',
+        'children' => [],
+    ],
+
+    [
+        'label' => 'Subscriptions',
+        'hasChildren' => false,
+        'namespaces' => [
+            'CMS.subscriptions.list',
+        ],
+        'gates' => ['viewSubscriptions'],
+        'routeName' => 'CMS.subscriptions.list',
+        'params' => [],
+        'icon' => 'fal fa-list',
+        'children' => [],
+    ],
 
     [
         'label' => 'Seo',
@@ -65,6 +190,9 @@ return [
         'icon' => 'far fa-search',
         'children' => [],
     ],
+
+
+
 
 
 

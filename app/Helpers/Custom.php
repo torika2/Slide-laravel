@@ -10,6 +10,7 @@ function getLocales($active = false)
     if (empty($languages)) {
         $languages = Locales::orderBy('default', 'DESC')->get();
     }
+
     if ($active) {
         return  $languages->where('active', 1);
     } else {
@@ -91,6 +92,16 @@ function sitename()
         $sitename = Settings::where('key', 'sitename')->first();
     }
     return $sitename->value;
+}
+
+
+function social()
+{
+    static $social;
+    if (empty($social)) {
+        $social = Settings::where('key', 'social')->first();
+    }
+    return $social->data;
 }
 
 

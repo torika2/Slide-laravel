@@ -17,7 +17,6 @@ use App\Models\Menu\Menu;
 class MenuController extends Controller
 {
 
-
     public function index()
     {
         if (Gate::denies('viewMenu')) {
@@ -43,14 +42,6 @@ class MenuController extends Controller
 
         return view('CMS.Pages.Menu.list');
     }
-
-
-
-
-
-
-
-
 
     public function create()
     {

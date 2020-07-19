@@ -34,7 +34,6 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
         'uses' => 'Admin\DashboardController@index',
         'as' => 'CMS.Dashboard']);
 
-
     Route::group(['prefix' => 'logs', 'as' => 'log.'], function () {
 
         Route::get('/', [
@@ -876,6 +875,14 @@ Route::group(['prefix' => 'connect', 'middleware' => ['auth', 'backend']], funct
 
     });
 
+
+    Route::group(['prefix' => 'slider'], function(){
+        
+        Route::get('/', 'Admin\SliderController@index')->name('CMS.Slider');
+        Route::post('/add', 'Admin\SliderController@addSlide')->name('addSlide');
+        Route::post('/edit', 'Admin\SliderController@editSlide')->name('editSlide');
+        Route::post('/saveEdit', 'Admin\SliderController@saveEditedSlide')->name('saveEditedSlide');
+    });
 
     Route::group(['prefix' => 'software'], function () {
 

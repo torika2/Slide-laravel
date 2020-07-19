@@ -22,11 +22,11 @@ class AuthController extends Controller
             'username' => 'required',
             'password' => 'required',
         ];
-        if (env('NOCAPTCHA')) {
-            $validateArray['g-recaptcha-response'] = 'required|captcha';
-        }
+        // if (env('NOCAPTCHA')) {
+        //     $validateArray['g-recaptcha-response'] = 'required|captcha';
+        // }
 
-        request()->validate($validateArray);
+        // request()->validate($validateArray);
         $credentials = $request->only('username', 'password');
         if (Auth::attempt($credentials)) {
             return redirect()->route('CMS.Dashboard');

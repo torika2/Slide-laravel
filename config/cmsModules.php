@@ -50,6 +50,8 @@ return [
         ],
     ],
 
+
+
     [
         'label' => 'faq & tutorials',
         'hasChildren' => true,
@@ -132,6 +134,17 @@ return [
 
 
         ],
+    ],
+
+    [
+        'label' => 'Slider',
+        'hasChildren' => false,
+        'namespaces' => ['CMS.slider.index',],
+        'gates' => ['updatePrivacy'],
+        'routeName' => 'CMS.Slider',
+        'params' => [],
+        'icon' => 'fal fa-th-list',
+        'children' => [],
     ],
 
     [

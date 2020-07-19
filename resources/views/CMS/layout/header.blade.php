@@ -33,6 +33,7 @@
     @yield('header')
 </head>
 <body class="mod-bg-1 ">
+
 <script>
     'use strict';
     var classHolder = document.getElementsByTagName("BODY")[0],
@@ -173,6 +174,7 @@
                                         </li>
                                     @endcan
                                 @endforeach
+                               
                             </ul>
                             @endif
 

@@ -54,7 +54,7 @@
 									<input type="file" name="sliderImage" class="form-control" accept="image/*" data-errormsg="PhotoUploadErrorMsg"  placeholder="First title...">
 								</div>
 								<div>
-									<textarea name="sliderText" id="" cols="20" class="form-control"  placeholder="Slider text..." rows="4"></textarea>
+									<textarea name="sliderText" cols="20" class="form-control"  placeholder="Slider text..." rows="4"></textarea>
 								</div>
 								<div>
 									<button class="btn btn-primary" >Add slide</button>

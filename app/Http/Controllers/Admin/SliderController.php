@@ -30,7 +30,7 @@ class SliderController extends Controller
 
 		if ($request->hasFile('sliderImage')) {
 			$imagePath = uniqid().'.'.$request->file('sliderImage')->getClientOriginalExtension();
-			$request->sliderImage->move(public_path('sliderImages'),$imagePath);
+			$request->sliderImage->move(public_path('assets/sliderImages'),$imagePath);
 
 			Slider::insert([
 				'first_title' => $request->input('firstTitle'),
@@ -40,12 +40,12 @@ class SliderController extends Controller
 
 			]);
 			 
-			return back()->with(['success','successfully created!']);
+			return back()->with('success','successfully created!');
 			
 		}
 
 
-		return back()->with(['error','something went wrong!']);
+		return back()->with('error','something went wrong!');
 
 	}
 
